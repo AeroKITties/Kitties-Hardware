@@ -1,0 +1,56 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text_box "GPIO INPUT \n6 - CAN 1 адрес\n6 - CAN 2 адрес"
+    (at 202.565 69.215 0) (size 24.765 43.18)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (effects (font (size 1.27 1.27)) (justify left top))
+    (uuid 31c077ff-b7ae-4d4f-bc8b-e7a8bb091693)
+  )
+
+  (sheet (at 178.435 137.795) (size 26.67 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 03556719-ae90-44af-a8b9-12c56c5e682e)
+    (property "Sheetname" "Power" (at 178.435 137.0834 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 178.435 156.1596 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "impeller"
+        (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 207.645 137.795) (size 26.67 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 0dfd1bf1-c4b5-4748-8732-0ec9ed86114a)
+    (property "Sheetname" "CAN" (at 207.645 137.0834 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "can.kicad_sch" (at 207.645 156.1596 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "impeller"
+        (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
