@@ -232,7 +232,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -334,6 +334,22 @@
     [
       "0dfd1bf1-c4b5-4748-8732-0ec9ed86114a",
       "CAN"
+    ],
+    [
+      "2f9eab5b-6ab4-4100-9dad-579c6807ec34",
+      "Indicators"
+    ],
+    [
+      "7a5f1b8e-a29e-483a-94c0-c542bb8c7cf0",
+      "Switches"
+    ],
+    [
+      "0a393be1-a79e-48b5-bd67-1675300f121e",
+      "Encoders"
+    ],
+    [
+      "5a3c1b9c-681a-4723-b2b5-156fdda94574",
+      "General connectors"
     ]
   ],
   "text_variables": {}
