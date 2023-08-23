@@ -31,4 +31,9 @@
     (thermal_bridge_angle 45) (tstamp ce84c5f6-16c2-4662-954e-061a5789818b))
   (pad "4" smd roundrect (at -2.025 1.15) (size 1.85 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp 09effaa8-a946-41bd-94d0-75c8c31bec17))
+  (model "C:/Users/user/Documents/GitHub/Flight-Controller/Hardware/Kicad 3D/B82789_Series_SIMDAD1812_simplified_model.stp"
+    (offset (xyz 0 0 0.05))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
 )

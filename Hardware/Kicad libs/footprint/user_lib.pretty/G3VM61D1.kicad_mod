@@ -29,4 +29,9 @@
     (thermal_bridge_angle 45) (tstamp 890d016c-f458-4616-8e89-ac8bde1d7103))
   (pad "4" smd roundrect (at -1.27 -4.27) (size 1.3 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp 95bed477-4818-4b9b-8c61-daff78d4d175))
+  (model "C:/Users/user/Documents/GitHub/Flight-Controller/Hardware/Kicad 3D/g3vm-61d1.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

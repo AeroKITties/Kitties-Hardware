@@ -25,4 +25,9 @@
     (thermal_bridge_angle 45) (tstamp beb1fbe7-f483-4161-9d91-e346c3232617))
   (pad "2" smd roundrect (at 1.88 0) (size 1.52 1.65) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp 558a5316-d9e2-434d-bacf-2eb408171067))
+  (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.wrl"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

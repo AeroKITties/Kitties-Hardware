@@ -899,7 +899,7 @@
   (symbol (lib_id "Device:R") (at 100.965 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02976dcf-3bd4-4513-8ea5-522dd9a9547c)
-    (property "Reference" "R98" (at 103.505 114.935 0)
+    (property "Reference" "R4" (at 103.505 114.935 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "65" (at 103.505 117.475 0)
@@ -925,7 +925,7 @@
     (instances
       (project "impeller"
         (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee/03556719-ae90-44af-a8b9-12c56c5e682e"
-          (reference "R98") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -934,7 +934,7 @@
   (symbol (lib_id "Device:C") (at 126.365 66.675 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15496e96-9266-41c0-82d3-0a486347612f)
-    (property "Reference" "C23" (at 129.54 65.405 0)
+    (property "Reference" "C24" (at 129.54 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 129.54 67.945 0)
@@ -960,46 +960,7 @@
     (instances
       (project "impeller"
         (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee/03556719-ae90-44af-a8b9-12c56c5e682e"
-          (reference "C23") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_name "TMR-1211_1") (lib_id "Converter_DCDC:TMR-1211") (at 80.01 66.675 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 2056fe84-3943-4e8a-b3df-0d45c342816c)
-    (property "Reference" "U3" (at 80.01 54.61 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TEL 5-1211" (at 80.01 57.15 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "user_lib:TEL 5-1211" (at 80.645 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 80.645 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Ссылка" "https://www.chipdip.ru/product/tel-5-1211" (at 78.74 83.185 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Цена" "2 500" (at 80.01 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Человекопонятное название" "DC-DC преобразователь" (at 78.74 80.645 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "14" (uuid 341595b3-9a5f-4370-9b84-d394ea963984))
-    (pin "16" (uuid ee660d16-9453-4a51-9cec-4d1a534820c2))
-    (pin "2" (uuid b75f0132-49a9-4eae-b8c0-b508fda55b9d))
-    (pin "22" (uuid c8bb425a-cd47-47d0-9f39-991d93e6929b))
-    (pin "23" (uuid 2ca93b5d-059e-49b2-bce3-9300e3b9c3d0))
-    (pin "3" (uuid afef360a-7471-4c05-803e-81f367ccab02))
-    (instances
-      (project "impeller"
-        (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee/03556719-ae90-44af-a8b9-12c56c5e682e"
-          (reference "U3") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -1008,7 +969,7 @@
   (symbol (lib_id "Device:LED") (at 100.965 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2890b615-f736-4e25-83d4-aefba39cd95f)
-    (property "Reference" "D5" (at 104.14 104.14 90)
+    (property "Reference" "D3" (at 104.14 104.14 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "FYLS-1206SRC" (at 104.14 106.68 90)
@@ -1034,7 +995,7 @@
     (instances
       (project "impeller"
         (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee/03556719-ae90-44af-a8b9-12c56c5e682e"
-          (reference "D5") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1043,7 +1004,7 @@
   (symbol (lib_id "Regulator_Linear:LD1117S33TR_SOT223") (at 142.24 61.595 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29f1ce07-9514-4977-8f40-c475d88ded56)
-    (property "Reference" "U2" (at 142.24 55.88 0)
+    (property "Reference" "U3" (at 142.24 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LDL1117S33R" (at 142.24 58.42 0)
@@ -1068,6 +1029,50 @@
     (pin "2" (uuid 5403c102-ef7d-4bf9-b594-85294cf4aab8))
     (pin "3" (uuid 1239c00b-0898-4d56-a9da-5af123cef8e0))
     (instances
+      (project "impeller"
+        (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee/03556719-ae90-44af-a8b9-12c56c5e682e"
+          (reference "U3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_name "TMR-1211_1") (lib_id "Converter_DCDC:TMR-1211") (at 80.01 66.675 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 41d9b1e6-76e8-46c8-b497-937b29d8db5d)
+    (property "Reference" "U3" (at 80.01 54.61 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "TEL 5-1211" (at 80.01 57.15 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "user_lib:TEL 5-1211" (at 80.645 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 80.645 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Ссылка" "https://www.chipdip.ru/product/tel-5-1211" (at 78.74 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Цена" "2 500" (at 80.01 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Человекопонятное название" "DC-DC преобразователь" (at 78.74 80.645 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "14" (uuid 464e01de-47a9-47b3-86fc-e280b21a3e7e))
+    (pin "16" (uuid e08aef50-e843-4b3b-9d58-fe79952d7fe6))
+    (pin "2" (uuid 56f38d1d-cb05-48ef-964d-478b4fab1e04))
+    (pin "22" (uuid 52ebf2af-8cee-4ed5-a62d-ec5397037685))
+    (pin "23" (uuid 363ff89a-c25f-44e3-8196-d03202744837))
+    (pin "3" (uuid 648aa3aa-ca52-4d08-b714-4a583d6e032e))
+    (instances
+      (project "power"
+        (path "/d04a14e2-e002-4822-bbfb-0587e56ea25c"
+          (reference "U3") (unit 1)
+        )
+      )
       (project "impeller"
         (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee/03556719-ae90-44af-a8b9-12c56c5e682e"
           (reference "U2") (unit 1)
@@ -1108,7 +1113,7 @@
           (reference "C2") (unit 1)
         )
         (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee/03556719-ae90-44af-a8b9-12c56c5e682e"
-          (reference "C21") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -1117,7 +1122,7 @@
   (symbol (lib_id "power:GND") (at 100.965 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4e4b0266-5183-4e6e-83cb-6b86e6ebfc2c)
-    (property "Reference" "#PWR040" (at 100.965 132.08 0)
+    (property "Reference" "#PWR010" (at 100.965 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 100.965 129.54 0)
@@ -1133,7 +1138,7 @@
     (instances
       (project "impeller"
         (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee/03556719-ae90-44af-a8b9-12c56c5e682e"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -1142,7 +1147,7 @@
   (symbol (lib_id "Device:C") (at 165.1 66.675 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5cea523f-eb3e-42a4-9c88-404ac56c79aa)
-    (property "Reference" "C25" (at 168.275 65.405 0)
+    (property "Reference" "C26" (at 168.275 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7" (at 168.275 67.945 0)
@@ -1168,7 +1173,7 @@
     (instances
       (project "impeller"
         (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee/03556719-ae90-44af-a8b9-12c56c5e682e"
-          (reference "C25") (unit 1)
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -1177,7 +1182,7 @@
   (symbol (lib_id "Device:C") (at 176.53 66.675 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6cb57552-f044-444a-9189-be6f59546736)
-    (property "Reference" "C26" (at 179.705 65.405 0)
+    (property "Reference" "C27" (at 179.705 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 179.705 67.945 0)
@@ -1203,7 +1208,7 @@
     (instances
       (project "impeller"
         (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee/03556719-ae90-44af-a8b9-12c56c5e682e"
-          (reference "C26") (unit 1)
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -1233,15 +1238,15 @@
     (property "Человекопонятное название" "Диод Шоттки" (at 97.155 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1ce4eb60-f739-451d-98a1-a11a9e7b4b56))
-    (pin "2" (uuid f234c241-2059-4a25-a5c3-3ad0e0430408))
+    (pin "1" (uuid 52d654cc-b54a-471a-b648-3fee841ea2f4))
+    (pin "2" (uuid 610427a7-bb67-450c-80f3-0cecb4cee0b5))
     (instances
       (project "impeller"
         (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee/5a3c1b9c-681a-4723-b2b5-156fdda94574"
           (reference "D3") (unit 1)
         )
         (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee/03556719-ae90-44af-a8b9-12c56c5e682e"
-          (reference "D3") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -1250,7 +1255,7 @@
   (symbol (lib_id "Device:LED") (at 78.74 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 87236c55-334d-4d4a-9d2c-6bd71c347add)
-    (property "Reference" "D4" (at 81.915 104.14 90)
+    (property "Reference" "D1" (at 81.915 104.14 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "FYLS-1206SRC" (at 81.915 106.68 90)
@@ -1276,7 +1281,7 @@
     (instances
       (project "impeller"
         (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee/03556719-ae90-44af-a8b9-12c56c5e682e"
-          (reference "D4") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -1285,7 +1290,7 @@
   (symbol (lib_id "Device:C") (at 59.055 66.675 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8984bfc5-115b-42d3-b2fb-6281b049f4c7)
-    (property "Reference" "C62" (at 62.23 65.405 0)
+    (property "Reference" "C21" (at 62.23 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 62.23 67.945 0)
@@ -1306,12 +1311,12 @@
     (property "Человекопонятное название" "Конденсатор 100нФ" (at 59.055 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9a683b3e-7c3c-4f33-8aa0-264393a05a09))
-    (pin "2" (uuid b845cc19-0cf3-4f95-bea3-5e1377cecd3c))
+    (pin "1" (uuid fd01f925-2d1b-444f-9f4b-28ceccfad511))
+    (pin "2" (uuid 2a394848-ca3d-4db3-9cf5-19bf88d29640))
     (instances
       (project "impeller"
         (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee/03556719-ae90-44af-a8b9-12c56c5e682e"
-          (reference "C62") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -1320,7 +1325,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 34.29 64.135 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8bce6219-78d0-41a3-b2c8-2840aa2844e6)
-    (property "Reference" "J5" (at 34.29 55.88 0)
+    (property "Reference" "J2" (at 34.29 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PicoBlade_1x2P" (at 34.29 58.42 0)
@@ -1341,12 +1346,12 @@
     (property "Человекопонятное название" "Разъем Picoblade 1x2" (at 34.29 64.135 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a69832d6-32ee-4db6-aaf4-f4b8dc7ffccf))
-    (pin "2" (uuid 4c4c37d2-12af-4b3a-87a7-510b309c3a2d))
+    (pin "1" (uuid a36b3266-b7d2-43c4-83c2-307a9acd42dd))
+    (pin "2" (uuid 6dc4c321-5e6b-448a-b7d3-7cf30a49afd1))
     (instances
       (project "impeller"
         (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee/03556719-ae90-44af-a8b9-12c56c5e682e"
-          (reference "J5") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -1384,7 +1389,7 @@
           (reference "C2") (unit 1)
         )
         (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee/03556719-ae90-44af-a8b9-12c56c5e682e"
-          (reference "C24") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -1412,7 +1417,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee/03556719-ae90-44af-a8b9-12c56c5e682e"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -1421,7 +1426,7 @@
   (symbol (lib_id "Device:R") (at 78.74 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cdc2f871-19fc-489e-894c-8b0c6d307285)
-    (property "Reference" "R97" (at 81.28 114.935 0)
+    (property "Reference" "R3" (at 81.28 114.935 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150" (at 81.28 117.475 0)
@@ -1447,7 +1452,7 @@
     (instances
       (project "impeller"
         (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee/03556719-ae90-44af-a8b9-12c56c5e682e"
-          (reference "R97") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -1456,7 +1461,7 @@
   (symbol (lib_id "Device:C") (at 114.935 66.675 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e2d62e8c-20ea-44b1-9cfd-9457bc352860)
-    (property "Reference" "C22" (at 118.11 65.405 0)
+    (property "Reference" "C23" (at 118.11 65.405 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7" (at 118.11 67.945 0)
@@ -1482,7 +1487,7 @@
     (instances
       (project "impeller"
         (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee/03556719-ae90-44af-a8b9-12c56c5e682e"
-          (reference "C22") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -1512,8 +1517,8 @@
     (property "Человекопонятное название" "Конденсатор 4.7мкФ" (at 49.53 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3de93b38-5837-401e-ae9e-9ad911a68ee3))
-    (pin "2" (uuid 5b297914-c306-408f-be5c-ecc3ac3c5814))
+    (pin "1" (uuid 34f0f350-168d-4541-bc6f-db18a7574fe3))
+    (pin "2" (uuid af810ed0-6684-426c-a8b2-fb363896a750))
     (instances
       (project "impeller"
         (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee"

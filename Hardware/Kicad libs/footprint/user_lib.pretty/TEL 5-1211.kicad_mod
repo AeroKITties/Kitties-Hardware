@@ -27,4 +27,9 @@
   (pad "16" thru_hole circle (at 6.35 -7.62) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 2276f9f0-0b6f-4aba-85f8-ecae95e012b3))
   (pad "22" thru_hole circle (at -8.89 -7.62) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 14218511-4fe0-493e-a2a7-baadf5d03aa0))
   (pad "23" thru_hole circle (at -11.43 -7.62) (size 1.524 1.524) (drill 0.762) (layers "*.Cu" "*.Mask") (tstamp 0d436ad4-72d1-41af-97bc-4c24d1338138))
+  (model "C:/Users/user/Documents/GitHub/Flight-Controller/Hardware/Kicad 3D/tel5_single_3d_drawing.stp"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )

@@ -39,4 +39,9 @@
     (thermal_bridge_angle 45) (tstamp 23997fdf-b0b3-4e5e-8aed-c7b849899c75))
   (pad "14" smd roundrect (at -3.81 -3.65) (size 0.8 3.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (thermal_bridge_angle 45) (tstamp 3aee566f-b8ed-415b-88c8-bb524837869c))
+  (model "C:/Users/user/Documents/GitHub/Flight-Controller/Hardware/Kicad 3D/B0505MT-1WR4--3DModel-STEP-269445.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
+  )
 )
