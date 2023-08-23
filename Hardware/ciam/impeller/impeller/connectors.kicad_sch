@@ -3942,6 +3942,9 @@
     (property "Datasheet" "~" (at 220.98 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Ссылка" "https://www.chipdip.ru/product/grm188r71h104k" (at 220.98 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 32b5f756-b2e1-4a55-8c3b-60986ef489f4))
     (pin "2" (uuid 855bd266-d3f3-4539-a0fe-2930d0a5129d))
     (instances
