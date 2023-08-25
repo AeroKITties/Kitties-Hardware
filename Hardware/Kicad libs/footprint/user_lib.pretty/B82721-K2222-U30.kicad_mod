@@ -21,4 +21,9 @@
   (pad "2" thru_hole circle (at -7.5 5) (size 2.4 2.4) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 7091273f-555f-4ad2-8c86-daa94aab0311))
   (pad "3" thru_hole circle (at 7.5 5) (size 2.4 2.4) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp ed20ad04-7a7f-4401-a5e6-01f155b590f4))
   (pad "4" thru_hole circle (at 7.5 -5) (size 2.4 2.4) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp db39a03b-86c3-4c6e-a08f-ec80112c104d))
+  (model "C:/Users/user/Documents/GitHub/Flight-Controller/Hardware/Kicad 3D/B82721-K2222-U30.step"
+    (offset (xyz 0 0 10.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
