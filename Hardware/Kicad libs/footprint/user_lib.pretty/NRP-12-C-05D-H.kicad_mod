@@ -22,4 +22,9 @@
   (pad "3" thru_hole circle (at -23.5 -3.8) (size 3 3) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp b33d3657-9b61-41ee-b0f1-c0339e289f6e))
   (pad "4" thru_hole circle (at -16.5 -3.8) (size 3 3) (drill 1.5) (layers "*.Cu" "*.Mask") (tstamp f8b382e7-ec1f-4328-88bb-0074f8362e59))
   (pad "5" thru_hole circle (at 0 -3.8) (size 2.4 2.4) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp 639d44af-cb9c-4a75-8d1e-3030abf676bc))
+  (model "C:/Users/user/Documents/GitHub/Flight-Controller/Hardware/Kicad 3D/NRP-12-C-05D-H.STEP"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
