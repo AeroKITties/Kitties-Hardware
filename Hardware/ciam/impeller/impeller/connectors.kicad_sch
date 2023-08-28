@@ -3152,8 +3152,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4b7cfc70-6f79-43eb-8250-a3a664a92499))
-    (pin "3" (uuid 4669fd22-7e06-46aa-abc4-0af9e536f47f))
     (pin "2" (uuid 65763920-0d2a-429c-8033-6a71a55518c6))
+    (pin "3" (uuid 4669fd22-7e06-46aa-abc4-0af9e536f47f))
     (pin "4" (uuid c179614d-c771-4dfd-ad8f-54e34698d7ce))
     (instances
       (project "impeller"

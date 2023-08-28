@@ -3538,9 +3538,9 @@
     (property "Человекопонятное название" "Защитный диод от ESD для CAN шины" (at 55.245 62.865 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 23013bea-e1e6-4744-be45-d20f6b8f14b9))
-    (pin "2" (uuid 9ee20a70-b8cf-40c0-96d7-ed8a97819ec5))
-    (pin "3" (uuid 39d1ab6b-96ba-4dc4-a019-380ff6e5d4ef))
+    (pin "1" (uuid 55f6e5a6-cdbd-43be-baff-82c3c24d5b24))
+    (pin "2" (uuid 1b3d0972-347a-47cb-ba0e-5e35ad6d5859))
+    (pin "3" (uuid d2f1fde7-3aaa-4890-bd57-8a32b8d8c7bf))
     (instances
       (project "impeller"
         (path "/dc9d3fdd-86e3-4a65-b009-b0cbd29a6eee"
