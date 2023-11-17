@@ -869,6 +869,11 @@
     (uuid fe5ac194-8d54-4fd9-ad38-b36c884bb385)
   )
 
+  (text "проверить токи" (at 97.155 110.49 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid afefe3bc-45fe-4f33-881c-3c649d862619)
+  )
+
   (global_label "VDD_5V" (shape input) (at 99.06 91.44 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 281d335e-5639-4462-b8d8-821b97137e99)

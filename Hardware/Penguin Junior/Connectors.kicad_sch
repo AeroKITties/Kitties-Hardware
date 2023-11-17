@@ -1845,10 +1845,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "TM3_CH1" (shape input) (at 140.335 151.765 180) (fields_autoplaced)
+  (global_label "TM3_CH1" (shape input) (at 140.335 159.385 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 16b2f149-9ca4-4cfc-ba7b-462c2583cc8a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 128.9437 151.765 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 128.9437 159.385 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1887,10 +1887,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "TM4_CH3" (shape input) (at 140.335 159.385 180) (fields_autoplaced)
+  (global_label "TM4_CH3" (shape input) (at 140.335 151.765 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 3f610465-6f1d-4f79-9539-4ca8db89d7d2)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 128.9437 159.385 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 128.9437 151.765 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1936,10 +1936,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "TM3_CH2" (shape input) (at 140.335 154.305 180) (fields_autoplaced)
+  (global_label "TM3_CH2" (shape input) (at 140.335 149.225 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 660f7d4d-c617-466b-8a08-79a023159d7a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 128.9437 154.305 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 128.9437 149.225 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -2020,10 +2020,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "TM12_CH2" (shape input) (at 140.335 149.225 180) (fields_autoplaced)
+  (global_label "TM12_CH2" (shape input) (at 140.335 144.145 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a7e7297f-847d-470f-b8da-a8074857cea8)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 127.7342 149.225 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 127.7342 144.145 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -2132,10 +2132,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "TM4_CH4" (shape input) (at 140.335 144.145 180) (fields_autoplaced)
+  (global_label "TM4_CH4" (shape input) (at 140.335 154.305 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f4d2daca-47e9-4250-9e9b-1d95166f47ad)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 128.9437 144.145 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 128.9437 154.305 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -2302,8 +2302,8 @@
     (property "Datasheet" "~" (at 149.86 156.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 32462f50-4e5a-4fce-8b70-75dddc7dd26d))
-    (pin "2" (uuid 95e8d63d-6b68-4ebe-ab1f-5fbf1e81736e))
+    (pin "1" (uuid 2648ef2d-9202-46a0-9ac7-d037fe82e96b))
+    (pin "2" (uuid fa157221-af9b-4d5f-beda-9833419b12d3))
     (instances
       (project "connectors"
         (path "/138ee210-a679-450b-b889-0ac59b61d597"
@@ -2368,8 +2368,8 @@
     (property "Datasheet" "~" (at 149.86 149.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e3b3e74e-9ec8-4974-a6f1-731e5a51a780))
-    (pin "2" (uuid 59e58003-6ebe-49e9-bbcf-63f6cb02c86a))
+    (pin "1" (uuid 5b84ac4e-5ec1-4720-9427-806d899194e7))
+    (pin "2" (uuid dcd371e3-aadc-408c-9dd1-ad713af8d101))
     (instances
       (project "connectors"
         (path "/138ee210-a679-450b-b889-0ac59b61d597"
@@ -2574,7 +2574,7 @@
     (property "Value" "10K" (at 255.27 114.935 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 255.27 109.347 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 255.27 109.347 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 255.27 111.125 0)
@@ -2825,8 +2825,8 @@
     (property "Datasheet" "~" (at 149.86 146.685 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3604bbf5-fc84-4046-976b-4164d1238b85))
-    (pin "2" (uuid febe318c-333b-4757-b7bf-82cd4eae2cc3))
+    (pin "1" (uuid ca0f486a-e4ff-4ca5-8684-a9625a39c217))
+    (pin "2" (uuid 3eb7d043-4c62-405e-90a1-761c3a2f3e21))
     (instances
       (project "connectors"
         (path "/138ee210-a679-450b-b889-0ac59b61d597"
@@ -2958,8 +2958,8 @@
     (property "Datasheet" "~" (at 149.86 151.765 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 67ae118e-1fc5-4bb7-ba5e-a577d8a62b5d))
-    (pin "2" (uuid 76916904-4666-4f3d-bcd9-acdabfc3951f))
+    (pin "1" (uuid 58303a2c-6d0c-4d42-82d4-8fe7d7f6bb25))
+    (pin "2" (uuid 50cc53cc-c083-4b7b-9d94-b458a2ceae76))
     (instances
       (project "connectors"
         (path "/138ee210-a679-450b-b889-0ac59b61d597"
@@ -3461,8 +3461,8 @@
     (property "Datasheet" "~" (at 149.86 144.145 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3696e25b-713b-4fb0-b548-8d40e61426db))
-    (pin "2" (uuid b9b8a691-a1fb-4942-9176-23e1d2f33d6e))
+    (pin "1" (uuid c0cc3789-fe00-4eec-a86c-01712f55fbb3))
+    (pin "2" (uuid de0c53dd-4937-43de-91f1-69ab75082d1b))
     (instances
       (project "connectors"
         (path "/138ee210-a679-450b-b889-0ac59b61d597"
@@ -3678,8 +3678,8 @@
     (property "Datasheet" "~" (at 149.86 154.305 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4b8c0cf1-df1e-4653-a0cc-2fa956af2927))
-    (pin "2" (uuid 836beca6-ad60-410c-827c-ee9b4e934c8a))
+    (pin "1" (uuid 9fb8479d-7511-405e-bce9-bf949777e9af))
+    (pin "2" (uuid 1e9663b1-75cd-4b66-9c9d-4d71f7387917))
     (instances
       (project "connectors"
         (path "/138ee210-a679-450b-b889-0ac59b61d597"
