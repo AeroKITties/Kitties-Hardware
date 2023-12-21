@@ -3801,7 +3801,7 @@
       )
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca"
-          (reference "R5") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -4080,7 +4080,7 @@
       )
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca"
-          (reference "R2") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -4323,7 +4323,7 @@
       )
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca"
-          (reference "R1") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -4380,7 +4380,7 @@
       )
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca"
-          (reference "R4") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -4515,7 +4515,7 @@
       )
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca"
-          (reference "R3") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )

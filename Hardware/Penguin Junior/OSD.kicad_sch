@@ -954,7 +954,7 @@
     (property "Value" "47" (at 188.595 107.315 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 189.23 103.1748 0)
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S" (at 189.23 103.1748 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 185.42 104.14 0)
@@ -974,7 +974,7 @@
   (symbol (lib_id "power:GND") (at 226.06 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1275edb2-9743-471c-b496-151fd7bc2f5d)
-    (property "Reference" "#PWR012" (at 226.06 93.98 0)
+    (property "Reference" "#PWR011" (at 226.06 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 229.235 90.805 0)
@@ -990,7 +990,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/48ae4edb-0e13-4619-bf0c-b661f0a0817d"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -1199,7 +1199,7 @@
   (symbol (lib_id "power:GND") (at 191.135 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 89b8f282-a9fc-4407-8204-2ee60e5ae4b3)
-    (property "Reference" "#PWR014" (at 191.135 128.27 0)
+    (property "Reference" "#PWR013" (at 191.135 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.135 126.365 0)
@@ -1215,7 +1215,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/48ae4edb-0e13-4619-bf0c-b661f0a0817d"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -1287,7 +1287,7 @@
     (property "Value" "47" (at 184.531 93.345 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_1206_3216Metric" (at 189.23 96.8248 0)
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-12_Kemet-S" (at 189.23 96.8248 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 185.42 97.79 0)
@@ -1360,7 +1360,7 @@
   (symbol (lib_id "power:GND") (at 153.035 125.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1cbba0b-cf7c-46da-865d-664e04f3d7bd)
-    (property "Reference" "#PWR015" (at 153.035 132.08 0)
+    (property "Reference" "#PWR014" (at 153.035 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.035 130.175 0)
@@ -1376,7 +1376,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/48ae4edb-0e13-4619-bf0c-b661f0a0817d"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -1385,7 +1385,7 @@
   (symbol (lib_id "power:GND") (at 118.745 94.615 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ffea7761-2814-423f-8393-4ca428413904)
-    (property "Reference" "#PWR013" (at 118.745 100.965 0)
+    (property "Reference" "#PWR012" (at 118.745 100.965 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.745 99.695 0)
@@ -1401,7 +1401,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/48ae4edb-0e13-4619-bf0c-b661f0a0817d"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )

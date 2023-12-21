@@ -1510,13 +1510,6 @@
     (uuid fe6b19a8-85cf-4219-85f2-7ce7fb17025b)
   )
 
-  (text_box "нахуя?\n"
-    (at 184.785 53.34 0) (size 8.255 3.81)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify left top))
-    (uuid aa418971-fbb7-4192-b7d1-8f0e0c5e3d92)
-  )
   (text_box "r_2=r_1/((v/1.22)-1)"
     (at 157.48 79.375 0) (size 22.86 3.175)
     (stroke (width 0) (type default))
@@ -1525,6 +1518,10 @@
     (uuid da1fbf69-9357-43e7-a48e-824a932d6fcf)
   )
 
+  (text "R_3" (at 175.26 68.58 90)
+    (effects (font (size 0.7 0.7)) (justify right bottom))
+    (uuid 0813fb14-80bb-40ce-aa75-31ab67e20497)
+  )
   (text "SS36B" (at 160.02 61.595 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 50b93531-bd74-4d0d-ac47-188a196a03dd)
@@ -1537,7 +1534,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a08f311f-6284-46fa-b040-7dd5d18239cf)
   )
-  (text "R_2" (at 175.895 60.325 0)
+  (text "R_2" (at 175.26 62.23 90)
     (effects (font (size 0.7 0.7)) (justify right bottom))
     (uuid d8b295d1-eb2e-4692-a89f-0c35015b56ad)
   )
@@ -1690,7 +1687,7 @@
           (reference "R31") (unit 1)
         )
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "R33") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -1744,7 +1741,7 @@
           (reference "#PWR06") (unit 1)
         )
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -1753,7 +1750,7 @@
   (symbol (lib_id "power:GND") (at 97.155 55.245 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08795ed1-88f7-4539-8e4b-66bcefa143eb)
-    (property "Reference" "#PWR031" (at 97.155 61.595 0)
+    (property "Reference" "#PWR030" (at 97.155 61.595 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.155 59.69 0)
@@ -1769,7 +1766,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -1778,7 +1775,7 @@
   (symbol (lib_id "Device:R_Small") (at 26.035 45.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 09856dc0-688e-46ed-bcb8-72983e3e2644)
-    (property "Reference" "R29" (at 27.94 43.815 0)
+    (property "Reference" "R31" (at 27.94 43.815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22" (at 27.94 46.355 0)
@@ -1795,7 +1792,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "R29") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -1804,7 +1801,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 261.62 53.975 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0fef3a20-ba36-454b-9fbf-eb43e58100c1)
-    (property "Reference" "D5" (at 258.445 50.165 90)
+    (property "Reference" "D4" (at 258.445 50.165 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "PMEG2020EH" (at 264.795 45.72 0)
@@ -1821,7 +1818,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "D5") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -1855,7 +1852,7 @@
           (reference "R30") (unit 1)
         )
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "R34") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -1864,7 +1861,7 @@
   (symbol (lib_id "Device:R_Small") (at 22.225 41.275 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 270db9c5-e033-4c1e-a8b8-2a9d012273b1)
-    (property "Reference" "R27" (at 22.225 35.56 90)
+    (property "Reference" "R29" (at 22.225 35.56 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0m2" (at 22.225 38.1 90)
@@ -1881,7 +1878,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "R27") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -1909,7 +1906,7 @@
           (reference "J1") (unit 1)
         )
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "J1") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
@@ -2004,7 +2001,7 @@
   (symbol (lib_id "Device:Fuse") (at 269.24 53.975 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 45aab981-d1e3-48c9-9e5e-16740433f623)
-    (property "Reference" "F1" (at 266.7 50.165 0)
+    (property "Reference" "F2" (at 266.7 50.165 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MF-NSMF050-2" (at 271.78 58.42 90)
@@ -2021,7 +2018,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "F1") (unit 1)
+          (reference "F2") (unit 1)
         )
       )
     )
@@ -2030,7 +2027,7 @@
   (symbol (lib_id "Regulator_Switching:ST1S14PHR") (at 156.21 47.625 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4af1b9b7-0008-411f-897d-feaf08229670)
-    (property "Reference" "U6" (at 156.21 35.56 0)
+    (property "Reference" "U5" (at 156.21 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "ST1S14PHR" (at 156.21 38.1 0)
@@ -2054,7 +2051,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "U6") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -2063,7 +2060,7 @@
   (symbol (lib_id "Device:R_Small") (at 174.625 69.215 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5c93673c-bb5f-421b-94d6-6459f2bc5628)
-    (property "Reference" "R36" (at 177.8 68.58 0)
+    (property "Reference" "R3" (at 177.8 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "75" (at 177.8 71.12 0)
@@ -2080,7 +2077,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "R36") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -2176,7 +2173,7 @@
     (property "Value" "SolderJumper_3_Open" (at 81.915 48.895 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" (at 79.375 47.625 0)
+    (property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" (at 79.375 47.625 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 79.375 47.625 0)
@@ -2234,7 +2231,7 @@
   (symbol (lib_id "Device:D") (at 167.64 60.96 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7be3d8cb-8325-48f7-ab39-96ee393dd57a)
-    (property "Reference" "D6" (at 168.91 58.42 90)
+    (property "Reference" "D5" (at 168.91 58.42 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STPS3L60U" (at 160.655 63.5 90)
@@ -2257,7 +2254,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "D6") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -2292,7 +2289,7 @@
   (symbol (lib_id "Sensor_Energy:INA219AxD") (at 47.625 55.245 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7eaf51b4-2949-49f5-a860-577cb110ab9b)
-    (property "Reference" "U7" (at 49.8191 43.18 0)
+    (property "Reference" "U6" (at 49.8191 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "INA219AxD" (at 49.8191 45.72 0)
@@ -2315,7 +2312,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "U7") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -2324,7 +2321,7 @@
   (symbol (lib_id "Device:R_Small") (at 18.415 45.085 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 80c79e28-ddda-4809-bfa8-6c2069109338)
-    (property "Reference" "R28" (at 13.335 43.815 0)
+    (property "Reference" "R30" (at 13.335 43.815 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22" (at 13.97 46.355 0)
@@ -2341,7 +2338,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "R28") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -2350,7 +2347,7 @@
   (symbol (lib_id "Device:R_Small") (at 174.625 62.865 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 82a4d2eb-1f08-4268-8e14-636a2a831aae)
-    (property "Reference" "R32" (at 177.8 62.23 0)
+    (property "Reference" "R2" (at 177.8 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3K" (at 177.8 64.77 0)
@@ -2367,7 +2364,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "R32") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -2376,7 +2373,7 @@
   (symbol (lib_id "power:GND") (at 47.625 67.945 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8699ecb7-a451-43aa-a438-e00fc3d4074c)
-    (property "Reference" "#PWR032" (at 47.625 74.295 0)
+    (property "Reference" "#PWR031" (at 47.625 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 47.625 72.39 0)
@@ -2392,7 +2389,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -2427,7 +2424,7 @@
   (symbol (lib_id "Device:D_Schottky") (at 254 60.96 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f9a7887-de2d-4b5c-910b-ef24c43675d6)
-    (property "Reference" "D4" (at 252.73 58.42 0)
+    (property "Reference" "D6" (at 252.73 58.42 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "PMEG2020EH" (at 247.65 64.135 0)
@@ -2444,7 +2441,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "D4") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -2453,7 +2450,7 @@
   (symbol (lib_id "Regulator_Linear:LD1117S33TR_SOT223") (at 38.1 112.395 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8fccd9ce-d23c-4224-8aeb-786a6dfdce85)
-    (property "Reference" "U8" (at 38.1 105.41 0)
+    (property "Reference" "U7" (at 38.1 105.41 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LDL1117_3V3" (at 38.1 107.95 0)
@@ -2471,7 +2468,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "U8") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -2590,7 +2587,7 @@
           (reference "R32") (unit 1)
         )
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "R35") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -2599,7 +2596,7 @@
   (symbol (lib_id "Device:R_Small") (at 180.34 52.705 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7d4b4e7-5940-4e4b-a96f-82b05178fed3)
-    (property "Reference" "R31" (at 184.15 51.435 90)
+    (property "Reference" "R1" (at 184.15 51.435 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 176.53 51.435 90)
@@ -2616,7 +2613,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "R31") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -2710,7 +2707,7 @@
     (property "Value" "SolderJumper_3_Open" (at 81.28 61.595 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm" (at 79.375 60.325 0)
+    (property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" (at 79.375 60.325 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 79.375 60.325 0)
@@ -2734,7 +2731,7 @@
   (symbol (lib_id "Device:R_Small") (at 180.34 50.165 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9635dba-57bf-4182-a750-216889bf2a4f)
-    (property "Reference" "R30" (at 184.15 48.895 90)
+    (property "Reference" "R32" (at 184.15 48.895 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "47K" (at 176.53 48.895 90)
@@ -2751,7 +2748,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "R30") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -2760,7 +2757,7 @@
   (symbol (lib_id "Device:Fuse") (at 246.38 53.975 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fba98b54-8a83-4532-ab77-6c3ccaf085ff)
-    (property "Reference" "F2" (at 244.475 50.165 0)
+    (property "Reference" "F1" (at 244.475 50.165 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MF-MSMF260-2" (at 248.92 50.165 90)
@@ -2777,7 +2774,7 @@
     (instances
       (project "Penguin Junior"
         (path "/dfff5ef9-3e3a-4442-aa32-5f49584e77ca/3095bfc8-cb7e-4719-a9e2-d3dd078eacfa"
-          (reference "F2") (unit 1)
+          (reference "F1") (unit 1)
         )
       )
     )
