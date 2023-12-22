@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.6*
-G04 #@! TF.CreationDate,2023-12-21T05:01:06+03:00*
+G04 #@! TF.CreationDate,2023-12-21T17:10:59+03:00*
 G04 #@! TF.ProjectId,Penguin Junior,50656e67-7569-46e2-904a-756e696f722e,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.6) date 2023-12-21 05:01:06*
+G04 Created by KiCad (PCBNEW 7.0.6) date 2023-12-21 17:10:59*
 %MOMM*%
 %LPD*%
 G01*
@@ -385,8 +385,8 @@ D15*
 X115492500Y-105140000D03*
 X117067500Y-105140000D03*
 D46*
-X117027500Y-108060000D03*
-X115452500Y-108060000D03*
+X117067500Y-108060000D03*
+X115492500Y-108060000D03*
 D26*
 X134380000Y-97610000D03*
 X134380000Y-96650000D03*
