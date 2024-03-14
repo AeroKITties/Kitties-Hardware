@@ -27,3 +27,14 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+Hardware/Penguin Junior.zip
+Hardware/PiezoSensorBoard/PiezoSensorBoard.PrjPcbStructure
+Hardware/PiezoSensorBoard/__Previews/ADC.SchDocPreview
+Hardware/PiezoSensorBoard/__Previews/MCU.SchDocPreview
+Hardware/PiezoSensorBoard/__Previews/Power.SchDocPreview
+Hardware/PiezoSensorBoard/History/ADC.~(1).SchDoc.Zip
+Hardware/PiezoSensorBoard/History/MCU.~(1).SchDoc.Zip
+Hardware/PiezoSensorBoard/History/ADC.~(2).SchDoc.Zip
+Hardware/PiezoSensorBoard/History/PiezoSensorBoard.~(1).PrjPcb.Zip
+Hardware/PiezoSensorBoard/History/PiezoSensorBoard.~(2).PrjPcb.Zip
+Hardware/PiezoSensorBoard/History/Power.~(1).SchDoc.Zip
