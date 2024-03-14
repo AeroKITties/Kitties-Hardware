@@ -55,4 +55,9 @@
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))
   )
+  (model "C:/Users/user/Documents/GitHub/Flight-Controller/Hardware/Kicad 3D/USB_micro_NIUEWISX.STEP"
+    (offset (xyz 0 -0.75 0.25))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 90 180 -180))
+  )
 )
