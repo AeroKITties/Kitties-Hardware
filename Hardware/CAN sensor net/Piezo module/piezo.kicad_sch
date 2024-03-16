@@ -2020,6 +2020,16 @@
 		)
 		(uuid "fec580a2-38ef-412f-9dbc-4a82e5692455")
 	)
+	(text "Мб лучше зафильтровать питание аналоговое"
+		(exclude_from_sim no)
+		(at 233.68 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70860d07-f6a2-4ace-88d7-381ebd2a7703")
+	)
 	(text "BZX84C3V3"
 		(exclude_from_sim no)
 		(at 170.815 71.12 0)
