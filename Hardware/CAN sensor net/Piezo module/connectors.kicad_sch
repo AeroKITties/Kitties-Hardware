@@ -1598,10 +1598,22 @@
 		)
 	)
 	(junction
-		(at 52.705 43.815)
+		(at 52.705 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "826d7831-76d4-4639-bb9d-c46b7330c281")
+		(uuid "0b376a4d-1f1f-4237-a977-636a73120b19")
+	)
+	(junction
+		(at 32.385 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4871372f-c91f-4bd6-a3c9-60fc3a591f37")
+	)
+	(junction
+		(at 87.63 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56e3e8e5-e69a-421e-afae-e7e3dfdec618")
 	)
 	(junction
 		(at 203.835 40.005)
@@ -1661,7 +1673,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 43.18) (xy 121.92 44.45)
+			(xy 121.92 41.91) (xy 121.92 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1729,6 +1741,16 @@
 		)
 		(uuid "3a9177fd-f180-483f-b66e-cc54276fd8c0")
 	)
+	(wire
+		(pts
+			(xy 52.705 41.91) (xy 87.63 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9b5d91-c1f9-4a1e-89cb-2045dde00418")
+	)
 	(polyline
 		(pts
 			(xy 162.56 23.495) (xy 162.56 64.135)
@@ -1771,7 +1793,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 48.26) (xy 52.705 43.815)
+			(xy 52.705 41.91) (xy 52.705 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1828,6 +1850,16 @@
 			(type default)
 		)
 		(uuid "64cd2dc9-fecb-40a1-b287-4ff63a841a7c")
+	)
+	(wire
+		(pts
+			(xy 121.92 41.91) (xy 87.63 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6517627e-5c31-4090-b2aa-cf63cd033148")
 	)
 	(wire
 		(pts
@@ -1941,7 +1973,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 41.275) (xy 52.705 43.815)
+			(xy 32.385 39.37) (xy 32.385 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1961,7 +1993,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 43.815) (xy 32.385 43.815)
+			(xy 52.705 41.91) (xy 32.385 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2061,7 +2093,7 @@
 	)
 	(wire
 		(pts
-			(xy 32.385 43.815) (xy 32.385 51.435)
+			(xy 32.385 41.91) (xy 32.385 51.435)
 		)
 		(stroke
 			(width 0)
@@ -2275,29 +2307,7 @@
 	)
 	(global_label "VDD_5V_USB"
 		(shape input)
-		(at 121.92 43.18 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7488b2de-2b21-40f6-8a5e-8aac3e4863d1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 28.5229 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD_5V_USB"
-		(shape input)
-		(at 52.705 41.275 90)
+		(at 32.385 39.37 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2307,29 +2317,7 @@
 		)
 		(uuid "774d23e7-8564-445e-a119-4504e452a929")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.705 26.6179 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD_5V_VBUS"
-		(shape input)
-		(at 87.63 41.91 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "78ffe88c-c4aa-486e-a074-f365174add89")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.7094 26.7364 90)
+			(at 32.385 24.7129 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,7 +2577,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 123.19 59.69 0)
 			(effects
 				(font
@@ -3229,7 +3217,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 123.19 49.53 0)
 			(effects
 				(font

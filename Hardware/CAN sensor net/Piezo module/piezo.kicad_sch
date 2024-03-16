@@ -1762,16 +1762,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.165 46.355) (xy 50.165 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54591a69-a788-44d7-80cb-ecb61aa04be2")
-	)
-	(wire
-		(pts
 			(xy 137.795 73.66) (xy 139.7 73.66)
 		)
 		(stroke
@@ -1992,16 +1982,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.925 52.07) (xy 34.925 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edf81452-2804-4943-a798-41ee3df64ddf")
-	)
-	(wire
-		(pts
 			(xy 113.03 58.42) (xy 113.03 59.69)
 		)
 		(stroke
@@ -2042,7 +2022,7 @@
 	)
 	(text "BZX84C3V3"
 		(exclude_from_sim no)
-		(at 159.385 67.31 90)
+		(at 170.815 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2074,7 +2054,7 @@
 	)
 	(global_label "VDD_5V0"
 		(shape input)
-		(at 50.165 46.355 90)
+		(at 259.715 65.405 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2084,7 +2064,7 @@
 		)
 		(uuid "53996399-75a5-4a74-8c33-4839a4290979")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.165 35.266 90)
+			(at 259.715 54.316 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2138,6 +2118,28 @@
 			)
 		)
 	)
+	(global_label "VDD_-5V0"
+		(shape input)
+		(at 259.715 80.645 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "879bbede-fe70-4ea9-9e69-d154986a6e13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 259.715 93.3064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI_MISO"
 		(shape input)
 		(at 224.155 76.2 0)
@@ -2178,28 +2180,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD_-5V0"
-		(shape input)
-		(at 34.925 52.07 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a7f77fd7-2478-47df-8c50-6098d2a5abc8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.925 64.7314 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2451,7 +2431,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0271_1x02-1MP_P1.25mm_Horizontal"
 			(at 45.72 76.2 0)
 			(effects
 				(font
@@ -3036,7 +3016,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 42.545 52.07 270)
+		(at 262.255 73.025 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3044,7 +3024,7 @@
 		(dnp no)
 		(uuid "6dae57a3-124d-4b1d-9f6f-f48a2cdacd45")
 		(property "Reference" "U8"
-			(at 39.6875 51.7524 90)
+			(at 261.9374 75.8825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +3033,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 39.6875 54.2924 90)
+			(at 261.62 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +3042,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 42.545 52.07 0)
+			(at 262.255 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3071,7 +3051,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 42.545 52.07 0)
+			(at 262.255 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,7 +3060,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 42.545 52.07 0)
+			(at 262.255 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
