@@ -6713,6 +6713,28 @@
 			)
 		)
 	)
+	(global_label "CAN0_+"
+		(shape input)
+		(at 203.835 128.905 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c0a6888-dfbf-450d-b852-1788c89ee60a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.2588 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "CAN1_TX"
 		(shape input)
 		(at 235.585 132.715 180)
@@ -6770,28 +6792,6 @@
 		(uuid "331a0ffd-1cda-499c-ae64-a8e59299887a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 234.1855 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN0_H"
-		(shape input)
-		(at 203.835 128.905 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3c71824b-8354-4191-98fd-f3b522aae174")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.0169 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7131,7 +7131,7 @@
 			)
 		)
 	)
-	(global_label "CAN1_H"
+	(global_label "CAN1_+"
 		(shape input)
 		(at 267.97 128.905 0)
 		(fields_autoplaced yes)
@@ -7143,7 +7143,7 @@
 		)
 		(uuid "7fb36a1f-844b-4e56-9512-f15376295484")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.1519 128.905 0)
+			(at 278.3938 128.905 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7263,6 +7263,28 @@
 			)
 		)
 	)
+	(global_label "CAN0_-"
+		(shape input)
+		(at 203.835 144.145 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90849cc2-2907-45d1-98f4-b5eeea4f3539")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.2588 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FLASH_CS"
 		(shape input)
 		(at 149.86 76.2 180)
@@ -7285,7 +7307,7 @@
 			)
 		)
 	)
-	(global_label "CAN1_L"
+	(global_label "CAN1_-"
 		(shape input)
 		(at 267.97 144.145 0)
 		(fields_autoplaced yes)
@@ -7297,7 +7319,7 @@
 		)
 		(uuid "94279ad3-9dde-4393-adbe-18605f7f8c61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.8495 144.145 0)
+			(at 278.3938 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7540,28 +7562,6 @@
 		(uuid "b5ac7fd2-f2b1-4aae-9a68-42153dcc8fa4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 107.5485 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN0_L"
-		(shape input)
-		(at 203.835 144.145 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ba202d7f-7a8c-471f-b17c-ae132e01a7d0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.7145 144.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9186,7 +9186,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 200.025 139.065 90)
+		(at 200.025 133.985 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9194,7 +9194,7 @@
 		(dnp no)
 		(uuid "576e3d1d-60b2-4e36-8378-dd3fd4002686")
 		(property "Reference" "JP2"
-			(at 201.295 139.065 90)
+			(at 201.295 133.985 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9203,7 +9203,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 202.565 140.3349 90)
+			(at 202.565 135.2549 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9213,7 +9213,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 200.025 139.065 0)
+			(at 200.025 133.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9222,7 +9222,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.025 139.065 0)
+			(at 200.025 133.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9231,7 +9231,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 200.025 139.065 0)
+			(at 200.025 133.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10227,7 +10227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "user_lib:MSS-12D16"
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 90.805 31.75 0)
 			(effects
 				(font
@@ -10540,7 +10540,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 200.025 132.715 0)
+		(at 200.025 140.335 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10548,7 +10548,7 @@
 		(dnp no)
 		(uuid "b5e92213-d844-4017-b344-348b244c2907")
 		(property "Reference" "R16"
-			(at 201.295 131.445 0)
+			(at 205.105 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10557,7 +10557,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 201.295 133.985 0)
+			(at 205.105 139.065 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10566,7 +10566,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 200.025 132.715 0)
+			(at 200.025 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10575,7 +10575,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.025 132.715 0)
+			(at 200.025 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10584,7 +10584,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 200.025 132.715 0)
+			(at 200.025 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
