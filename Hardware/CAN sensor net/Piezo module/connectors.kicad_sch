@@ -2041,16 +2041,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 53.34) (xy 49.53 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f45cbd0-2340-4f5c-a45a-b0be1053daa3")
-	)
-	(wire
-		(pts
 			(xy 97.155 64.77) (xy 97.155 66.675)
 		)
 		(stroke
@@ -2088,16 +2078,6 @@
 			(type default)
 		)
 		(uuid "7e5a46f2-577d-455d-9fca-da339817e3fe")
-	)
-	(wire
-		(pts
-			(xy 59.69 55.88) (xy 70.485 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "859336e2-bbad-435a-a698-896eb625179c")
 	)
 	(wire
 		(pts
@@ -2211,6 +2191,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 55.88) (xy 62.865 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b23c409e-76a9-42e4-b2b7-37f8efbc517f")
+	)
+	(wire
+		(pts
 			(xy 49.53 48.26) (xy 52.705 48.26)
 		)
 		(stroke
@@ -2281,16 +2271,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 55.88) (xy 52.07 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7e9f0ff-85b4-4d97-8bc8-ab3d7a1381d9")
-	)
-	(wire
-		(pts
 			(xy 170.815 52.705) (xy 170.815 50.165)
 		)
 		(stroke
@@ -2331,16 +2311,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 53.34) (xy 70.485 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc41876f-93cb-47eb-b4c8-73aa0fab10f6")
-	)
-	(wire
-		(pts
 			(xy 32.385 41.91) (xy 32.385 51.435)
 		)
 		(stroke
@@ -2368,6 +2338,16 @@
 			(type default)
 		)
 		(uuid "ee5a2e4e-f34b-460f-a9cb-d446e0c2ba6c")
+	)
+	(wire
+		(pts
+			(xy 49.53 53.34) (xy 62.865 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f102b6d5-c9d9-4bd7-b10d-bdcd7a1f7aa6")
 	)
 	(wire
 		(pts
@@ -2410,7 +2390,7 @@
 		(uuid "b85606d9-2881-4cf1-ba2c-6733f3204bc4")
 	)
 	(label "usb_conn_d+"
-		(at 70.485 53.34 180)
+		(at 62.865 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2443,7 +2423,7 @@
 		(uuid "bc88232d-a428-4508-8e63-487c772b0e80")
 	)
 	(label "usb_conn_d-"
-		(at 70.485 55.88 180)
+		(at 62.865 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2497,28 +2477,6 @@
 			)
 		)
 	)
-	(global_label "CAN_H"
-		(shape input)
-		(at 177.8 45.085 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0f660e83-6ecc-4a6e-a576-0ee36d788acd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.8276 45.085 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS_DETECT"
 		(shape input)
 		(at 139.065 53.34 0)
@@ -2541,7 +2499,7 @@
 			)
 		)
 	)
-	(global_label "CAN_H"
+	(global_label "CAN_L-"
 		(shape input)
 		(at 209.55 45.085 180)
 		(fields_autoplaced yes)
@@ -2551,9 +2509,9 @@
 			)
 			(justify right)
 		)
-		(uuid "3fea155f-f603-43a3-a56d-0adaa459cc43")
+		(uuid "36879c67-3c05-419f-8054-04ec0dc42b81")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.5776 45.085 0)
+			(at 199.3076 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,29 +2565,7 @@
 			)
 		)
 	)
-	(global_label "CAN_L"
-		(shape input)
-		(at 177.8 47.625 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8ae0cecd-41a0-49aa-9cc5-018a7b10e1d2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.13 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_L"
+	(global_label "CAN_H+"
 		(shape input)
 		(at 209.55 47.625 180)
 		(fields_autoplaced yes)
@@ -2639,9 +2575,9 @@
 			)
 			(justify right)
 		)
-		(uuid "9782e036-fd95-4c06-83e7-ae0371113555")
+		(uuid "7f085720-1f96-4450-b39b-91d136116089")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.88 47.625 0)
+			(at 199.0052 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,6 +2605,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_H+"
+		(shape input)
+		(at 177.8 47.625 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d5c0f8fd-9047-4f4c-a8dc-248fb9d55951")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.2552 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2708,6 +2666,28 @@
 		(uuid "f8ade97a-4523-4103-b62d-e07cf23a039f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 173.7565 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_L-"
+		(shape input)
+		(at 177.8 45.085 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9fa8f53-5eef-426d-bcfd-a93f4867b933")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.5576 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +2785,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f2ae092-93cb-435b-ad9e-7303e4de18fc")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR017"
 			(at 32.385 74.295 0)
 			(effects
 				(font
@@ -2855,7 +2835,7 @@
 		(instances
 			(project "Piezo module"
 				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
-					(reference "#PWR013")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2870,7 +2850,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26620a93-4a59-41da-8ff5-958f6792cde6")
-		(property "Reference" "R8"
+		(property "Reference" "R15"
 			(at 132.715 57.15 0)
 			(effects
 				(font
@@ -2924,7 +2904,7 @@
 		(instances
 			(project "Piezo module"
 				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
-					(reference "R8")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3021,7 +3001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "486bb0cd-6587-410d-a495-e759d65cc6b2")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR015"
 			(at 131.445 69.85 0)
 			(effects
 				(font
@@ -3071,7 +3051,7 @@
 		(instances
 			(project "Piezo module"
 				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
-					(reference "#PWR011")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -3087,7 +3067,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f0d37a3-5a69-46d4-b688-da799fd83574")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 184.15 90.805 0)
 			(effects
 				(font
@@ -3137,7 +3117,7 @@
 		(instances
 			(project "Piezo module"
 				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -3152,7 +3132,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e2005d6-8039-4118-b96c-78efe383b30b")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR016"
 			(at 97.155 73.025 0)
 			(effects
 				(font
@@ -3202,7 +3182,7 @@
 		(instances
 			(project "Piezo module"
 				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
-					(reference "#PWR012")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3217,7 +3197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67e7f929-0a7f-4c06-8ef4-91e05c261b54")
-		(property "Reference" "U4"
+		(property "Reference" "U7"
 			(at 90.805 45.085 0)
 			(effects
 				(font
@@ -3281,7 +3261,7 @@
 		(instances
 			(project "Piezo module"
 				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
-					(reference "U4")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -3296,7 +3276,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b0cb08d-d74b-4057-b1cf-85ab28aa6a7b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR013"
 			(at 170.815 62.23 0)
 			(effects
 				(font
@@ -3346,7 +3326,7 @@
 		(instances
 			(project "Piezo module"
 				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
-					(reference "#PWR04")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3361,7 +3341,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76e4bd08-0ea0-4d12-b1bb-459b9f17ecae")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR014"
 			(at 202.565 62.23 0)
 			(effects
 				(font
@@ -3411,7 +3391,7 @@
 		(instances
 			(project "Piezo module"
 				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
-					(reference "#PWR05")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -3499,75 +3479,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 55.88 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2eab847-dae5-4c99-aa4b-8213e1929470")
-		(property "Reference" "R15"
-			(at 55.88 51.435 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22"
-			(at 59.69 51.435 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 55.88 55.118 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "997332c2-60bb-4797-b6e3-b3368655d75c")
-		)
-		(pin "2"
-			(uuid "7d3cd98d-8f91-4a6a-9202-a489b08721fa")
-		)
-		(instances
-			(project "Piezo module"
-				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 191.135 79.375 0)
 		(unit 1)
@@ -3577,7 +3488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cea9d163-758a-44ea-829b-20191cdefa0a")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 194.31 78.1049 0)
 			(effects
 				(font
@@ -3634,76 +3545,7 @@
 		(instances
 			(project "Piezo module"
 				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 55.88 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e1257d25-13f9-474f-ac8f-4aae99514e5e")
-		(property "Reference" "R16"
-			(at 55.88 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22"
-			(at 59.69 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 55.88 57.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d884d5c0-d25d-4ae4-a82e-745d6d0270cd")
-		)
-		(pin "2"
-			(uuid "3885b92b-25ae-4532-8131-3349729a0145")
-		)
-		(instances
-			(project "Piezo module"
-				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
-					(reference "R16")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3718,7 +3560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eab7ff35-1f6e-416f-9f2c-7590c18ea14b")
-		(property "Reference" "C11"
+		(property "Reference" "C20"
 			(at 25.4 52.07 0)
 			(effects
 				(font
@@ -3772,7 +3614,7 @@
 		(instances
 			(project "Piezo module"
 				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
-					(reference "C11")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -3787,7 +3629,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eace030a-170e-46a1-88e2-97a15cc4ca59")
-		(property "Reference" "R5"
+		(property "Reference" "R14"
 			(at 132.715 46.99 0)
 			(effects
 				(font
@@ -3841,7 +3683,7 @@
 		(instances
 			(project "Piezo module"
 				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
-					(reference "R5")
+					(reference "R14")
 					(unit 1)
 				)
 			)
