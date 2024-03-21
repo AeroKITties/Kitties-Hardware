@@ -360,6 +360,174 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016) hide)
@@ -1671,6 +1839,16 @@
 		)
 		(uuid "0e800ada-df65-4a58-b0cc-ac7e350fd77a")
 	)
+	(polyline
+		(pts
+			(xy 209.55 67.31) (xy 209.55 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1282c7d8-2327-4e91-a9d9-290ead63ce40")
+	)
 	(wire
 		(pts
 			(xy 131.445 41.91) (xy 131.445 44.45)
@@ -1803,6 +1981,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.055 81.915) (xy 184.15 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f28465-d1d9-4f0e-b0dd-34ea25f212f1")
+	)
+	(wire
+		(pts
 			(xy 203.835 40.005) (xy 209.55 40.005)
 		)
 		(stroke
@@ -1810,6 +1998,16 @@
 			(type default)
 		)
 		(uuid "59416c9f-1c70-443a-ab91-d2578cc3b07e")
+	)
+	(wire
+		(pts
+			(xy 184.15 81.915) (xy 184.15 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b38633e-74a9-4f1a-bfaf-ca98fd07469b")
 	)
 	(wire
 		(pts
@@ -1920,6 +2118,16 @@
 			(type default)
 		)
 		(uuid "8b22a0ba-f26a-429f-b056-b3c28b76afb3")
+	)
+	(polyline
+		(pts
+			(xy 163.83 92.71) (xy 163.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "906f2476-ec45-4ef8-8f79-6d022eb38885")
 	)
 	(wire
 		(pts
@@ -2041,6 +2249,16 @@
 		)
 		(uuid "bc20f05c-c5c6-4d6d-90d3-8d92f18923fb")
 	)
+	(polyline
+		(pts
+			(xy 163.83 92.71) (xy 209.55 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc26c011-dcd1-43b4-ae78-cbea8728824f")
+	)
 	(wire
 		(pts
 			(xy 202.565 52.705) (xy 202.565 50.165)
@@ -2050,6 +2268,16 @@
 			(type default)
 		)
 		(uuid "bdfcdd1e-b978-4fa3-8ae4-88628af9b96c")
+	)
+	(polyline
+		(pts
+			(xy 163.83 67.31) (xy 209.55 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c44c383b-6d6f-4ba6-879f-fbfb41bffd78")
 	)
 	(wire
 		(pts
@@ -2160,6 +2388,16 @@
 			(type default)
 		)
 		(uuid "f558c5fa-c73b-4ba7-84ed-131e12584a45")
+	)
+	(text "UART"
+		(exclude_from_sim no)
+		(at 205.74 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2803281d-0e39-44a2-bb4d-5cdcd6ea630e")
 	)
 	(text "USB"
 		(exclude_from_sim no)
@@ -2325,6 +2563,28 @@
 			)
 		)
 	)
+	(global_label "UART1_TX"
+		(shape input)
+		(at 186.055 79.375 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63ec761e-fac7-491a-b148-ea8aeb2ff8cb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.0589 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDD_5V_USB"
 		(shape input)
 		(at 32.385 39.37 90)
@@ -2431,6 +2691,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART1_RX"
+		(shape input)
+		(at 186.055 76.835 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f8ade97a-4523-4103-b62d-e07cf23a039f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.7565 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2790,6 +3072,72 @@
 			(project "Piezo module"
 				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 184.15 84.455 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f0d37a3-5a69-46d4-b688-da799fd83574")
+		(property "Reference" "#PWR019"
+			(at 184.15 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "458a9acf-aa5e-47c7-8952-13897a7af023")
+		)
+		(instances
+			(project "Piezo module"
+				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3214,6 +3562,79 @@
 			(project "Piezo module"
 				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 191.135 79.375 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cea9d163-758a-44ea-829b-20191cdefa0a")
+		(property "Reference" "J5"
+			(at 194.31 78.1049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "530470310"
+			(at 194.31 80.6449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
+			(at 191.135 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.135 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 191.135 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa52960a-b095-4d93-b00d-cbc9156c6552")
+		)
+		(pin "3"
+			(uuid "7c1373b3-7da9-4225-aa2a-2fd7752c2b0e")
+		)
+		(pin "1"
+			(uuid "89cebf23-66b8-4df5-9398-bc02043f37b0")
+		)
+		(instances
+			(project "Piezo module"
+				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
+					(reference "J5")
 					(unit 1)
 				)
 			)

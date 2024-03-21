@@ -6647,6 +6647,28 @@
 			)
 		)
 	)
+	(global_label "UART1_TX"
+		(shape input)
+		(at 110.49 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11459a6a-609e-4e2d-ba48-e7a494b099e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.4861 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "NRST"
 		(shape input)
 		(at 51.435 81.28 180)
@@ -6951,6 +6973,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART1_RX"
+		(shape input)
+		(at 110.49 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c4bffb5-4a41-40c5-af5e-e8e5c3635077")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.7885 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

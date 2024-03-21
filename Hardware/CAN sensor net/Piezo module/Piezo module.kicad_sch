@@ -6371,6 +6371,28 @@
 			)
 		)
 	)
+	(global_label "UART1_RX"
+		(shape input)
+		(at 15.24 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "09b7aa72-6daf-4e67-a9b1-96d9b70bc5be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.5385 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDD_3V3"
 		(shape input)
 		(at 140.97 27.94 90)
@@ -6582,6 +6604,28 @@
 		(uuid "2a4b1aa6-c7cb-4d4f-8d23-e2ce422bed35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 276.3073 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART1_TX"
+		(shape input)
+		(at 15.24 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "31133e17-d658-4095-a7fb-b2cb01829a23")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.2361 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
