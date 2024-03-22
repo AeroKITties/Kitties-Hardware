@@ -11569,15 +11569,15 @@
 		(fields_autoplaced yes)
 		(uuid "c535d7bc-f7ed-457b-90a6-25182c875e4c")
 		(property "Reference" "J4"
-			(at 27.305 52.705 0)
+			(at 27.305 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "XT60"
-			(at 27.305 55.245 0)
+		(property "Value" "XT30"
+			(at 27.305 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
