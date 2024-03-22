@@ -3775,7 +3775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23e0362d-411b-44b0-9bf9-13fee9f09e77")
-		(property "Reference" "D4"
+		(property "Reference" "D6"
 			(at 185.42 78.7399 90)
 			(effects
 				(font
@@ -3832,7 +3832,7 @@
 		(instances
 			(project "Piezo module"
 				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/74f4a990-612a-4918-b03d-ff48b2807170"
-					(reference "D4")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4047,7 +4047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48ccfd88-6d7a-4986-b791-d8446c5054ee")
-		(property "Reference" "D5"
+		(property "Reference" "D7"
 			(at 185.42 91.4399 90)
 			(effects
 				(font
@@ -4104,7 +4104,7 @@
 		(instances
 			(project "Piezo module"
 				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/74f4a990-612a-4918-b03d-ff48b2807170"
-					(reference "D5")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5043,7 +5043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch5.08mm_Drill1.3mm"
+		(property "Footprint" "TestPoint:TestPoint_Bridge_Pitch6.35mm_Drill1.3mm"
 			(at 45.72 111.125 0)
 			(effects
 				(font

@@ -10137,6 +10137,7 @@
 	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 130.81 33.02 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10144,7 +10145,7 @@
 		(dnp no)
 		(uuid "dd63fb95-4113-45d7-99dc-17a21b04e889")
 		(property "Reference" "SW2"
-			(at 130.81 24.638 0)
+			(at 130.81 24.765 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10152,7 +10153,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 130.81 27.178 0)
+			(at 130.81 27.305 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10169,7 +10170,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 40.64 0)
+			(at 130.81 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
