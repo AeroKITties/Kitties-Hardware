@@ -8279,7 +8279,7 @@
 	(footprint "LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW"
 		(layer "F.Cu")
 		(uuid "750f4b6c-973b-406e-90b2-20a802005edf")
-		(at 140.063 98.46 180)
+		(at 142.433 85.411 180)
 		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://assets.cree-led.com/a/ds/h/HB-CLV1A-FKB.pdf")
 		(tags "LED Cree PLCC-4 3528 CLV1A-FKB")
 		(property "Reference" "D1"
@@ -9813,7 +9813,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "9c2ae413-c65a-4504-b0e2-3db5a002017c")
-		(at 149.232 87.339 -90)
+		(at 151.239 87.604 -90)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R24"
@@ -10780,6 +10780,7 @@
 		(property "Reference" "J7"
 			(at 0 -4.4 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "60a0c296-eee5-48f4-9130-3dccae1aa5bb")
 			(effects
 				(font
@@ -11421,7 +11422,7 @@
 	(footprint "LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW"
 		(layer "F.Cu")
 		(uuid "d1c83c9e-50d7-4210-9ae5-5250cb8f29ca")
-		(at 147.033 98.496)
+		(at 147.523 85.584)
 		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://assets.cree-led.com/a/ds/h/HB-CLV1A-FKB.pdf")
 		(tags "LED Cree PLCC-4 3528 CLV1A-FKB")
 		(property "Reference" "D8"
@@ -22571,6 +22572,28 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 140.101 82.111)
+		(end 144.683 87.339)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "27b9d65d-9e6d-4674-8d3d-f8afb4f08ef6")
+	)
+	(gr_rect
+		(start 145.203 82.434)
+		(end 149.831 87.524)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2d441eab-cd17-48e0-b00a-16d3e832b559")
+	)
 	(gr_line
 		(start 165.399 67.807)
 		(end 165.399 93.467)
@@ -22816,6 +22839,114 @@
 		(fill none)
 		(layer "User.2")
 		(uuid "fe6bd517-d73c-4ff8-9aa2-5d9f629fc8e3")
+	)
+	(gr_text "0"
+		(at 145.847 94.805 0)
+		(layer "F.SilkS")
+		(uuid "02038191-0639-4b3e-bc10-5533ff634edf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "UART"
+		(at 157.238 93.367 0)
+		(layer "F.SilkS")
+		(uuid "07f96e40-9b13-492c-a763-c6759bfe7ae9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "CAN0"
+		(at 115.184 80.234 0)
+		(layer "F.SilkS")
+		(uuid "26244bf3-6307-44f2-b04d-ca30df6c77b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RESET"
+		(at 114.373 95.134 0)
+		(layer "F.SilkS")
+		(uuid "2697d328-a16d-48fa-847c-6feb58871874")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "CAN1"
+		(at 115.165 82.607 0)
+		(layer "F.SilkS")
+		(uuid "2cec52eb-d949-475f-a43c-31c6a0ebfe82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "B"
+		(at 146.761 83.715 0)
+		(layer "F.SilkS")
+		(uuid "86b09fc3-5550-4bc8-b5be-32195c452031")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "1"
+		(at 149.984 94.771 0)
+		(layer "F.SilkS")
+		(uuid "e2bb5ec7-620d-4f65-886c-cbcc7e7dc805")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "A"
+		(at 141.81 83.553 0)
+		(layer "F.SilkS")
+		(uuid "e7ae3a27-0f85-48a2-ac86-b18f7bdf731f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PWR"
+		(at 157.304 70.89 0)
+		(layer "F.SilkS")
+		(uuid "e87f9a52-bb63-44e8-a7c9-3d30e408024f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "SD"
 		(at 122.445 114.492 0)
@@ -25592,22 +25723,6 @@
 		(layer "F.Cu")
 		(net 45)
 		(uuid "1d5a09a4-9072-45da-81af-a3488285029b")
-	)
-	(segment
-		(start 143.758 81.04)
-		(end 139.983 81.04)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 51)
-		(uuid "b0a84b73-1753-48db-9b45-4f5c9069a8da")
-	)
-	(segment
-		(start 149.232 86.514)
-		(end 143.758 81.04)
-		(width 0.5)
-		(layer "F.Cu")
-		(net 51)
-		(uuid "fe5cba5c-3b7f-47a7-a11c-0fd82ffd7975")
 	)
 	(via
 		(at 139.983 81.04)
