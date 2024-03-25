@@ -5395,7 +5395,10 @@
 				)
 			)
 		)
+		(property ki_fp_filters "*Fuse*")
 		(path "/16e6c27b-6e16-4080-b5a9-f4080643e90c/be547439-8052-4a19-be63-4a8f46d7f279")
+		(sheetname "Power")
+		(sheetfile "power.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 0.01 0)
@@ -8276,17 +8279,17 @@
 			)
 		)
 	)
-	(footprint "LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW"
+	(footprint "LED_SMD:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100"
 		(layer "F.Cu")
 		(uuid "750f4b6c-973b-406e-90b2-20a802005edf")
 		(at 142.433 85.411 180)
-		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://assets.cree-led.com/a/ds/h/HB-CLV1A-FKB.pdf")
-		(tags "LED Cree PLCC-4 3528 CLV1A-FKB")
+		(descr "3.2mm x 2.8mm PLCC4 LED, https://www.we-online.de/katalog/datasheet/150141M173100.pdf")
+		(tags "LED RGB Wurth PLCC-4 3528")
 		(property "Reference" "D1"
-			(at 0 -2.65 180)
+			(at 0 -2.4 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b4a41e51-82d1-419d-beb5-6438ea2f2f81")
+			(uuid "15cfffbd-8109-4a34-837e-2485dccf3027")
 			(effects
 				(font
 					(size 1 1)
@@ -8295,9 +8298,9 @@
 			)
 		)
 		(property "Value" "LED_RGBA"
-			(at 0 2.65 180)
+			(at 0 2.5 180)
 			(layer "F.Fab")
-			(uuid "e323a003-ce85-4d4c-9cc5-8ca1a9160754")
+			(uuid "fad40eeb-a253-42a5-b3bc-0245536c9122")
 			(effects
 				(font
 					(size 1 1)
@@ -8305,12 +8308,12 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW"
+		(property "Footprint" "LED_SMD:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fff2601f-5162-48bf-bcb8-2edbf11bd916")
+			(uuid "d1f203cc-6b60-41de-9912-0690a7b99689")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8322,7 +8325,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9f26a317-a52b-40da-bf8b-f577e808c330")
+			(uuid "2305df3c-5d98-4e1b-9048-1780a65ee9a9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,7 +8337,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "18104cdd-6add-4556-bd2e-31462f984be8")
+			(uuid "28aa98fa-1d91-4813-be27-a33f503f4632")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8347,74 +8350,74 @@
 		(sheetfile "Master board.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -1.95 1.5)
-			(end 1.95 1.5)
+			(start -2.3 1.51)
+			(end 2.3 1.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ad259f40-5f36-49dd-adc5-03174ec94d93")
+			(uuid "ee26bdad-5ae9-47b2-81f4-1c67324cbd0e")
 		)
 		(fp_line
-			(start -1.95 -0.7)
-			(end -1.95 -1.5)
+			(start -2.5 -0.7)
+			(end -2.5 -1.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "80353e6b-d9ea-4e31-8b5a-403e72031f34")
+			(uuid "0f640380-ac3b-465e-bd2f-a113cd497def")
 		)
 		(fp_line
-			(start -1.95 -1.5)
-			(end 1.95 -1.5)
+			(start -2.5 -1.51)
+			(end 2.3 -1.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bb1bc9a1-0c06-4a0b-bfb7-b6e71ba0f477")
+			(uuid "72af0d2b-dbae-4785-b145-e65db3b2a328")
 		)
 		(fp_line
-			(start 2.2 1.75)
-			(end 2.2 -1.75)
+			(start 2.55 1.65)
+			(end 2.55 -1.65)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "af30d983-1e39-4181-9bc7-13222d5fe55b")
+			(uuid "49a7d83c-c6e0-4e60-ae2b-d48a8ef77064")
 		)
 		(fp_line
-			(start 2.2 -1.75)
-			(end -2.2 -1.75)
+			(start 2.55 -1.65)
+			(end -2.55 -1.65)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "1d71860e-0d0a-4861-934c-05f1dae09d5e")
+			(uuid "003c166a-b4a3-4870-b2ef-82df9608d4e3")
 		)
 		(fp_line
-			(start -2.2 1.75)
-			(end 2.2 1.75)
+			(start -2.55 1.65)
+			(end 2.55 1.65)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c72f5dd1-9774-4365-a196-cb86e39ba233")
+			(uuid "d9d3250f-d8ce-4430-9120-67abeb3ea5b5")
 		)
 		(fp_line
-			(start -2.2 -1.75)
-			(end -2.2 1.75)
+			(start -2.55 -1.65)
+			(end -2.55 1.65)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b4541939-17d0-4b2b-a0e6-a53c8edc1786")
+			(uuid "e83ce94a-cbc7-46d4-8657-e1d054ce6078")
 		)
 		(fp_line
 			(start 1.6 1.4)
@@ -8424,7 +8427,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "767c9e0c-3093-4782-9c2c-2ede25783e4b")
+			(uuid "ae931610-b862-4f07-9c42-10b73d5efef4")
 		)
 		(fp_line
 			(start 1.6 -1.4)
@@ -8434,7 +8437,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "d9210335-4da0-47d1-a2cb-653dfcab5cb6")
+			(uuid "b91f370b-e7fd-4dff-8fe7-7f81e8a84c68")
 		)
 		(fp_line
 			(start -0.6 -1.4)
@@ -8444,7 +8447,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7d902da8-9aed-4135-96d1-f9dcb49f9b90")
+			(uuid "4dd759ca-bd3e-47d9-8192-a71e8b5a2be7")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -8454,7 +8457,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1ac010de-2a03-4a12-aaf3-00461bb39e6b")
+			(uuid "1e3e3847-199b-4fd7-8d53-be833e2a462c")
 		)
 		(fp_line
 			(start -1.6 -1.4)
@@ -8464,7 +8467,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8effb5c8-134c-4646-a7b4-a5ec4edf8bce")
+			(uuid "4f13019c-47f1-4fee-97db-0965e15e61dd")
 		)
 		(fp_circle
 			(center 0 0)
@@ -8475,12 +8478,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "9291a44d-4521-4f0e-8585-11fd8fd0b5d6")
+			(uuid "f149f45b-af1e-4b50-b336-8033f628430f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(layer "F.Fab")
-			(uuid "2283521f-d75e-423c-8dba-77e0a68acf05")
+			(uuid "f8976a5c-2370-4dd2-80d2-cd73eb431a5e")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8489,42 +8492,42 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -1.25 -0.7 180)
-			(size 1 0.8)
+			(at 1.55 -0.7 180)
+			(size 1.5 0.9)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 16 "Net-(D1-RK)")
 			(pinfunction "RK")
 			(pintype "passive")
-			(uuid "76965e57-97a2-4510-8da8-875b0ef886e2")
+			(uuid "39733c7d-46fe-48dc-9690-c2c3c301a615")
 		)
 		(pad "2" smd rect
-			(at -1.25 0.7 180)
-			(size 1 0.8)
+			(at 1.55 0.7 180)
+			(size 1.5 0.9)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 17 "Net-(D1-GK)")
 			(pinfunction "GK")
 			(pintype "passive")
-			(uuid "b19d57e5-fdf4-4dc5-949f-bbc6e24bd367")
+			(uuid "17f05f1b-a81e-4985-8c03-6164854396ba")
 		)
 		(pad "3" smd rect
-			(at 1.25 0.7 180)
-			(size 1 0.8)
+			(at -1.55 -0.7 180)
+			(size 1.5 0.9)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 18 "Net-(D1-BK)")
 			(pinfunction "BK")
 			(pintype "passive")
-			(uuid "fec5787c-0965-4143-aa4d-8e39c8f4a147")
+			(uuid "550ac6cd-f4a2-4623-94f3-207cd294794d")
 		)
 		(pad "4" smd rect
-			(at 1.25 -0.7 180)
-			(size 1 0.8)
+			(at -1.55 0.7 180)
+			(size 1.5 0.9)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 2 "VDD_3V3")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "c0b04aa8-72d0-4103-953c-e808555d76ce")
+			(uuid "f8d89ce5-1e30-49e9-aa7e-4ed8e3cb7eea")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Cree-PLCC4_3.2x2.8mm_CCW.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8533,17 +8536,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/LED_3528_RGB.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
 			)
 		)
 	)
@@ -11419,17 +11411,17 @@
 			)
 		)
 	)
-	(footprint "LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW"
+	(footprint "LED_SMD:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100"
 		(layer "F.Cu")
 		(uuid "d1c83c9e-50d7-4210-9ae5-5250cb8f29ca")
-		(at 147.523 85.584)
-		(descr "3.2mm x 2.8mm PLCC4 RGB LED, https://assets.cree-led.com/a/ds/h/HB-CLV1A-FKB.pdf")
-		(tags "LED Cree PLCC-4 3528 CLV1A-FKB")
+		(at 147.711 85.532)
+		(descr "3.2mm x 2.8mm PLCC4 LED, https://www.we-online.de/katalog/datasheet/150141M173100.pdf")
+		(tags "LED RGB Wurth PLCC-4 3528")
 		(property "Reference" "D8"
-			(at 0 -2.65 0)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "56f273a7-ff9b-4fa3-ae33-2543d0cd78ff")
+			(uuid "99af29ad-7f8f-49e6-a9b9-6ee81659792d")
 			(effects
 				(font
 					(size 1 1)
@@ -11438,9 +11430,9 @@
 			)
 		)
 		(property "Value" "LED_RGBA"
-			(at 0 2.65 0)
+			(at 0 2.5 0)
 			(layer "F.Fab")
-			(uuid "81c3dd75-ac15-4416-a085-24d5be7a33ce")
+			(uuid "ee2d7e28-89c3-475a-b6e5-a2fabbe239ed")
 			(effects
 				(font
 					(size 1 1)
@@ -11448,12 +11440,12 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_Cree-PLCC4_3.2x2.8mm_CCW"
+		(property "Footprint" "LED_SMD:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2bea510c-9bed-48f7-946c-b26ac88ddff9")
+			(uuid "50422a7a-e2fd-4a82-b981-2abb11b7200a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11465,7 +11457,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ff49254-a5c7-4cb0-85af-c1b77aa6c889")
+			(uuid "f1278d23-ab15-4cae-87f3-dbf559996943")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11477,7 +11469,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5aefe4bb-e3a4-4213-bccc-ca591409970e")
+			(uuid "7e302de5-e568-4fc1-8dfb-d94b9ba166b4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11490,74 +11482,74 @@
 		(sheetfile "Master board.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -1.95 -1.5)
-			(end 1.95 -1.5)
+			(start -2.5 -1.51)
+			(end 2.3 -1.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c17394de-e6be-4964-80b9-d37f6db2a3e1")
+			(uuid "3d76b7fc-b51b-4af5-bed3-7d43fd84a88e")
 		)
 		(fp_line
-			(start -1.95 -0.7)
-			(end -1.95 -1.5)
+			(start -2.5 -0.7)
+			(end -2.5 -1.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cb5acb34-84b7-4f69-aa75-e782d38386db")
+			(uuid "7e191653-70e6-4306-ace6-0ceea3298de6")
 		)
 		(fp_line
-			(start -1.95 1.5)
-			(end 1.95 1.5)
+			(start -2.3 1.51)
+			(end 2.3 1.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "4073434f-630b-4dcc-ba77-9ff3694ee48e")
+			(uuid "5c18d6c8-390b-49a5-943d-04bc83add562")
 		)
 		(fp_line
-			(start -2.2 -1.75)
-			(end -2.2 1.75)
+			(start -2.55 -1.65)
+			(end -2.55 1.65)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c34f3495-1370-4564-b35e-54a1bba648ff")
+			(uuid "45ad573b-37b7-497a-a41c-19d34be6ad99")
 		)
 		(fp_line
-			(start -2.2 1.75)
-			(end 2.2 1.75)
+			(start -2.55 1.65)
+			(end 2.55 1.65)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "37c0cada-e14e-42bc-b1af-76d927ec4223")
+			(uuid "d95a2d22-7e9e-46e0-bc81-ecf738c80467")
 		)
 		(fp_line
-			(start 2.2 -1.75)
-			(end -2.2 -1.75)
+			(start 2.55 -1.65)
+			(end -2.55 -1.65)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "c4d361e7-1096-48ee-ae2c-ae0539ef064a")
+			(uuid "c26dcc11-3120-46d6-9065-1757e36d50c1")
 		)
 		(fp_line
-			(start 2.2 1.75)
-			(end 2.2 -1.75)
+			(start 2.55 1.65)
+			(end 2.55 -1.65)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b40990e4-37d7-46fd-ae0e-fc58bebfea9c")
+			(uuid "49613b48-cee5-4ad5-8ac2-a2ccc36a0dc8")
 		)
 		(fp_line
 			(start -1.6 -1.4)
@@ -11567,7 +11559,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5a0c6aab-6472-422d-8697-6244a3165b5a")
+			(uuid "393cb76e-01ca-4e0c-b091-407db239e406")
 		)
 		(fp_line
 			(start -1.6 1.4)
@@ -11577,7 +11569,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "f711cdf0-ac2b-4d88-93d5-6e53faba2e80")
+			(uuid "2b37f01b-0a97-42fd-805f-f19561be36e9")
 		)
 		(fp_line
 			(start -0.6 -1.4)
@@ -11587,7 +11579,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "59ade4ed-7c58-4970-9798-1c0e6c8881e9")
+			(uuid "2a3112d8-aee9-49cd-818f-0ad78584f512")
 		)
 		(fp_line
 			(start 1.6 -1.4)
@@ -11597,7 +11589,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1c75d5b6-ec23-4f34-8a52-1103cbf2a2a5")
+			(uuid "31fbd287-863d-4da3-82e2-f094a0fc8cd8")
 		)
 		(fp_line
 			(start 1.6 1.4)
@@ -11607,7 +11599,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "6dc826dc-6f57-4c1c-a977-224f5bf8e0d5")
+			(uuid "548a75ed-9db2-474e-8065-a4d3cbf39f71")
 		)
 		(fp_circle
 			(center 0 0)
@@ -11618,12 +11610,12 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "78aa4b87-addd-4495-926d-cef5cfab80cf")
+			(uuid "3e3fc11d-59c2-4fda-b892-0605f893fcc0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.08 1.32 0)
+			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "2bdb8d86-e45f-4bff-a870-447119fd9da0")
+			(uuid "f62fc609-5aba-49d7-ae76-06e546599d76")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -11632,42 +11624,42 @@
 			)
 		)
 		(pad "1" smd rect
-			(at -1.25 -0.7)
-			(size 1 0.8)
+			(at 1.55 -0.7)
+			(size 1.5 0.9)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 23 "Net-(D8-RK)")
 			(pinfunction "RK")
 			(pintype "passive")
-			(uuid "ca1c141f-c9c9-4c46-8c99-a277881543f5")
+			(uuid "02b931b0-3b4b-4978-9ade-d43eedc79a8e")
 		)
 		(pad "2" smd rect
-			(at -1.25 0.7)
-			(size 1 0.8)
+			(at 1.55 0.7)
+			(size 1.5 0.9)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 21 "Net-(D8-GK)")
 			(pinfunction "GK")
 			(pintype "passive")
-			(uuid "5ad97fb4-f363-413e-be8e-97e775083cba")
+			(uuid "e65366c4-502a-437b-a5b9-6859ec4da8e7")
 		)
 		(pad "3" smd rect
-			(at 1.25 0.7)
-			(size 1 0.8)
+			(at -1.55 -0.7)
+			(size 1.5 0.9)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 22 "Net-(D8-BK)")
 			(pinfunction "BK")
 			(pintype "passive")
-			(uuid "c646b1a9-b73f-48ec-9b19-26b97de143de")
+			(uuid "fe5014cf-7fb8-4364-ae13-a92e4c8faac7")
 		)
 		(pad "4" smd rect
-			(at 1.25 -0.7)
-			(size 1 0.8)
+			(at -1.55 0.7)
+			(size 1.5 0.9)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(net 2 "VDD_3V3")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "8ffaefd6-d383-46e6-851d-122002f45463")
+			(uuid "2f1ef58b-9134-45aa-908e-f650222b79fb")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_Cree-PLCC4_3.2x2.8mm_CCW.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11676,17 +11668,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-		(model "${KIPRJMOD}/packages3D/LED_3528_RGB.STEP"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 0 0)
 			)
 		)
 	)
