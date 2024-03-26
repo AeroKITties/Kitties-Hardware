@@ -6583,22 +6583,22 @@
 	)
 	(global_label "SD_CD"
 		(shape input)
-		(at 110.49 150.495 0)
+		(at 51.435 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "08b6b25e-bfd3-4056-b95c-62b96a1d7294")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.4623 150.495 0)
+			(at 42.4627 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7089,7 +7089,7 @@
 	)
 	(global_label "LED4"
 		(shape input)
-		(at 110.49 181.61 0)
+		(at 86.995 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7099,7 +7099,7 @@
 		)
 		(uuid "6a55e106-e666-461d-84f2-563253b6636e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.1318 181.61 0)
+			(at 94.6368 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)

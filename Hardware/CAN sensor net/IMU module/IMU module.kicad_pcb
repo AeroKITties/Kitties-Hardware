@@ -1337,11 +1337,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "17695ead-e807-4eb4-b0a9-958406b8cd66")
-		(at 112.2925 58.935)
+		(at 112.2925 58.935 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R13"
-			(at 0 -1.43 0)
+			(at 0 -1.43 180)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "9e490f3a-422f-4102-ae8b-0dd74db665e1")
@@ -1353,7 +1353,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 0 1.43 0)
+			(at 0 1.43 180)
 			(layer "F.Fab")
 			(uuid "ed25bab2-8ca8-4a83-b0f0-f5c476247330")
 			(effects
@@ -1364,7 +1364,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1376,7 +1376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1388,7 +1388,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -1405,16 +1405,6 @@
 		(sheetfile "IMU module.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.237258 -0.5225)
-			(end 0.237258 -0.5225)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6cd9ee2b-b3a9-46d2-9d0d-51db03c280a9")
-		)
-		(fp_line
 			(start -0.237258 0.5225)
 			(end 0.237258 0.5225)
 			(stroke
@@ -1425,34 +1415,14 @@
 			(uuid "7b69a3ea-5f2d-4399-b0a8-274cdd960b3e")
 		)
 		(fp_line
-			(start -1.48 -0.73)
-			(end 1.48 -0.73)
+			(start -0.237258 -0.5225)
+			(end 0.237258 -0.5225)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "ff2ff681-77ac-4a48-81d6-a6506c6c98d5")
-		)
-		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "227b9078-ccb7-4334-89b9-9a7d25b9dc0d")
-		)
-		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7c82fb2a-af8f-40f1-8a66-9895749ea2bc")
+			(layer "F.SilkS")
+			(uuid "6cd9ee2b-b3a9-46d2-9d0d-51db03c280a9")
 		)
 		(fp_line
 			(start 1.48 0.73)
@@ -1465,24 +1435,44 @@
 			(uuid "1d6953e7-de31-4d8c-83f2-21caf75eab8a")
 		)
 		(fp_line
-			(start -0.8 -0.4125)
-			(end 0.8 -0.4125)
+			(start 1.48 -0.73)
+			(end 1.48 0.73)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "4c80d848-bfd2-4acd-89cc-082b3446124e")
+			(layer "F.CrtYd")
+			(uuid "7c82fb2a-af8f-40f1-8a66-9895749ea2bc")
 		)
 		(fp_line
-			(start -0.8 0.4125)
-			(end -0.8 -0.4125)
+			(start -1.48 0.73)
+			(end -1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "227b9078-ccb7-4334-89b9-9a7d25b9dc0d")
+		)
+		(fp_line
+			(start -1.48 -0.73)
+			(end 1.48 -0.73)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ff2ff681-77ac-4a48-81d6-a6506c6c98d5")
+		)
+		(fp_line
+			(start 0.8 0.4125)
+			(end -0.8 0.4125)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "86ef7ec0-ce37-4144-ae97-44d594884cfc")
+			(uuid "df1b15d7-21b5-4a08-b0a6-20165d466a6c")
 		)
 		(fp_line
 			(start 0.8 -0.4125)
@@ -1495,17 +1485,27 @@
 			(uuid "82effd40-c0bb-40b0-9320-62d59072f57d")
 		)
 		(fp_line
-			(start 0.8 0.4125)
-			(end -0.8 0.4125)
+			(start -0.8 0.4125)
+			(end -0.8 -0.4125)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "df1b15d7-21b5-4a08-b0a6-20165d466a6c")
+			(uuid "86ef7ec0-ce37-4144-ae97-44d594884cfc")
+		)
+		(fp_line
+			(start -0.8 -0.4125)
+			(end 0.8 -0.4125)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4c80d848-bfd2-4acd-89cc-082b3446124e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(uuid "91f54013-0e25-4716-a4eb-0127697396ee")
 			(effects
@@ -1516,7 +1516,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.825 0)
+			(at -0.825 0 180)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -1525,7 +1525,7 @@
 			(uuid "7d1b7991-de3f-47d0-a289-e8faf5f2c288")
 		)
 		(pad "2" smd roundrect
-			(at 0.825 0)
+			(at 0.825 0 180)
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
@@ -1548,7 +1548,7 @@
 	(footprint "user_lib:LGA-14_2.5x3x0.91mm"
 		(layer "F.Cu")
 		(uuid "194c3793-0196-4d22-9689-67252967ae3c")
-		(at 139.4145 90.343)
+		(at 139.776 88.975)
 		(property "Reference" "U7"
 			(at 0 2.794 0)
 			(unlocked yes)
@@ -3710,7 +3710,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "303dcd82-0b56-4877-8588-84cdc93ccab4")
-		(at 121.6 64.6)
+		(at 122.38 63.635)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP2"
@@ -6185,7 +6185,7 @@
 	(footprint "user_lib:LGA-16_3x4.5x0.95mm"
 		(layer "F.Cu")
 		(uuid "4e5fa273-914d-48ef-86be-af28463104c9")
-		(at 139.6685 79.323)
+		(at 139.688 79.631)
 		(property "Reference" "U6"
 			(at 0 4.064 0)
 			(unlocked yes)
@@ -7013,7 +7013,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "588dd516-da74-4868-b47c-ef30d13fefa7")
-		(at 129.4 64.8)
+		(at 129.845 68.346)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP11"
@@ -8226,7 +8226,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "601c7156-41e6-49ef-8590-c6915df72b84")
-		(at 123 66.2)
+		(at 125.698 65.05)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP6"
@@ -8339,7 +8339,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "631f738b-a5e7-4355-a268-0df753c69a93")
-		(at 128.2 63)
+		(at 122.045 68.219)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP10"
@@ -8874,7 +8874,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "6a6fce48-d934-433f-8633-4c369b30f353")
-		(at 120.2 63)
+		(at 120.98 62.035)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP1"
@@ -11132,7 +11132,7 @@
 	(footprint "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm"
 		(layer "F.Cu")
 		(uuid "8ff20ff6-97d9-47e1-8fa0-9a8cb6750163")
-		(at 139.7 85.2)
+		(at 139.738 84.919)
 		(descr "24-Lead Plastic QFN (3mm x 3mm); Pitch 0.4mm; EP 1.7x1.54mm; for InvenSense motion sensors; keepout area marked (Package see: https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf; See also https://www.invensense.com/wp-content/uploads/2015/02/InvenSense-MEMS-Handling.pdf)")
 		(tags "QFN 0.4")
 		(property "Reference" "U8"
@@ -11606,7 +11606,7 @@
 			)
 			(polygon
 				(pts
-					(xy 138.825 84.405) (xy 140.575 84.405) (xy 140.575 85.995) (xy 138.825 85.995)
+					(xy 138.863 84.124) (xy 140.613 84.124) (xy 140.613 85.714) (xy 138.863 85.714)
 				)
 			)
 		)
@@ -11904,7 +11904,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "94f658c8-5c16-4515-b316-8a37fcf319d0")
-		(at 128.2 66.6)
+		(at 127.972 65.6)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP12"
@@ -12017,7 +12017,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "95c0f7fe-9189-44e9-bff8-8ae6d2fafab3")
-		(at 120 66)
+		(at 120.312 63.995)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP3"
@@ -12552,7 +12552,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "a4781e7e-f4a9-4056-8f8b-25c41624de95")
-		(at 124.4 64.6)
+		(at 127.098 63.45)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP5"
@@ -15774,7 +15774,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "e26855b0-de6a-44d5-aab2-1b21b7eff48d")
-		(at 123 63)
+		(at 129.788 63.607)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP4"
@@ -16617,7 +16617,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "e7640454-ce9c-4e36-96d4-296699dc7c8c")
-		(at 125.8 63.025)
+		(at 129.172 61.612)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP7"
@@ -18740,7 +18740,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "fe4f96fd-5ecd-42c8-8dfc-aaeaf19a485a")
-		(at 125.6 66.4)
+		(at 126.169 68.151)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP9"
@@ -18853,7 +18853,7 @@
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
 		(layer "F.Cu")
 		(uuid "ff497d69-e584-439e-9969-9a50986c3e16")
-		(at 127 64.8)
+		(at 124.112 68.082)
 		(descr "SMD pad as test Point, diameter 1.0mm")
 		(tags "test point SMD pad")
 		(property "Reference" "TP8"
