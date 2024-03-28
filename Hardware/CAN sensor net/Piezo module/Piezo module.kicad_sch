@@ -3707,9 +3707,9 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -5.08 -2.54 0)
-					(length 2.54) hide
+				(pin output line
+					(at 0 6.35 270)
+					(length 2.54)
 					(name "MP"
 						(effects
 							(font
@@ -6399,7 +6399,7 @@
 	)
 	(global_label "ADDR_4"
 		(shape input)
-		(at 49.53 104.775 180)
+		(at 49.53 137.795 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6409,7 +6409,7 @@
 		)
 		(uuid "1ae5a21c-bc6c-4877-8206-2a71b4b8613b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.4691 104.775 0)
+			(at 39.4691 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6597,7 +6597,7 @@
 	)
 	(global_label "ADDR_0"
 		(shape input)
-		(at 229.235 114.935 180)
+		(at 229.235 127.635 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6607,7 +6607,7 @@
 		)
 		(uuid "378870e7-2eb8-426a-a261-7267fc696244")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.1741 114.935 0)
+			(at 219.1741 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6641,7 +6641,7 @@
 	)
 	(global_label "ADDR_3"
 		(shape input)
-		(at 229.235 124.46 180)
+		(at 229.235 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6651,7 +6651,7 @@
 		)
 		(uuid "3983739f-348c-4a68-a6f9-4ff1ef7f55a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.1741 124.46 0)
+			(at 219.1741 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6707,7 +6707,7 @@
 	)
 	(global_label "ADDR_0"
 		(shape input)
-		(at 49.53 137.795 180)
+		(at 49.53 104.775 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6717,7 +6717,7 @@
 		)
 		(uuid "3f5f4e15-0b1a-4387-9cee-7e442fd311d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.4691 137.795 0)
+			(at 39.4691 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7015,7 +7015,7 @@
 	)
 	(global_label "ADDR_1"
 		(shape input)
-		(at 49.53 140.335 180)
+		(at 49.53 145.415 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7025,7 +7025,7 @@
 		)
 		(uuid "76e9f3b6-eb70-4710-860a-0f8d95d1c5b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.4691 140.335 0)
+			(at 39.4691 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7191,7 +7191,7 @@
 	)
 	(global_label "ADDR_4"
 		(shape input)
-		(at 229.235 127.635 180)
+		(at 229.235 114.935 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7201,7 +7201,7 @@
 		)
 		(uuid "90bfb6f0-2919-4ab2-88f5-3dbffbb175f2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.1741 127.635 0)
+			(at 219.1741 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7257,7 +7257,7 @@
 	)
 	(global_label "ADDR_3"
 		(shape input)
-		(at 49.53 145.415 180)
+		(at 49.53 140.335 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7267,7 +7267,7 @@
 		)
 		(uuid "9bdead3f-a23b-4c9d-893a-6f56e591aa32")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.4691 145.415 0)
+			(at 39.4691 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7543,7 +7543,7 @@
 	)
 	(global_label "ADDR_1"
 		(shape input)
-		(at 229.235 118.11 180)
+		(at 229.235 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7553,7 +7553,7 @@
 		)
 		(uuid "e8e50aca-5506-4b2c-99a6-a3924ea394ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.1741 118.11 0)
+			(at 219.1741 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8956,6 +8956,72 @@
 			(project "Piezo module"
 				(path "/0a58466e-2312-402a-82c7-7de62fe91dff"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 130.81 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ac854df-4e11-4a17-b6dd-0e4813e349cc")
+		(property "Reference" "#PWR029"
+			(at 130.81 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eded27c6-3988-4a5e-938c-693cae4710fb")
+		)
+		(instances
+			(project "Piezo module"
+				(path "/0a58466e-2312-402a-82c7-7de62fe91dff"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)

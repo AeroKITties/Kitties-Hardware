@@ -260,9 +260,9 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -5.08 -10.16 0)
-					(length 2.54) hide
+				(pin output line
+					(at 0 -11.43 90)
+					(length 2.54)
 					(name "MP"
 						(effects
 							(font
@@ -803,9 +803,9 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -5.08 -5.08 0)
-					(length 2.54) hide
+				(pin output line
+					(at 0 6.35 270)
+					(length 2.54)
 					(name "MP"
 						(effects
 							(font
@@ -1078,9 +1078,9 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at -5.08 -10.16 0)
-					(length 2.54) hide
+				(pin output line
+					(at 0 -11.43 90)
+					(length 2.54)
 					(name "MP"
 						(effects
 							(font
@@ -2351,7 +2351,7 @@
 	)
 	(wire
 		(pts
-			(xy 202.565 55.88) (xy 202.565 52.705)
+			(xy 202.565 56.515) (xy 202.565 52.705)
 		)
 		(stroke
 			(width 0)
@@ -2471,7 +2471,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 81.915) (xy 194.31 84.455)
+			(xy 194.31 81.915) (xy 194.31 85.725)
 		)
 		(stroke
 			(width 0)
@@ -2841,7 +2841,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.815 55.88) (xy 170.815 52.705)
+			(xy 170.815 56.515) (xy 170.815 52.705)
 		)
 		(stroke
 			(width 0)
@@ -5045,6 +5045,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 214.63 56.515 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16588b97-672d-4a81-9bfb-8795e25fb6b3")
+		(property "Reference" "#PWR026"
+			(at 214.63 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb8c447f-c372-44b5-bd87-57a4738dbcce")
+		)
+		(instances
+			(project "Piezo module"
+				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 32.385 67.945 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5329,6 +5394,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 182.88 56.515 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36608419-637f-41f4-b1a1-987e4500f19f")
+		(property "Reference" "#PWR025"
+			(at 182.88 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c881768-eec2-44bc-9c7b-a0a6b555cd4a")
+		)
+		(instances
+			(project "Piezo module"
+				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 131.445 63.5 0)
@@ -5397,7 +5527,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 194.31 84.455 0)
+		(at 194.31 85.725 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5405,7 +5535,7 @@
 		(dnp no)
 		(uuid "4f0d37a3-5a69-46d4-b688-da799fd83574")
 		(property "Reference" "#PWR018"
-			(at 194.31 90.805 0)
+			(at 194.31 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5414,7 +5544,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 88.265 0)
+			(at 194.31 89.535 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,7 +5552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 84.455 0)
+			(at 194.31 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5431,7 +5561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 84.455 0)
+			(at 194.31 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5440,7 +5570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 84.455 0)
+			(at 194.31 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5606,7 +5736,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.815 55.88 0)
+		(at 170.815 56.515 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5614,7 +5744,7 @@
 		(dnp no)
 		(uuid "6b0cb08d-d74b-4057-b1cf-85ab28aa6a7b")
 		(property "Reference" "#PWR013"
-			(at 170.815 62.23 0)
+			(at 170.815 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5623,7 +5753,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.815 59.69 0)
+			(at 170.815 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5631,7 +5761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.815 55.88 0)
+			(at 170.815 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5640,7 +5770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.815 55.88 0)
+			(at 170.815 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5649,7 +5779,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.815 55.88 0)
+			(at 170.815 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5671,7 +5801,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 202.565 55.88 0)
+		(at 202.565 56.515 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5679,7 +5809,7 @@
 		(dnp no)
 		(uuid "76e4bd08-0ea0-4d12-b1bb-459b9f17ecae")
 		(property "Reference" "#PWR014"
-			(at 202.565 62.23 0)
+			(at 202.565 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5688,7 +5818,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 202.565 59.69 0)
+			(at 202.565 60.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5696,7 +5826,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 202.565 55.88 0)
+			(at 202.565 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +5835,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 202.565 55.88 0)
+			(at 202.565 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5714,7 +5844,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 202.565 55.88 0)
+			(at 202.565 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6028,6 +6158,72 @@
 			(project "Piezo module"
 				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 201.295 85.725 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f616c6cf-55f9-4e95-9855-65014a799478")
+		(property "Reference" "#PWR027"
+			(at 201.295 92.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.295 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.295 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.295 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.295 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75e9629f-241a-42b0-a2cc-3b6c35892314")
+		)
+		(instances
+			(project "Piezo module"
+				(path "/0a58466e-2312-402a-82c7-7de62fe91dff/33325e08-e21c-439d-a7db-dde9f8ca3ce6"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
