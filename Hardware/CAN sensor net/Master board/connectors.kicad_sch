@@ -5,6 +5,281 @@
 	(uuid "b2329282-1d13-4ccf-b6dc-400a369816e5")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Conn_01x06_1"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J5"
+				(at 3.175 0.0001 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "532610671"
+				(at 3.175 -2.5399 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -11.43 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Micro_SD_Card_Det1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -730,23 +1005,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
+			(property "Reference" "J7"
+				(at 3.175 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
+			(property "Value" "530470310"
+				(at 3.175 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -890,6 +1167,24 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
 		(symbol "Connector_Generic:Conn_01x06"
@@ -898,23 +1193,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
+			(property "Reference" "J6"
+				(at 3.175 0.0001 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Conn_01x06"
-				(at 0 -10.16 0)
+			(property "Value" "532610671"
+				(at 3.175 -2.5399 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1138,6 +1435,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -11.43 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2913,7 +3228,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.285 103.505) (xy 121.285 106.045)
+			(xy 121.285 103.505) (xy 121.285 107.315)
 		)
 		(stroke
 			(width 0)
@@ -3093,7 +3408,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 111.125) (xy 160.02 107.95)
+			(xy 160.02 111.76) (xy 160.02 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3393,7 +3708,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.215 111.125) (xy 196.215 107.95)
+			(xy 196.215 111.76) (xy 196.215 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4872,6 +5187,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Conn_01x06_1")
 		(lib_id "Connector_Generic:Conn_01x06")
 		(at 172.085 100.33 0)
 		(unit 1)
@@ -4942,6 +5258,9 @@
 		)
 		(pin "1"
 			(uuid "38689ac4-051c-458d-8237-d941bd4cc93e")
+		)
+		(pin "MP"
+			(uuid "e1063538-d88d-4f12-a830-6a7995d04e15")
 		)
 		(instances
 			(project "Master board"
@@ -5236,15 +5555,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 111.125 0)
+		(at 208.28 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "633e7543-16d4-49ed-9769-85457f128280")
-		(property "Reference" "#PWR014"
-			(at 160.02 117.475 0)
+		(uuid "5b18a338-850b-42ae-a910-254550323bf4")
+		(property "Reference" "#PWR020"
+			(at 208.28 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5253,7 +5572,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 114.935 0)
+			(at 208.28 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5261,7 +5580,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 111.125 0)
+			(at 208.28 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5270,7 +5589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 111.125 0)
+			(at 208.28 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5279,7 +5598,72 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 111.125 0)
+			(at 208.28 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "945b09ee-fb69-4819-a78e-cba600467aa4")
+		)
+		(instances
+			(project "Master board"
+				(path "/11ca9491-ebda-4c18-be98-3e552caaabb4/b817a2d8-bdd2-4de0-9d33-c531bafe0dc5"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 160.02 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "633e7543-16d4-49ed-9769-85457f128280")
+		(property "Reference" "#PWR014"
+			(at 160.02 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 160.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 160.02 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 160.02 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5893,6 +6277,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 172.085 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4f834be-d8b0-4e55-a063-2899cf07ad16")
+		(property "Reference" "#PWR010"
+			(at 172.085 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.085 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.085 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.085 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.085 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5d28244f-e53c-4906-9998-06be6c2097c4")
+		)
+		(instances
+			(project "Master board"
+				(path "/11ca9491-ebda-4c18-be98-3e552caaabb4/b817a2d8-bdd2-4de0-9d33-c531bafe0dc5"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_B_Micro")
 		(at 172.085 52.07 0)
 		(unit 1)
@@ -5974,7 +6423,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 121.285 106.045 0)
+		(at 121.285 107.315 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5982,7 +6431,7 @@
 		(dnp no)
 		(uuid "d8bb320e-e589-45a1-9d58-4929a74ad3c2")
 		(property "Reference" "#PWR09"
-			(at 121.285 112.395 0)
+			(at 121.285 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5991,7 +6440,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.285 109.855 0)
+			(at 121.285 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5999,7 +6448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.285 106.045 0)
+			(at 121.285 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6008,7 +6457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.285 106.045 0)
+			(at 121.285 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6017,7 +6466,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.285 106.045 0)
+			(at 121.285 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6039,7 +6488,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.215 111.125 0)
+		(at 196.215 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6047,7 +6496,7 @@
 		(dnp no)
 		(uuid "dcb40ea2-ac37-4e40-8d46-044178a93d62")
 		(property "Reference" "#PWR015"
-			(at 196.215 117.475 0)
+			(at 196.215 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +6505,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.215 114.935 0)
+			(at 196.215 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6064,7 +6513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.215 111.125 0)
+			(at 196.215 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6073,7 +6522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.215 111.125 0)
+			(at 196.215 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6531,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.215 111.125 0)
+			(at 196.215 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,6 +6623,9 @@
 		(pin "1"
 			(uuid "e4d519b6-748d-4f18-898d-04eb124a1bd1")
 		)
+		(pin "MP"
+			(uuid "16b1b57d-7cad-4429-868b-c419217e7458")
+		)
 		(instances
 			(project "Master board"
 				(path "/11ca9491-ebda-4c18-be98-3e552caaabb4/b817a2d8-bdd2-4de0-9d33-c531bafe0dc5"
@@ -6249,6 +6701,72 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 128.27 107.315 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dff3aaad-ffda-414e-8819-197072943895")
+		(property "Reference" "#PWR021"
+			(at 128.27 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "766d48c3-72c2-4d61-8514-2fd7c2aa958a")
+		)
+		(instances
+			(project "Master board"
+				(path "/11ca9491-ebda-4c18-be98-3e552caaabb4/b817a2d8-bdd2-4de0-9d33-c531bafe0dc5"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 128.27 100.965 0)
 		(mirror x)
@@ -6311,6 +6829,9 @@
 		)
 		(pin "1"
 			(uuid "3c773274-dda1-4bba-97b4-0807d1b713c7")
+		)
+		(pin "MP"
+			(uuid "f748becf-d869-4dc3-bdb5-6b1f558fb608")
 		)
 		(instances
 			(project "Master board"
