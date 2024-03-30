@@ -3218,16 +3218,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.125 55.88) (xy 227.965 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "155728f8-86a5-460d-b403-08da88b8785d")
-	)
-	(wire
-		(pts
 			(xy 121.285 103.505) (xy 121.285 107.315)
 		)
 		(stroke
@@ -3275,6 +3265,16 @@
 			(type default)
 		)
 		(uuid "229b7000-c2c6-4813-b2d9-0c400927de30")
+	)
+	(wire
+		(pts
+			(xy 197.485 50.8) (xy 207.645 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2592f1e3-ffc7-43a7-bfe5-14eb0d76784b")
 	)
 	(wire
 		(pts
@@ -3495,6 +3495,16 @@
 			(type default)
 		)
 		(uuid "44db9686-e309-4bfa-b3e4-3838becf4035")
+	)
+	(wire
+		(pts
+			(xy 238.125 50.8) (xy 227.965 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45307257-ce5b-4c1b-851c-c106399015d4")
 	)
 	(polyline
 		(pts
@@ -3968,16 +3978,6 @@
 	)
 	(wire
 		(pts
-			(xy 197.485 55.88) (xy 207.645 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c179108e-0dcf-4c5a-819d-863ceca6e19f")
-	)
-	(wire
-		(pts
 			(xy 34.29 46.355) (xy 61.595 46.355)
 		)
 		(stroke
@@ -4388,24 +4388,24 @@
 		(uuid "b54c3422-1af3-4619-8236-5ff499283acd")
 	)
 	(label "usb_conn_d+"
-		(at 238.125 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "0d912cef-b7e5-4904-9119-ae020318c174")
-	)
-	(label "usb_conn_d-"
-		(at 197.485 55.88 0)
+		(at 197.485 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
 			)
 			(justify left bottom)
+		)
+		(uuid "0d912cef-b7e5-4904-9119-ae020318c174")
+	)
+	(label "usb_conn_d-"
+		(at 238.125 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify right bottom)
 		)
 		(uuid "99a01179-6251-4f45-a765-22b18e6c3a0a")
 	)
@@ -4741,22 +4741,22 @@
 	)
 	(global_label "USB_D+"
 		(shape input)
-		(at 227.965 50.8 0)
+		(at 207.645 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a82a632a-bd68-4e92-b499-763a540e92b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 238.5702 50.8 0)
+			(at 197.0398 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -4895,22 +4895,22 @@
 	)
 	(global_label "USB_D-"
 		(shape input)
-		(at 207.645 50.8 180)
+		(at 227.965 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d3ec963b-034b-4900-953d-758d802b691c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.0398 50.8 0)
+			(at 238.5702 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
