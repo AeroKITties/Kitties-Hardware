@@ -568,8 +568,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 9.398 0)
+			(property "Reference" "D1"
+				(at 0 -10.795 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -584,7 +584,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LED_SMD:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100"
 				(at 0 -1.27 0)
 				(effects
 					(font
@@ -1007,9 +1007,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "GK"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1043,9 +1043,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "A"
+					(name "GK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1898,6 +1898,506 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LED_RGBA_1"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D8"
+				(at 0 -10.795 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_RGBA"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED, red/green/blue/anode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED RGB diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_RGBA_1_0_0"
+				(text "B"
+					(at -1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "R"
+					(at -1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LED_RGBA_1_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 3.81)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.794 8.382)
+					(end -2.794 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LED_RGBA_1_1_1"
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name "RK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name "BK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "GK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6645,7 +7145,7 @@
 	)
 	(global_label "LED1_RGB_GREEN"
 		(shape input)
-		(at 86.995 157.48 0)
+		(at 86.995 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6655,7 +7155,7 @@
 		)
 		(uuid "108d65f4-0f4a-42a4-8497-e65df9681e64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.5505 157.48 0)
+			(at 106.5505 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6887,7 +7387,7 @@
 	)
 	(global_label "LED1_RGB_RED"
 		(shape input)
-		(at 86.995 160.02 0)
+		(at 86.995 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6897,7 +7397,7 @@
 		)
 		(uuid "4f00d3ce-03ac-4d13-90b5-d0547257641c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.071 160.02 0)
+			(at 104.071 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7239,7 +7739,7 @@
 	)
 	(global_label "LED2_RGB_GREEN"
 		(shape input)
-		(at 86.995 154.94 0)
+		(at 86.995 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7249,7 +7749,7 @@
 		)
 		(uuid "821195b3-2bbc-46c8-81da-49fa4cbfe30f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.5505 154.94 0)
+			(at 106.5505 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7305,7 +7805,7 @@
 	)
 	(global_label "LED1_RGB_RED"
 		(shape input)
-		(at 214.63 78.74 0)
+		(at 214.63 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7315,7 +7815,7 @@
 		)
 		(uuid "8fc71b08-f827-4522-89fd-a35009179478")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.706 78.74 0)
+			(at 231.706 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7657,7 +8157,7 @@
 	)
 	(global_label "LED3"
 		(shape input)
-		(at 86.995 134.62 0)
+		(at 86.995 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7667,7 +8167,7 @@
 		)
 		(uuid "bf5ad878-3115-4ad3-b630-a9700c7f9805")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.6368 134.62 0)
+			(at 94.6368 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7679,7 +8179,7 @@
 	)
 	(global_label "LED1_RGB_BLUE"
 		(shape input)
-		(at 214.63 68.58 0)
+		(at 214.63 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7689,7 +8189,7 @@
 		)
 		(uuid "c341197e-8682-4f19-89c5-1aeb557c61ea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.7946 68.58 0)
+			(at 232.7946 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7723,7 +8223,7 @@
 	)
 	(global_label "LED2_RGB_RED"
 		(shape input)
-		(at 86.995 162.56 0)
+		(at 86.995 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7733,7 +8233,7 @@
 		)
 		(uuid "ce3e2778-a651-4c31-add3-fe2762e105b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.071 162.56 0)
+			(at 104.071 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7965,7 +8465,7 @@
 	)
 	(global_label "LED2_RGB_BLUE"
 		(shape input)
-		(at 214.63 92.075 0)
+		(at 214.63 102.235 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7975,7 +8475,7 @@
 		)
 		(uuid "ee5ec7e1-11a5-4a65-a429-f09b9fdc8218")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.7946 92.075 0)
+			(at 232.7946 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8009,7 +8509,7 @@
 	)
 	(global_label "LED2_RGB_RED"
 		(shape input)
-		(at 214.63 102.235 0)
+		(at 214.63 92.075 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8019,7 +8519,7 @@
 		)
 		(uuid "f610a36d-d80a-457a-aa33-c70004182b59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.706 102.235 0)
+			(at 231.706 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8163,8 +8663,10 @@
 		)
 	)
 	(symbol
+		(lib_name "LED_RGBA_1")
 		(lib_id "Device:LED_RGBA")
-		(at 194.31 97.155 180)
+		(at 194.31 97.155 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8172,7 +8674,7 @@
 		(dnp no)
 		(uuid "03b4f570-1530-4acd-8cbb-0d6712df4678")
 		(property "Reference" "D8"
-			(at 194.31 86.36 0)
+			(at 194.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8180,15 +8682,15 @@
 			)
 		)
 		(property "Value" "LED_RGBA"
-			(at 194.31 88.265 0)
+			(at 194.31 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100"
-			(at 194.31 95.885 0)
+		(property "Footprint" "user_lib:LED_RGB_promelec"
+			(at 194.31 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8197,7 +8699,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 95.885 0)
+			(at 194.31 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11161,7 +11663,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED_RGBA")
-		(at 194.31 73.66 180)
+		(at 194.31 73.66 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11169,7 +11672,7 @@
 		(dnp no)
 		(uuid "cd3187b8-8f22-41df-bbd0-62d4817e7784")
 		(property "Reference" "D1"
-			(at 194.31 62.865 0)
+			(at 194.31 84.455 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11177,15 +11680,15 @@
 			)
 		)
 		(property "Value" "LED_RGBA"
-			(at 194.31 64.77 0)
+			(at 194.31 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100"
-			(at 194.31 72.39 0)
+		(property "Footprint" "user_lib:LED_RGB_promelec"
+			(at 194.31 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11194,7 +11697,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 72.39 0)
+			(at 194.31 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)

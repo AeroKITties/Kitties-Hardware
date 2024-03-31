@@ -1,0 +1,255 @@
+(footprint "LED_RGB_promelec"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "3.2mm x 2.8mm PLCC4 LED, https://www.we-online.de/katalog/datasheet/150141M173100.pdf")
+	(tags "LED RGB Wurth PLCC-4 3528")
+	(property "Reference" "D8"
+		(at 0 -2.4 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7b2ff432-1447-4fd3-8cc4-ce9b2920aa0f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_RGBA"
+		(at 0 2.5 180)
+		(layer "F.Fab")
+		(uuid "f9ea31dd-8ac8-4767-a8fe-2abe94ad7f3b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "LED_SMD:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa0a1d68-a953-4990-ae6e-86162995760a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e50089b9-119d-4dd3-a91a-7f6baac0a7e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "RGB LED, red/green/blue/anode"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef3dd3d2-e6c5-4685-960e-e8b7b72aebf2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.184 0.31)
+		(end -0.184 1.09)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "488a478e-6f28-4d27-b49a-f9ae3d0cb8a1")
+	)
+	(fp_line
+		(start 0.206 0.7)
+		(end -0.574 0.7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1b1ee4c8-5610-4ba8-a1e6-538db78638de")
+	)
+	(fp_line
+		(start 0.503 0)
+		(end -1.54 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "064f9174-7aba-4f70-a04a-3dcb9cf8966e")
+	)
+	(fp_line
+		(start 0.503 0)
+		(end 0.503 1.09)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "04644074-d63d-45bb-8251-5960ebbd6779")
+	)
+	(fp_line
+		(start -2.55 -1.65)
+		(end -2.55 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "558eeb62-7d7f-4fe9-a836-1e533c1aa536")
+	)
+	(fp_line
+		(start -2.55 1.65)
+		(end 2.55 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1619cd95-dbeb-4138-b699-81e2a4eaf53d")
+	)
+	(fp_line
+		(start 2.55 -1.65)
+		(end -2.55 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a4fd35e-5ee4-457e-8e52-7d3bb08e6b7a")
+	)
+	(fp_line
+		(start 2.55 1.65)
+		(end 2.55 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1430585c-077a-4af4-b6f4-ac9f10988801")
+	)
+	(fp_line
+		(start -1.6 -1.4)
+		(end -1.6 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9e18b16c-a3a4-40b2-98ab-420b308e09f3")
+	)
+	(fp_line
+		(start -1.6 1.4)
+		(end 1.6 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "994130bb-b9be-45f4-9982-c70fa94701b4")
+	)
+	(fp_line
+		(start 1.6 -1.4)
+		(end -1.6 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76d04819-8c99-4f12-8f03-69b11df1ceeb")
+	)
+	(fp_line
+		(start 1.6 0.4)
+		(end 0.6 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5ad24e6f-bd84-408b-952d-5252b871aad1")
+	)
+	(fp_line
+		(start 1.6 1.4)
+		(end 1.6 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "009cb545-951f-4e81-8f8c-23ecff87dd3a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.12 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "71baaafd-bcfb-4e86-91e3-b051f6c842d2")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "5f2b7253-a179-418c-8b25-7ca504e1614f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.55 0.7)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ec443ecb-3627-4a01-ba2d-72ae7bbf9d9c")
+	)
+	(pad "2" smd rect
+		(at -1.55 0.7)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fa847a55-2b48-4c84-805a-f67104e4548f")
+	)
+	(pad "3" smd rect
+		(at -1.55 -0.7)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "80d92686-bd3b-417e-8744-d19663383f41")
+	)
+	(pad "4" smd rect
+		(at 1.55 -0.7)
+		(size 1.5 0.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "467b99eb-e239-4999-93e0-5a9f35f46ce1")
+	)
+	(model "${KIPRJMOD}/packages3D/LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

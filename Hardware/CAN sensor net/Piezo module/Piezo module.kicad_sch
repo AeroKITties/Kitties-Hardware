@@ -670,8 +670,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
-				(at 0 9.398 0)
+			(property "Reference" "D2"
+				(at 0 -10.795 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -686,7 +686,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "LED_SMD:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100"
 				(at 0 -1.27 0)
 				(effects
 					(font
@@ -1109,9 +1109,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "GK"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1145,9 +1145,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "A"
+					(name "GK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6289,7 +6289,7 @@
 	)
 	(global_label "LED_RGB_RED"
 		(shape input)
-		(at 219.71 80.01 0)
+		(at 219.71 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6299,7 +6299,7 @@
 		)
 		(uuid "00dca6c1-54ee-4951-8378-b9a757484050")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 235.5765 80.01 0)
+			(at 235.5765 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6839,7 +6839,7 @@
 	)
 	(global_label "LED_RGB_BLUE"
 		(shape input)
-		(at 219.71 69.85 0)
+		(at 219.71 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6849,7 +6849,7 @@
 		)
 		(uuid "56be3b89-442e-4bbc-b418-0012236628cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.6651 69.85 0)
+			(at 236.6651 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7982,7 +7982,8 @@
 	)
 	(symbol
 		(lib_id "Device:LED_RGBA")
-		(at 199.39 74.93 180)
+		(at 199.39 74.93 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7990,7 +7991,7 @@
 		(dnp no)
 		(uuid "0f2639a8-abaf-4944-a2d7-8cc0cbfb0d6e")
 		(property "Reference" "D2"
-			(at 199.39 64.135 0)
+			(at 199.39 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7998,15 +7999,15 @@
 			)
 		)
 		(property "Value" "LED_RGBA"
-			(at 199.39 66.04 0)
+			(at 199.39 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100"
-			(at 199.39 73.66 0)
+		(property "Footprint" "user_lib:LED_RGB_promelec"
+			(at 199.39 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8015,7 +8016,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 73.66 0)
+			(at 199.39 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

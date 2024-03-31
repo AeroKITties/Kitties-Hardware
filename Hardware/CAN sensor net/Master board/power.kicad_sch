@@ -11508,7 +11508,7 @@
 				)
 			)
 		)
-		(property "Value" "RUEF300"
+		(property "Value" "MF-LSMF300/24X-2"
 			(at 130.175 65.405 90)
 			(effects
 				(font
@@ -11516,7 +11516,7 @@
 				)
 			)
 		)
-		(property "Footprint" "user_lib:RUEF300"
+		(property "Footprint" "Fuse:Fuse_2920_7451Metric"
 			(at 130.175 61.722 90)
 			(effects
 				(font
