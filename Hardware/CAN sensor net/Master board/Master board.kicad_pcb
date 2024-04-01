@@ -4183,7 +4183,7 @@
 			(pintype "passive")
 			(uuid "8f9a944b-978c-4298-815a-8c11dd090437")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Sunlord_MWSA0503S.wrl"
+		(model "${KIPRJMOD}/packages3D/L_Sunlord_MWSA0503S.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5605,7 +5605,7 @@
 				(xyz 0 0 0)
 			)
 		)
-		(model "C:/Users/user/Documents/GitHub/Flight-Controller/Hardware/Kicad 3D/fuse_2920.STEP"
+		(model "${KIPRJMOD}/packages3D/fuse_2920.STEP"
 			(offset
 				(xyz 0 0 0.9)
 			)
