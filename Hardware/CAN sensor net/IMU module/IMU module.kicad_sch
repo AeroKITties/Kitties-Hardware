@@ -3460,8 +3460,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
+			(property "Reference" "SW2"
+				(at 0 -8.255 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3469,14 +3469,14 @@
 				)
 			)
 			(property "Value" "SW_SPDT"
-				(at 0 -5.08 0)
+				(at 0 -5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3618,6 +3618,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4380,7 +4398,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.875 37.465) (xy 142.875 40.005)
+			(xy 142.875 37.465) (xy 142.875 41.275)
 		)
 		(stroke
 			(width 0)
@@ -8856,6 +8874,9 @@
 		(pin "1"
 			(uuid "7a4c8338-7542-48ac-bd7a-16cb3fe6fe28")
 		)
+		(pin "MP"
+			(uuid "bdf90a49-63f6-4506-963b-51ff6ce92e64")
+		)
 		(instances
 			(project "IMU module"
 				(path "/62238c1b-6f7a-4963-9d99-86e391606da3"
@@ -10071,7 +10092,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 142.875 40.005 0)
+		(at 142.875 41.275 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10079,7 +10100,7 @@
 		(dnp no)
 		(uuid "819326fd-bd15-492a-91fc-b9a4c47ede83")
 		(property "Reference" "#PWR02"
-			(at 142.875 46.355 0)
+			(at 142.875 47.625 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10088,7 +10109,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.875 43.815 0)
+			(at 142.875 45.085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10096,7 +10117,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.875 40.005 0)
+			(at 142.875 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10105,7 +10126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.875 40.005 0)
+			(at 142.875 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10114,7 +10135,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.875 40.005 0)
+			(at 142.875 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11853,6 +11874,72 @@
 			(project "IMU module"
 				(path "/62238c1b-6f7a-4963-9d99-86e391606da3"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 132.715 41.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea649c30-bbb6-4f40-b05c-e3f0a8fb0416")
+		(property "Reference" "#PWR026"
+			(at 132.715 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.715 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.715 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.715 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.715 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52b3a7f6-ea67-4585-bb88-8885b2363ece")
+		)
+		(instances
+			(project "IMU module"
+				(path "/62238c1b-6f7a-4963-9d99-86e391606da3"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)

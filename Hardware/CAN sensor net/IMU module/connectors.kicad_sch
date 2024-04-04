@@ -5,6 +5,281 @@
 	(uuid "2af5498b-6d64-46c9-9e8d-ac4f10838090")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Conn_01x06_1"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J2"
+				(at 3.175 0.0001 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "532610671"
+				(at 3.175 -2.5399 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -11.43 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:USB_B_Micro"
 			(pin_names
 				(offset 1.016)
@@ -366,23 +641,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
+			(property "Reference" "J4"
+				(at 3.175 1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
+			(property "Value" "530470310"
+				(at 3.175 -1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0371_1x03-1MP_P1.25mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -526,6 +803,24 @@
 						)
 					)
 				)
+				(pin input line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 		)
 		(symbol "Connector_Generic:Conn_01x06"
@@ -534,23 +829,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 7.62 0)
+			(property "Reference" "J1"
+				(at 3.175 0.0001 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Conn_01x06"
-				(at 0 -10.16 0)
+			(property "Value" "532610671"
+				(at 3.175 -2.5399 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0671_1x06-1MP_P1.25mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -774,6 +1071,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -11.43 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2046,7 +2361,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.085 54.61) (xy 172.085 51.435)
+			(xy 172.085 55.245) (xy 172.085 51.435)
 		)
 		(stroke
 			(width 0)
@@ -2206,7 +2521,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 80.01) (xy 194.31 82.55)
+			(xy 194.31 80.01) (xy 194.31 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2316,7 +2631,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.835 54.61) (xy 203.835 51.435)
+			(xy 203.835 55.245) (xy 203.835 51.435)
 		)
 		(stroke
 			(width 0)
@@ -2894,7 +3209,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.835 54.61 0)
+		(at 203.835 55.245 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2902,7 +3217,7 @@
 		(dnp no)
 		(uuid "01e14b90-fa51-4172-9f77-bd5ac0f24225")
 		(property "Reference" "#PWR013"
-			(at 203.835 60.96 0)
+			(at 203.835 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2911,7 +3226,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.835 58.42 0)
+			(at 203.835 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2919,7 +3234,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.835 54.61 0)
+			(at 203.835 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2928,7 +3243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.835 54.61 0)
+			(at 203.835 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2937,7 +3252,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.835 54.61 0)
+			(at 203.835 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,6 +3338,201 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 215.9 55.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3219ef58-3829-4bb3-96e1-25ed10044cd4")
+		(property "Reference" "#PWR028"
+			(at 215.9 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3bab9b0-66e4-48c9-9f47-677144cbef8a")
+		)
+		(instances
+			(project "IMU module"
+				(path "/62238c1b-6f7a-4963-9d99-86e391606da3/78b5b684-d926-4716-ab30-8bfd5bbd500c"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 184.15 55.245 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "415050db-1f01-4e0f-af5a-27bb250a9eca")
+		(property "Reference" "#PWR027"
+			(at 184.15 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 184.15 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.15 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe591f7d-f913-4ae5-b4fb-8b621da931f6")
+		)
+		(instances
+			(project "IMU module"
+				(path "/62238c1b-6f7a-4963-9d99-86e391606da3/78b5b684-d926-4716-ab30-8bfd5bbd500c"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.295 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48193d96-ebeb-49f6-a62f-e5f0bb5896b1")
+		(property "Reference" "#PWR029"
+			(at 201.295 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.295 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.295 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.295 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.295 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f40f3c1-4437-4853-990d-c52e3e39aa29")
+		)
+		(instances
+			(project "IMU module"
+				(path "/62238c1b-6f7a-4963-9d99-86e391606da3/78b5b684-d926-4716-ab30-8bfd5bbd500c"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_B_Micro")
 		(at 43.18 52.07 0)
 		(unit 1)
@@ -3102,6 +3612,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Conn_01x06_1")
 		(lib_id "Connector_Generic:Conn_01x06")
 		(at 215.9 43.815 0)
 		(unit 1)
@@ -3172,6 +3683,9 @@
 		)
 		(pin "1"
 			(uuid "0fa3a12a-5f0d-4f5d-a541-298f84130af6")
+		)
+		(pin "MP"
+			(uuid "23e08e7c-0ee4-4708-9471-029ec1506c0e")
 		)
 		(instances
 			(project "IMU module"
@@ -3253,7 +3767,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.085 54.61 0)
+		(at 172.085 55.245 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3261,7 +3775,7 @@
 		(dnp no)
 		(uuid "722ea9d2-c5f5-4154-a091-add5eec80ae9")
 		(property "Reference" "#PWR012"
-			(at 172.085 60.96 0)
+			(at 172.085 61.595 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,7 +3784,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.085 58.42 0)
+			(at 172.085 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3278,7 +3792,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.085 54.61 0)
+			(at 172.085 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3287,7 +3801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.085 54.61 0)
+			(at 172.085 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,7 +3810,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.085 54.61 0)
+			(at 172.085 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3513,6 +4027,9 @@
 		(pin "1"
 			(uuid "a0fc289e-ce94-499f-b9b6-59057b6ff878")
 		)
+		(pin "MP"
+			(uuid "99a52944-d902-40d1-99b8-7117ece5daa1")
+		)
 		(instances
 			(project "IMU module"
 				(path "/62238c1b-6f7a-4963-9d99-86e391606da3/78b5b684-d926-4716-ab30-8bfd5bbd500c"
@@ -3594,7 +4111,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 194.31 82.55 0)
+		(at 194.31 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3602,7 +4119,7 @@
 		(dnp no)
 		(uuid "c77790d2-caea-475b-ac46-e0cdc5c32518")
 		(property "Reference" "#PWR017"
-			(at 194.31 88.9 0)
+			(at 194.31 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3611,7 +4128,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 194.31 86.36 0)
+			(at 194.31 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3619,7 +4136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 82.55 0)
+			(at 194.31 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,7 +4145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 82.55 0)
+			(at 194.31 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3637,7 +4154,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 82.55 0)
+			(at 194.31 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,6 +4458,9 @@
 		)
 		(pin "1"
 			(uuid "d562f5b0-b5b3-44cd-b36f-3e5c2ea81c47")
+		)
+		(pin "MP"
+			(uuid "bb953d15-ac52-40bb-8f74-89b25b2c152b")
 		)
 		(instances
 			(project "IMU module"
