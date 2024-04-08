@@ -3889,7 +3889,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_PWR_GREEN"
+		(property "Value" "APT1608CGCK"
 			(at 254 85.6614 90)
 			(effects
 				(font
@@ -4558,7 +4558,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_PWR_GREEN"
+		(property "Value" "APT1608CGCK"
 			(at 207.01 85.6614 90)
 			(effects
 				(font
@@ -5019,7 +5019,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VDRI15_Reg"
+		(property "Value" "PWR_REG"
 			(at 133.35 93.345 0)
 			(effects
 				(font
@@ -5154,7 +5154,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_PWR_GREEN"
+		(property "Value" "APT1608CGCK"
 			(at 231.775 85.6614 90)
 			(effects
 				(font
@@ -5223,7 +5223,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VDV25_Reg"
+		(property "Value" "PWR_REG"
 			(at 129.54 43.18 0)
 			(effects
 				(font
@@ -6287,7 +6287,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VDV25_Reg"
+		(property "Value" "PWR_REG"
 			(at 129.54 50.8 0)
 			(effects
 				(font
@@ -6759,7 +6759,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VDRI15_Reg"
+		(property "Value" "PWR_REG"
 			(at 133.35 99.695 0)
 			(effects
 				(font

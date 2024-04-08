@@ -83,7 +83,7 @@
 	)
 	(sheet
 		(at 93.98 15.875)
-		(size 23.495 16.51)
+		(size 27.94 16.51)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -93,7 +93,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "38f8abb7-c4e6-4767-9ce6-9486933154ee")
-		(property "Sheetname" "Switches"
+		(property "Sheetname" "Switches_1"
 			(at 93.98 15.1634 0)
 			(effects
 				(font
@@ -102,7 +102,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "switches.kicad_sch"
+		(property "Sheetfile" "switches_1.kicad_sch"
 			(at 93.98 32.9696 0)
 			(effects
 				(font
@@ -152,7 +152,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d"
-					(page "6")
+					(page "9")
 				)
 			)
 		)
@@ -267,6 +267,82 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 124.46 15.875)
+		(size 23.495 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f0192a6c-39ea-409b-b3a4-616780c2a8a3")
+		(property "Sheetname" "Digital inputs 5V"
+			(at 124.46 15.1634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "digital_inputs.kicad_sch"
+			(at 124.46 32.9696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 38.1)
+		(size 27.94 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f8c6dd6a-e404-4019-a2ea-749009c88df2")
+		(property "Sheetname" "Switches_2"
+			(at 93.98 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switches_2.kicad_sch"
+			(at 93.98 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d"
+					(page "6")
 				)
 			)
 		)

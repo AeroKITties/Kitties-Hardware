@@ -438,11 +438,11 @@
     ],
     [
       "38f8abb7-c4e6-4767-9ce6-9486933154ee",
-      "Switches"
+      "Switches_1"
     ],
     [
-      "55d85deb-4ae6-4900-939b-1dd08916ec93",
-      "Encoders"
+      "f8c6dd6a-e404-4019-a2ea-749009c88df2",
+      "Switches_2"
     ],
     [
       "e2502236-aeb0-4ddd-871d-5a73d5946ae5",
@@ -451,6 +451,14 @@
     [
       "bb535897-f2f1-40b8-a983-287c6650a9b5",
       "ADC"
+    ],
+    [
+      "55d85deb-4ae6-4900-939b-1dd08916ec93",
+      "Encoders"
+    ],
+    [
+      "f0192a6c-39ea-409b-b3a4-616780c2a8a3",
+      "Digital inputs 5V"
     ]
   ],
   "text_variables": {}
