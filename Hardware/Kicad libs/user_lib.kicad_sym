@@ -917,7 +917,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "IP4220"
 			(at 4.572 -7.366 0)
 			(effects
 				(font

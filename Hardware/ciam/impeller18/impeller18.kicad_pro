@@ -600,7 +600,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -654,6 +654,10 @@
     [
       "d5004b66-19d0-4c06-b8a0-e12f1989cbec",
       "STM32 Peripherals"
+    ],
+    [
+      "c3c0fd22-6514-4a88-b2de-2515415ad3c7",
+      "Fan"
     ]
   ],
   "text_variables": {}
