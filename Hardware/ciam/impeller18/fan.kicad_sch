@@ -338,6 +338,175 @@
 				)
 			)
 		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -1568,6 +1737,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.335 97.79) (xy 140.335 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e39f13a-f778-42eb-b272-d098c0481b8c")
+	)
+	(wire
+		(pts
 			(xy 135.89 53.34) (xy 135.89 49.53)
 		)
 		(stroke
@@ -1625,6 +1804,16 @@
 			(type default)
 		)
 		(uuid "207a118d-6461-4a0b-bd1d-90183106df8e")
+	)
+	(wire
+		(pts
+			(xy 140.335 87.63) (xy 140.335 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "235afd2c-0dea-4bab-b3d4-07bb90e9325b")
 	)
 	(wire
 		(pts
@@ -1795,6 +1984,16 @@
 			(type default)
 		)
 		(uuid "92878d77-2779-42a2-9cae-3eae3a639f05")
+	)
+	(wire
+		(pts
+			(xy 140.335 80.01) (xy 140.335 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d76b463-cd33-49d4-a865-96af15044e8d")
 	)
 	(wire
 		(pts
@@ -1998,7 +2197,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0679fbb0-2517-4b2c-bf6a-1ea49c98618e")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0211"
 			(at 92.71 44.45 0)
 			(effects
 				(font
@@ -2048,7 +2247,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "#PWR0160")
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
@@ -2063,7 +2262,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "134cd19e-a4dd-40bc-8287-19f21dd88f79")
-		(property "Reference" "C88"
+		(property "Reference" "C105"
 			(at 110.49 90.805 0)
 			(effects
 				(font
@@ -2144,7 +2343,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "C88")
+					(reference "C105")
 					(unit 1)
 				)
 			)
@@ -2159,7 +2358,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1410ed18-29ec-4f7c-88a8-b5b274199ca2")
-		(property "Reference" "R230"
+		(property "Reference" "R248"
 			(at 69.85 51.435 90)
 			(effects
 				(font
@@ -2211,7 +2410,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "R230")
+					(reference "R248")
 					(unit 1)
 				)
 			)
@@ -2226,7 +2425,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2adc539d-2d69-4bba-8061-b2e3af6f7cbf")
-		(property "Reference" "#PWR0195"
+		(property "Reference" "#PWR0218"
 			(at 118.745 87.63 0)
 			(effects
 				(font
@@ -2276,7 +2475,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "#PWR0195")
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -2291,7 +2490,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66a9684c-9f8c-46db-9806-bc3214f55f28")
-		(property "Reference" "R229"
+		(property "Reference" "R247"
 			(at 113.03 45.72 0)
 			(effects
 				(font
@@ -2345,7 +2544,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "R229")
+					(reference "R247")
 					(unit 1)
 				)
 			)
@@ -2361,7 +2560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ca71bae-342a-4e48-ac66-6dfef1c38dcc")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0212"
 			(at 63.5 52.07 0)
 			(effects
 				(font
@@ -2411,7 +2610,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "#PWR0162")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
@@ -2426,7 +2625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "733727cf-c049-4543-b528-9d512f65ca5a")
-		(property "Reference" "#PWR0196"
+		(property "Reference" "#PWR0219"
 			(at 69.215 106.68 0)
 			(effects
 				(font
@@ -2476,7 +2675,76 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "#PWR0196")
+					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 140.335 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "747dabc3-edaa-4b4b-ac9a-5989c0acaf33")
+		(property "Reference" "D18"
+			(at 143.51 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FYLS-0603BUGC"
+			(at 143.51 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.335 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.335 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 140.335 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "da63be97-4a94-41e3-822e-10eac01607e5")
+		)
+		(pin "1"
+			(uuid "4870e86c-0756-4c22-b7ab-f3ee3b10aa9b")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -2491,7 +2759,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "821f24c5-2706-4736-a7da-725b20c51707")
-		(property "Reference" "#PWR0194"
+		(property "Reference" "#PWR0217"
 			(at 69.215 87.63 0)
 			(effects
 				(font
@@ -2541,7 +2809,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "#PWR0194")
+					(reference "#PWR0217")
 					(unit 1)
 				)
 			)
@@ -2557,7 +2825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98166c68-1d09-47fe-8f8c-a07e58eddb2c")
-		(property "Reference" "#PWR0173"
+		(property "Reference" "#PWR0213"
 			(at 135.89 53.34 0)
 			(effects
 				(font
@@ -2607,7 +2875,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "#PWR0173")
+					(reference "#PWR0213")
 					(unit 1)
 				)
 			)
@@ -2622,7 +2890,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9974644f-cddd-489b-8a2d-bac5e5cfa704")
-		(property "Reference" "#PWR0192"
+		(property "Reference" "#PWR0214"
 			(at 135.89 64.77 0)
 			(effects
 				(font
@@ -2672,7 +2940,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "#PWR0192")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -2687,7 +2955,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4ebeaa4-772c-41e4-8d36-5b867c5a7101")
-		(property "Reference" "C87"
+		(property "Reference" "C104"
 			(at 83.82 90.805 0)
 			(effects
 				(font
@@ -2768,7 +3036,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "C87")
+					(reference "C104")
 					(unit 1)
 				)
 			)
@@ -2783,7 +3051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ac055ff1-dede-4f13-9234-d9774b153665")
-		(property "Reference" "#PWR0193"
+		(property "Reference" "#PWR0215"
 			(at 92.71 67.945 0)
 			(effects
 				(font
@@ -2833,7 +3101,72 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "#PWR0193")
+					(reference "#PWR0215")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 140.335 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "afce180d-4e50-4c0f-92d8-2fcd12e86286")
+		(property "Reference" "#PWR0216"
+			(at 140.335 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5V0_FAN"
+			(at 140.335 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.335 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.335 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 140.335 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61f2e395-baec-4348-bcfb-a98683565a03")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
+					(reference "#PWR0216")
 					(unit 1)
 				)
 			)
@@ -2848,7 +3181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aff380e7-2b2f-4de5-8121-3ad930083b23")
-		(property "Reference" "U47"
+		(property "Reference" "U66"
 			(at 80.01 42.545 0)
 			(effects
 				(font
@@ -2917,7 +3250,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "U47")
+					(reference "U66")
 					(unit 1)
 				)
 			)
@@ -2933,7 +3266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9ea442a-33d9-4964-b556-f620b3c7c90f")
-		(property "Reference" "U64"
+		(property "Reference" "U67"
 			(at 96.52 80.01 0)
 			(effects
 				(font
@@ -3015,7 +3348,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "U64")
+					(reference "U67")
 					(unit 1)
 				)
 			)
@@ -3030,7 +3363,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddd36599-f074-45d1-b69d-d76c22287c77")
-		(property "Reference" "R228"
+		(property "Reference" "R246"
 			(at 104.775 45.72 0)
 			(effects
 				(font
@@ -3084,7 +3417,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "R228")
+					(reference "R246")
 					(unit 1)
 				)
 			)
@@ -3099,7 +3432,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dde7390c-2396-47a1-977f-cfd170e74e86")
-		(property "Reference" "C89"
+		(property "Reference" "C106"
 			(at 121.92 90.805 0)
 			(effects
 				(font
@@ -3180,7 +3513,72 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "C89")
+					(reference "C106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 140.335 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea396d64-0094-4899-9b09-ac0aae3b94ad")
+		(property "Reference" "#PWR0220"
+			(at 140.335 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_12V"
+			(at 140.335 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.335 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.335 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.335 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f18a1c42-f192-40fe-947b-46f1978d7ecc")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
+					(reference "#PWR0220")
 					(unit 1)
 				)
 			)
@@ -3196,7 +3594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eea4a384-a6f3-438b-8e41-664532009054")
-		(property "Reference" "J16"
+		(property "Reference" "J19"
 			(at 123.19 46.99 0)
 			(effects
 				(font
@@ -3254,7 +3652,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "J16")
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -3269,7 +3667,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f487ba35-b8b5-413a-ad3f-7881f280c7fd")
-		(property "Reference" "C25"
+		(property "Reference" "C103"
 			(at 72.39 90.805 0)
 			(effects
 				(font
@@ -3350,7 +3748,77 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "C25")
+					(reference "C103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 140.335 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc0afa7b-dcc2-4a40-b7be-511f6d9e946c")
+		(property "Reference" "R249"
+			(at 142.875 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150"
+			(at 142.875 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.335 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.335 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 140.335 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "060c64b5-b507-4df4-8907-b55a6691a610")
+		)
+		(pin "2"
+			(uuid "1aa6fff8-6e61-4075-8581-943cc3826f79")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
+					(reference "R249")
 					(unit 1)
 				)
 			)
