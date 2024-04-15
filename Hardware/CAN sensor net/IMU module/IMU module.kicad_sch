@@ -6763,7 +6763,7 @@
 	)
 	(global_label "SPI_MOSI"
 		(shape input)
-		(at -16.51 98.425 0)
+		(at 74.295 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6773,7 +6773,7 @@
 		)
 		(uuid "567b14e6-3a2c-429b-acfe-46e245a371d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -4.8767 98.425 0)
+			(at 85.9283 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7071,7 +7071,7 @@
 	)
 	(global_label "SPI_MISO"
 		(shape input)
-		(at -16.51 100.965 0)
+		(at 74.295 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7081,7 +7081,7 @@
 		)
 		(uuid "81803971-6da4-4f24-ba6a-ee598a6a3a04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -4.8767 100.965 0)
+			(at 85.9283 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7357,22 +7357,22 @@
 	)
 	(global_label "UART1_RX"
 		(shape input)
-		(at -16.51 144.145 0)
+		(at 41.275 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "b5b2de10-a094-495a-a166-0ddebb1035a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -4.2115 144.145 0)
+			(at 28.9765 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7599,7 +7599,7 @@
 	)
 	(global_label "SPI_CLK"
 		(shape input)
-		(at -16.51 95.885 0)
+		(at 74.295 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7609,7 +7609,7 @@
 		)
 		(uuid "cc1ee68a-8cd0-46d9-87c6-d2dd92c86466")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -5.9048 95.885 0)
+			(at 84.9002 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7885,22 +7885,22 @@
 	)
 	(global_label "UART1_TX"
 		(shape input)
-		(at -16.51 141.605 0)
+		(at 41.275 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "f7efa222-85c7-4dcf-8d50-36081ac2df55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -4.5139 141.605 0)
+			(at 29.2789 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
