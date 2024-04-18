@@ -2528,7 +2528,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP6"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4a13aef2-51f5-4e5b-8c8a-62f403147c8a")
@@ -2540,7 +2540,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 0 1.9 270)
+			(at 0 1.9 -90)
 			(layer "F.Fab")
 			(uuid "1107def2-4001-4833-87b4-5ade7dc5381d")
 			(effects
@@ -2796,7 +2796,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C3"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "7a72ac16-23b3-4315-9a00-f6e1560c2cd6")
@@ -2808,7 +2808,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f17f0663-dbba-448b-9f7c-7eb41315fd7a")
 			(effects
@@ -2960,7 +2960,7 @@
 			(uuid "12a54ba6-5691-4b44-aca5-24bc12dcdc9f")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6d65ead1-ac6f-4f60-a64a-2545ab319872")
 			(effects
@@ -9012,7 +9012,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP3"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "20b7083d-7473-4366-b856-9329de176060")
@@ -9024,7 +9024,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 0 1.9 270)
+			(at 0 1.9 -90)
 			(layer "F.Fab")
 			(uuid "5a04a830-709a-49c7-8bbe-af0f87feecb4")
 			(effects
@@ -9702,7 +9702,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP5"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "2fae1492-e4ab-4003-bdbd-5151adf8c360")
@@ -9714,7 +9714,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 0 1.9 270)
+			(at 0 1.9 -90)
 			(layer "F.Fab")
 			(uuid "e09cba25-d4e1-495e-8f93-efbc233c06cb")
 			(effects
@@ -11661,7 +11661,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5ca69d7c-4060-47ad-aaad-a707551557ed")
@@ -11673,7 +11673,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 0 1.9 270)
+			(at 0 1.9 -90)
 			(layer "F.Fab")
 			(uuid "fd018ea5-25e1-40aa-b326-98e8f3ee4c0d")
 			(effects
@@ -13924,7 +13924,7 @@
 		(descr "SOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178c.PDF variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U5"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c0ad2487-ccd6-461f-907b-8d5b8fefaa5d")
@@ -13936,7 +13936,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2SC6"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(uuid "826f0e30-bfaf-489a-8291-5cf2931904a1")
 			(effects
@@ -14130,7 +14130,7 @@
 			(uuid "84c60b38-7cb2-4657-81e0-885d32b82d84")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0a0f2642-c1c3-446b-af8c-bf5a8fd458b3")
 			(effects
@@ -14585,7 +14585,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP4"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "dfe6ce5d-72fb-41a0-8e8f-df7b6f136362")
@@ -14597,7 +14597,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 0 1.9 270)
+			(at 0 1.9 -90)
 			(layer "F.Fab")
 			(uuid "c66988ea-a5cb-4fb9-b92a-e1d6cac8d80c")
 			(effects
@@ -14853,7 +14853,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "19699592-1a53-41e6-a7c6-8d4289c52740")
@@ -14865,7 +14865,7 @@
 			)
 		)
 		(property "Value" "SolderJumper_2_Open"
-			(at 0 1.9 270)
+			(at 0 1.9 -90)
 			(layer "F.Fab")
 			(uuid "3d0b5695-ce1a-4465-a91c-bf16cacc976d")
 			(effects
@@ -17822,7 +17822,7 @@
 		(descr "LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "LQFP QFP")
 		(property "Reference" "U2"
-			(at 0 -5.85 360)
+			(at 0 -5.85 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cb1d9d7a-3200-4898-abfe-2cc02b45cdd9")
@@ -17834,7 +17834,7 @@
 			)
 		)
 		(property "Value" "STM32F103C8Tx"
-			(at 0 5.85 360)
+			(at 0 5.85 0)
 			(layer "F.Fab")
 			(uuid "64dcc599-0c42-473e-bbbe-add061a373cf")
 			(effects
@@ -18268,7 +18268,7 @@
 			(uuid "47f4f85b-e488-42cc-9b00-2080ed98a95a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "01799d5e-ca15-4140-9ad7-4f383c276775")
 			(effects
@@ -19006,6 +19006,18 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "19a6f100-1173-463c-b8bf-b4f9bc0720a2")
+	)
+	(gr_text "ОСИ"
+		(at 219.568 87.321 0)
+		(layer "F.Cu")
+		(uuid "490c3a8d-846a-48ed-bfe9-79baa3991dec")
+		(effects
+			(font
+				(size 20 20)
+				(thickness 2.5)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 196.188 105.8165)

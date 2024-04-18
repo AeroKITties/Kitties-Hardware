@@ -6369,6 +6369,36 @@
 		)
 		(uuid "ff985249-dc8a-4eb3-b9a0-fd1bc8695b86")
 	)
+	(text "большая красная кнопка???"
+		(exclude_from_sim no)
+		(at 328.295 159.385 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "136aebee-c7f0-4689-a338-b24682461dde")
+	)
+	(text "800/24\nАэрПит\nПитСис"
+		(exclude_from_sim no)
+		(at 300.355 159.385 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "18235ba0-ce09-481f-b40d-6f046b5363fb")
+	)
+	(text "АКБ1\nАКБ2\nАКБ3\nАКБ4\nОбщ-"
+		(exclude_from_sim no)
+		(at 299.72 136.525 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6fcb2c9b-dea3-423e-bf48-47f936638d84")
+	)
 	(label "SWITCH_3.8_EXT"
 		(at 240.665 161.925 0)
 		(fields_autoplaced yes)
