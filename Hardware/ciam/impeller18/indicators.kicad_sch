@@ -1020,6 +1020,175 @@
 				)
 			)
 		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -3116,6 +3285,16 @@
 	)
 	(wire
 		(pts
+			(xy 145.415 233.045) (xy 145.415 235.585)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41aae10e-32f3-4e8a-8acc-4cd6239603cb")
+	)
+	(wire
+		(pts
 			(xy 71.12 118.745) (xy 73.66 118.745)
 		)
 		(stroke
@@ -3633,6 +3812,16 @@
 			(type default)
 		)
 		(uuid "7a670efb-b6b0-4c5d-94c8-a3eee5920dbf")
+	)
+	(wire
+		(pts
+			(xy 145.415 225.425) (xy 145.415 227.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b1e492b-98d9-42b7-826e-76fa1cc956f6")
 	)
 	(wire
 		(pts
@@ -4173,6 +4362,16 @@
 			(type default)
 		)
 		(uuid "bf5c9beb-0de7-4ce6-8e6c-e165d2286b8e")
+	)
+	(wire
+		(pts
+			(xy 145.415 243.205) (xy 145.415 245.745)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0b709f3-d900-4812-a697-a01a4419dce8")
 	)
 	(wire
 		(pts
@@ -5587,7 +5786,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06e918dc-14d8-4043-8f6b-dab89afedfb3")
-		(property "Reference" "R145"
+		(property "Reference" "R169"
 			(at 51.435 76.835 90)
 			(effects
 				(font
@@ -5639,7 +5838,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R145")
+					(reference "R169")
 					(unit 1)
 				)
 			)
@@ -5655,7 +5854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b36f343-91ef-408f-ac3b-0f3e39f2f4b4")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0150"
 			(at 170.18 40.64 0)
 			(effects
 				(font
@@ -5705,7 +5904,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "#PWR0134")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -5720,7 +5919,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c4fed34-7e4e-44e6-94b3-0eb9acad39ee")
-		(property "Reference" "R144"
+		(property "Reference" "R168"
 			(at 186.055 64.135 90)
 			(effects
 				(font
@@ -5772,7 +5971,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R144")
+					(reference "R168")
 					(unit 1)
 				)
 			)
@@ -5787,7 +5986,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18b19a99-8dd6-4e35-adf7-90018bbf701d")
-		(property "Reference" "U38"
+		(property "Reference" "U44"
 			(at 63.5 88.9 0)
 			(effects
 				(font
@@ -5848,7 +6047,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U38")
+					(reference "U44")
 					(unit 1)
 				)
 			)
@@ -5863,7 +6062,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19f3c5d6-6037-469f-9c7d-d49afde0dfb6")
-		(property "Reference" "U36"
+		(property "Reference" "U42"
 			(at 63.5 76.2 0)
 			(effects
 				(font
@@ -5924,7 +6123,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U36")
+					(reference "U42")
 					(unit 1)
 				)
 			)
@@ -5940,7 +6139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d65409e-6041-492c-9a6f-7c07c474fa27")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0156"
 			(at 214.63 189.865 0)
 			(effects
 				(font
@@ -5990,7 +6189,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "#PWR0140")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -6005,7 +6204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20234458-7e97-4e61-9b55-c47e58a1418b")
-		(property "Reference" "U43"
+		(property "Reference" "U49"
 			(at 129.54 114.3 0)
 			(effects
 				(font
@@ -6066,7 +6265,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U43")
+					(reference "U49")
 					(unit 1)
 				)
 			)
@@ -6082,7 +6281,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28af2da0-fc22-42fa-8f12-50a8d65db6eb")
-		(property "Reference" "U68"
+		(property "Reference" "U54"
 			(at 90.805 224.155 0)
 			(effects
 				(font
@@ -6146,7 +6345,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U68")
+					(reference "U54")
 					(unit 1)
 				)
 			)
@@ -6162,7 +6361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2afd63db-a998-4d3a-aab1-321a99a81f58")
-		(property "Reference" "#PWR0223"
+		(property "Reference" "#PWR0158"
 			(at 77.47 231.14 0)
 			(effects
 				(font
@@ -6212,7 +6411,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "#PWR0223")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -6227,7 +6426,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f9eb104-6fe9-4293-96c4-f14ed017fa6a")
-		(property "Reference" "R140"
+		(property "Reference" "R164"
 			(at 117.475 51.435 90)
 			(effects
 				(font
@@ -6279,7 +6478,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R140")
+					(reference "R164")
 					(unit 1)
 				)
 			)
@@ -6294,7 +6493,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32646074-a7e3-40d5-bea1-a13d953eb915")
-		(property "Reference" "R156"
+		(property "Reference" "R180"
 			(at 117.475 140.335 90)
 			(effects
 				(font
@@ -6346,7 +6545,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R156")
+					(reference "R180")
 					(unit 1)
 				)
 			)
@@ -6361,7 +6560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "364f4300-ffba-43e8-baca-3f2ba4b05166")
-		(property "Reference" "R148"
+		(property "Reference" "R172"
 			(at 117.475 89.535 90)
 			(effects
 				(font
@@ -6413,7 +6612,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R148")
+					(reference "R172")
 					(unit 1)
 				)
 			)
@@ -6428,7 +6627,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38c68e98-6a5b-41de-924b-f955bf1eb478")
-		(property "Reference" "R138"
+		(property "Reference" "R162"
 			(at 186.055 38.735 90)
 			(effects
 				(font
@@ -6480,7 +6679,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R138")
+					(reference "R162")
 					(unit 1)
 				)
 			)
@@ -6495,7 +6694,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d92f198-a64e-4f43-9115-6cb8f8d974ef")
-		(property "Reference" "R146"
+		(property "Reference" "R170"
 			(at 117.475 76.835 90)
 			(effects
 				(font
@@ -6547,7 +6746,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R146")
+					(reference "R170")
 					(unit 1)
 				)
 			)
@@ -6562,7 +6761,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3dc46018-8992-4634-b4f5-621d386bc7db")
-		(property "Reference" "U27"
+		(property "Reference" "U33"
 			(at 63.5 38.1 0)
 			(effects
 				(font
@@ -6623,7 +6822,73 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U27")
+					(reference "U33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 145.415 225.425 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44b61f43-e4e6-4a44-ad73-97bd5c49a3b6")
+		(property "Reference" "#PWR0157"
+			(at 145.415 229.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "12V0_LED"
+			(at 145.415 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.415 225.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 145.415 225.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 145.415 225.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3c1fd8f-59e1-4073-a57b-d36ff0191ad6")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -6638,7 +6903,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44f9efa2-30fa-477d-a336-0016cb010857")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0153"
 			(at 139.7 163.195 0)
 			(effects
 				(font
@@ -6688,7 +6953,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "#PWR0136")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -6704,7 +6969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47cb961e-5e66-4efa-a6e2-5188c3eae7cd")
-		(property "Reference" "J13"
+		(property "Reference" "J14"
 			(at 133.35 177.8 0)
 			(effects
 				(font
@@ -6720,7 +6985,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1800_2x09_P3.00mm_Horizontal"
 			(at 132.08 193.675 0)
 			(effects
 				(font
@@ -6804,7 +7069,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "J13")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -6820,7 +7085,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f6fab79-2fb1-411a-8f5e-1cbf8e9faf1e")
-		(property "Reference" "C108"
+		(property "Reference" "C89"
 			(at 120.65 233.7688 0)
 			(effects
 				(font
@@ -6874,7 +7139,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "C108")
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -6890,7 +7155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55e601c5-f18c-4f9f-b402-a12443595da4")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0149"
 			(at 101.6 40.64 0)
 			(effects
 				(font
@@ -6940,7 +7205,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "#PWR0133")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -6955,7 +7220,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5607a77d-e419-40b3-87fa-16546336028f")
-		(property "Reference" "#PWR0225"
+		(property "Reference" "#PWR0161"
 			(at 118.11 250.19 0)
 			(effects
 				(font
@@ -7005,7 +7270,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "#PWR0225")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -7020,7 +7285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cc4aea6-134d-4a12-8bda-5910d0dee167")
-		(property "Reference" "U45"
+		(property "Reference" "U51"
 			(at 129.54 127 0)
 			(effects
 				(font
@@ -7081,7 +7346,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U45")
+					(reference "U51")
 					(unit 1)
 				)
 			)
@@ -7096,7 +7361,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d63f9ab-1660-4c0d-9dcd-b4d9a4f10b9a")
-		(property "Reference" "R139"
+		(property "Reference" "R163"
 			(at 51.435 51.435 90)
 			(effects
 				(font
@@ -7148,7 +7413,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R139")
+					(reference "R163")
 					(unit 1)
 				)
 			)
@@ -7163,7 +7428,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6cf3b2f6-13b1-4d33-8a2f-5248623e4548")
-		(property "Reference" "U41"
+		(property "Reference" "U47"
 			(at 129.54 101.6 0)
 			(effects
 				(font
@@ -7224,7 +7489,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U41")
+					(reference "U47")
 					(unit 1)
 				)
 			)
@@ -7240,7 +7505,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "766d357d-de00-4621-87ab-b7b6f1690126")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0159"
 			(at 118.11 231.14 0)
 			(effects
 				(font
@@ -7290,7 +7555,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "#PWR0137")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -7305,7 +7570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "79e0f55b-a408-468e-ad45-ca2e3dd9ffb1")
-		(property "Reference" "R141"
+		(property "Reference" "R165"
 			(at 186.055 51.435 90)
 			(effects
 				(font
@@ -7357,7 +7622,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R141")
+					(reference "R165")
 					(unit 1)
 				)
 			)
@@ -7372,7 +7637,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e174c5f-86aa-4ff9-87dc-430ce5b3de01")
-		(property "Reference" "R137"
+		(property "Reference" "R161"
 			(at 117.475 38.735 90)
 			(effects
 				(font
@@ -7424,7 +7689,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R137")
+					(reference "R161")
 					(unit 1)
 				)
 			)
@@ -7439,7 +7704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "872d24f3-1911-4503-9373-f397599d5131")
-		(property "Reference" "U30"
+		(property "Reference" "U36"
 			(at 63.5 50.8 0)
 			(effects
 				(font
@@ -7500,7 +7765,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U30")
+					(reference "U36")
 					(unit 1)
 				)
 			)
@@ -7515,7 +7780,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ab5b215-0604-499d-9f5a-6123118138a0")
-		(property "Reference" "U46"
+		(property "Reference" "U52"
 			(at 63.5 139.7 0)
 			(effects
 				(font
@@ -7576,7 +7841,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U46")
+					(reference "U52")
 					(unit 1)
 				)
 			)
@@ -7591,7 +7856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b319f76-e38a-4250-b611-3e42c63bc7ea")
-		(property "Reference" "R154"
+		(property "Reference" "R178"
 			(at 117.475 127.635 90)
 			(effects
 				(font
@@ -7643,7 +7908,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R154")
+					(reference "R178")
 					(unit 1)
 				)
 			)
@@ -7658,7 +7923,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b7c80f5-0c3c-441a-839a-185d74fc9f08")
-		(property "Reference" "U44"
+		(property "Reference" "U50"
 			(at 63.5 127 0)
 			(effects
 				(font
@@ -7719,7 +7984,72 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U44")
+					(reference "U50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 145.415 245.745 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e133f5a-f36f-4412-b1fa-2226ededb155")
+		(property "Reference" "#PWR0162"
+			(at 145.415 252.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_LED"
+			(at 145.415 249.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.415 245.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 145.415 245.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 145.415 245.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40086e73-de97-4206-a463-83be08ebae22")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -7734,7 +8064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e2390c2-e4ac-4a56-bb34-68b72754a1e6")
-		(property "Reference" "R151"
+		(property "Reference" "R175"
 			(at 51.435 114.935 90)
 			(effects
 				(font
@@ -7786,7 +8116,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R151")
+					(reference "R175")
 					(unit 1)
 				)
 			)
@@ -7801,7 +8131,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8eb5eeea-140d-40e5-b62c-6c6c140b4bb6")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR0160"
 			(at 77.47 250.19 0)
 			(effects
 				(font
@@ -7851,7 +8181,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "#PWR0224")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -7866,7 +8196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "932d8000-7b3b-486e-88e9-6cb5c7fb701a")
-		(property "Reference" "R152"
+		(property "Reference" "R176"
 			(at 117.475 114.935 90)
 			(effects
 				(font
@@ -7918,7 +8248,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R152")
+					(reference "R176")
 					(unit 1)
 				)
 			)
@@ -7933,7 +8263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93dfbcb9-2b56-48df-9b78-6bb6520f3fd9")
-		(property "Reference" "R149"
+		(property "Reference" "R173"
 			(at 51.435 102.235 90)
 			(effects
 				(font
@@ -7985,7 +8315,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R149")
+					(reference "R173")
 					(unit 1)
 				)
 			)
@@ -8000,7 +8330,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94c56dc1-d05c-4d89-ba01-f034aef7a2e3")
-		(property "Reference" "U40"
+		(property "Reference" "U46"
 			(at 63.5 101.6 0)
 			(effects
 				(font
@@ -8061,7 +8391,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U40")
+					(reference "U46")
 					(unit 1)
 				)
 			)
@@ -8077,7 +8407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9eda96b0-ecc0-4c3b-868e-1270e0c113ee")
-		(property "Reference" "J12"
+		(property "Reference" "J13"
 			(at 67.31 177.8 0)
 			(effects
 				(font
@@ -8093,7 +8423,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1800_2x09_P3.00mm_Horizontal"
 			(at 66.04 193.675 0)
 			(effects
 				(font
@@ -8177,7 +8507,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "J12")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -8192,7 +8522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a2ef7b0e-790e-4d09-86e2-5bbd710f303a")
-		(property "Reference" "U33"
+		(property "Reference" "U39"
 			(at 63.5 63.5 0)
 			(effects
 				(font
@@ -8253,7 +8583,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U33")
+					(reference "U39")
 					(unit 1)
 				)
 			)
@@ -8268,7 +8598,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a3a9d96d-aec6-4e86-8352-8aa09fa57304")
-		(property "Reference" "U29"
+		(property "Reference" "U35"
 			(at 198.12 38.1 0)
 			(effects
 				(font
@@ -8329,7 +8659,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U29")
+					(reference "U35")
 					(unit 1)
 				)
 			)
@@ -8344,7 +8674,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4b37620-4ca1-4a4c-a542-64c212bf5245")
-		(property "Reference" "R143"
+		(property "Reference" "R167"
 			(at 117.475 64.135 90)
 			(effects
 				(font
@@ -8396,7 +8726,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R143")
+					(reference "R167")
 					(unit 1)
 				)
 			)
@@ -8411,7 +8741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a95bd3cf-7544-4772-82a5-cae0f50b09c0")
-		(property "Reference" "U47"
+		(property "Reference" "U53"
 			(at 129.54 139.7 0)
 			(effects
 				(font
@@ -8472,7 +8802,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U47")
+					(reference "U53")
 					(unit 1)
 				)
 			)
@@ -8488,7 +8818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b07b3689-57f2-409c-86eb-c2e7a4896823")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0154"
 			(at 81.28 184.15 0)
 			(effects
 				(font
@@ -8538,7 +8868,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "#PWR0138")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -8553,7 +8883,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b35a490c-e0e2-4735-9b4d-cd77c40816d2")
-		(property "Reference" "U35"
+		(property "Reference" "U41"
 			(at 198.12 63.5 0)
 			(effects
 				(font
@@ -8614,7 +8944,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U35")
+					(reference "U41")
 					(unit 1)
 				)
 			)
@@ -8629,7 +8959,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8e5c5ac-7d3a-4703-892c-7c2ce3040828")
-		(property "Reference" "U34"
+		(property "Reference" "U40"
 			(at 129.54 63.5 0)
 			(effects
 				(font
@@ -8690,7 +9020,76 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U34")
+					(reference "U40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 145.415 230.505 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc0100c8-7998-4177-a07d-937eb72bd670")
+		(property "Reference" "R181"
+			(at 146.685 229.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 146.685 231.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.415 230.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 145.415 230.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 145.415 230.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e40261e-390b-4a6f-8c6c-7f356f238f55")
+		)
+		(pin "2"
+			(uuid "e2fe8584-ae84-41e8-99c2-9165a67fec65")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
+					(reference "R181")
 					(unit 1)
 				)
 			)
@@ -8706,7 +9105,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bebf221c-98c6-42cc-924e-44eb9b2ed34d")
-		(property "Reference" "C107"
+		(property "Reference" "C88"
 			(at 110.49 233.7688 0)
 			(effects
 				(font
@@ -8760,7 +9159,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "C107")
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -8775,7 +9174,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c055e46b-a672-4949-913d-58e5f1c5541f")
-		(property "Reference" "U28"
+		(property "Reference" "U34"
 			(at 129.54 38.1 0)
 			(effects
 				(font
@@ -8836,7 +9235,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U28")
+					(reference "U34")
 					(unit 1)
 				)
 			)
@@ -8851,7 +9250,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c23aedce-4078-476d-8b10-ab7067c9500e")
-		(property "Reference" "U42"
+		(property "Reference" "U48"
 			(at 63.5 114.3 0)
 			(effects
 				(font
@@ -8912,7 +9311,76 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U42")
+					(reference "U48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 145.415 239.395 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c30840d2-1d4b-4f89-96d5-6caab5ab151e")
+		(property "Reference" "D17"
+			(at 148.59 238.125 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FYLS-0603BUGC"
+			(at 148.59 240.665 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 145.415 239.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 145.415 239.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 145.415 239.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "81fb7e9e-55d4-45a1-8980-cef617d88677")
+		)
+		(pin "1"
+			(uuid "62e163b1-bf6c-4e55-9f91-a73396994492")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -8927,7 +9395,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c6d305c2-ebf0-438a-b9df-e42b2a59cd83")
-		(property "Reference" "U39"
+		(property "Reference" "U45"
 			(at 129.54 88.9 0)
 			(effects
 				(font
@@ -8988,7 +9456,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U39")
+					(reference "U45")
 					(unit 1)
 				)
 			)
@@ -9003,7 +9471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cc5d70b7-c226-427a-b575-dea4f4f174bd")
-		(property "Reference" "R153"
+		(property "Reference" "R177"
 			(at 51.435 127.635 90)
 			(effects
 				(font
@@ -9055,7 +9523,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R153")
+					(reference "R177")
 					(unit 1)
 				)
 			)
@@ -9070,7 +9538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd876e4e-e0ea-4603-bc11-0d246706bc3c")
-		(property "Reference" "R147"
+		(property "Reference" "R171"
 			(at 51.435 89.535 90)
 			(effects
 				(font
@@ -9122,7 +9590,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R147")
+					(reference "R171")
 					(unit 1)
 				)
 			)
@@ -9137,7 +9605,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d60a7283-664b-4fa4-b268-ac01dcba2e76")
-		(property "Reference" "R142"
+		(property "Reference" "R166"
 			(at 51.435 64.135 90)
 			(effects
 				(font
@@ -9189,7 +9657,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R142")
+					(reference "R166")
 					(unit 1)
 				)
 			)
@@ -9204,7 +9672,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3bb9e2a-15f7-407c-8220-4e7eea8ba785")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0151"
 			(at 208.28 83.82 0)
 			(effects
 				(font
@@ -9254,7 +9722,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "#PWR0135")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -9270,7 +9738,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4718b81-1766-45cf-a904-f86f480f7928")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0155"
 			(at 147.32 184.15 0)
 			(effects
 				(font
@@ -9320,7 +9788,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "#PWR0139")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -9336,7 +9804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4ea82be-26ac-47d8-af15-5fdcc30b590f")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0148"
 			(at 35.56 40.64 0)
 			(effects
 				(font
@@ -9386,7 +9854,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "#PWR0132")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -9401,7 +9869,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6c806e5-d00b-48f6-a121-ed94933fb668")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR0152"
 			(at 73.66 163.195 0)
 			(effects
 				(font
@@ -9451,7 +9919,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "#PWR0226")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -9466,7 +9934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e769d24a-cc82-4b08-9c9c-011bba680e57")
-		(property "Reference" "R155"
+		(property "Reference" "R179"
 			(at 51.435 140.335 90)
 			(effects
 				(font
@@ -9518,7 +9986,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R155")
+					(reference "R179")
 					(unit 1)
 				)
 			)
@@ -9533,7 +10001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9ad77c5-0a2a-4e60-a1b9-0d84ee6ae735")
-		(property "Reference" "U32"
+		(property "Reference" "U38"
 			(at 198.12 50.8 0)
 			(effects
 				(font
@@ -9594,7 +10062,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U32")
+					(reference "U38")
 					(unit 1)
 				)
 			)
@@ -9609,7 +10077,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0e28627-365b-4e37-9c88-56d464706758")
-		(property "Reference" "U31"
+		(property "Reference" "U37"
 			(at 129.54 50.8 0)
 			(effects
 				(font
@@ -9670,7 +10138,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U31")
+					(reference "U37")
 					(unit 1)
 				)
 			)
@@ -9685,7 +10153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa7d46f9-65dc-47f1-9b22-91d64f0dd592")
-		(property "Reference" "R136"
+		(property "Reference" "R160"
 			(at 51.435 38.735 90)
 			(effects
 				(font
@@ -9737,7 +10205,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R136")
+					(reference "R160")
 					(unit 1)
 				)
 			)
@@ -9753,7 +10221,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbc9558e-4bcd-4f06-a92f-cb5e48c21661")
-		(property "Reference" "J11"
+		(property "Reference" "J12"
 			(at 200.66 182.88 0)
 			(effects
 				(font
@@ -9769,7 +10237,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal"
 			(at 199.39 191.77 0)
 			(effects
 				(font
@@ -9817,7 +10285,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "J11")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -9832,7 +10300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd196e87-a61b-4b4c-857d-5016933b37cc")
-		(property "Reference" "R150"
+		(property "Reference" "R174"
 			(at 117.475 102.235 90)
 			(effects
 				(font
@@ -9884,7 +10352,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "R150")
+					(reference "R174")
 					(unit 1)
 				)
 			)
@@ -9899,7 +10367,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd34e9fe-3d79-4e5c-9106-ca4e6111851e")
-		(property "Reference" "U37"
+		(property "Reference" "U43"
 			(at 129.54 76.2 0)
 			(effects
 				(font
@@ -9960,7 +10428,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "U37")
+					(reference "U43")
 					(unit 1)
 				)
 			)
