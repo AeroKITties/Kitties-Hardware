@@ -2910,7 +2910,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11e26026-eb8f-4f75-9821-4444cf733a85")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0103"
 			(at 185.42 65.405 0)
 			(effects
 				(font
@@ -2960,7 +2960,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
-					(reference "#PWR0100")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -2975,7 +2975,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20a5831c-f598-4623-8836-d7e8ebc49167")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0107"
 			(at 190.5 159.385 0)
 			(effects
 				(font
@@ -3025,7 +3025,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
-					(reference "#PWR0104")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -3058,7 +3058,7 @@
 				)
 			)
 		)
-		(property "Footprint" "user_lib:LED_RGB_promelec"
+		(property "Footprint" ""
 			(at 273.685 127.635 0)
 			(effects
 				(font
@@ -3077,6 +3077,42 @@
 			)
 		)
 		(property "Description" "RGB LED, red/green/blue/anode"
+			(at 273.685 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "2"
+			(at 273.685 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/337147/"
+			(at 273.685 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "8"
+			(at 273.685 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Светодиод smd 3,5х2,8мм/красный/625нм/200мкд - зеленый/520нм/800мкд - синий/470нм/250мкд/прозрачный/120°"
 			(at 273.685 126.365 0)
 			(effects
 				(font
@@ -3131,7 +3167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" ""
 			(at 285.115 128.143 90)
 			(effects
 				(font
@@ -3150,6 +3186,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 285.115 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 285.115 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46446/"
+			(at 285.115 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 285.115 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 220Ом"
 			(at 285.115 126.365 0)
 			(effects
 				(font
@@ -3217,6 +3289,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 177.8 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "200"
+			(at 177.8 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/334556/"
+			(at 177.8 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 177.8 70.485 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 1мкФ"
 			(at 177.8 70.485 0)
 			(effects
 				(font
@@ -3294,6 +3402,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "200"
+			(at 177.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/430347/"
+			(at 177.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "4"
+			(at 177.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X5R 10мкФ"
+			(at 177.8 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "21806a7a-d793-4f2a-aedc-01ac97a63725")
 		)
@@ -3319,7 +3463,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a031903-89f1-423c-9850-f080ebcd36a1")
-		(property "Reference" "J5"
+		(property "Reference" "J7"
 			(at 192.6941 148.59 0)
 			(effects
 				(font
@@ -3356,6 +3500,42 @@
 			)
 		)
 		(property "Description" "expansion header for Raspberry Pi 2 & 3"
+			(at 190.5 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
+			(at 190.5 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.chipdip.ru/product/raspberry-pi-4-model-b-4gb"
+			(at 190.5 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "17000"
+			(at 190.5 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Одноплатный компьютер"
 			(at 190.5 116.205 0)
 			(effects
 				(font
@@ -3487,7 +3667,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
-					(reference "J5")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -3519,7 +3699,7 @@
 				)
 			)
 		)
-		(property "Footprint" "user_lib:LED_RGB_promelec"
+		(property "Footprint" ""
 			(at 273.685 100.33 0)
 			(effects
 				(font
@@ -3538,6 +3718,42 @@
 			)
 		)
 		(property "Description" "RGB LED, red/green/blue/anode"
+			(at 273.685 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "2"
+			(at 273.685 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/337147/"
+			(at 273.685 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "8"
+			(at 273.685 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Светодиод smd 3,5х2,8мм/красный/625нм/200мкд - зеленый/520нм/800мкд - синий/470нм/250мкд/прозрачный/120°"
 			(at 273.685 99.06 0)
 			(effects
 				(font
@@ -3592,7 +3808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" ""
 			(at 285.115 133.223 90)
 			(effects
 				(font
@@ -3611,6 +3827,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 285.115 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 285.115 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46446/"
+			(at 285.115 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 285.115 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 220Ом"
 			(at 285.115 131.445 0)
 			(effects
 				(font
@@ -3644,7 +3896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf7f0f44-55e8-4503-8feb-3768eefd4c02")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0105"
 			(at 265.43 99.695 0)
 			(effects
 				(font
@@ -3694,7 +3946,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
-					(reference "#PWR0102")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -3725,7 +3977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" ""
 			(at 285.115 100.838 90)
 			(effects
 				(font
@@ -3744,6 +3996,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 285.115 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 285.115 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46446/"
+			(at 285.115 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 285.115 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 220Ом"
 			(at 285.115 99.06 0)
 			(effects
 				(font
@@ -3792,7 +4080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" ""
 			(at 285.115 105.918 90)
 			(effects
 				(font
@@ -3811,6 +4099,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 285.115 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 285.115 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46446/"
+			(at 285.115 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 285.115 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 220Ом"
 			(at 285.115 104.14 0)
 			(effects
 				(font
@@ -3888,6 +4212,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "300"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/323633/"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "2"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 0.1мкФ"
+			(at 177.8 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29d8343d-d213-45c1-8435-3409b776ef66")
 		)
@@ -3913,7 +4273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea75832d-94af-46a4-81d4-2b32f2fa89b1")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0106"
 			(at 265.43 127 0)
 			(effects
 				(font
@@ -3963,7 +4323,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
-					(reference "#PWR0103")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -3978,7 +4338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecf2c35a-aab6-4b5e-97cb-2765bf823437")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0104"
 			(at 170.815 85.09 0)
 			(effects
 				(font
@@ -4028,7 +4388,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
-					(reference "#PWR0101")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -4059,7 +4419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" ""
 			(at 285.115 95.758 90)
 			(effects
 				(font
@@ -4078,6 +4438,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 285.115 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 285.115 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46446/"
+			(at 285.115 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 285.115 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 220Ом"
 			(at 285.115 93.98 0)
 			(effects
 				(font
@@ -4126,7 +4522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" ""
 			(at 285.115 123.063 90)
 			(effects
 				(font
@@ -4145,6 +4541,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 285.115 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 285.115 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46446/"
+			(at 285.115 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 285.115 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 220Ом"
 			(at 285.115 121.285 0)
 			(effects
 				(font

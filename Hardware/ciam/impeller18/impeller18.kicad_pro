@@ -518,7 +518,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -567,6 +567,12 @@
           "label": "Sim.Pins",
           "name": "Sim.Pins",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Мин. кол-во",
+          "name": "Мин. кол-во",
+          "show": true
         }
       ],
       "filter_string": "",

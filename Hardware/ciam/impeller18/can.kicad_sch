@@ -6530,7 +6530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "019207ae-a4da-4c3b-b112-50de1b745cbe")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR073"
 			(at 311.15 89.535 0)
 			(effects
 				(font
@@ -6580,7 +6580,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR070")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -6596,7 +6596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "079383e5-3de0-47c1-8b3c-5c59386b2909")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR084"
 			(at 285.75 149.86 0)
 			(effects
 				(font
@@ -6646,7 +6646,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR081")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -6705,7 +6705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/73838/"
 			(at 97.79 48.26 0)
 			(effects
 				(font
@@ -6714,7 +6714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "86"
 			(at 97.79 48.26 0)
 			(effects
 				(font
@@ -6723,7 +6723,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Дроссель для подавления асимметричной интерференции"
+			(at 97.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "6"
 			(at 97.79 48.26 0)
 			(effects
 				(font
@@ -6807,6 +6816,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "200"
+			(at 147.955 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/334556/"
+			(at 147.955 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 147.955 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 1мкФ"
+			(at 147.955 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d82fc8fd-1d66-4b8b-a7c5-c2d91ab305f7")
 		)
@@ -6831,7 +6876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d812847-cc18-4cf4-820b-3b46f67be6fd")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR072"
 			(at 217.17 82.55 0)
 			(effects
 				(font
@@ -6881,7 +6926,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR069")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -6914,7 +6959,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 100.965 100.33 0)
 			(effects
 				(font
@@ -6933,6 +6978,42 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 100.965 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "3"
+			(at 100.965 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/324327/"
+			(at 100.965 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "5"
+			(at 100.965 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Светодиод smd 1,6х0,8мм/зеленый/568нм/65мкд/прозрачный/130°"
 			(at 100.965 100.33 0)
 			(effects
 				(font
@@ -7010,6 +7091,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 107.315 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/23378/"
+			(at 107.315 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 107.315 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 120Ом"
+			(at 107.315 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4744a0f9-e4e3-42b2-a91c-3eda7a8338a4")
 		)
@@ -7079,7 +7196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/430347/"
 			(at 157.48 100.33 0)
 			(effects
 				(font
@@ -7088,7 +7205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "4"
 			(at 157.48 100.33 0)
 			(effects
 				(font
@@ -7097,7 +7214,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X5R 10мкФ"
+			(at 157.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "200"
 			(at 157.48 100.33 0)
 			(effects
 				(font
@@ -7131,7 +7257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1261bdbe-0fba-4f53-9f9d-a4f979ceb003")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR095"
 			(at 105.41 191.135 0)
 			(effects
 				(font
@@ -7181,7 +7307,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR092")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -7241,7 +7367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/323633/"
 			(at 291.465 147.955 0)
 			(effects
 				(font
@@ -7250,7 +7376,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "2"
 			(at 291.465 147.955 0)
 			(effects
 				(font
@@ -7259,7 +7385,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 0.1мкФ"
+			(at 291.465 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "300"
 			(at 291.465 147.955 0)
 			(effects
 				(font
@@ -7337,7 +7472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/430347/"
 			(at 157.48 200.66 0)
 			(effects
 				(font
@@ -7346,7 +7481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "4"
 			(at 157.48 200.66 0)
 			(effects
 				(font
@@ -7355,7 +7490,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X5R 10мкФ"
+			(at 157.48 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "200"
 			(at 157.48 200.66 0)
 			(effects
 				(font
@@ -7388,7 +7532,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "153e1a4d-b256-4dc6-bd0d-19cd632906e6")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0102"
 			(at 105.41 213.995 0)
 			(effects
 				(font
@@ -7438,7 +7582,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR099")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -7498,7 +7642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/334556/"
 			(at 208.28 71.12 0)
 			(effects
 				(font
@@ -7507,7 +7651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "1"
 			(at 208.28 71.12 0)
 			(effects
 				(font
@@ -7516,7 +7660,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 1мкФ"
+			(at 208.28 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "200"
 			(at 208.28 71.12 0)
 			(effects
 				(font
@@ -7550,7 +7703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17b5e46a-a38f-4a2d-b3ce-80676cbd6b72")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR097"
 			(at 147.955 198.755 0)
 			(effects
 				(font
@@ -7600,7 +7753,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR094")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -7661,7 +7814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://energoflot.ru/item/ISO1050DUBR"
 			(at 176.53 41.275 0)
 			(effects
 				(font
@@ -7670,7 +7823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "148"
 			(at 176.53 41.275 0)
 			(effects
 				(font
@@ -7679,8 +7832,17 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "CAN приемопередатчиком с гальванической развязкой"
 			(at 173.482 59.817 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
+			(at 176.53 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7730,7 +7892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1978f991-3678-4f7d-aa01-17798f6f9030")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR088"
 			(at 41.91 156.845 0)
 			(effects
 				(font
@@ -7780,7 +7942,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR085")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -7840,7 +8002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/323633/"
 			(at 291.465 47.625 0)
 			(effects
 				(font
@@ -7849,7 +8011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "2"
 			(at 291.465 47.625 0)
 			(effects
 				(font
@@ -7858,7 +8020,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 0.1мкФ"
+			(at 291.465 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "300"
 			(at 291.465 47.625 0)
 			(effects
 				(font
@@ -7936,6 +8107,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "200"
+			(at 147.955 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/334556/"
+			(at 147.955 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 147.955 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 1мкФ"
+			(at 147.955 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b89c6287-aca9-42a4-8393-33c0c935ad97")
 		)
@@ -7960,7 +8167,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f8aafea-3635-495f-9ec7-1b33fe4fedea")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR096"
 			(at 257.81 195.58 0)
 			(effects
 				(font
@@ -8010,7 +8217,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR093")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -8070,7 +8277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/323633/"
 			(at 203.835 200.66 0)
 			(effects
 				(font
@@ -8079,7 +8286,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "2"
 			(at 203.835 200.66 0)
 			(effects
 				(font
@@ -8088,7 +8295,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 0.1мкФ"
+			(at 203.835 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "300"
 			(at 203.835 200.66 0)
 			(effects
 				(font
@@ -8166,7 +8382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/334556/"
 			(at 208.28 42.545 0)
 			(effects
 				(font
@@ -8175,7 +8391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "1"
 			(at 208.28 42.545 0)
 			(effects
 				(font
@@ -8184,7 +8400,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 1мкФ"
+			(at 208.28 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "200"
 			(at 208.28 42.545 0)
 			(effects
 				(font
@@ -8262,7 +8487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/323633/"
 			(at 147.955 200.66 0)
 			(effects
 				(font
@@ -8271,7 +8496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "2"
 			(at 147.955 200.66 0)
 			(effects
 				(font
@@ -8280,7 +8505,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 0.1мкФ"
+			(at 147.955 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "300"
 			(at 147.955 200.66 0)
 			(effects
 				(font
@@ -8357,7 +8591,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/73838/"
 			(at 97.79 148.59 0)
 			(effects
 				(font
@@ -8366,7 +8600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "86"
 			(at 97.79 148.59 0)
 			(effects
 				(font
@@ -8375,7 +8609,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Дроссель для подавления асимметричной интерференции"
+			(at 97.79 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "6"
 			(at 97.79 148.59 0)
 			(effects
 				(font
@@ -8459,7 +8702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/430347/"
 			(at 194.31 100.33 0)
 			(effects
 				(font
@@ -8468,7 +8711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "4"
 			(at 194.31 100.33 0)
 			(effects
 				(font
@@ -8477,7 +8720,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X5R 10мкФ"
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "200"
 			(at 194.31 100.33 0)
 			(effects
 				(font
@@ -8553,6 +8805,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "1000"
+			(at 306.07 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 306.07 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 306.07 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 306.07 88.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7919fc9c-7430-4f63-b031-323853222941")
 		)
@@ -8615,6 +8903,42 @@
 			)
 		)
 		(property "Description" "Stand-Alone CAN Controller with SPI Interface, SOIC-18"
+			(at 285.75 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
+			(at 285.75 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.mircomponents.ru/search?s=MCP2515-I%2FSO"
+			(at 285.75 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "293"
+			(at 285.75 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "CAN контроллер с SPI интерфейсом"
 			(at 285.75 73.025 0)
 			(effects
 				(font
@@ -8741,7 +9065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://energoflot.ru/item/ISO1050DUBR"
 			(at 176.53 141.605 0)
 			(effects
 				(font
@@ -8750,7 +9074,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "148"
 			(at 176.53 141.605 0)
 			(effects
 				(font
@@ -8759,8 +9083,17 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "CAN приемопередатчиком с гальванической развязкой"
 			(at 173.482 160.147 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
+			(at 176.53 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8856,7 +9189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://energoflot.ru/item/ISO1050DUBR"
 			(at 176.53 69.85 0)
 			(effects
 				(font
@@ -8865,7 +9198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "148"
 			(at 176.53 69.85 0)
 			(effects
 				(font
@@ -8874,8 +9207,17 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "CAN приемопередатчиком с гальванической развязкой"
 			(at 173.482 88.392 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
+			(at 176.53 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8971,7 +9313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.chipdip.ru/product/b0505mt-1wr4"
 			(at 176.53 199.39 0)
 			(effects
 				(font
@@ -8980,7 +9322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "230"
 			(at 176.53 199.39 0)
 			(effects
 				(font
@@ -8989,7 +9331,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "DC/DC преобразователь, 1Вт, вход 4.5-5.5В, выход 5В/200мА"
+			(at 176.53 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
 			(at 176.53 199.39 0)
 			(effects
 				(font
@@ -9080,6 +9431,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 100.965 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46471/"
+			(at 100.965 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 100.965 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360Ом"
+			(at 100.965 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d0465bb2-bdfc-4e62-9525-04e0a7252ed0")
 		)
@@ -9105,7 +9492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "344bddf0-0d48-4eb6-935e-4cf05cef47b3")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR069"
 			(at 217.17 69.85 0)
 			(effects
 				(font
@@ -9155,7 +9542,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR066")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -9205,6 +9592,42 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 243.84 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "300"
+			(at 243.84 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/199351/"
+			(at 243.84 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "2"
+			(at 243.84 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 NP0 22пФ ±5%"
 			(at 243.84 75.565 0)
 			(effects
 				(font
@@ -9283,7 +9706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.chipdip.ru/product/b0505mt-1wr4"
 			(at 176.53 99.06 0)
 			(effects
 				(font
@@ -9292,7 +9715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "230"
 			(at 176.53 99.06 0)
 			(effects
 				(font
@@ -9301,7 +9724,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "DC/DC преобразователь, 1Вт, вход 4.5-5.5В, выход 5В/200мА"
+			(at 176.53 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
 			(at 176.53 99.06 0)
 			(effects
 				(font
@@ -9392,6 +9824,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "300"
+			(at 243.84 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/199351/"
+			(at 243.84 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "2"
+			(at 243.84 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 NP0 22пФ ±5%"
+			(at 243.84 183.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b070feca-84cb-4b47-8610-8c8e93fa5fcd")
 		)
@@ -9417,7 +9885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38036364-8429-4f0d-bd11-ea011a7c2d6d")
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 51.435 40.005 0)
 			(effects
 				(font
@@ -9460,6 +9928,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "8"
+			(at 50.165 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/347522/"
+			(at 50.165 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "64"
+			(at 50.165 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Разъем типа провод-плата, 3 мм, 4 контакт(-ов)"
+			(at 50.165 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8854b6e-7fbe-400e-b379-761253884ee5")
 		)
@@ -9475,7 +9979,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "J3")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9535,7 +10039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/334556/"
 			(at 208.28 171.45 0)
 			(effects
 				(font
@@ -9544,7 +10048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "1"
 			(at 208.28 171.45 0)
 			(effects
 				(font
@@ -9553,7 +10057,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 1мкФ"
+			(at 208.28 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "200"
 			(at 208.28 171.45 0)
 			(effects
 				(font
@@ -9631,7 +10144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/323633/"
 			(at 217.17 71.12 0)
 			(effects
 				(font
@@ -9640,7 +10153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "2"
 			(at 217.17 71.12 0)
 			(effects
 				(font
@@ -9649,7 +10162,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 0.1мкФ"
+			(at 217.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "300"
 			(at 217.17 71.12 0)
 			(effects
 				(font
@@ -9683,7 +10205,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3abd761e-9ef4-4b46-ad19-c0dbc39a3854")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR094"
 			(at 311.15 189.865 0)
 			(effects
 				(font
@@ -9733,7 +10255,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR091")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -9784,6 +10306,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 114.935 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" ""
 			(at 114.935 67.945 0)
 			(effects
 				(font
@@ -9857,6 +10388,42 @@
 			)
 		)
 		(property "Description" "Stand-Alone CAN Controller with SPI Interface, SOIC-18"
+			(at 285.75 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
+			(at 285.75 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.mircomponents.ru/search?s=MCP2515-I%2FSO"
+			(at 285.75 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "293"
+			(at 285.75 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "CAN контроллер с SPI интерфейсом"
 			(at 285.75 173.355 0)
 			(effects
 				(font
@@ -9955,7 +10522,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 105.41 201.295 0)
 			(effects
 				(font
@@ -9974,6 +10541,42 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 105.41 201.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "3"
+			(at 105.41 201.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/324327/"
+			(at 105.41 201.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "5"
+			(at 105.41 201.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Светодиод smd 1,6х0,8мм/зеленый/568нм/65мкд/прозрачный/130°"
 			(at 105.41 201.295 0)
 			(effects
 				(font
@@ -10007,7 +10610,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "439815fa-ad12-497e-88c3-7aca8f578b5a")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR077"
 			(at 203.835 98.425 0)
 			(effects
 				(font
@@ -10057,7 +10660,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR074")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -10072,7 +10675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "469b7689-16dc-4147-8bb9-55038bbb5504")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR066"
 			(at 297.18 55.245 0)
 			(effects
 				(font
@@ -10122,7 +10725,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR063")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -10180,6 +10783,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "300"
+			(at 243.84 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/199351/"
+			(at 243.84 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "2"
+			(at 243.84 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 NP0 22пФ ±5%"
+			(at 243.84 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "09111671-605f-43d2-ad03-b12109deccd7")
 		)
@@ -10205,7 +10844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cb11d90-df21-459c-b3b2-5f402fd0948a")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR089"
 			(at 147.955 170.18 0)
 			(effects
 				(font
@@ -10255,7 +10894,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR086")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -10306,6 +10945,15 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 114.935 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" ""
 			(at 114.935 168.275 0)
 			(effects
 				(font
@@ -10386,6 +11034,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 107.315 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/23378/"
+			(at 107.315 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 107.315 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 120Ом"
+			(at 107.315 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b8860da-df1b-457c-a1a1-17d42cdda99b")
 		)
@@ -10455,6 +11139,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "200"
+			(at 147.955 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/334556/"
+			(at 147.955 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 147.955 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 1мкФ"
+			(at 147.955 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "af047463-917d-4093-9b68-f0e9744d9d1f")
 		)
@@ -10479,7 +11199,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56361b23-03f1-4f21-b0d5-c553b74b24b9")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR079"
 			(at 147.955 111.76 0)
 			(effects
 				(font
@@ -10529,7 +11249,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR076")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -10544,7 +11264,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "597166d2-0979-48c3-8ddc-ac8d11c942a8")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR099"
 			(at 285.75 205.74 0)
 			(effects
 				(font
@@ -10594,7 +11314,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR096")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -10610,7 +11330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68b34470-0952-4a76-988e-5dbf9497557c")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR076"
 			(at 147.955 98.425 0)
 			(effects
 				(font
@@ -10660,7 +11380,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR073")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -10675,7 +11395,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69e72329-f198-4f51-ac04-8ccb2303d51f")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR065"
 			(at 217.17 53.975 0)
 			(effects
 				(font
@@ -10725,7 +11445,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR062")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -10785,7 +11505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/323633/"
 			(at 147.955 100.33 0)
 			(effects
 				(font
@@ -10794,7 +11514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "2"
 			(at 147.955 100.33 0)
 			(effects
 				(font
@@ -10803,7 +11523,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 0.1мкФ"
+			(at 147.955 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "300"
 			(at 147.955 100.33 0)
 			(effects
 				(font
@@ -10837,7 +11566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cbeec5e-02c7-4e4e-9e5c-ed74a432935c")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR083"
 			(at 217.17 141.605 0)
 			(effects
 				(font
@@ -10887,7 +11616,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR080")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -10945,6 +11674,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 264.795 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/22798/"
+			(at 264.795 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 264.795 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 0Ом"
+			(at 264.795 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "212f0a18-128f-4565-89c3-1d25c340aa48")
 		)
@@ -10969,7 +11734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72e316ad-1848-4af3-b82d-1c50fb29b0e1")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR086"
 			(at 217.17 154.305 0)
 			(effects
 				(font
@@ -11019,7 +11784,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR083")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -11034,7 +11799,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "72f315f5-ecbf-45a6-b181-908bda3644bc")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0100"
 			(at 147.955 212.09 0)
 			(effects
 				(font
@@ -11084,7 +11849,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR097")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -11099,7 +11864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7522c093-6423-4c24-9f6d-c6412e9b9b76")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR091"
 			(at 85.09 179.07 0)
 			(effects
 				(font
@@ -11149,7 +11914,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR088")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -11207,6 +11972,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 105.41 192.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46471/"
+			(at 105.41 192.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 105.41 192.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360Ом"
+			(at 105.41 192.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9eb613b0-57f0-427a-bea1-ed94b9d8daca")
 		)
@@ -11239,8 +12040,8 @@
 				)
 			)
 		)
-		(property "Value" "16Mhz"
-			(at 253.365 73.66 90)
+		(property "Value" "X322516MLB4SI"
+			(at 257.81 74.295 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11266,6 +12067,42 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+			(at 253.365 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
+			(at 253.365 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://energoflot.ru/item/X322516MLB4SI"
+			(at 253.365 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "5"
+			(at 253.365 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Резонатор кварцевый smd"
 			(at 253.365 79.375 0)
 			(effects
 				(font
@@ -11347,6 +12184,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "300"
+			(at 243.84 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/199351/"
+			(at 243.84 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "2"
+			(at 243.84 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 NP0 22пФ ±5%"
+			(at 243.84 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "737984b3-3d10-4a81-91c3-81c89405d4a6")
 		)
@@ -11416,7 +12289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/323633/"
 			(at 217.17 142.875 0)
 			(effects
 				(font
@@ -11425,7 +12298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "2"
 			(at 217.17 142.875 0)
 			(effects
 				(font
@@ -11434,7 +12307,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 0.1мкФ"
+			(at 217.17 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "300"
 			(at 217.17 142.875 0)
 			(effects
 				(font
@@ -11512,7 +12394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/323633/"
 			(at 203.835 100.33 0)
 			(effects
 				(font
@@ -11521,7 +12403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "2"
 			(at 203.835 100.33 0)
 			(effects
 				(font
@@ -11530,7 +12412,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 0.1мкФ"
+			(at 203.835 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "300"
 			(at 203.835 100.33 0)
 			(effects
 				(font
@@ -11606,7 +12497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.chipdip.ru/product/pesd1can.215"
 			(at 85.09 159.385 0)
 			(effects
 				(font
@@ -11615,7 +12506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "87 "
 			(at 85.09 159.385 0)
 			(effects
 				(font
@@ -11624,7 +12515,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Защитный диод от ESD для CAN шины"
+			(at 85.09 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
 			(at 85.09 159.385 0)
 			(effects
 				(font
@@ -11660,7 +12560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a82447a-46b8-405c-a83d-2449a8e2c6c9")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR067"
 			(at 41.91 56.515 0)
 			(effects
 				(font
@@ -11710,7 +12610,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR064")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -11725,7 +12625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8b377230-929c-466e-a36e-32182c3155bd")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0101"
 			(at 203.835 213.36 0)
 			(effects
 				(font
@@ -11775,7 +12675,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR098")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -11790,7 +12690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d1698d5-b7a7-4d83-ac4d-848b5ad2fee3")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR071"
 			(at 147.955 82.55 0)
 			(effects
 				(font
@@ -11840,7 +12740,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR068")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -11856,7 +12756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d4199b3-a9fc-46a9-8052-7f599580c5f8")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR082"
 			(at 147.955 141.605 0)
 			(effects
 				(font
@@ -11906,7 +12806,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR079")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -11964,6 +12864,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 264.795 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/22798/"
+			(at 264.795 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 264.795 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 0Ом"
+			(at 264.795 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5dab1d7a-cb71-47cc-871c-ae6b87de00bc")
 		)
@@ -11988,7 +12924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e80e4de-f4d6-4530-a4a9-ef01dfef4484")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR064"
 			(at 147.955 53.975 0)
 			(effects
 				(font
@@ -12038,7 +12974,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR061")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -12053,7 +12989,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f6d36e0-0b6e-452c-b922-8fcd72333ce7")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR070"
 			(at 85.09 78.74 0)
 			(effects
 				(font
@@ -12103,7 +13039,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR067")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -12118,7 +13054,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90bccc70-1459-4f3c-8bd0-d1fe08736aaf")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR085"
 			(at 147.955 154.305 0)
 			(effects
 				(font
@@ -12168,7 +13104,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR082")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -12218,6 +13154,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 306.07 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 306.07 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 306.07 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 306.07 188.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
 			(at 306.07 188.595 0)
 			(effects
 				(font
@@ -12295,7 +13267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/323633/"
 			(at 217.17 171.45 0)
 			(effects
 				(font
@@ -12304,7 +13276,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "2"
 			(at 217.17 171.45 0)
 			(effects
 				(font
@@ -12313,7 +13285,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 0.1мкФ"
+			(at 217.17 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "300"
 			(at 217.17 171.45 0)
 			(effects
 				(font
@@ -12391,7 +13372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/323633/"
 			(at 217.17 42.545 0)
 			(effects
 				(font
@@ -12400,7 +13381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "2"
 			(at 217.17 42.545 0)
 			(effects
 				(font
@@ -12409,7 +13390,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 0.1мкФ"
+			(at 217.17 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "300"
 			(at 217.17 42.545 0)
 			(effects
 				(font
@@ -12442,7 +13432,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a77ea263-3c26-47d8-a58d-7e2dea9ab364")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR081"
 			(at 203.835 113.03 0)
 			(effects
 				(font
@@ -12492,7 +13482,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR078")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -12507,7 +13497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7d02e04-c934-487c-9c71-d7e657785c64")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR075"
 			(at 257.81 95.25 0)
 			(effects
 				(font
@@ -12557,7 +13547,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR072")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -12573,7 +13563,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "acde645b-bd90-45a3-90a1-290f9267ce9a")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR074"
 			(at 100.965 90.17 0)
 			(effects
 				(font
@@ -12623,7 +13613,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR071")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -12683,6 +13673,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "200"
+			(at 147.955 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/334556/"
+			(at 147.955 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 147.955 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 1мкФ"
+			(at 147.955 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "628cbf66-d173-4996-90cd-fc91924081f2")
 		)
@@ -12707,7 +13733,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0eee31f-7c86-4054-a335-6990c434b62a")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR080"
 			(at 100.965 113.03 0)
 			(effects
 				(font
@@ -12757,7 +13783,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR077")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -12773,7 +13799,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4e4a326-4164-47b4-84da-e1c06877ba91")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR098"
 			(at 203.835 198.755 0)
 			(effects
 				(font
@@ -12823,7 +13849,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR095")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -12883,7 +13909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/430347/"
 			(at 194.31 200.66 0)
 			(effects
 				(font
@@ -12892,7 +13918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "4"
 			(at 194.31 200.66 0)
 			(effects
 				(font
@@ -12901,7 +13927,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X5R 10мкФ"
+			(at 194.31 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "200"
 			(at 194.31 200.66 0)
 			(effects
 				(font
@@ -12935,7 +13970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb306a8e-e6e7-4022-960a-96c86da7a05b")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR090"
 			(at 217.17 170.18 0)
 			(effects
 				(font
@@ -12985,7 +14020,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR087")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -13045,7 +14080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/334556/"
 			(at 208.28 142.875 0)
 			(effects
 				(font
@@ -13054,7 +14089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "1"
 			(at 208.28 142.875 0)
 			(effects
 				(font
@@ -13063,7 +14098,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 1мкФ"
+			(at 208.28 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "200"
 			(at 208.28 142.875 0)
 			(effects
 				(font
@@ -13096,7 +14140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c722e9c6-ab72-4995-9815-c097e0de1a26")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR092"
 			(at 147.955 182.88 0)
 			(effects
 				(font
@@ -13146,7 +14190,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR089")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -13161,7 +14205,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7b5d252-63f0-4a93-95f1-35a7599e4eea")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR078"
 			(at 285.75 105.41 0)
 			(effects
 				(font
@@ -13211,7 +14255,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR075")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -13269,7 +14313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.chipdip.ru/product/pesd1can.215"
 			(at 85.09 59.055 0)
 			(effects
 				(font
@@ -13278,7 +14322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "87 "
 			(at 85.09 59.055 0)
 			(effects
 				(font
@@ -13287,7 +14331,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Защитный диод от ESD для CAN шины"
+			(at 85.09 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
 			(at 85.09 59.055 0)
 			(effects
 				(font
@@ -13323,7 +14376,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dff9e597-40e7-44ad-933d-156e45a25415")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR087"
 			(at 297.18 155.575 0)
 			(effects
 				(font
@@ -13373,7 +14426,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR084")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -13389,7 +14442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6e1e06b-d10c-4f15-8e43-0328bc06d578")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR063"
 			(at 285.75 49.53 0)
 			(effects
 				(font
@@ -13439,7 +14492,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR060")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -13455,7 +14508,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e909971e-d1a9-4f09-bed6-42e0475f1e97")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR062"
 			(at 217.17 41.275 0)
 			(effects
 				(font
@@ -13505,7 +14558,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR059")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -13521,7 +14574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e954c890-10e3-446c-87c1-d09fd9cc07b4")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR061"
 			(at 147.955 41.275 0)
 			(effects
 				(font
@@ -13571,7 +14624,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR058")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -13594,8 +14647,8 @@
 				)
 			)
 		)
-		(property "Value" "16Mhz"
-			(at 253.365 173.99 90)
+		(property "Value" "X322516MLB4SI"
+			(at 257.81 174.625 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13621,6 +14674,42 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+			(at 253.365 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
+			(at 253.365 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://energoflot.ru/item/X322516MLB4SI"
+			(at 253.365 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "5"
+			(at 253.365 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Резонатор кварцевый smd"
 			(at 253.365 179.705 0)
 			(effects
 				(font
@@ -13705,7 +14794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://energoflot.ru/item/ISO1050DUBR"
 			(at 176.53 170.18 0)
 			(effects
 				(font
@@ -13714,7 +14803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "148"
 			(at 176.53 170.18 0)
 			(effects
 				(font
@@ -13723,8 +14812,17 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "CAN приемопередатчиком с гальванической развязкой"
 			(at 173.482 188.722 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
+			(at 176.53 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13775,7 +14873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0347551-aed6-42bc-8f37-bf7bb875b67e")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR068"
 			(at 147.955 69.85 0)
 			(effects
 				(font
@@ -13825,7 +14923,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR065")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -13840,7 +14938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9bb309f-277b-4640-ae03-bee57a3c2b6d")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR093"
 			(at 217.17 182.88 0)
 			(effects
 				(font
@@ -13890,7 +14988,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "#PWR090")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -13906,7 +15004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa5c957f-3c09-4256-9a03-6dd743ff9bd6")
-		(property "Reference" "J4"
+		(property "Reference" "J6"
 			(at 51.435 140.335 0)
 			(effects
 				(font
@@ -13949,6 +15047,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "8"
+			(at 50.165 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/347522/"
+			(at 50.165 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "64"
+			(at 50.165 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Разъем типа провод-плата, 3 мм, 4 контакт(-ов)"
+			(at 50.165 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a1ade84-1609-49ab-90d8-209fc64d796b")
 		)
@@ -13964,7 +15098,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)

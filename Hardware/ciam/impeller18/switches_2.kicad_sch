@@ -7780,6 +7780,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/23650/"
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360кОм"
+			(at 69.85 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0a224cc8-f553-46cb-af96-77081ef06440")
 		)
@@ -7804,7 +7840,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "042c4857-c03f-4994-958c-03b07157394c")
-		(property "Reference" "R150"
+		(property "Reference" "R158"
 			(at 111.76 229.235 90)
 			(effects
 				(font
@@ -7847,6 +7883,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 111.76 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46471/"
+			(at 111.76 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 111.76 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360Ом"
+			(at 111.76 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "40a46749-6c25-4b81-ba02-d0c91ae8cc12")
 		)
@@ -7856,7 +7928,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R150")
+					(reference "R158")
 					(unit 1)
 				)
 			)
@@ -7906,6 +7978,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 107.315 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 107.315 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46471/"
+			(at 107.315 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 107.315 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360Ом"
 			(at 107.315 137.795 0)
 			(effects
 				(font
@@ -7984,6 +8092,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "1"
+			(at 129.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.chipdip.ru/product/tlp291-4-gb-tp-e-t"
+			(at 129.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "340"
+			(at 129.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Оптопара с транзисторным выходом 4-х канальная"
+			(at 129.54 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "7cc94224-022c-4a9c-a6a8-a0be33bca13a")
 		)
@@ -8050,7 +8194,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07dabbe2-70bd-4d2a-88f0-d959832f34c3")
-		(property "Reference" "R278"
+		(property "Reference" "R150"
 			(at 105.41 173.99 90)
 			(effects
 				(font
@@ -8093,6 +8237,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 105.41 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46471/"
+			(at 105.41 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 105.41 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360Ом"
+			(at 105.41 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "36bd5e70-1016-413d-9aac-c48462bc9958")
 		)
@@ -8102,7 +8282,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R278")
+					(reference "R150")
 					(unit 1)
 				)
 			)
@@ -8156,6 +8336,42 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 93.345 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "38"
+			(at 93.345 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/303635/"
+			(at 93.345 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "14"
+			(at 93.345 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Транзистор полевой N-канальный"
 			(at 93.345 68.58 0)
 			(effects
 				(font
@@ -8238,6 +8454,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "38"
+			(at 93.345 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/303635/"
+			(at 93.345 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "14"
+			(at 93.345 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Транзистор полевой N-канальный"
+			(at 93.345 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9634cc38-1782-45d1-bf04-4404521d6b64")
 		)
@@ -8266,7 +8518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1385b557-1aec-470a-b1fc-f8a7807c4afb")
-		(property "Reference" "J9"
+		(property "Reference" "J11"
 			(at 272.415 126.365 0)
 			(effects
 				(font
@@ -8282,7 +8534,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1000_2x05_P3.00mm_Horizontal"
+		(property "Footprint" ""
 			(at 271.145 137.16 0)
 			(effects
 				(font
@@ -8301,6 +8553,42 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 271.145 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "7"
+			(at 271.145 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/360135/"
+			(at 271.145 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "82"
+			(at 271.145 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Прямоугольный разъем, Серия Micro-Fit 3.0 43045, 10 контакт(-ов)"
 			(at 271.145 137.16 0)
 			(effects
 				(font
@@ -8342,7 +8630,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "J9")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -8357,7 +8645,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "153833c2-5157-4a2d-9101-5343bf1f57f1")
-		(property "Reference" "R153"
+		(property "Reference" "R161"
 			(at 74.295 239.395 90)
 			(effects
 				(font
@@ -8400,6 +8688,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 74.295 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/23650/"
+			(at 74.295 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 74.295 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360кОм"
+			(at 74.295 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "26551cf6-f037-456d-94bd-9bfd5da5440c")
 		)
@@ -8409,7 +8733,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R153")
+					(reference "R161")
 					(unit 1)
 				)
 			)
@@ -8424,7 +8748,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "18d901b8-2587-4de3-b300-647d4d07edb7")
-		(property "Reference" "U32"
+		(property "Reference" "U34"
 			(at 133.985 253.365 0)
 			(effects
 				(font
@@ -8470,7 +8794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.chipdip.ru/product/tlp291-gb-tp-se-t"
 			(at 133.985 260.35 0)
 			(effects
 				(font
@@ -8479,7 +8803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "62"
 			(at 133.985 260.35 0)
 			(effects
 				(font
@@ -8488,7 +8812,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Оптопара с транзисторным выходом"
+			(at 133.985 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
 			(at 133.985 260.35 0)
 			(effects
 				(font
@@ -8512,7 +8845,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "U32")
+					(reference "U34")
 					(unit 1)
 				)
 			)
@@ -8527,7 +8860,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1963bd68-d15e-4203-bc23-a7a06268619f")
-		(property "Reference" "R276"
+		(property "Reference" "R148"
 			(at 67.945 160.655 90)
 			(effects
 				(font
@@ -8570,6 +8903,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 67.945 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/22010/"
+			(at 67.945 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 67.945 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 1МОм"
+			(at 67.945 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8b2eab23-6dbe-4416-9c44-98481f9437be")
 		)
@@ -8579,7 +8948,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R276")
+					(reference "R148")
 					(unit 1)
 				)
 			)
@@ -8594,7 +8963,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d4e64d2-d1bd-415b-98b2-4fbb84e258d7")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0137"
 			(at 241.3 113.03 0)
 			(effects
 				(font
@@ -8644,7 +9013,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0134")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -8660,7 +9029,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ff61f2e-d1aa-407f-8832-3609bd14f164")
-		(property "Reference" "J11"
+		(property "Reference" "J14"
 			(at 271.145 187.325 0)
 			(effects
 				(font
@@ -8676,7 +9045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal"
+		(property "Footprint" ""
 			(at 269.875 196.215 0)
 			(effects
 				(font
@@ -8695,6 +9064,42 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 269.875 196.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "8"
+			(at 269.875 196.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/355066/"
+			(at 269.875 196.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "68"
+			(at 269.875 196.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Разъем типа провод-плата, 3 мм, 6 контакт(-ов)"
 			(at 269.875 196.215 0)
 			(effects
 				(font
@@ -8724,7 +9129,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "J11")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -8739,7 +9144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2595e490-36ad-4ea9-a1f8-cfdfdfed0336")
-		(property "Reference" "R282"
+		(property "Reference" "R154"
 			(at 105.41 187.325 90)
 			(effects
 				(font
@@ -8782,6 +9187,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 105.41 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46471/"
+			(at 105.41 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 105.41 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360Ом"
+			(at 105.41 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "84200e5e-885c-430e-a8ea-bc5b0c7457d6")
 		)
@@ -8791,7 +9232,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R282")
+					(reference "R154")
 					(unit 1)
 				)
 			)
@@ -8841,6 +9282,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 69.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 69.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/22010/"
+			(at 69.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 69.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 1МОм"
 			(at 69.85 86.36 0)
 			(effects
 				(font
@@ -8916,6 +9393,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "1000"
+			(at 154.94 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 154.94 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 154.94 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 154.94 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6713ca8f-fb5f-4f8d-9a92-86afccf9f9c2")
 		)
@@ -8940,7 +9453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28d2f575-53e0-41f0-8575-1c09160d01c0")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0143"
 			(at 141.605 153.67 0)
 			(effects
 				(font
@@ -8990,7 +9503,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0140")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -9005,7 +9518,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "291a36b7-5073-4fd1-854b-1501aa2c8016")
-		(property "Reference" "R283"
+		(property "Reference" "R155"
 			(at 153.035 187.325 90)
 			(effects
 				(font
@@ -9048,6 +9561,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "1000"
+			(at 153.035 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 153.035 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 153.035 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 153.035 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8bba6381-3463-4832-9751-bf6d90e737f4")
 		)
@@ -9057,7 +9606,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R283")
+					(reference "R155")
 					(unit 1)
 				)
 			)
@@ -9107,6 +9656,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 69.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 69.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/22010/"
+			(at 69.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 69.85 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 1МОм"
 			(at 69.85 59.69 0)
 			(effects
 				(font
@@ -9184,7 +9769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/323633/"
 			(at 241.3 101.6 0)
 			(effects
 				(font
@@ -9193,7 +9778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "2"
 			(at 241.3 101.6 0)
 			(effects
 				(font
@@ -9202,7 +9787,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 0.1мкФ"
+			(at 241.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "300"
 			(at 241.3 101.6 0)
 			(effects
 				(font
@@ -9273,6 +9867,42 @@
 			)
 		)
 		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16"
+			(at 129.54 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
+			(at 129.54 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.chipdip.ru/product/tlp291-4-gb-tp-e-t"
+			(at 129.54 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "340"
+			(at 129.54 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Оптопара с транзисторным выходом 4-х канальная"
 			(at 129.54 60.325 0)
 			(effects
 				(font
@@ -9393,6 +10023,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "1"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.chipdip.ru/product/tlp291-4-gb-tp-e-t"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "340"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Оптопара с транзисторным выходом 4-х канальная"
+			(at 129.54 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "2db6413d-c2da-483b-b395-6b52c5809a67")
 		)
@@ -9459,7 +10125,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32680860-e432-445a-84f1-b908e1d26310")
-		(property "Reference" "R279"
+		(property "Reference" "R151"
 			(at 153.035 173.99 90)
 			(effects
 				(font
@@ -9502,6 +10168,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "1000"
+			(at 153.035 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 153.035 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 153.035 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 153.035 175.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "75010379-16b1-42a5-9f7a-605252d66ed9")
 		)
@@ -9511,7 +10213,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R279")
+					(reference "R151")
 					(unit 1)
 				)
 			)
@@ -9571,7 +10273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/430347/"
 			(at 287.655 101.6 0)
 			(effects
 				(font
@@ -9580,7 +10282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "4"
 			(at 287.655 101.6 0)
 			(effects
 				(font
@@ -9589,7 +10291,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X5R 10мкФ"
+			(at 287.655 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "200"
 			(at 287.655 101.6 0)
 			(effects
 				(font
@@ -9622,7 +10333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "373366ee-7b9f-48e0-b742-46fa4c94dbab")
-		(property "Reference" "R280"
+		(property "Reference" "R152"
 			(at 67.945 173.99 90)
 			(effects
 				(font
@@ -9665,6 +10376,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 67.945 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/22010/"
+			(at 67.945 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 67.945 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 1МОм"
+			(at 67.945 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0df65146-6139-4454-b421-dbd34f0ef7d2")
 		)
@@ -9674,7 +10421,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R280")
+					(reference "R152")
 					(unit 1)
 				)
 			)
@@ -9736,6 +10483,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "38"
+			(at 93.345 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/303635/"
+			(at 93.345 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "14"
+			(at 93.345 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Транзистор полевой N-канальный"
+			(at 93.345 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b613ec4-9f32-4c98-8b7d-4b1b8d0b43d7")
 		)
@@ -9764,7 +10547,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f2d0c06-1568-4b8d-89ec-7ae62e689a8b")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0140"
 			(at 292.1 133.985 0)
 			(effects
 				(font
@@ -9814,7 +10597,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0137")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -9830,7 +10613,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3f3f2add-c7e2-4c35-811d-aee39786a42c")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0134"
 			(at 327.025 94.615 0)
 			(effects
 				(font
@@ -9880,7 +10663,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0131")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -9896,7 +10679,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "422a7bd9-d7b7-4846-a9b9-6d4a30e1ce42")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0135"
 			(at 241.3 99.695 0)
 			(effects
 				(font
@@ -9946,7 +10729,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0132")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -9962,7 +10745,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43efbdba-668d-4ab6-b7ca-3417f29e57aa")
-		(property "Reference" "Q31"
+		(property "Reference" "Q33"
 			(at 93.345 233.045 90)
 			(effects
 				(font
@@ -10008,6 +10791,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "38"
+			(at 97.79 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/303635/"
+			(at 97.79 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "14"
+			(at 97.79 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Транзистор полевой N-канальный"
+			(at 97.79 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4345bab-479e-4bb8-8c1f-882c3df6bfd2")
 		)
@@ -10020,7 +10839,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "Q31")
+					(reference "Q33")
 					(unit 1)
 				)
 			)
@@ -10078,6 +10897,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "1000"
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 154.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "53f4d206-50d0-4892-a984-4c8b7ef625ea")
 		)
@@ -10102,7 +10957,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48da242b-68eb-4c9d-8890-415b2c0f623e")
-		(property "Reference" "R158"
+		(property "Reference" "R166"
 			(at 111.76 255.905 90)
 			(effects
 				(font
@@ -10145,6 +11000,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 111.76 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46471/"
+			(at 111.76 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 111.76 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360Ом"
+			(at 111.76 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e5ef8e22-5c48-4b4a-a94c-275c0b5358ef")
 		)
@@ -10154,7 +11045,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R158")
+					(reference "R166")
 					(unit 1)
 				)
 			)
@@ -10169,7 +11060,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "496c7b48-ffb0-46d3-a132-8ddfcb34d368")
-		(property "Reference" "U31"
+		(property "Reference" "U33"
 			(at 133.985 240.03 0)
 			(effects
 				(font
@@ -10215,7 +11106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.chipdip.ru/product/tlp291-gb-tp-se-t"
 			(at 133.985 247.015 0)
 			(effects
 				(font
@@ -10224,7 +11115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "62"
 			(at 133.985 247.015 0)
 			(effects
 				(font
@@ -10233,7 +11124,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Оптопара с транзисторным выходом"
+			(at 133.985 247.015 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
 			(at 133.985 247.015 0)
 			(effects
 				(font
@@ -10257,7 +11157,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "U31")
+					(reference "U33")
 					(unit 1)
 				)
 			)
@@ -10317,7 +11217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/430347/"
 			(at 250.825 101.6 0)
 			(effects
 				(font
@@ -10326,7 +11226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "4"
 			(at 250.825 101.6 0)
 			(effects
 				(font
@@ -10335,7 +11235,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X5R 10мкФ"
+			(at 250.825 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "200"
 			(at 250.825 101.6 0)
 			(effects
 				(font
@@ -10368,7 +11277,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e685b92-cf0f-4162-92fa-24a3cacafa90")
-		(property "Reference" "U30"
+		(property "Reference" "U32"
 			(at 133.985 226.695 0)
 			(effects
 				(font
@@ -10414,7 +11323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.chipdip.ru/product/tlp291-gb-tp-se-t"
 			(at 133.985 233.68 0)
 			(effects
 				(font
@@ -10423,7 +11332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "62"
 			(at 133.985 233.68 0)
 			(effects
 				(font
@@ -10432,7 +11341,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Оптопара с транзисторным выходом"
+			(at 133.985 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
 			(at 133.985 233.68 0)
 			(effects
 				(font
@@ -10456,7 +11374,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "U30")
+					(reference "U32")
 					(unit 1)
 				)
 			)
@@ -10506,6 +11424,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 154.94 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 154.94 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 154.94 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 154.94 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
 			(at 154.94 44.45 0)
 			(effects
 				(font
@@ -10581,6 +11535,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "1000"
+			(at 154.94 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 154.94 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 154.94 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 154.94 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0d786da8-f6bb-4bec-9af1-eaed9630d7e5")
 		)
@@ -10606,7 +11596,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "585dacd1-8045-44c6-8276-4cb3ee665322")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0133"
 			(at 177.165 45.72 0)
 			(effects
 				(font
@@ -10656,7 +11646,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0130")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -10710,6 +11700,42 @@
 			)
 		)
 		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 93.345 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "38"
+			(at 93.345 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/303635/"
+			(at 93.345 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "14"
+			(at 93.345 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Транзистор полевой N-канальный"
 			(at 93.345 81.915 0)
 			(effects
 				(font
@@ -10788,6 +11814,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 69.85 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/23650/"
+			(at 69.85 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 69.85 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360кОм"
+			(at 69.85 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce8a0279-4b2e-4189-b049-7bcdf19f68d7")
 		)
@@ -10812,7 +11874,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6408707b-d0a2-4d2d-9fe2-2ea384db57f7")
-		(property "Reference" "R151"
+		(property "Reference" "R159"
 			(at 159.385 229.235 90)
 			(effects
 				(font
@@ -10855,6 +11917,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "1000"
+			(at 159.385 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 159.385 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 159.385 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 159.385 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "75931669-e98b-4311-973e-eb06bea4c82c")
 		)
@@ -10864,7 +11962,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R151")
+					(reference "R159")
 					(unit 1)
 				)
 			)
@@ -10922,6 +12020,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 107.315 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46471/"
+			(at 107.315 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 107.315 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360Ом"
+			(at 107.315 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e84aedee-904a-4954-a06d-30f987bdbc38")
 		)
@@ -10946,7 +12080,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65b2d740-fa02-4f39-9b8f-19f4e31c9f38")
-		(property "Reference" "U76"
+		(property "Reference" "U30"
 			(at 127.635 171.45 0)
 			(effects
 				(font
@@ -10992,7 +12126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.chipdip.ru/product/tlp291-gb-tp-se-t"
 			(at 127.635 178.435 0)
 			(effects
 				(font
@@ -11001,7 +12135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "62"
 			(at 127.635 178.435 0)
 			(effects
 				(font
@@ -11010,7 +12144,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Оптопара с транзисторным выходом"
+			(at 127.635 178.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
 			(at 127.635 178.435 0)
 			(effects
 				(font
@@ -11034,7 +12177,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "U76")
+					(reference "U30")
 					(unit 1)
 				)
 			)
@@ -11092,6 +12235,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 107.315 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46471/"
+			(at 107.315 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 107.315 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360Ом"
+			(at 107.315 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1d31c155-abda-4f3d-8e21-71776408cd13")
 		)
@@ -11116,7 +12295,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d8e504b-a018-4398-acb2-564bc71f30ce")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0154"
 			(at 67.945 267.97 0)
 			(effects
 				(font
@@ -11166,7 +12345,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0145")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -11181,7 +12360,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e635889-c3ad-42d4-b21b-6f9ad8acbf59")
-		(property "Reference" "R149"
+		(property "Reference" "R157"
 			(at 74.295 226.06 90)
 			(effects
 				(font
@@ -11224,6 +12403,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 74.295 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/23650/"
+			(at 74.295 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 74.295 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360кОм"
+			(at 74.295 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad6d1aed-25b9-412b-b71e-4b00cd797d2a")
 		)
@@ -11233,7 +12448,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R149")
+					(reference "R157")
 					(unit 1)
 				)
 			)
@@ -11248,7 +12463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fb888c4-1ed8-41a8-840e-6429f9a9ad9e")
-		(property "Reference" "R277"
+		(property "Reference" "R149"
 			(at 67.945 170.815 90)
 			(effects
 				(font
@@ -11291,6 +12506,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 67.945 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/23650/"
+			(at 67.945 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 67.945 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360кОм"
+			(at 67.945 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad4efb43-093d-4e3d-80af-df5265a1dd99")
 		)
@@ -11300,7 +12551,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R277")
+					(reference "R149")
 					(unit 1)
 				)
 			)
@@ -11316,7 +12567,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71ad5ad0-5847-4a36-bd9b-fc781b6854fe")
-		(property "Reference" "Q33"
+		(property "Reference" "Q35"
 			(at 93.345 259.715 90)
 			(effects
 				(font
@@ -11362,6 +12613,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "38"
+			(at 97.79 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/303635/"
+			(at 97.79 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "14"
+			(at 97.79 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Транзистор полевой N-канальный"
+			(at 97.79 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f6e07a86-cc18-4502-8c79-35a0dce6a79c")
 		)
@@ -11374,7 +12661,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "Q33")
+					(reference "Q35")
 					(unit 1)
 				)
 			)
@@ -11389,7 +12676,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "720ed85e-8572-4ded-8036-98d95a6b847c")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0139"
 			(at 327.025 117.475 0)
 			(effects
 				(font
@@ -11439,7 +12726,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0136")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -11455,7 +12742,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "722d7eb8-d6d1-46bd-bc99-218b36b2542b")
-		(property "Reference" "J10"
+		(property "Reference" "J12"
 			(at 271.78 150.495 0)
 			(effects
 				(font
@@ -11471,7 +12758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal"
+		(property "Footprint" ""
 			(at 270.51 159.385 0)
 			(effects
 				(font
@@ -11490,6 +12777,42 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 270.51 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "8"
+			(at 270.51 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/355066/"
+			(at 270.51 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "68"
+			(at 270.51 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Разъем типа провод-плата, 3 мм, 6 контакт(-ов)"
 			(at 270.51 159.385 0)
 			(effects
 				(font
@@ -11519,7 +12842,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "J10")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -11577,6 +12900,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 69.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/23650/"
+			(at 69.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 69.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360кОм"
+			(at 69.85 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25b765f2-c9b1-4164-a695-217452ad9a2f")
 		)
@@ -11619,7 +12978,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 327.025 104.775 0)
 			(effects
 				(font
@@ -11638,6 +12997,42 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 327.025 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "3"
+			(at 327.025 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/324327/"
+			(at 327.025 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "5"
+			(at 327.025 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Светодиод smd 1,6х0,8мм/зеленый/568нм/65мкд/прозрачный/130°"
 			(at 327.025 104.775 0)
 			(effects
 				(font
@@ -11717,6 +13112,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "38"
+			(at 93.345 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/303635/"
+			(at 93.345 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "14"
+			(at 93.345 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Транзистор полевой N-канальный"
+			(at 93.345 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e07cd3c5-1278-4748-a9da-5cd5eb1cc3b5")
 		)
@@ -11782,6 +13213,42 @@
 			)
 		)
 		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16"
+			(at 129.54 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
+			(at 129.54 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.chipdip.ru/product/tlp291-4-gb-tp-e-t"
+			(at 129.54 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "340"
+			(at 129.54 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Оптопара с транзисторным выходом 4-х канальная"
 			(at 129.54 86.995 0)
 			(effects
 				(font
@@ -11899,6 +13366,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "1000"
+			(at 154.94 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 154.94 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 154.94 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 154.94 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "172cd037-23e6-4323-b5dc-27fce2748c52")
 		)
@@ -11958,6 +13461,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 69.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 69.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/23650/"
+			(at 69.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 69.85 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360кОм"
 			(at 69.85 62.23 0)
 			(effects
 				(font
@@ -12035,7 +13574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.promelec.ru/product/323633/"
 			(at 297.18 101.6 0)
 			(effects
 				(font
@@ -12044,7 +13583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "2"
 			(at 297.18 101.6 0)
 			(effects
 				(font
@@ -12053,7 +13592,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 0.1мкФ"
+			(at 297.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "300"
 			(at 297.18 101.6 0)
 			(effects
 				(font
@@ -12086,7 +13634,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ffce695-0c38-4d53-9874-11db89e23ee1")
-		(property "Reference" "R157"
+		(property "Reference" "R165"
 			(at 74.295 252.73 90)
 			(effects
 				(font
@@ -12129,6 +13677,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 74.295 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/23650/"
+			(at 74.295 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 74.295 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360кОм"
+			(at 74.295 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e1204b7-410b-43db-8a5c-5566e5731165")
 		)
@@ -12138,7 +13722,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R157")
+					(reference "R165")
 					(unit 1)
 				)
 			)
@@ -12153,7 +13737,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82b9d53a-547f-40b3-95f1-75049827ecff")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR0155"
 			(at 120.015 273.05 0)
 			(effects
 				(font
@@ -12203,7 +13787,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0146")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -12219,7 +13803,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84a5a14e-11f9-4559-9f98-e239d8066331")
-		(property "Reference" "Q37"
+		(property "Reference" "Q31"
 			(at 86.995 177.8 90)
 			(effects
 				(font
@@ -12265,6 +13849,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "38"
+			(at 91.44 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/303635/"
+			(at 91.44 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "14"
+			(at 91.44 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Транзистор полевой N-канальный"
+			(at 91.44 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba9170e8-4195-43a0-bc93-1f352467f7f7")
 		)
@@ -12277,7 +13897,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "Q37")
+					(reference "Q31")
 					(unit 1)
 				)
 			)
@@ -12292,7 +13912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "862a4dda-89df-4625-96fd-18701236894c")
-		(property "Reference" "R155"
+		(property "Reference" "R163"
 			(at 159.385 242.57 90)
 			(effects
 				(font
@@ -12335,6 +13955,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "1000"
+			(at 159.385 244.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 159.385 244.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 159.385 244.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 159.385 244.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "26e5599c-80c9-4f50-821c-ad977659da5a")
 		)
@@ -12344,7 +14000,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R155")
+					(reference "R163")
 					(unit 1)
 				)
 			)
@@ -12394,6 +14050,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 69.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 69.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/23650/"
+			(at 69.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 69.85 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360кОм"
 			(at 69.85 115.57 0)
 			(effects
 				(font
@@ -12469,6 +14161,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 69.85 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/23650/"
+			(at 69.85 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 69.85 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360кОм"
+			(at 69.85 75.565 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65167ace-ea0f-4e13-84b7-0fb8b522e665")
 		)
@@ -12494,7 +14222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b44fc17-74f6-4dbc-b092-394bfe76f8f5")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0144"
 			(at 291.465 158.75 0)
 			(effects
 				(font
@@ -12544,7 +14272,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0141")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -12594,6 +14322,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 154.94 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 154.94 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 154.94 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 154.94 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
 			(at 154.94 137.795 0)
 			(effects
 				(font
@@ -12669,6 +14433,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 107.315 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46471/"
+			(at 107.315 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 107.315 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360Ом"
+			(at 107.315 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d993542e-170c-4ac1-aa29-58a985abd2d0")
 		)
@@ -12693,7 +14493,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "965f81e5-320f-4f63-8807-ca557f44f892")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0152"
 			(at 88.265 221.615 0)
 			(effects
 				(font
@@ -12743,7 +14543,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0142")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -12758,7 +14558,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9961a4fa-599b-4c30-86bf-24f783e5ccc9")
-		(property "Reference" "R281"
+		(property "Reference" "R153"
 			(at 67.945 184.15 90)
 			(effects
 				(font
@@ -12801,6 +14601,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 67.945 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/23650/"
+			(at 67.945 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 67.945 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360кОм"
+			(at 67.945 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "36743136-4bf6-4568-9ac2-0d9450f713ab")
 		)
@@ -12810,7 +14646,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R281")
+					(reference "R153")
 					(unit 1)
 				)
 			)
@@ -12860,6 +14696,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 107.315 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 107.315 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46471/"
+			(at 107.315 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 107.315 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360Ом"
 			(at 107.315 124.46 0)
 			(effects
 				(font
@@ -12930,6 +14802,42 @@
 			)
 		)
 		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16"
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.chipdip.ru/product/tlp291-4-gb-tp-e-t"
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "340"
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Оптопара с транзисторным выходом 4-х канальная"
 			(at 129.54 73.66 0)
 			(effects
 				(font
@@ -13051,6 +14959,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "38"
+			(at 93.345 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/303635/"
+			(at 93.345 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "14"
+			(at 93.345 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Транзистор полевой N-канальный"
+			(at 93.345 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "faf064b8-090d-4941-ac6a-a8a40781039d")
 		)
@@ -13078,7 +15022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a0aff798-3616-42d6-8c1c-ce3e319c278e")
-		(property "Reference" "R152"
+		(property "Reference" "R160"
 			(at 74.295 229.235 90)
 			(effects
 				(font
@@ -13121,6 +15065,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 74.295 233.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/22010/"
+			(at 74.295 233.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 74.295 233.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 1МОм"
+			(at 74.295 233.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f58ee2f-c13e-42a5-a3d2-c936db041718")
 		)
@@ -13130,7 +15110,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R152")
+					(reference "R160")
 					(unit 1)
 				)
 			)
@@ -13180,6 +15160,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 107.315 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 107.315 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46471/"
+			(at 107.315 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 107.315 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360Ом"
 			(at 107.315 44.45 0)
 			(effects
 				(font
@@ -13255,6 +15271,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 69.85 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/23650/"
+			(at 69.85 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 69.85 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360кОм"
+			(at 69.85 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83125ddf-4375-48e1-847e-8a36dd04d93f")
 		)
@@ -13279,7 +15331,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8bbbad0-0231-421d-a963-f84dfdc5f563")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0138"
 			(at 297.18 114.3 0)
 			(effects
 				(font
@@ -13329,7 +15381,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0135")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -13387,6 +15439,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 69.85 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/22010/"
+			(at 69.85 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 69.85 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 1МОм"
+			(at 69.85 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1ff5a7b-fc37-47b8-89ab-82e58864448e")
 		)
@@ -13412,7 +15500,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae38e8c8-c738-455d-83c8-f18a0aeaf6a6")
-		(property "Reference" "#PWR0249"
+		(property "Reference" "#PWR0146"
 			(at 292.1 174.625 0)
 			(effects
 				(font
@@ -13462,7 +15550,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0249")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -13478,7 +15566,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af888919-1464-4a5a-b8e7-880ae42e2c97")
-		(property "Reference" "Q38"
+		(property "Reference" "Q32"
 			(at 86.995 191.135 90)
 			(effects
 				(font
@@ -13524,6 +15612,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "38"
+			(at 91.44 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/303635/"
+			(at 91.44 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "14"
+			(at 91.44 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Транзистор полевой N-канальный"
+			(at 91.44 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0932b263-706c-4b27-a2a8-7cb2a5b1b004")
 		)
@@ -13536,7 +15660,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "Q38")
+					(reference "Q32")
 					(unit 1)
 				)
 			)
@@ -13586,6 +15710,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 69.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 69.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/22010/"
+			(at 69.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 69.85 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 1МОм"
 			(at 69.85 113.03 0)
 			(effects
 				(font
@@ -13653,6 +15813,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 69.85 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 69.85 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/22010/"
+			(at 69.85 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 69.85 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 1МОм"
 			(at 69.85 126.365 0)
 			(effects
 				(font
@@ -13732,6 +15928,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "38"
+			(at 93.345 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/303635/"
+			(at 93.345 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "14"
+			(at 93.345 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Транзистор полевой N-канальный"
+			(at 93.345 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72d20c46-e966-46d9-be3e-105401ef908d")
 		)
@@ -13760,7 +15992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf1b21d2-7c93-4a60-88ce-f492b574864a")
-		(property "Reference" "J21"
+		(property "Reference" "J13"
 			(at 272.415 167.005 0)
 			(effects
 				(font
@@ -13803,6 +16035,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "8"
+			(at 271.145 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/347522/"
+			(at 271.145 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "64"
+			(at 271.145 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Разъем типа провод-плата, 3 мм, 4 контакт(-ов)"
+			(at 271.145 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd2c3f72-2ad5-46d7-b188-e65b5b737cd4")
 		)
@@ -13818,7 +16086,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "J21")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -13876,6 +16144,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 69.85 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/22010/"
+			(at 69.85 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 69.85 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 1МОм"
+			(at 69.85 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78fabe64-a95d-4244-a83b-c07a1bdd5839")
 		)
@@ -13900,7 +16204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c58ad78d-b1df-4afd-85b6-8e2d26bb1c94")
-		(property "Reference" "R159"
+		(property "Reference" "R167"
 			(at 159.385 255.905 90)
 			(effects
 				(font
@@ -13943,6 +16247,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "1000"
+			(at 159.385 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 159.385 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 159.385 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 159.385 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0416f441-2720-4dd9-871c-1c1dd90b3fb8")
 		)
@@ -13952,7 +16292,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R159")
+					(reference "R167")
 					(unit 1)
 				)
 			)
@@ -13967,7 +16307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c5b3219c-6201-488b-b3d6-0c1dd7aa4dd4")
-		(property "Reference" "#PWR0252"
+		(property "Reference" "#PWR0149"
 			(at 61.595 200.66 0)
 			(effects
 				(font
@@ -14017,7 +16357,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0252")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -14070,6 +16410,42 @@
 			)
 		)
 		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16"
+			(at 129.54 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
+			(at 129.54 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.chipdip.ru/product/tlp291-4-gb-tp-e-t"
+			(at 129.54 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "340"
+			(at 129.54 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Оптопара с транзисторным выходом 4-х канальная"
 			(at 129.54 140.335 0)
 			(effects
 				(font
@@ -14144,7 +16520,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccf0fadb-ce36-4837-9918-d79d4e4f57fe")
-		(property "Reference" "U77"
+		(property "Reference" "U31"
 			(at 127.635 184.785 0)
 			(effects
 				(font
@@ -14190,7 +16566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.chipdip.ru/product/tlp291-gb-tp-se-t"
 			(at 127.635 191.77 0)
 			(effects
 				(font
@@ -14199,7 +16575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "62"
 			(at 127.635 191.77 0)
 			(effects
 				(font
@@ -14208,7 +16584,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "Оптопара с транзисторным выходом"
+			(at 127.635 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
 			(at 127.635 191.77 0)
 			(effects
 				(font
@@ -14232,7 +16617,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "U77")
+					(reference "U31")
 					(unit 1)
 				)
 			)
@@ -14282,6 +16667,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 154.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 154.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 154.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 154.94 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
 			(at 154.94 124.46 0)
 			(effects
 				(font
@@ -14357,6 +16778,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 69.85 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/22010/"
+			(at 69.85 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 69.85 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 1МОм"
+			(at 69.85 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d035b5cb-c789-4d0d-9bf6-c520427af1fe")
 		)
@@ -14424,6 +16881,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 69.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/22010/"
+			(at 69.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 69.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 1МОм"
+			(at 69.85 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f623ea4-936f-4416-ae14-aaa6c81c3785")
 		)
@@ -14448,7 +16941,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d72f9658-a191-45cb-a650-1fdb5424f80d")
-		(property "Reference" "#PWR0250"
+		(property "Reference" "#PWR0145"
 			(at 81.915 166.37 0)
 			(effects
 				(font
@@ -14498,7 +16991,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0250")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -14514,7 +17007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7b86af4-9249-4ab2-849d-5de9cc10c1f7")
-		(property "Reference" "Q32"
+		(property "Reference" "Q34"
 			(at 93.345 246.38 90)
 			(effects
 				(font
@@ -14560,6 +17053,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "38"
+			(at 97.79 241.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/303635/"
+			(at 97.79 241.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "14"
+			(at 97.79 241.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Транзистор полевой N-канальный"
+			(at 97.79 241.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d8e5833-2bd4-45d9-aaad-347803f41287")
 		)
@@ -14572,7 +17101,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "Q32")
+					(reference "Q34")
 					(unit 1)
 				)
 			)
@@ -14587,7 +17116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d81d6fec-ef6e-4047-9ef6-cdbca45e89eb")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0141"
 			(at 63.5 148.59 0)
 			(effects
 				(font
@@ -14637,7 +17166,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0138")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -14687,6 +17216,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 69.85 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 69.85 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/23650/"
+			(at 69.85 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 69.85 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360кОм"
 			(at 69.85 102.235 0)
 			(effects
 				(font
@@ -14765,6 +17330,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "1"
+			(at 129.54 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.chipdip.ru/product/tlp291-4-gb-tp-e-t"
+			(at 129.54 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "340"
+			(at 129.54 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Оптопара с транзисторным выходом 4-х канальная"
+			(at 129.54 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "7cc94224-022c-4a9c-a6a8-a0be33bca140")
 		)
@@ -14831,7 +17432,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc162723-cd29-4d99-9da6-f13bc3036ae3")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0132"
 			(at 83.82 34.925 0)
 			(effects
 				(font
@@ -14881,7 +17482,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0129")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -14931,6 +17532,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 107.315 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 107.315 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46471/"
+			(at 107.315 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 107.315 84.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360Ом"
 			(at 107.315 84.455 0)
 			(effects
 				(font
@@ -15006,6 +17643,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 327.025 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46471/"
+			(at 327.025 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 327.025 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360Ом"
+			(at 327.025 95.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "11de0b90-471e-4412-bd02-495648b9f42e")
 		)
@@ -15030,7 +17703,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "deb0d3e7-bb0b-4a36-80b9-9d599afd342d")
-		(property "Reference" "#PWR0253"
+		(property "Reference" "#PWR0150"
 			(at 113.665 205.74 0)
 			(effects
 				(font
@@ -15080,7 +17753,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0253")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -15095,7 +17768,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e00623ac-fbb7-4115-b094-3f409a8e44d3")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0156"
 			(at 146.05 273.05 0)
 			(effects
 				(font
@@ -15145,7 +17818,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0147")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -15203,6 +17876,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "1000"
+			(at 154.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 154.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 154.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 154.94 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "82936429-35d2-4642-b335-c718c6884a3d")
 		)
@@ -15227,7 +17936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e37c247e-81cb-4a46-86a9-546b9c5fe618")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0142"
 			(at 115.57 153.67 0)
 			(effects
 				(font
@@ -15277,7 +17986,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0139")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -15292,7 +18001,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3acfa14-43b5-40da-a7d6-7568d26d398a")
-		(property "Reference" "R156"
+		(property "Reference" "R164"
 			(at 74.295 242.57 90)
 			(effects
 				(font
@@ -15335,6 +18044,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 74.295 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/22010/"
+			(at 74.295 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 74.295 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 1МОм"
+			(at 74.295 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d255aff-2f30-471c-b457-d7de8e0e4d4f")
 		)
@@ -15344,7 +18089,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R156")
+					(reference "R164")
 					(unit 1)
 				)
 			)
@@ -15359,7 +18104,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e4f3a759-fc8b-4684-b9d1-1e1ffb69953e")
-		(property "Reference" "R154"
+		(property "Reference" "R162"
 			(at 111.76 242.57 90)
 			(effects
 				(font
@@ -15402,6 +18147,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 111.76 244.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46471/"
+			(at 111.76 244.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 111.76 244.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360Ом"
+			(at 111.76 244.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "81b3aa71-96ae-433e-b4e8-7c64bc1091a2")
 		)
@@ -15411,7 +18192,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R154")
+					(reference "R162")
 					(unit 1)
 				)
 			)
@@ -15427,7 +18208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8ad53d1-fca5-443e-a2b8-7063431e24a1")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0153"
 			(at 181.61 232.41 0)
 			(effects
 				(font
@@ -15477,7 +18258,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0143")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -15493,7 +18274,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea3d8282-8fe3-42b6-8f69-fcdddc8bad89")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0136"
 			(at 297.18 99.695 0)
 			(effects
 				(font
@@ -15543,7 +18324,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0133")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -15558,7 +18339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ea62d7bd-e6a8-4b52-a7af-b2d9ffeeae21")
-		(property "Reference" "R148"
+		(property "Reference" "R156"
 			(at 74.295 215.9 90)
 			(effects
 				(font
@@ -15601,6 +18382,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "100"
+			(at 74.295 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/22010/"
+			(at 74.295 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 74.295 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 1МОм"
+			(at 74.295 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3b9223b-9316-44c0-a2a3-35463a7f7967")
 		)
@@ -15610,7 +18427,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "R148")
+					(reference "R156")
 					(unit 1)
 				)
 			)
@@ -15672,6 +18489,42 @@
 				(hide yes)
 			)
 		)
+		(property "Мин. кол-во" "38"
+			(at 93.345 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/303635/"
+			(at 93.345 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "14"
+			(at 93.345 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Транзистор полевой N-канальный"
+			(at 93.345 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a47e9a8-6e98-4b94-9828-a915cf339203")
 		)
@@ -15700,7 +18553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0abb30c-b7b4-4a93-9a62-1ada281d978a")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0148"
 			(at 290.83 195.58 0)
 			(effects
 				(font
@@ -15750,7 +18603,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0144")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -15766,7 +18619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fafa0e79-14b5-497e-a871-7c29bedbc001")
-		(property "Reference" "#PWR0251"
+		(property "Reference" "#PWR0147"
 			(at 175.26 177.165 0)
 			(effects
 				(font
@@ -15816,7 +18669,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0251")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -15869,6 +18722,42 @@
 			)
 		)
 		(property "Description" "Quad DC Optocoupler, Vce 80V, CTR 50-100%, SOP16"
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.chipdip.ru/product/tlp291-4-gb-tp-e-t"
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "340"
+			(at 129.54 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Оптопара с транзисторным выходом 4-х канальная"
 			(at 129.54 100.33 0)
 			(effects
 				(font
@@ -15989,7 +18878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" ""
+		(property "Ссылка" "https://www.chipdip.ru/product/b0505mt-1wr4"
 			(at 269.875 100.33 0)
 			(effects
 				(font
@@ -15998,7 +18887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" ""
+		(property "Цена" "230"
 			(at 269.875 100.33 0)
 			(effects
 				(font
@@ -16007,7 +18896,16 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" ""
+		(property "Человекопонятное название" "DC/DC преобразователь, 1Вт, вход 4.5-5.5В, выход 5В/200мА"
+			(at 269.875 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
 			(at 269.875 100.33 0)
 			(effects
 				(font
@@ -16055,7 +18953,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc9afb50-84f5-4198-8714-cbfd20b743fa")
-		(property "Reference" "#PWR0254"
+		(property "Reference" "#PWR0151"
 			(at 139.7 205.74 0)
 			(effects
 				(font
@@ -16105,7 +19003,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0254")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -16155,6 +19053,42 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 107.315 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 107.315 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46471/"
+			(at 107.315 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 107.315 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360Ом"
 			(at 107.315 97.79 0)
 			(effects
 				(font
