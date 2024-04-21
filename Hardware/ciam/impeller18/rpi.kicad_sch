@@ -2703,7 +2703,7 @@
 		)
 		(uuid cbf2411a-bc59-4f2c-81f8-3d1be3c48865)
 	)
-	(global_label "UART1_STM32_TX"
+	(global_label "UARTX_STM32_TX"
 		(shape input)
 		(at 170.18 95.885 180)
 		(fields_autoplaced yes)
@@ -2713,7 +2713,7 @@
 			)
 			(justify right)
 		)
-		(uuid "636679c9-221f-4d7e-b3a7-56d3160d4ca0")
+		(uuid "18c11b37-abc4-4bcd-8897-f3844ecec4b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.1688 95.885 0)
 			(effects
@@ -2765,28 +2765,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART1_STM32_RX"
-		(shape input)
-		(at 170.18 93.345 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9923e91a-efd0-4040-9106-71049d217349")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 150.8664 93.345 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -2853,6 +2831,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UARTX_STM32_RX"
+		(shape input)
+		(at 170.18 93.345 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab476692-3433-4a28-989f-3fbd745e6485")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.8664 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)

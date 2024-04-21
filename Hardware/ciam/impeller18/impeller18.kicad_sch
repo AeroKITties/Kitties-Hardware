@@ -5,6 +5,108 @@
 	(uuid "4ccab03b-4b1c-4c61-9fa8-19853ef32b4d")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x03"
 			(pin_names
 				(offset 1.016) hide)
@@ -5934,6 +6036,18 @@
 		(uuid "9549f28d-44d3-4df6-9be6-9dd93d665c0c")
 	)
 	(junction
+		(at 388.62 59.055)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95a1dbe4-d2e1-4d40-b83c-ea8bada8eccd")
+	)
+	(junction
+		(at 321.31 62.865)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96180abf-6ac2-4bc9-9d96-9b2e3f50169d")
+	)
+	(junction
 		(at 264.16 36.195)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6181,7 +6295,7 @@
 	)
 	(wire
 		(pts
-			(xy 317.5 62.865) (xy 330.835 62.865)
+			(xy 317.5 62.865) (xy 321.31 62.865)
 		)
 		(stroke
 			(width 0)
@@ -6261,7 +6375,7 @@
 	)
 	(wire
 		(pts
-			(xy 376.555 59.055) (xy 394.97 59.055)
+			(xy 376.555 59.055) (xy 388.62 59.055)
 		)
 		(stroke
 			(width 0)
@@ -6591,6 +6705,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 59.055) (xy 398.145 59.055)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52af392e-e42b-491f-a019-5654e9ea88ab")
+	)
+	(wire
+		(pts
 			(xy 74.93 72.39) (xy 74.93 76.835)
 		)
 		(stroke
@@ -6628,6 +6752,16 @@
 			(type default)
 		)
 		(uuid "57213f08-47e6-4f43-9893-469c69c2193f")
+	)
+	(wire
+		(pts
+			(xy 368.935 166.37) (xy 372.11 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57be17ac-ec84-46a6-8f50-5f5b60eeb272")
 	)
 	(wire
 		(pts
@@ -6938,16 +7072,6 @@
 			(type default)
 		)
 		(uuid "7d20299e-ad42-4816-b70a-0ad7f1b15202")
-	)
-	(wire
-		(pts
-			(xy 376.555 75.565) (xy 394.97 75.565)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d32f15b-8701-4960-a4f9-027e20ecbe19")
 	)
 	(wire
 		(pts
@@ -7271,6 +7395,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.935 168.275) (xy 368.935 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2260824-20eb-4c01-8fa2-4f59706c1a67")
+	)
+	(wire
+		(pts
 			(xy 90.17 72.39) (xy 90.17 76.835)
 		)
 		(stroke
@@ -7318,6 +7452,16 @@
 			(type default)
 		)
 		(uuid "a9b0f46d-5707-495f-bf1c-6ac8d407981d")
+	)
+	(wire
+		(pts
+			(xy 388.62 59.055) (xy 388.62 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aac97ae8-f55d-42b1-9d18-b39d8efa702d")
 	)
 	(wire
 		(pts
@@ -7451,6 +7595,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 60.96) (xy 321.31 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c392a26a-8ba2-4fc0-99a9-996f0af8b08d")
+	)
+	(wire
+		(pts
 			(xy 264.16 28.575) (xy 273.05 28.575)
 		)
 		(stroke
@@ -7568,6 +7722,16 @@
 			(type default)
 		)
 		(uuid "d22ca037-85a9-495c-8eaf-40119643348c")
+	)
+	(wire
+		(pts
+			(xy 321.31 62.865) (xy 330.835 62.865)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d249fd68-adaa-4c6a-83b5-6b974d0daad9")
 	)
 	(wire
 		(pts
@@ -7738,6 +7902,16 @@
 			(type default)
 		)
 		(uuid "eac15430-4854-4cb8-9010-1e1fc0f05676")
+	)
+	(wire
+		(pts
+			(xy 376.555 75.565) (xy 398.145 75.565)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb2e33fd-415b-4417-b8d4-7dab9d7df32c")
 	)
 	(wire
 		(pts
@@ -7993,7 +8167,7 @@
 	)
 	(rectangle
 		(start 347.345 134.62)
-		(end 402.59 159.385)
+		(end 402.59 175.26)
 		(stroke
 			(width 0)
 			(type default)
@@ -8058,9 +8232,9 @@
 		)
 		(uuid "50dff8b6-dac1-476a-b8f4-17263d4850d1")
 	)
-	(text "UART1"
+	(text "UART"
 		(exclude_from_sim no)
-		(at 398.145 156.845 0)
+		(at 398.145 173.355 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8089,13 +8263,14 @@
 		)
 		(uuid "6230510f-efd0-4b9a-95ab-b1feacc934ed")
 	)
-	(text "Вместо X вписать номер (UART1 занят)"
+	(text "Вместо X вписать номер (UART1 занят)\n1. тут\n2. на этом листе где коннекторы \n3. в rpi"
 		(exclude_from_sim no)
-		(at 236.855 231.775 0)
+		(at 217.17 232.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "62737fd0-7776-4e27-ac48-194ac8b25959")
 	)
@@ -8229,7 +8404,7 @@
 		(uuid "2ad65019-4e4e-4747-9c52-aceb0b1c42b5")
 	)
 	(label "HSE_OUT"
-		(at 394.97 75.565 180)
+		(at 398.145 75.565 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8350,7 +8525,7 @@
 		(uuid "c7268335-c6f6-4354-b5e8-df2de0db2d91")
 	)
 	(label "HSE_IN"
-		(at 394.97 59.055 180)
+		(at 398.145 59.055 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8569,6 +8744,28 @@
 			)
 		)
 	)
+	(global_label "UARTX_STM32_TX"
+		(shape input)
+		(at 372.11 161.29 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "12904988-fc15-4384-8f46-aa511ceaadd2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 353.0988 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC_RUD_INT"
 		(shape input)
 		(at 161.29 157.48 0)
@@ -8675,6 +8872,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UARTX_STM32_RX"
+		(shape input)
+		(at 372.11 163.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2af186f4-d3d7-484b-8cbd-3cff301641e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 352.7964 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11659,6 +11878,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 377.19 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "38537b28-1ab7-48fe-8139-ee882f14a7ec")
+		(property "Reference" "J26"
+			(at 380.365 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PLS-3"
+			(at 380.365 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 377.19 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 377.19 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 377.19 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a92fcdc9-3b3d-4457-ba00-a46dcd82aa98")
+		)
+		(pin "2"
+			(uuid "58d518dd-a78a-44e8-8d90-53bb95be866a")
+		)
+		(pin "1"
+			(uuid "aae46192-a3f8-414c-bbd3-2ed659987a0b")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 317.5 32.385 0)
 		(unit 1)
@@ -11862,6 +12153,72 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 368.935 168.275 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "40d380b2-d1ec-4df3-b550-e45f40f913b3")
+		(property "Reference" "#PWR0260"
+			(at 368.935 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 368.935 172.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 368.935 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.935 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 368.935 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c9d1225b-4a32-49d0-ba81-2139a91f4dd7")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d"
+					(reference "#PWR0260")
 					(unit 1)
 				)
 			)
@@ -13650,6 +14007,72 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 321.31 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c14f260-b805-4937-91e0-f1c6c74c233b")
+		(property "Reference" "TP2"
+			(at 319.405 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 316.865 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 326.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 326.39 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 321.31 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "540cd1af-60bf-425b-91ad-62e1cceb469f")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -15662,7 +16085,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "530470310"
+		(property "Value" "PLS-3"
 			(at 380.365 146.0499 0)
 			(effects
 				(font
@@ -15698,7 +16121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Мин. кол-во" "1"
+		(property "Мин. кол-во" ""
 			(at 377.19 144.78 0)
 			(effects
 				(font
@@ -15707,7 +16130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" "https://energoflot.ru/item/530470310"
+		(property "Ссылка" ""
 			(at 377.19 144.78 0)
 			(effects
 				(font
@@ -15716,7 +16139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" "20"
+		(property "Цена" ""
 			(at 377.19 144.78 0)
 			(effects
 				(font
@@ -15725,7 +16148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" "Разъем PicoBlade штекер на плату прямой 1,25мм 3pin"
+		(property "Человекопонятное название" ""
 			(at 377.19 144.78 0)
 			(effects
 				(font
@@ -15944,6 +16367,72 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 388.62 62.865 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc9b26fd-646b-45ae-8240-ab90d7f0b757")
+		(property "Reference" "TP1"
+			(at 390.525 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 393.065 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 383.54 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 383.54 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 388.62 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f3f3aee-ddea-4ed7-b981-36d321022faa")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
