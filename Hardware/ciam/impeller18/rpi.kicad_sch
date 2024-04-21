@@ -3058,7 +3058,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:LED_RGB_promelec"
 			(at 273.685 127.635 0)
 			(effects
 				(font
@@ -3167,7 +3167,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 285.115 128.143 90)
 			(effects
 				(font
@@ -3270,7 +3270,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 177.8 70.485 0)
 			(effects
 				(font
@@ -3375,7 +3375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 177.8 64.77 0)
 			(effects
 				(font
@@ -3699,7 +3699,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:LED_RGB_promelec"
 			(at 273.685 100.33 0)
 			(effects
 				(font
@@ -3808,7 +3808,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 285.115 133.223 90)
 			(effects
 				(font
@@ -3977,7 +3977,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 285.115 100.838 90)
 			(effects
 				(font
@@ -4080,7 +4080,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 285.115 105.918 90)
 			(effects
 				(font
@@ -4185,7 +4185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 177.8 76.2 0)
 			(effects
 				(font
@@ -4419,7 +4419,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 285.115 95.758 90)
 			(effects
 				(font
@@ -4522,7 +4522,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 285.115 123.063 90)
 			(effects
 				(font
