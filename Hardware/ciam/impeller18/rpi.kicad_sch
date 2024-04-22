@@ -1698,6 +1698,152 @@
 				)
 			)
 		)
+		(symbol "Device:Polyfuse_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Polyfuse_Small"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resettable fuse PTC PPTC polyfuse polyswitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*polyfuse* *PTC*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Polyfuse_Small_0_1"
+				(rectangle
+					(start -0.508 1.27)
+					(end 0.508 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy -1.016 0.762) (xy 1.016 -0.762) (xy 1.016 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Polyfuse_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.635)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -2848,6 +2994,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 55.245) (xy 185.42 56.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a034ab37-87a9-40d1-98c5-836937e172c3")
+	)
+	(wire
+		(pts
 			(xy 170.815 76.2) (xy 175.26 76.2)
 		)
 		(stroke
@@ -3308,7 +3464,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 185.42 61.595 0)
+		(at 185.42 55.245 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3316,7 +3472,7 @@
 		(dnp no)
 		(uuid "11e26026-eb8f-4f75-9821-4444cf733a85")
 		(property "Reference" "#PWR0103"
-			(at 185.42 65.405 0)
+			(at 185.42 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3325,7 +3481,7 @@
 			)
 		)
 		(property "Value" "5V0"
-			(at 185.42 57.785 0)
+			(at 185.42 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3333,7 +3489,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 61.595 0)
+			(at 185.42 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3342,7 +3498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 61.595 0)
+			(at 185.42 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3351,7 +3507,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 185.42 61.595 0)
+			(at 185.42 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,6 +4339,110 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
 					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse_Small")
+		(at 185.42 59.055 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a91bedeb-4d82-44fd-aa21-b0ccf27090e2")
+		(property "Reference" "F2"
+			(at 188.595 57.785 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MF-LSMF300/24X-2"
+			(at 197.485 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_2920_7451Metric"
+			(at 184.15 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient, small symbol"
+			(at 185.42 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
+			(at 185.42 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/465739/"
+			(at 185.42 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "28"
+			(at 185.42 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Самовосстанавливающийся предохранитель"
+			(at 185.42 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c41cb0b9-8932-477f-b10f-c3cbe6d7dcb2")
+		)
+		(pin "2"
+			(uuid "4dcdcb37-0efb-48e6-a103-42cb17cfe0d8")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "F2")
 					(unit 1)
 				)
 			)

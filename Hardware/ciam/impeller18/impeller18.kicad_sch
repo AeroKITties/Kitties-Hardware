@@ -20192,7 +20192,7 @@
 	)
 	(sheet
 		(at 149.86 17.145)
-		(size 16.51 11.43)
+		(size 16.51 10.795)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -20212,7 +20212,7 @@
 			)
 		)
 		(property "Sheetfile" "fan.kicad_sch"
-			(at 149.86 29.1596 0)
+			(at 149.86 28.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
