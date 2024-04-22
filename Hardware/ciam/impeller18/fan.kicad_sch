@@ -2301,7 +2301,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.325 107.95) (xy 64.77 107.95)
+			(xy 226.695 81.28) (xy 226.695 76.835)
 		)
 		(stroke
 			(width 0)
@@ -2331,7 +2331,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 110.49) (xy 127.635 110.49)
+			(xy 226.695 95.885) (xy 226.695 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2451,7 +2451,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.325 112.395) (xy 64.77 112.395)
+			(xy 243.205 95.885) (xy 243.205 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2621,7 +2621,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 106.045) (xy 127.635 106.045)
+			(xy 243.205 81.28) (xy 243.205 76.835)
 		)
 		(stroke
 			(width 0)
@@ -2839,7 +2839,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 60.325 112.395 90)
+		(at 243.205 95.885 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2847,7 +2847,7 @@
 		(dnp no)
 		(uuid "0836b040-cbc0-4fd6-88ab-eddb7695dd8a")
 		(property "Reference" "TP34"
-			(at 52.705 113.03 90)
+			(at 244.475 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,7 +2856,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 55.245 111.125 90)
+			(at 244.475 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +2865,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 60.325 107.315 0)
+			(at 248.285 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +2874,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.325 107.315 0)
+			(at 248.285 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2883,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 60.325 112.395 0)
+			(at 243.205 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,7 +2905,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 64.77 107.95 270)
+		(at 226.695 76.835 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2913,7 +2913,7 @@
 		(dnp no)
 		(uuid "110da0a8-9c4d-4a53-9f97-c4e146f1dcd4")
 		(property "Reference" "#PWR0287"
-			(at 60.96 107.95 0)
+			(at 226.695 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2922,7 +2922,7 @@
 			)
 		)
 		(property "Value" "12V0_FAN"
-			(at 73.025 107.95 90)
+			(at 226.695 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2930,7 +2930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 107.95 0)
+			(at 226.695 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2939,7 +2939,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 107.95 0)
+			(at 226.695 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +2948,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 64.77 107.95 0)
+			(at 226.695 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3178,7 +3178,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 60.325 107.95 90)
+		(at 226.695 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3186,7 +3186,7 @@
 		(dnp no)
 		(uuid "18e6b0a2-9444-4ef3-9507-b0d00fd1445d")
 		(property "Reference" "TP33"
-			(at 52.705 108.585 90)
+			(at 233.045 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3195,7 +3195,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 55.245 106.68 90)
+			(at 236.855 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3204,7 +3204,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 60.325 102.87 0)
+			(at 221.615 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,7 +3213,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.325 102.87 0)
+			(at 221.615 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3222,7 +3222,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 60.325 107.95 0)
+			(at 226.695 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,7 +3719,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 123.19 106.045 90)
+		(at 243.205 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3727,7 +3727,7 @@
 		(dnp no)
 		(uuid "589a0016-5477-4853-92fd-3032946fd395")
 		(property "Reference" "TP35"
-			(at 115.57 106.68 90)
+			(at 249.555 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3736,7 +3736,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 118.11 104.775 90)
+			(at 253.365 85.725 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3745,7 +3745,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 123.19 100.965 0)
+			(at 238.125 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3754,7 +3754,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 100.965 0)
+			(at 238.125 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +3763,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 123.19 106.045 0)
+			(at 243.205 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3850,7 +3850,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 112.395 90)
+		(at 243.205 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3858,7 +3858,7 @@
 		(dnp no)
 		(uuid "615e3539-982c-4d5b-af68-ae99df983ca0")
 		(property "Reference" "#PWR0288"
-			(at 71.12 112.395 0)
+			(at 243.205 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,7 +3867,7 @@
 			)
 		)
 		(property "Value" "GND_FAN"
-			(at 72.39 112.395 90)
+			(at 243.205 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3875,7 +3875,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 112.395 0)
+			(at 243.205 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3884,7 +3884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 112.395 0)
+			(at 243.205 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,7 +3893,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 112.395 0)
+			(at 243.205 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,7 +4086,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 123.19 110.49 90)
+		(at 226.695 95.885 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4094,7 +4094,7 @@
 		(dnp no)
 		(uuid "70497c91-4cd5-44e8-9643-70ac00721e7a")
 		(property "Reference" "TP36"
-			(at 115.57 111.125 90)
+			(at 227.965 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,7 +4103,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 118.11 109.22 90)
+			(at 227.965 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +4112,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 123.19 105.41 0)
+			(at 231.775 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4121,7 +4121,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 105.41 0)
+			(at 231.775 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4130,7 +4130,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 123.19 110.49 0)
+			(at 226.695 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4661,7 +4661,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 127.635 106.045 270)
+		(at 243.205 76.835 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4669,7 +4669,7 @@
 		(dnp no)
 		(uuid "93c731be-5960-4324-8606-38d63b990e02")
 		(property "Reference" "#PWR0289"
-			(at 123.825 106.045 0)
+			(at 243.205 80.645 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4678,7 +4678,7 @@
 			)
 		)
 		(property "Value" "5V0_FAN"
-			(at 135.255 106.045 90)
+			(at 243.205 73.025 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4686,7 +4686,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127.635 106.045 0)
+			(at 243.205 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,7 +4695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127.635 106.045 0)
+			(at 243.205 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4704,7 +4704,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 127.635 106.045 0)
+			(at 243.205 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6082,7 +6082,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127.635 110.49 90)
+		(at 226.695 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6090,7 +6090,7 @@
 		(dnp no)
 		(uuid "fb4ea511-135d-4f63-a12d-786c74b3f801")
 		(property "Reference" "#PWR0290"
-			(at 133.985 110.49 0)
+			(at 226.695 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6099,7 +6099,7 @@
 			)
 		)
 		(property "Value" "GND_FAN"
-			(at 135.255 110.49 90)
+			(at 226.695 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,7 +6107,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127.635 110.49 0)
+			(at 226.695 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6116,7 +6116,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127.635 110.49 0)
+			(at 226.695 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,7 +6125,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127.635 110.49 0)
+			(at 226.695 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)

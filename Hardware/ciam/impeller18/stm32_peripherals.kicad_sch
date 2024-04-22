@@ -4528,6 +4528,16 @@
 		)
 		(uuid "e34b067c-16ab-49e7-b9e3-1f445ebdbec5")
 	)
+	(text "ПРОВЕРИТЬ СВЕТОДИОДЫ"
+		(exclude_from_sim no)
+		(at 278.765 90.805 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb806d4b-4f88-4720-a833-6f6c2cdae51d")
+	)
 	(label "usb_conn_d+"
 		(at 65.405 113.03 0)
 		(fields_autoplaced yes)

@@ -3960,7 +3960,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.335 116.205) (xy 271.78 116.205)
+			(xy 354.965 107.95) (xy 354.965 112.395)
 		)
 		(stroke
 			(width 0)
@@ -5030,7 +5030,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.335 111.76) (xy 271.78 111.76)
+			(xy 354.965 93.345) (xy 354.965 88.9)
 		)
 		(stroke
 			(width 0)
@@ -10240,7 +10240,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 267.335 116.205 90)
+		(at 354.965 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10248,7 +10248,7 @@
 		(dnp no)
 		(uuid "3135e245-38c5-44ce-8657-1e4d7332e2e3")
 		(property "Reference" "TP22"
-			(at 259.715 116.84 90)
+			(at 356.235 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10257,7 +10257,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 262.255 114.935 90)
+			(at 356.235 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10266,7 +10266,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 267.335 111.125 0)
+			(at 360.045 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,7 +10275,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.335 111.125 0)
+			(at 360.045 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10284,7 +10284,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 267.335 116.205 0)
+			(at 354.965 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13038,7 +13038,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 267.335 111.76 90)
+		(at 354.965 93.345 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13046,7 +13046,7 @@
 		(dnp no)
 		(uuid "7491fbe8-bb7b-4a50-8e8f-c3260c404a95")
 		(property "Reference" "TP21"
-			(at 259.715 112.395 90)
+			(at 361.315 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13055,7 +13055,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 262.255 110.49 90)
+			(at 365.125 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13064,7 +13064,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 267.335 106.68 0)
+			(at 349.885 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13073,7 +13073,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 267.335 106.68 0)
+			(at 349.885 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13082,7 +13082,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 267.335 111.76 0)
+			(at 354.965 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14262,7 +14262,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 271.78 116.205 90)
+		(at 354.965 112.395 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14270,7 +14270,7 @@
 		(dnp no)
 		(uuid "869c7ea1-f537-4700-92e8-110da9de962f")
 		(property "Reference" "#PWR0278"
-			(at 278.13 116.205 0)
+			(at 354.965 118.745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14279,7 +14279,7 @@
 			)
 		)
 		(property "Value" "GND_IN"
-			(at 278.765 116.205 90)
+			(at 354.965 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14287,7 +14287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 116.205 0)
+			(at 354.965 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14296,7 +14296,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 116.205 0)
+			(at 354.965 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14305,7 +14305,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 271.78 116.205 0)
+			(at 354.965 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18145,16 +18145,15 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 271.78 111.76 270)
+		(at 354.965 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e049a7ba-0263-4f22-b972-75cb355c1b85")
 		(property "Reference" "#PWR0277"
-			(at 267.97 111.76 0)
+			(at 354.965 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18163,7 +18162,7 @@
 			)
 		)
 		(property "Value" "5V0_SWITCHES_3"
-			(at 275.59 111.7599 90)
+			(at 346.71 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18172,7 +18171,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 271.78 111.76 0)
+			(at 354.965 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18181,7 +18180,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 271.78 111.76 0)
+			(at 354.965 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18190,7 +18189,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 271.78 111.76 0)
+			(at 354.965 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)

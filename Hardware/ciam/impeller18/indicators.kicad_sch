@@ -3567,7 +3567,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 260.35) (xy 94.615 260.35)
+			(xy 179.07 241.935) (xy 179.07 246.38)
 		)
 		(stroke
 			(width 0)
@@ -4897,7 +4897,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 255.905) (xy 94.615 255.905)
+			(xy 179.07 227.33) (xy 179.07 222.885)
 		)
 		(stroke
 			(width 0)
@@ -6963,7 +6963,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 90.17 255.905 90)
+		(at 179.07 227.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6971,7 +6971,7 @@
 		(dnp no)
 		(uuid "342227a9-f8a2-4cd5-b1ba-4f45a63561ec")
 		(property "Reference" "TP25"
-			(at 82.55 256.54 90)
+			(at 185.42 229.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6980,7 +6980,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 85.09 254.635 90)
+			(at 189.23 231.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6989,7 +6989,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 90.17 250.825 0)
+			(at 173.99 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6998,7 +6998,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 250.825 0)
+			(at 173.99 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,7 +7007,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 90.17 255.905 0)
+			(at 179.07 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7970,16 +7970,15 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 94.615 255.905 270)
+		(at 179.07 222.885 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "577ad4ef-bd9e-471d-89d5-5902fa7dc010")
 		(property "Reference" "#PWR0280"
-			(at 90.805 255.905 0)
+			(at 179.07 226.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7988,7 +7987,7 @@
 			)
 		)
 		(property "Value" "12V0_LED"
-			(at 97.79 255.9049 90)
+			(at 174.625 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7997,7 +7996,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 94.615 255.905 0)
+			(at 179.07 222.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8006,7 +8005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 94.615 255.905 0)
+			(at 179.07 222.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8015,7 +8014,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 94.615 255.905 0)
+			(at 179.07 222.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10105,7 +10104,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 94.615 260.35 90)
+		(at 179.07 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10113,7 +10112,7 @@
 		(dnp no)
 		(uuid "a685421c-9b31-4e99-8fdd-065ed2df5daa")
 		(property "Reference" "#PWR0279"
-			(at 100.965 260.35 0)
+			(at 179.07 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10122,7 +10121,7 @@
 			)
 		)
 		(property "Value" "GND_LED"
-			(at 102.235 260.35 90)
+			(at 179.07 250.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10130,7 +10129,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 94.615 260.35 0)
+			(at 179.07 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10139,7 +10138,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 94.615 260.35 0)
+			(at 179.07 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10148,7 +10147,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 94.615 260.35 0)
+			(at 179.07 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11730,7 +11729,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 90.17 260.35 90)
+		(at 179.07 241.935 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11738,7 +11737,7 @@
 		(dnp no)
 		(uuid "e59ba9d0-e0c8-4373-b134-2f55c11e9904")
 		(property "Reference" "TP26"
-			(at 82.55 260.985 90)
+			(at 180.34 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11747,7 +11746,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 85.09 259.08 90)
+			(at 180.34 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11756,7 +11755,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 90.17 255.27 0)
+			(at 184.15 241.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11765,7 +11764,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 255.27 0)
+			(at 184.15 241.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11774,7 +11773,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 90.17 260.35 0)
+			(at 179.07 241.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
