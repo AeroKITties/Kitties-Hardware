@@ -6688,7 +6688,7 @@
 			)
 			(justify left)
 		)
-		(uuid "cc68bd22-6ec4-448a-8a27-b54f93e60a0e")
+		(uuid "ec2e6a7d-ea54-416a-890f-9b1ff27d037d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 388.0674 194.31 0)
 			(effects
