@@ -3226,6 +3226,16 @@
 		)
 		(uuid "397b21bb-fcde-4c4b-8f40-38eb17570bf1")
 	)
+	(text "ДОБАВИТЬ СИГНАЛ О ВОЗМОЖНОСТИ ВЫКЛЮЧЕНИИ ПИТАНИЯ"
+		(exclude_from_sim no)
+		(at 129.54 78.105 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "57710103-89ff-4320-b987-c9ce848fa236")
+	)
 	(text "когда подключим светодиоды?"
 		(exclude_from_sim no)
 		(at 272.415 166.37 0)
@@ -4352,7 +4362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" "https://www.chipdip.ru/product/raspberry-pi-4-model-b-4gb"
+		(property "Ссылка" "https://sinardcom.ru/product/raspberry-pi4b-8gb-rpi"
 			(at 190.5 116.205 0)
 			(effects
 				(font
@@ -4361,7 +4371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" "17000"
+		(property "Цена" "12500"
 			(at 190.5 116.205 0)
 			(effects
 				(font
