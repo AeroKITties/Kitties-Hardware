@@ -6542,6 +6542,28 @@
 		)
 		(uuid "00834b56-d936-4cb5-8f82-36472868bc40")
 	)
+	(text "1.5 м"
+		(exclude_from_sim no)
+		(at 53.975 72.39 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(bold yes)
+			)
+		)
+		(uuid "2ad25d73-93f1-4323-be41-1346e37fdede")
+	)
+	(text "1.5 м"
+		(exclude_from_sim no)
+		(at 53.975 167.64 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(bold yes)
+			)
+		)
+		(uuid "69075500-0ca1-4e94-ae9d-18fd54ce1230")
+	)
 	(text "https://files.waveshare.com/upload/1/15/2-CH-CAN-HAT-Schematic.pdf\nшилд"
 		(exclude_from_sim no)
 		(at 275.59 113.665 0)
@@ -8654,7 +8676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_6.62x9.15mm_P2.54mm"
+		(property "Footprint" "user_lib:ISO1050DUB"
 			(at 176.53 50.165 0)
 			(effects
 				(font
@@ -9971,7 +9993,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_6.62x9.15mm_P2.54mm"
+		(property "Footprint" "user_lib:ISO1050DUB"
 			(at 176.53 150.495 0)
 			(effects
 				(font
@@ -10095,7 +10117,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_6.62x9.15mm_P2.54mm"
+		(property "Footprint" "user_lib:ISO1050DUB"
 			(at 176.53 78.74 0)
 			(effects
 				(font
@@ -10901,7 +10923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
+		(property "Footprint" "user_lib:430454000"
 			(at 50.165 45.72 0)
 			(effects
 				(font
@@ -16513,7 +16535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-8_6.62x9.15mm_P2.54mm"
+		(property "Footprint" "user_lib:ISO1050DUB"
 			(at 176.53 179.07 0)
 			(effects
 				(font
@@ -16964,7 +16986,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
+		(property "Footprint" "user_lib:430454000"
 			(at 50.165 146.05 0)
 			(effects
 				(font

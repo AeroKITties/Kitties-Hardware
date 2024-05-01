@@ -9146,6 +9146,108 @@
 		)
 		(uuid "ffeaee27-5de3-4373-8bc6-c730f5966b7a")
 	)
+	(text "16.2 м"
+		(exclude_from_sim no)
+		(at 124.46 245.745 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1d86fd8c-82b1-4749-bf50-9c57f4c96daa")
+	)
+	(text "0.5 м\n"
+		(exclude_from_sim no)
+		(at 238.76 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "27161ae1-3aca-4d81-b9c9-aa68b46400d8")
+	)
+	(text "0.9 м"
+		(exclude_from_sim no)
+		(at 313.69 216.535 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3401cf74-9e9a-4941-8ab4-3549ad42f7db")
+	)
+	(text "0.5 м\n"
+		(exclude_from_sim no)
+		(at 169.545 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3647da9c-cfc0-4256-a4cc-e903b1ccb8f1")
+	)
+	(text "9 м"
+		(exclude_from_sim no)
+		(at 205.105 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a20d2b0-f7fd-4192-83ad-7211893abe1e")
+	)
+	(text "0.9 м"
+		(exclude_from_sim no)
+		(at 88.265 216.535 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4f4c12bc-c3c7-40b8-9ead-c454b7a4f252")
+	)
+	(text "0.9 м"
+		(exclude_from_sim no)
+		(at 254.635 216.535 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9b574059-da8b-46b4-8b41-ccfba00360bc")
+	)
+	(text "16.2 м"
+		(exclude_from_sim no)
+		(at 289.56 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b4e778d2-967f-48fd-bae0-2ae2558c6d0b")
+	)
+	(text "41.4 м"
+		(exclude_from_sim no)
+		(at 205.105 269.875 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(thickness 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "e25704a5-fa53-4878-969d-c6f27cce1dc9")
+	)
+	(text "0.9 м"
+		(exclude_from_sim no)
+		(at 149.225 216.535 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e8740c2b-5cb6-43f2-bb39-34e1c3657f44")
+	)
 	(label "SWITCH_1.7_EXT"
 		(at 36.83 109.22 0)
 		(fields_autoplaced yes)
@@ -12037,7 +12139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1800_2x09_P3.00mm_Horizontal"
+		(property "Footprint" "user_lib:430451800"
 			(at 288.29 226.695 0)
 			(effects
 				(font
@@ -17107,7 +17209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1800_2x09_P3.00mm_Horizontal"
+		(property "Footprint" "user_lib:430451800"
 			(at 123.19 226.695 0)
 			(effects
 				(font
@@ -17389,7 +17491,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-4_4.55x2.6mm_P1.27mm"
+		(property "Footprint" "user_lib:TLP291"
 			(at 282.575 155.575 0)
 			(effects
 				(font
@@ -21355,7 +21457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1800_2x09_P3.00mm_Horizontal"
+		(property "Footprint" "user_lib:430451800"
 			(at 202.565 226.695 0)
 			(effects
 				(font
@@ -25644,7 +25746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-4_4.55x2.6mm_P1.27mm"
+		(property "Footprint" "user_lib:TLP291"
 			(at 118.745 154.94 0)
 			(effects
 				(font

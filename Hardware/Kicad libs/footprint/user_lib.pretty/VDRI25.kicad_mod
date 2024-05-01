@@ -1,0 +1,191 @@
+(footprint "VDRI25"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "df06725b-2beb-47f6-9ef2-c692fcf0d038")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "VDRI25"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6e067ef1-b5ed-41ed-9f55-a8fb4f634a5c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33a3f55d-9187-4afb-b28d-0ac26594044f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "637781f3-70ec-4ba2-801a-2c7e8e62770b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bcdd9aca-e045-41e0-a2c7-e9a0a38b26a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -16.15 -10.4)
+		(end 16.15 10.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9449ba99-8a01-473b-af98-8550e5f6da1d")
+	)
+	(fp_rect
+		(start -16.225 -10.475)
+		(end 16.225 10.475)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "3c6dd48f-a7ca-440e-a811-c2aac89f9df1")
+	)
+	(fp_rect
+		(start -15.9 -10.15)
+		(end 15.9 10.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "2faf444b-5855-438b-a717-3b548ba956c6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0c5b64e0-f21c-4443-8a34-259641c001f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -13.9 7.59)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "628291e9-e2c8-4176-b414-abeb80701c62")
+	)
+	(pad "2" thru_hole circle
+		(at -11.36 7.59)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9fe084cc-9c5e-418a-a2fe-ef47f5e791bb")
+	)
+	(pad "3" thru_hole circle
+		(at -8.82 7.59)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ea949f5b-bb6d-4f9a-854a-84c70d9ac4a5")
+	)
+	(pad "11" thru_hole circle
+		(at 11.5 7.59)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "150bfed5-45f1-4b5c-9ddc-ac72a3b0c6d4")
+	)
+	(pad "14" thru_hole circle
+		(at 11.5 -7.65)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "35f6ed1a-f12a-4e0b-b442-a5ad69556458")
+	)
+	(pad "16" thru_hole circle
+		(at 6.42 -7.65)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "257043df-eac5-413c-96e8-d86312470c3b")
+	)
+	(pad "22" thru_hole circle
+		(at -8.82 -7.65)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0ec4c56d-6c16-42f7-9cd8-f9460f1edad6")
+	)
+	(pad "23" thru_hole circle
+		(at -11.36 -7.65)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d3adc037-7e24-47a6-a4c5-830bd1c14d39")
+	)
+	(model "C:/Users/user/Documents/GitHub/Flight-Controller/Hardware/Kicad 3D/VDRI25.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

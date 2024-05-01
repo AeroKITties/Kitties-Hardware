@@ -11886,7 +11886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1600_2x08_P3.00mm_Horizontal"
+		(property "Footprint" "user_lib:430451600"
 			(at 59.055 157.48 0)
 			(effects
 				(font

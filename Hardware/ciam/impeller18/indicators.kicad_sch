@@ -4975,6 +4975,18 @@
 		)
 		(uuid "fef6c930-6cbe-4aaa-a551-8275bc6438ce")
 	)
+	(text "32.4 м"
+		(exclude_from_sim no)
+		(at 231.775 146.685 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(thickness 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "db50f8b0-4aa7-48a1-88b8-042f10f4e65e")
+	)
 	(label "LED7_EXT_12V"
 		(at 91.44 123.825 180)
 		(fields_autoplaced yes)
@@ -7605,7 +7617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1800_2x09_P3.00mm_Horizontal"
+		(property "Footprint" "user_lib:430451800"
 			(at 132.08 193.675 0)
 			(effects
 				(font
@@ -9649,7 +9661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1800_2x09_P3.00mm_Horizontal"
+		(property "Footprint" "user_lib:430451800"
 			(at 66.04 193.675 0)
 			(effects
 				(font
@@ -12314,7 +12326,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal"
+		(property "Footprint" "user_lib:430450600"
 			(at 199.39 191.77 0)
 			(effects
 				(font

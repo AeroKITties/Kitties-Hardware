@@ -241,7 +241,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "467b99eb-e239-4999-93e0-5a9f35f46ce1")
 	)
-	(model "${KIPRJMOD}/packages3D/LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100.wrl"
+	(model "C:/Users/user/Documents/GitHub/Flight-Controller/Hardware/Kicad 3D/LED_3528_RGB.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -249,7 +249,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 180)
+			(xyz -90 0 180)
 		)
 	)
 )

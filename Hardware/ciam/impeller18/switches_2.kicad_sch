@@ -7641,6 +7641,16 @@
 		)
 		(uuid "ff985249-dc8a-4eb3-b9a0-fd1bc8695b86")
 	)
+	(text "0.5 м\n"
+		(exclude_from_sim no)
+		(at 305.435 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0fcd49a6-dae4-41b6-bdab-e6ff75f93033")
+	)
 	(text "большая красная кнопка"
 		(exclude_from_sim no)
 		(at 307.34 172.72 0)
@@ -7650,6 +7660,16 @@
 			)
 		)
 		(uuid "136aebee-c7f0-4689-a338-b24682461dde")
+	)
+	(text "1.8\n"
+		(exclude_from_sim no)
+		(at 272.415 179.705 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "142ce423-fad0-4058-984e-a4f7841c41cd")
 	)
 	(text "800/24\nАэрПит\nПитСис"
 		(exclude_from_sim no)
@@ -7661,6 +7681,16 @@
 		)
 		(uuid "18235ba0-ce09-481f-b40d-6f046b5363fb")
 	)
+	(text "8 м"
+		(exclude_from_sim no)
+		(at 231.775 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "396e3935-7cdd-4786-a244-1d673bd81f70")
+	)
 	(text "что планируется кроме большой красной кнопки и что мы посылаем в РУ1?"
 		(exclude_from_sim no)
 		(at 348.615 185.42 0)
@@ -7671,6 +7701,26 @@
 		)
 		(uuid "5afe1649-ff99-464b-a9bb-80a77a90ed33")
 	)
+	(text "4 м"
+		(exclude_from_sim no)
+		(at 379.095 147.955 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6276ebbf-85c2-4df5-84f4-13895365352e")
+	)
+	(text "0.5 м\n"
+		(exclude_from_sim no)
+		(at 237.49 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ba8778e-81d2-4d0b-a6e5-4c4da756a95c")
+	)
 	(text "АКБ1\nАКБ2\nАКБ3\nАКБ4\nОбщ-"
 		(exclude_from_sim no)
 		(at 299.72 136.525 0)
@@ -7680,6 +7730,58 @@
 			)
 		)
 		(uuid "6fcb2c9b-dea3-423e-bf48-47f936638d84")
+	)
+	(text "0.9 м"
+		(exclude_from_sim no)
+		(at 237.49 171.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "72968823-916a-40c8-81c8-2fbd46cc974c")
+	)
+	(text "0.5 м\n"
+		(exclude_from_sim no)
+		(at 307.975 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8e1cb674-2d36-4747-8b94-3c7718980889")
+	)
+	(text "0.5 м\n"
+		(exclude_from_sim no)
+		(at 234.95 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "98b3911c-cb86-4b22-8c35-77605297b43e")
+	)
+	(text " 14 м"
+		(exclude_from_sim no)
+		(at 353.06 169.545 0)
+		(effects
+			(font
+				(size 12.7 12.7)
+				(thickness 2.54)
+				(bold yes)
+			)
+		)
+		(uuid "b63a2cee-4b63-4dc2-8138-bcc43c87a817")
+	)
+	(text "0.9 м"
+		(exclude_from_sim no)
+		(at 323.215 172.085 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f283740b-78c3-4d6e-9421-08e707b51158")
 	)
 	(label "SWITCH_3.8_EXT"
 		(at 240.665 161.925 0)
@@ -9147,7 +9249,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1000_2x05_P3.00mm_Horizontal"
+		(property "Footprint" "user_lib:430451000"
 			(at 271.145 137.16 0)
 			(effects
 				(font
@@ -9377,7 +9479,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-4_4.55x2.6mm_P1.27mm"
+		(property "Footprint" "user_lib:TLP291"
 			(at 128.905 265.43 0)
 			(effects
 				(font
@@ -9658,7 +9760,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0800_2x04_P3.00mm_Horizontal"
+		(property "Footprint" "user_lib:430450800"
 			(at 343.535 147.955 0)
 			(effects
 				(font
@@ -9780,7 +9882,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal"
+		(property "Footprint" "user_lib:430450600"
 			(at 269.875 196.215 0)
 			(effects
 				(font
@@ -11877,7 +11979,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-4_4.55x2.6mm_P1.27mm"
+		(property "Footprint" "user_lib:TLP291"
 			(at 128.905 252.095 0)
 			(effects
 				(font
@@ -12094,7 +12196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-4_4.55x2.6mm_P1.27mm"
+		(property "Footprint" "user_lib:TLP291"
 			(at 128.905 238.76 0)
 			(effects
 				(font
@@ -12897,7 +12999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-4_4.55x2.6mm_P1.27mm"
+		(property "Footprint" "user_lib:TLP291"
 			(at 122.555 183.515 0)
 			(effects
 				(font
@@ -13559,7 +13661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0600_2x03_P3.00mm_Horizontal"
+		(property "Footprint" "user_lib:430450600"
 			(at 270.51 159.385 0)
 			(effects
 				(font
@@ -16940,7 +17042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0400_2x02_P3.00mm_Horizontal"
+		(property "Footprint" "user_lib:430454000"
 			(at 271.145 172.72 0)
 			(effects
 				(font
@@ -17468,7 +17570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-4_4.55x2.6mm_P1.27mm"
+		(property "Footprint" "user_lib:TLP291"
 			(at 122.555 196.85 0)
 			(effects
 				(font
