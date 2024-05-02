@@ -7502,7 +7502,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:B82790C0513N201"
 			(at 97.79 48.26 0)
 			(effects
 				(font
@@ -9520,7 +9520,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:B82790C0513N201"
 			(at 97.79 148.59 0)
 			(effects
 				(font

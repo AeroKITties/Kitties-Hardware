@@ -1,0 +1,158 @@
+(footprint "SMU02M-12"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "20bb9c9f-9015-4351-9d02-dbf629a75125")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SMU02M-12"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "63fc1ba7-3ff6-4684-a662-1c0b23b86975")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8628e5d-c850-4841-8533-195384af1931")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e586c04-bc7a-4fb2-abcf-d6f6c699dd85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9687c44-fb5c-42f9-adf6-8e62d3503590")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.9 -3.85)
+		(end 5.9 3.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "10089198-5c03-4195-9657-20208825cba0")
+	)
+	(fp_rect
+		(start -6 -4)
+		(end 6 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "796cf241-7880-47ba-8d27-7267b9c65ba7")
+	)
+	(fp_rect
+		(start -5.8 -3.75)
+		(end 5.8 3.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "bcb42688-3bdf-4066-8076-ae34deeb90c3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e1df30e9-471b-45f9-9a64-6a10a9f52b35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.76 -2.55 90)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "52b15db9-bfe5-43ad-ad67-b9f16f2c37d9")
+	)
+	(pad "2" thru_hole circle
+		(at -1.22 -2.55 90)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eb0373a7-682b-40f2-a899-95056d5b9940")
+	)
+	(pad "3" thru_hole circle
+		(at 1.32 -2.55 90)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5773c21d-2025-4542-9c08-7c5bdc2bdf57")
+	)
+	(pad "4" thru_hole circle
+		(at 3.86 -2.55 90)
+		(size 1.4 1.4)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e2d24bd2-5485-4c63-917c-8d5c3e57bd9d")
+	)
+	(model "C:/Users/user/Documents/GitHub/Flight-Controller/Hardware/Kicad 3D/SMU02.stp"
+		(offset
+			(xyz 40.7 33.35 -10.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

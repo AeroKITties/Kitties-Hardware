@@ -15474,7 +15474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:bat_18350"
 			(at 302.26 177.546 90)
 			(effects
 				(font
@@ -25529,7 +25529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:bat_18350"
 			(at 302.26 147.066 90)
 			(effects
 				(font

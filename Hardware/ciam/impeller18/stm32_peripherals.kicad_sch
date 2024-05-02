@@ -8814,7 +8814,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sd:TF01A-NEW"
 			(at 170.18 33.655 0)
 			(effects
 				(font

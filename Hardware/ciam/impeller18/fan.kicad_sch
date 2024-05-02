@@ -3715,7 +3715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:SMU02M-12"
 			(at 64.77 96.647 0)
 			(effects
 				(font
@@ -3794,6 +3794,70 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
 					(reference "U77")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 203.2 55.245 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "539ceef8-212e-44ec-bc29-ed22ac5ae1c6")
+		(property "Reference" "H12"
+			(at 205.74 53.9749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M4"
+			(at 205.74 56.5149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
+			(at 203.2 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 203.2 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
+					(reference "H12")
 					(unit 1)
 				)
 			)
@@ -6292,7 +6356,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
-		(at 203.2 48.895 0)
+		(at 203.2 49.53 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -6301,7 +6365,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9ac01ae-4c2f-4713-bd3b-2ff6586b8ddf")
 		(property "Reference" "H11"
-			(at 205.74 47.6249 0)
+			(at 205.74 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,7 +6374,7 @@
 			)
 		)
 		(property "Value" "M4"
-			(at 205.74 50.1649 0)
+			(at 205.74 50.7999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6319,7 +6383,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
-			(at 203.2 48.895 0)
+			(at 203.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6328,7 +6392,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 203.2 48.895 0)
+			(at 203.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6337,7 +6401,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
-			(at 203.2 48.895 0)
+			(at 203.2 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)

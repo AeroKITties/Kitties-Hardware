@@ -6208,7 +6208,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 58.42 100.965 0)
 			(effects
 				(font
@@ -6320,7 +6320,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 58.42 88.265 0)
 			(effects
 				(font
@@ -6498,7 +6498,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 124.46 126.365 0)
 			(effects
 				(font
@@ -6611,7 +6611,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:SCWN06A-12"
 			(at 91.567 246.507 0)
 			(effects
 				(font
@@ -7373,7 +7373,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 58.42 50.165 0)
 			(effects
 				(font
@@ -8071,7 +8071,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 124.46 139.065 0)
 			(effects
 				(font
@@ -8286,7 +8286,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 124.46 113.665 0)
 			(effects
 				(font
@@ -8670,7 +8670,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 58.42 62.865 0)
 			(effects
 				(font
@@ -8782,7 +8782,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 58.42 151.765 0)
 			(effects
 				(font
@@ -8997,7 +8997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 58.42 139.065 0)
 			(effects
 				(font
@@ -9548,7 +9548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 58.42 113.665 0)
 			(effects
 				(font
@@ -9812,7 +9812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 58.42 75.565 0)
 			(effects
 				(font
@@ -9924,7 +9924,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 193.04 50.165 0)
 			(effects
 				(font
@@ -10204,7 +10204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 124.46 151.765 0)
 			(effects
 				(font
@@ -10382,7 +10382,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 193.04 75.565 0)
 			(effects
 				(font
@@ -10494,7 +10494,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 124.46 75.565 0)
 			(effects
 				(font
@@ -10817,7 +10817,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 124.46 50.165 0)
 			(effects
 				(font
@@ -10929,7 +10929,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 58.42 126.365 0)
 			(effects
 				(font
@@ -11146,7 +11146,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 124.46 100.965 0)
 			(effects
 				(font
@@ -11998,7 +11998,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 193.04 62.865 0)
 			(effects
 				(font
@@ -12110,7 +12110,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 124.46 62.865 0)
 			(effects
 				(font
@@ -12544,7 +12544,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "user_lib:G3VM-61VY2TR"
 			(at 124.46 88.265 0)
 			(effects
 				(font
