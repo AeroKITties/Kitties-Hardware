@@ -10297,6 +10297,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_POWEROFF"
+		(shape input)
+		(at 197.485 264.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c6c07a4-cf8a-4d00-ab5f-e53e7620aa24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.8917 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D+"
 		(shape input)
 		(at 118.11 114.935 0)
