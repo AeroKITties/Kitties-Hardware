@@ -113,7 +113,7 @@
 		)
 	)
 	(pad "2" thru_hole circle
-		(at -11.4 7.59 90)
+		(at -11.4 7.65 90)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -121,7 +121,7 @@
 		(uuid "b17d0c2d-ccbb-41ab-aca1-5e1fd2161c32")
 	)
 	(pad "3" thru_hole circle
-		(at -9.222858 7.59 90)
+		(at -8.86 7.65 90)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -129,7 +129,7 @@
 		(uuid "abe48a8e-878e-4621-b7d5-ad89add4d167")
 	)
 	(pad "9" thru_hole circle
-		(at 3.84 7.59 90)
+		(at 6.38 7.65 90)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -137,7 +137,7 @@
 		(uuid "d4e2d0f3-2f33-4e7f-8ca8-4d7c19bf81b5")
 	)
 	(pad "11" thru_hole circle
-		(at 8.92 7.59 90)
+		(at 11.46 7.65 90)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -145,7 +145,7 @@
 		(uuid "611b1161-6df6-4306-b3f1-73924a2c1d23")
 	)
 	(pad "14" thru_hole circle
-		(at 8.92 -7.65 90)
+		(at 11.46 -7.59 90)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -153,7 +153,7 @@
 		(uuid "41f803a8-1bcc-4515-bd2c-8f672cb64b2b")
 	)
 	(pad "16" thru_hole circle
-		(at 3.84 -7.65 90)
+		(at 6.38 -7.59 90)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -161,7 +161,7 @@
 		(uuid "96e4630c-268d-4c29-ac2f-ca9ac7bcfccd")
 	)
 	(pad "22" thru_hole circle
-		(at -9.222858 -7.65 90)
+		(at -8.86 -7.59 90)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
@@ -169,11 +169,22 @@
 		(uuid "08c9cf7c-5620-4f17-8806-7386cfef4a38")
 	)
 	(pad "23" thru_hole circle
-		(at -11.4 -7.65 90)
+		(at -11.4 -7.59 90)
 		(size 1.4 1.4)
 		(drill 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "8a2003c4-18fa-4a16-93f9-6d56ff16ad86")
+	)
+	(model "C:/Users/user/Documents/GitHub/Flight-Controller/Hardware/Kicad 3D/SCWN06A-12.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
 	)
 )
