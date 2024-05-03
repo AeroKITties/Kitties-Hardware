@@ -4700,6 +4700,12 @@
 		(uuid "062aaf89-6c39-4875-bfa2-9af15252c406")
 	)
 	(junction
+		(at 365.76 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "072588dc-0604-424e-8be7-e13b4632cc97")
+	)
+	(junction
 		(at 238.76 227.965)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4716,6 +4722,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "094e673e-3d0d-4b4a-9802-97612c7de21f")
+	)
+	(junction
+		(at 334.645 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09d5c0b2-a45b-4ae7-b9ff-86e05d7fac3a")
 	)
 	(junction
 		(at 169.545 54.61)
@@ -4752,12 +4764,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a95c6fb-813a-4973-923e-f962a9432135")
-	)
-	(junction
-		(at 376.555 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1aca1934-2af9-449c-a132-d06cb1bd6d85")
 	)
 	(junction
 		(at 45.085 83.82)
@@ -4832,6 +4838,12 @@
 		(uuid "371415a0-6b39-413e-adbf-4ec3f3368207")
 	)
 	(junction
+		(at 378.46 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d513089-e88e-4b57-a229-162ec45f9556")
+	)
+	(junction
 		(at 35.56 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4866,6 +4878,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4912f3d7-cffb-404c-8b69-b4e72c9b683a")
+	)
+	(junction
+		(at 381 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a4743b3-9382-4cce-9b83-0fddcba43bc4")
 	)
 	(junction
 		(at 102.87 48.26)
@@ -5054,6 +5072,12 @@
 		(uuid "8dffc966-0400-414a-87cb-6bd50cb6733f")
 	)
 	(junction
+		(at 374.65 233.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f94029c-4ff0-443f-9ff1-490b4206b9f7")
+	)
+	(junction
 		(at 169.545 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5112,12 +5136,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1cb7cd0-e334-4a25-a19c-7c6c9e813a10")
-	)
-	(junction
-		(at 376.555 214.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4863a97-8d9d-4285-94fb-2505d6e94054")
 	)
 	(junction
 		(at 362.585 214.63)
@@ -5228,6 +5246,12 @@
 		(uuid "c820aecb-35ad-4a72-9af5-32cc87baa0e6")
 	)
 	(junction
+		(at 365.76 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb739245-580e-4a78-888e-41fae0f7254f")
+	)
+	(junction
 		(at 185.42 194.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5244,12 +5268,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ccf9f4f1-5fd6-4f7b-ab3f-5f03ff6240da")
-	)
-	(junction
-		(at 368.3 214.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce3d58b9-1a8d-4b45-be3c-50eb94cba65c")
 	)
 	(junction
 		(at 362.585 125.095)
@@ -5354,12 +5372,6 @@
 		(uuid "e2081231-2d9e-4e0d-a84e-39bbfa2a3ed9")
 	)
 	(junction
-		(at 368.3 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e3b87446-11d4-460e-a39f-ad220167183c")
-	)
-	(junction
 		(at 200.025 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5406,6 +5418,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eea59ed3-706c-4b11-9ffd-c1d605830a93")
+	)
+	(junction
+		(at 328.93 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6041f82-3304-464e-8237-2a3194f40808")
+	)
+	(junction
+		(at 374.65 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f79c2cf0-d873-4884-9847-3dd3bcd287c0")
 	)
 	(junction
 		(at 166.37 194.31)
@@ -5507,7 +5531,7 @@
 	)
 	(wire
 		(pts
-			(xy 376.555 233.68) (xy 376.555 229.235)
+			(xy 381 233.68) (xy 381 229.235)
 		)
 		(stroke
 			(width 0)
@@ -5624,16 +5648,6 @@
 			(type default)
 		)
 		(uuid "0af77e3e-9982-4595-a82b-e76d65934644")
-	)
-	(wire
-		(pts
-			(xy 376.555 214.63) (xy 381 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f170419-e781-4747-98d9-904f200b3a71")
 	)
 	(wire
 		(pts
@@ -5787,6 +5801,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 214.63) (xy 334.645 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "175f87af-2e54-477d-ab40-5edecd6fa5f1")
+	)
+	(wire
+		(pts
 			(xy 166.37 164.465) (xy 166.37 169.545)
 		)
 		(stroke
@@ -5844,6 +5868,16 @@
 			(type default)
 		)
 		(uuid "1b61eea1-e479-4218-894c-e6e92bdd00d5")
+	)
+	(wire
+		(pts
+			(xy 374.65 233.68) (xy 381 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b754ee5-5016-4856-83ff-0f40ae072005")
 	)
 	(wire
 		(pts
@@ -5967,7 +6001,7 @@
 	)
 	(wire
 		(pts
-			(xy 376.555 210.82) (xy 376.555 214.63)
+			(xy 378.46 210.82) (xy 378.46 214.63)
 		)
 		(stroke
 			(width 0)
@@ -6187,6 +6221,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 224.155) (xy 374.65 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dfcbced-d2d2-4da3-bdfb-12ea1279ddb4")
+	)
+	(wire
+		(pts
 			(xy 243.205 41.91) (xy 243.205 43.18)
 		)
 		(stroke
@@ -6287,6 +6331,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 219.075) (xy 328.93 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33a8a53a-290c-4b66-bd05-599bf35ee55b")
+	)
+	(wire
+		(pts
 			(xy 184.15 167.005) (xy 184.15 166.37)
 		)
 		(stroke
@@ -6384,6 +6438,16 @@
 			(type default)
 		)
 		(uuid "38e85603-65cd-4f8e-b1e3-cce3c20cd200")
+	)
+	(wire
+		(pts
+			(xy 328.93 224.155) (xy 328.93 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3935034f-c0c9-4fc1-850a-b145f576f2a4")
 	)
 	(wire
 		(pts
@@ -6757,7 +6821,7 @@
 	)
 	(wire
 		(pts
-			(xy 376.555 235.585) (xy 376.555 233.68)
+			(xy 381 235.585) (xy 381 233.68)
 		)
 		(stroke
 			(width 0)
@@ -6874,6 +6938,16 @@
 			(type default)
 		)
 		(uuid "5914ae60-2420-4147-8d59-555ddcd88b90")
+	)
+	(wire
+		(pts
+			(xy 365.76 214.63) (xy 374.65 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5973830f-d11c-44b9-9846-65b041082e9c")
 	)
 	(wire
 		(pts
@@ -7047,7 +7121,7 @@
 	)
 	(wire
 		(pts
-			(xy 362.585 214.63) (xy 368.3 214.63)
+			(xy 362.585 214.63) (xy 365.76 214.63)
 		)
 		(stroke
 			(width 0)
@@ -7537,16 +7611,6 @@
 	)
 	(wire
 		(pts
-			(xy 334.645 211.455) (xy 334.645 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a2ac8ec-4267-4465-bd5b-73c9b020fa5e")
-	)
-	(wire
-		(pts
 			(xy 102.87 87.63) (xy 102.87 83.82)
 		)
 		(stroke
@@ -7727,6 +7791,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 233.68) (xy 334.645 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84dedbca-c5cf-4ec5-9ec3-da8d9e728d93")
+	)
+	(wire
+		(pts
 			(xy 132.715 95.25) (xy 130.81 95.25)
 		)
 		(stroke
@@ -7897,16 +7971,6 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 233.68) (xy 376.555 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "924b98db-ea38-4816-84d0-80e46f87ea27")
-	)
-	(wire
-		(pts
 			(xy 235.585 83.185) (xy 235.585 85.725)
 		)
 		(stroke
@@ -7914,6 +7978,16 @@
 			(type default)
 		)
 		(uuid "9375b909-70de-4909-a5ce-347a82a9dbc5")
+	)
+	(wire
+		(pts
+			(xy 374.65 214.63) (xy 378.46 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93d6fecb-5638-4b46-85a6-e6b1609b0350")
 	)
 	(wire
 		(pts
@@ -8327,6 +8401,16 @@
 	)
 	(wire
 		(pts
+			(xy 378.46 214.63) (xy 381 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9ff11e-af90-4f06-95da-4a58dc2c4cf6")
+	)
+	(wire
+		(pts
 			(xy 54.61 48.26) (xy 57.785 48.26)
 		)
 		(stroke
@@ -8394,16 +8478,6 @@
 			(type default)
 		)
 		(uuid "aff78eb2-1729-4b36-81d3-9c7b3363148e")
-	)
-	(wire
-		(pts
-			(xy 368.3 214.63) (xy 376.555 214.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b00bcbb3-b4db-4581-b541-a54b04e06add")
 	)
 	(wire
 		(pts
@@ -8637,6 +8711,16 @@
 	)
 	(wire
 		(pts
+			(xy 374.65 214.63) (xy 374.65 219.075)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3155d44-6ac2-487e-a38a-007474acafa6")
+	)
+	(wire
+		(pts
 			(xy 243.205 50.8) (xy 243.205 52.07)
 		)
 		(stroke
@@ -8657,7 +8741,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 214.63) (xy 368.3 219.075)
+			(xy 365.76 214.63) (xy 365.76 219.075)
 		)
 		(stroke
 			(width 0)
@@ -8837,7 +8921,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 233.68) (xy 368.3 233.68)
+			(xy 349.25 233.68) (xy 365.76 233.68)
 		)
 		(stroke
 			(width 0)
@@ -8894,6 +8978,16 @@
 			(type default)
 		)
 		(uuid "d0939949-f97f-4973-af38-426dd9742ff5")
+	)
+	(wire
+		(pts
+			(xy 365.76 233.68) (xy 374.65 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10e1647-057e-4ec8-ac58-e342a8a40f31")
 	)
 	(wire
 		(pts
@@ -9547,7 +9641,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 224.155) (xy 368.3 233.68)
+			(xy 365.76 224.155) (xy 365.76 233.68)
 		)
 		(stroke
 			(width 0)
@@ -9674,6 +9768,16 @@
 			(type default)
 		)
 		(uuid "feb4def0-05b9-4e3e-9208-fb299a22438b")
+	)
+	(wire
+		(pts
+			(xy 328.93 211.455) (xy 328.93 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feedca9d-2557-4814-afde-db5fbf87a9bd")
 	)
 	(wire
 		(pts
@@ -14253,7 +14357,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0d554ded-f985-4ac8-b96b-a68c84915367")
-		(property "Reference" "C59"
+		(property "Reference" "C61"
 			(at 257.4925 231.4575 0)
 			(effects
 				(font
@@ -14341,7 +14445,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
-					(reference "C59")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -16606,72 +16710,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+1V0")
-		(at 334.645 211.455 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3315d80a-90d3-48ae-a76e-3c88286560f2")
-		(property "Reference" "#PWR081"
-			(at 334.645 215.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "7V4"
-			(at 334.645 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 334.645 211.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 334.645 211.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+1V0\""
-			(at 334.645 211.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93a486fb-1616-41a8-af83-6a8a50bcf7db")
-		)
-		(instances
-			(project "impeller18"
-				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
-					(reference "#PWR081")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 368.3 57.15 0)
 		(unit 1)
@@ -16745,7 +16783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3421542f-c8b7-4d15-9c22-7eb02480cfc7")
-		(property "Reference" "C61"
+		(property "Reference" "C63"
 			(at 230.505 227.965 90)
 			(effects
 				(font
@@ -16833,7 +16871,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
-					(reference "C61")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -18608,7 +18646,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54fac866-e9f4-4a02-b1a1-ade99e925118")
-		(property "Reference" "C60"
+		(property "Reference" "C62"
 			(at 264.4775 231.4575 0)
 			(effects
 				(font
@@ -18698,7 +18736,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
-					(reference "C60")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -19797,15 +19835,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 368.3 221.615 0)
+		(at 365.76 221.615 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6a443be8-a0f4-42ce-9144-7350483d12b6")
-		(property "Reference" "C57"
-			(at 370.84 220.345 0)
+		(property "Reference" "C58"
+			(at 368.3 220.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19814,7 +19852,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 370.84 222.885 0)
+			(at 368.3 222.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19823,7 +19861,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 368.3 221.615 0)
+			(at 365.76 221.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19832,7 +19870,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 368.3 221.615 0)
+			(at 365.76 221.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19841,7 +19879,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 368.3 221.615 0)
+			(at 365.76 221.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19850,7 +19888,7 @@
 			)
 		)
 		(property "Мин. кол-во" "200"
-			(at 368.3 221.615 0)
+			(at 365.76 221.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19859,7 +19897,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/430347/"
-			(at 368.3 221.615 0)
+			(at 365.76 221.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19868,7 +19906,7 @@
 			)
 		)
 		(property "Цена" "4"
-			(at 368.3 221.615 0)
+			(at 365.76 221.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19877,7 +19915,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X5R 10мкФ"
-			(at 368.3 221.615 0)
+			(at 365.76 221.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19894,7 +19932,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
-					(reference "C57")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -20033,7 +20071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 102.87 90.17 0)
 			(effects
 				(font
@@ -20060,7 +20098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Мин. кол-во" "9"
+		(property "Мин. кол-во" "10"
 			(at 102.87 90.17 0)
 			(effects
 				(font
@@ -20069,7 +20107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" "https://www.promelec.ru/product/381508/"
+		(property "Ссылка" "https://www.promelec.ru/product/601218/"
 			(at 102.87 90.17 0)
 			(effects
 				(font
@@ -20078,7 +20116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" "60"
+		(property "Цена" "52"
 			(at 102.87 90.17 0)
 			(effects
 				(font
@@ -20087,7 +20125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" "Конденсатор алюминиевый электролитический 47мкФ 200В"
+		(property "Человекопонятное название" "конденсатор алюминиевый электролитический 47мкф 100в"
 			(at 102.87 90.17 0)
 			(effects
 				(font
@@ -20406,6 +20444,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V0")
+		(at 328.93 211.455 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7236e48a-7cd6-4830-a4c4-5306d68dfb5d")
+		(property "Reference" "#PWR081"
+			(at 328.93 215.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "7V4"
+			(at 328.93 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 328.93 211.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 328.93 211.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V0\""
+			(at 328.93 211.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bca48e4c-2499-4b4b-972a-9a241d3e0c18")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "user_lib:HY2213")
 		(at 166.37 179.705 0)
 		(unit 1)
@@ -20548,7 +20652,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 102.87 54.61 0)
 			(effects
 				(font
@@ -20575,7 +20679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Мин. кол-во" "9"
+		(property "Мин. кол-во" "10"
 			(at 102.87 54.61 0)
 			(effects
 				(font
@@ -20584,7 +20688,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" "https://www.promelec.ru/product/381508/"
+		(property "Ссылка" "https://www.promelec.ru/product/601218/"
 			(at 102.87 54.61 0)
 			(effects
 				(font
@@ -20593,7 +20697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" "60"
+		(property "Цена" "52"
 			(at 102.87 54.61 0)
 			(effects
 				(font
@@ -20602,7 +20706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" "Конденсатор алюминиевый электролитический 47мкФ 200В"
+		(property "Человекопонятное название" "конденсатор алюминиевый электролитический 47мкф 100в"
 			(at 102.87 54.61 0)
 			(effects
 				(font
@@ -21461,6 +21565,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 328.93 221.615 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c65d41a-9c8c-4b2d-ac86-a4407765a6b1")
+		(property "Reference" "C56"
+			(at 326.39 220.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 326.39 222.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 328.93 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 328.93 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 328.93 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "17"
+			(at 328.93 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/384583/"
+			(at 328.93 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "29"
+			(at 328.93 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 1210 X7S 4.7мкФ"
+			(at 328.93 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "58d92e8e-ebdb-4dea-a0c1-71e667786ea2")
+		)
+		(pin "1"
+			(uuid "83967f12-430c-477d-8b6a-a9fb5afdda09")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L_Coupled")
 		(at 69.215 54.61 0)
 		(unit 1)
@@ -21781,7 +21990,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 376.555 210.82 0)
+		(at 378.46 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21789,7 +21998,7 @@
 		(dnp no)
 		(uuid "93bf670e-dbf8-4cf5-85a3-777748c355e3")
 		(property "Reference" "TP18"
-			(at 370.205 208.915 0)
+			(at 372.11 208.915 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21798,7 +22007,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 366.395 206.375 0)
+			(at 368.3 206.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21807,7 +22016,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 381.635 210.82 0)
+			(at 383.54 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21816,7 +22025,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 381.635 210.82 0)
+			(at 383.54 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21825,7 +22034,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 376.555 210.82 0)
+			(at 378.46 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23089,7 +23298,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1df7ef8-79b6-4d17-bf87-e21c99e015cd")
-		(property "Reference" "C56"
+		(property "Reference" "C57"
 			(at 337.185 220.345 0)
 			(effects
 				(font
@@ -23179,7 +23388,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
-					(reference "C56")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -24631,6 +24840,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 374.65 221.615 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b5d2b8ff-6ef2-4a2f-9deb-0f2d458d5810")
+		(property "Reference" "C59"
+			(at 376.555 220.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4u7"
+			(at 376.555 222.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 374.65 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 374.65 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 374.65 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "17"
+			(at 374.65 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/384583/"
+			(at 374.65 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "29"
+			(at 374.65 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 1210 X7S 4.7мкФ"
+			(at 374.65 221.615 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb7478ca-a2bc-4aaa-b9ba-8441e78335da")
+		)
+		(pin "1"
+			(uuid "a7a26aba-208d-47a9-a44f-483ec4759384")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
+					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 175.895 164.465 90)
 		(unit 1)
@@ -24881,7 +25195,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 376.555 229.235 0)
+		(at 381 229.235 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24889,7 +25203,7 @@
 		(dnp no)
 		(uuid "bbc1949f-2fa9-48a7-ae5a-b2a2f6e4f229")
 		(property "Reference" "TP19"
-			(at 377.825 227.33 0)
+			(at 382.27 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24898,7 +25212,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 377.825 224.79 0)
+			(at 382.27 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24907,7 +25221,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 381.635 229.235 0)
+			(at 386.08 229.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24916,7 +25230,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 381.635 229.235 0)
+			(at 386.08 229.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24925,7 +25239,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 376.555 229.235 0)
+			(at 381 229.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25371,7 +25685,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 376.555 235.585 0)
+		(at 381 235.585 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25380,7 +25694,7 @@
 		(fields_autoplaced yes)
 		(uuid "c25e3e6b-830a-4718-b80a-78abacbf2299")
 		(property "Reference" "#PWR086"
-			(at 376.555 241.935 0)
+			(at 381 241.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25389,7 +25703,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 376.555 240.665 0)
+			(at 381 240.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25397,7 +25711,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 376.555 235.585 0)
+			(at 381 235.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25406,7 +25720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 376.555 235.585 0)
+			(at 381 235.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25415,7 +25729,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 376.555 235.585 0)
+			(at 381 235.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25615,7 +25929,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd465fe1-cfcd-47b6-8de4-38d357078ae8")
-		(property "Reference" "C58"
+		(property "Reference" "C60"
 			(at 245.745 231.14 0)
 			(effects
 				(font
@@ -25705,7 +26019,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
-					(reference "C58")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -26588,7 +26902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 183.515 90.17 0)
 			(effects
 				(font
@@ -26615,7 +26929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Мин. кол-во" "9"
+		(property "Мин. кол-во" "10"
 			(at 183.515 90.17 0)
 			(effects
 				(font
@@ -26624,7 +26938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ссылка" "https://www.promelec.ru/product/381508/"
+		(property "Ссылка" "https://www.promelec.ru/product/601218/"
 			(at 183.515 90.17 0)
 			(effects
 				(font
@@ -26633,7 +26947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Цена" "60"
+		(property "Цена" "52"
 			(at 183.515 90.17 0)
 			(effects
 				(font
@@ -26642,7 +26956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Человекопонятное название" "Конденсатор алюминиевый электролитический 47мкФ 200В"
+		(property "Человекопонятное название" "конденсатор алюминиевый электролитический 47мкф 100в"
 			(at 183.515 90.17 0)
 			(effects
 				(font

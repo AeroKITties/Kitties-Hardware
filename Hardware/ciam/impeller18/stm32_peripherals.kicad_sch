@@ -6405,7 +6405,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "518a0b96-e1ea-4aa4-b2ed-0c1795f0d999")
-		(property "Reference" "C121"
+		(property "Reference" "C124"
 			(at 23.495 113.03 0)
 			(effects
 				(font
@@ -6495,7 +6495,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/d5004b66-19d0-4c06-b8a0-e12f1989cbec"
-					(reference "C121")
+					(reference "C124")
 					(unit 1)
 				)
 			)
@@ -6851,7 +6851,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b7c3e7b-9364-4425-b93b-7b79755b61e9")
-		(property "Reference" "C120"
+		(property "Reference" "C123"
 			(at 207.01 48.895 0)
 			(effects
 				(font
@@ -6939,7 +6939,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/d5004b66-19d0-4c06-b8a0-e12f1989cbec"
-					(reference "C120")
+					(reference "C123")
 					(unit 1)
 				)
 			)
@@ -8692,7 +8692,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6a34aa1-9286-4d4d-9d64-ec9236d737db")
-		(property "Reference" "C119"
+		(property "Reference" "C122"
 			(at 95.25 22.86 90)
 			(effects
 				(font
@@ -8782,7 +8782,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/d5004b66-19d0-4c06-b8a0-e12f1989cbec"
-					(reference "C119")
+					(reference "C122")
 					(unit 1)
 				)
 			)

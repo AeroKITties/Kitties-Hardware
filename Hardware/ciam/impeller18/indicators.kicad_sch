@@ -3057,6 +3057,12 @@
 		(uuid "8463f90d-68e5-4d44-93b5-75834aa824a0")
 	)
 	(junction
+		(at 80.01 240.665)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8604d9d1-91bd-4e5e-9c5b-77fcec29bb75")
+	)
+	(junction
 		(at 149.225 65.405)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3075,10 +3081,10 @@
 		(uuid "8c258868-7a17-4a43-88e4-f24ee309d93e")
 	)
 	(junction
-		(at 77.47 230.505)
+		(at 80.01 230.505)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8d3ef641-703e-4b19-838a-dcb9e42f17db")
+		(uuid "8d2781ea-e661-4238-867f-3ce65541a8fc")
 	)
 	(junction
 		(at 127.635 65.405)
@@ -3177,12 +3183,6 @@
 		(uuid "af4ce4ea-e36e-484a-beb9-f3cedf17027e")
 	)
 	(junction
-		(at 77.47 240.665)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b032cded-044a-4aa4-87be-200341a4a074")
-	)
-	(junction
 		(at 57.15 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3225,6 +3225,12 @@
 		(uuid "d192354b-bdd1-47a1-822a-4b32a224d15d")
 	)
 	(junction
+		(at 70.485 230.505)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d27f3b0e-d6d1-4ca9-998d-b35ba5aadb7e")
+	)
+	(junction
 		(at 81.28 193.675)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3259,6 +3265,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de47d804-d10e-42cd-bf34-807707a5621f")
+	)
+	(junction
+		(at 70.485 240.665)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e04e407f-b96a-4f75-a0e6-64642a6c3b24")
 	)
 	(junction
 		(at 57.15 92.71)
@@ -4154,7 +4166,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 230.505) (xy 77.47 227.33)
+			(xy 70.485 230.505) (xy 70.485 227.33)
 		)
 		(stroke
 			(width 0)
@@ -4414,16 +4426,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 233.045) (xy 77.47 230.505)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "427a3d83-11d3-4275-ae98-600f12320749")
-	)
-	(wire
-		(pts
 			(xy 36.83 123.19) (xy 26.67 123.19)
 		)
 		(stroke
@@ -4471,16 +4473,6 @@
 			(type default)
 		)
 		(uuid "44e4d4c5-2923-4437-83ad-2d33ba427acb")
-	)
-	(wire
-		(pts
-			(xy 81.915 238.125) (xy 77.47 238.125)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4502cfbc-5911-4763-b6d6-e18c27bfd583")
 	)
 	(wire
 		(pts
@@ -5001,6 +4993,16 @@
 			(type default)
 		)
 		(uuid "62024e17-02c5-4bd9-9d0b-f1e414bb99ef")
+	)
+	(wire
+		(pts
+			(xy 70.485 240.665) (xy 80.01 240.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62cd2edd-a7e6-401d-8dd9-1ad498c3731d")
 	)
 	(wire
 		(pts
@@ -5584,6 +5586,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.915 238.125) (xy 80.01 238.125)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8990ce46-2454-4ecd-88e3-d0c542a2ddf2")
+	)
+	(wire
+		(pts
 			(xy 147.955 65.405) (xy 149.225 65.405)
 		)
 		(stroke
@@ -5631,6 +5643,16 @@
 			(type default)
 		)
 		(uuid "8be1b226-edd3-4ed9-a407-56b454fa19fa")
+	)
+	(wire
+		(pts
+			(xy 80.01 240.665) (xy 81.915 240.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c175556-8bde-4168-8f4d-167d10e55446")
 	)
 	(wire
 		(pts
@@ -6044,16 +6066,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 240.665) (xy 81.915 240.665)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9b7eb1e-bc05-4fae-b155-1832a6d97fa9")
-	)
-	(wire
-		(pts
 			(xy 207.01 194.31) (xy 214.63 194.31)
 		)
 		(stroke
@@ -6234,6 +6246,16 @@
 	)
 	(wire
 		(pts
+			(xy 70.485 238.125) (xy 70.485 240.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b520cb52-a224-494a-b555-24d6ddce787b")
+	)
+	(wire
+		(pts
 			(xy 151.13 111.125) (xy 149.225 111.125)
 		)
 		(stroke
@@ -6331,16 +6353,6 @@
 			(type default)
 		)
 		(uuid "bbab3a64-c2ed-4945-b115-b0e12afe8199")
-	)
-	(wire
-		(pts
-			(xy 77.47 238.125) (xy 77.47 240.665)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbeb4878-c3ed-4b9b-90df-d59f7f2ccfc9")
 	)
 	(wire
 		(pts
@@ -6564,6 +6576,16 @@
 	)
 	(wire
 		(pts
+			(xy 70.485 230.505) (xy 70.485 233.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca7ac45b-093d-4ce9-a677-6fad47db4759")
+	)
+	(wire
+		(pts
 			(xy 142.875 95.885) (xy 142.875 94.615)
 		)
 		(stroke
@@ -6664,6 +6686,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.915 233.045) (xy 80.01 233.045)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce74e0e2-c148-41bf-9843-153e8e901eb1")
+	)
+	(wire
+		(pts
 			(xy 57.15 67.31) (xy 57.15 80.01)
 		)
 		(stroke
@@ -6671,6 +6703,16 @@
 			(type default)
 		)
 		(uuid "cf2be70d-958c-456f-9f33-4f21416be16d")
+	)
+	(wire
+		(pts
+			(xy 80.01 230.505) (xy 81.915 230.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf36ae55-fe57-4bdc-b733-74ed9ab97d95")
 	)
 	(wire
 		(pts
@@ -6751,6 +6793,16 @@
 			(type default)
 		)
 		(uuid "d166f574-7347-4034-ad5d-6a75acb4a4bd")
+	)
+	(wire
+		(pts
+			(xy 80.01 233.045) (xy 80.01 230.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d270ff68-e80c-4c69-920a-915b22646c76")
 	)
 	(wire
 		(pts
@@ -6901,16 +6953,6 @@
 			(type default)
 		)
 		(uuid "ddfb9f74-6e52-49be-9e22-49487a483bce")
-	)
-	(wire
-		(pts
-			(xy 81.915 233.045) (xy 77.47 233.045)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de074390-f48e-454f-8af0-bc19aad214d9")
 	)
 	(wire
 		(pts
@@ -7164,16 +7206,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 230.505) (xy 81.915 230.505)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebdd65eb-48c7-40dc-83b3-4b087807427a")
-	)
-	(wire
-		(pts
 			(xy 107.95 231.14) (xy 107.95 233.045)
 		)
 		(stroke
@@ -7184,6 +7216,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 238.125) (xy 80.01 240.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edbec996-3dfa-4731-805f-edcf739db6ea")
+	)
+	(wire
+		(pts
 			(xy 165.735 111.125) (xy 167.64 111.125)
 		)
 		(stroke
@@ -7191,6 +7233,16 @@
 			(type default)
 		)
 		(uuid "edc88acb-97b8-4b81-9f6e-dc8d96dd7d88")
+	)
+	(wire
+		(pts
+			(xy 70.485 230.505) (xy 80.01 230.505)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf02f92-e029-411f-a963-1419d95daaca")
 	)
 	(wire
 		(pts
@@ -7304,7 +7356,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 240.665) (xy 77.47 243.84)
+			(xy 70.485 240.665) (xy 70.485 243.84)
 		)
 		(stroke
 			(width 0)
@@ -10127,7 +10179,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 77.47 227.33 0)
+		(at 70.485 227.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10136,7 +10188,7 @@
 		(fields_autoplaced yes)
 		(uuid "2afd63db-a998-4d3a-aab1-321a99a81f58")
 		(property "Reference" "#PWR0210"
-			(at 77.47 231.14 0)
+			(at 70.485 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10145,7 +10197,7 @@
 			)
 		)
 		(property "Value" "12V0"
-			(at 77.47 222.885 0)
+			(at 70.485 222.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10153,7 +10205,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 227.33 0)
+			(at 70.485 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10162,7 +10214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 227.33 0)
+			(at 70.485 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10171,7 +10223,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 77.47 227.33 0)
+			(at 70.485 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11346,7 +11398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f6fab79-2fb1-411a-8f5e-1cbf8e9faf1e")
-		(property "Reference" "C104"
+		(property "Reference" "C107"
 			(at 120.65 233.7688 0)
 			(effects
 				(font
@@ -11436,7 +11488,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "C104")
+					(reference "C107")
 					(unit 1)
 				)
 			)
@@ -14010,7 +14062,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 243.84 0)
+		(at 70.485 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14018,7 +14070,7 @@
 		(dnp no)
 		(uuid "8eb5eeea-140d-40e5-b62c-6c6c140b4bb6")
 		(property "Reference" "#PWR0212"
-			(at 77.47 250.19 0)
+			(at 70.485 250.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14027,7 +14079,7 @@
 			)
 		)
 		(property "Value" "GND_12V"
-			(at 77.47 247.65 0)
+			(at 70.485 247.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14035,7 +14087,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 243.84 0)
+			(at 70.485 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14044,7 +14096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 243.84 0)
+			(at 70.485 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14053,7 +14105,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 243.84 0)
+			(at 70.485 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16363,112 +16415,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 107.95 235.585 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bebf221c-98c6-42cc-924e-44eb9b2ed34d")
-		(property "Reference" "C103"
-			(at 110.49 233.7688 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470u"
-			(at 110.49 236.3088 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
-			(at 107.95 235.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 235.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 107.95 235.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Мин. кол-во" "15"
-			(at 107.95 235.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ссылка" "https://www.promelec.ru/product/365892/"
-			(at 107.95 235.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Цена" "34"
-			(at 107.95 235.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Человекопонятное название" "Конденсатор алюминиевый электролитический 470мкФ 25В"
-			(at 107.95 235.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9ea37c38-1889-4255-a901-1c71e95b5a85")
-		)
-		(pin "1"
-			(uuid "ed47d316-af18-44b0-9a0e-2fa96f2bac97")
-		)
-		(instances
-			(project "impeller18"
-				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
-					(reference "C103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Relay_SolidState:ASSR-1218")
 		(at 175.26 50.165 0)
 		(unit 1)
@@ -16575,6 +16521,112 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
 					(reference "U35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 107.95 235.585 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c07c8030-fe4b-40ef-a9de-da046ee28819")
+		(property "Reference" "C106"
+			(at 110.49 233.7688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 110.49 236.3088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 107.95 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 107.95 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "10"
+			(at 107.95 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/601218/"
+			(at 107.95 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "52"
+			(at 107.95 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "конденсатор алюминиевый электролитический 47мкф 100в"
+			(at 107.95 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "472a350f-41c8-4ce0-89e9-c9d0fefd79b1")
+		)
+		(pin "1"
+			(uuid "af6fa80b-4551-4ccf-935f-d023a8647a99")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
+					(reference "C106")
 					(unit 1)
 				)
 			)
@@ -19808,6 +19860,112 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
 					(reference "U44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 70.485 235.585 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdb20a57-f2c6-44b7-99ce-4fa78abe9da8")
+		(property "Reference" "C105"
+			(at 73.025 233.7688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 73.025 236.3088 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 70.485 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 70.485 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 70.485 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "10"
+			(at 70.485 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/601218/"
+			(at 70.485 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "52"
+			(at 70.485 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "конденсатор алюминиевый электролитический 47мкф 100в"
+			(at 70.485 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2cb0f77-774a-4a13-bd54-3634b01d4aaf")
+		)
+		(pin "1"
+			(uuid "40383148-bec6-45df-bf13-441a2a3cc7c6")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/e2502236-aeb0-4ddd-871d-5a73d5946ae5"
+					(reference "C105")
 					(unit 1)
 				)
 			)

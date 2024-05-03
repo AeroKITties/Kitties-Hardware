@@ -3246,6 +3246,16 @@
 		)
 		(uuid "57710103-89ff-4320-b987-c9ce848fa236")
 	)
+	(text "got it!"
+		(exclude_from_sim no)
+		(at 236.22 123.825 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d680a707-af15-45ff-80d3-6c52bc8f29ae")
+	)
 	(global_label "LED1_RPI_RGB_RED"
 		(shape input)
 		(at 121.92 140.335 0)
@@ -4321,7 +4331,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73ab7d0b-a5f8-4ea3-8a2a-196b63126e4d")
-		(property "Reference" "C89"
+		(property "Reference" "C91"
 			(at 174.625 68.58 90)
 			(effects
 				(font
@@ -4409,7 +4419,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
-					(reference "C89")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -4488,7 +4498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8f4373ab-3218-4d5a-a3ca-5e45fd6e17f6")
-		(property "Reference" "C88"
+		(property "Reference" "C90"
 			(at 176.53 63.5 90)
 			(effects
 				(font
@@ -4578,7 +4588,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
-					(reference "C88")
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -5613,7 +5623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e7c00b70-77e7-495b-90b4-c5005f925a40")
-		(property "Reference" "C90"
+		(property "Reference" "C92"
 			(at 176.53 74.93 90)
 			(effects
 				(font
@@ -5703,7 +5713,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
-					(reference "C90")
+					(reference "C92")
 					(unit 1)
 				)
 			)
