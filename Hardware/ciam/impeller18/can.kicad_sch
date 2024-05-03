@@ -5950,6 +5950,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 204.47) (xy 267.97 198.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1de8507-d6cf-44f0-84fa-e97ff65a1b13")
+	)
+	(wire
+		(pts
 			(xy 121.92 87.63) (xy 121.92 90.17)
 		)
 		(stroke
@@ -10923,7 +10933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "user_lib:430454000"
+		(property "Footprint" "user_lib:430450400"
 			(at 50.165 45.72 0)
 			(effects
 				(font
@@ -11695,6 +11705,72 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 267.97 198.755 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42b15894-0e55-411b-825c-845809b3f289")
+		(property "Reference" "TP46"
+			(at 266.065 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 263.525 193.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
+			(at 273.05 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 267.97 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "279fe13a-e034-4e20-ba9c-0f71158df055")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
+					(reference "TP46")
 					(unit 1)
 				)
 			)
@@ -13225,6 +13301,71 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
 					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 267.97 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c111ee2-4dcf-4f58-9dac-485526761d25")
+		(property "Reference" "#PWR0303"
+			(at 267.97 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 267.97 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 267.97 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6df5a903-5efc-43f9-85c9-a09d7e66ea2a")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/ab594f26-bead-49a9-873a-c6155ff4b923"
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -16986,7 +17127,7 @@
 				)
 			)
 		)
-		(property "Footprint" "user_lib:430454000"
+		(property "Footprint" "user_lib:430450400"
 			(at 50.165 146.05 0)
 			(effects
 				(font

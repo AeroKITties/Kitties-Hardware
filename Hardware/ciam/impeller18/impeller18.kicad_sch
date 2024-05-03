@@ -8984,6 +8984,18 @@
 		)
 		(uuid "07a5a1e2-3830-49a4-89b4-e4258db9712a")
 	)
+	(text "ДОБАВИТЬ ДЕТЕКТ ОТКЛЮЧЕНИЯ 24VIN"
+		(exclude_from_sim no)
+		(at 173.99 275.59 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "3b07d96f-d146-4344-a4b3-340d7cdb00ba")
+	)
 	(text "RESET"
 		(exclude_from_sim no)
 		(at 233.045 88.9 0)

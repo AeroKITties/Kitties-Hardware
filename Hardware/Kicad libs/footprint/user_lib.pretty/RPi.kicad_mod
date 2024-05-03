@@ -6,7 +6,7 @@
 	(descr "Through hole straight socket strip, 2x20, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
 	(tags "Through hole socket strip THT 2x20 2.54mm double row")
 	(property "Reference" "REF**"
-		(at -1.27 -2.77 0)
+		(at -1.149 14.118 90)
 		(layer "F.SilkS")
 		(uuid "22c713a5-441f-4f41-8c4e-9bc744bdd528")
 		(effects
@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "RPi"
-		(at -1.27 51.03 0)
+		(at -1.337 1.37 180)
 		(layer "F.Fab")
 		(uuid "3192ad94-5be3-4b30-b4d6-19286ecac5a0")
 		(effects
@@ -76,7 +76,7 @@
 	)
 	(fp_line
 		(start -3.87 -1.33)
-		(end -1.27 -1.33)
+		(end 1.33 -1.33)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -95,47 +95,7 @@
 		(uuid "6dfacf0e-5d67-4e35-9dbd-4992ab1197b9")
 	)
 	(fp_line
-		(start -1.27 -1.33)
-		(end -1.27 1.27)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "87970bf5-78d7-49d0-93da-622877166ca8")
-	)
-	(fp_line
-		(start -1.27 1.27)
-		(end 1.33 1.27)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "9c22e3a2-a5a7-419e-aff9-8b36929a2bdc")
-	)
-	(fp_line
-		(start 0 -1.33)
-		(end 1.33 -1.33)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "bd9e78a0-6d16-4ced-91e1-ae7b7af6508f")
-	)
-	(fp_line
 		(start 1.33 -1.33)
-		(end 1.33 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "c89eb8d5-248b-4fae-aab3-a8b725796d53")
-	)
-	(fp_line
-		(start 1.33 1.27)
 		(end 1.33 49.59)
 		(stroke
 			(width 0.12)
@@ -146,14 +106,14 @@
 	)
 	(fp_rect
 		(start -4.34 -1.8)
-		(end 1.76 50)
+		(end 1.76 50.06)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill none)
 		(layer "B.CrtYd")
-		(uuid "535f55e0-6e11-49df-a1df-d2acd60f4c42")
+		(uuid "36e8147a-d7a3-45e1-bfe3-fae9fc16c688")
 	)
 	(fp_line
 		(start -4.34 -1.8)
@@ -166,7 +126,7 @@
 		(uuid "67c8ccd1-2ea2-4236-8657-1580119928b2")
 	)
 	(fp_line
-		(start -4.34 50)
+		(start -4.34 50.06)
 		(end -4.34 -1.8)
 		(stroke
 			(width 0.05)
@@ -177,7 +137,7 @@
 	)
 	(fp_line
 		(start 1.76 -1.8)
-		(end 1.76 50)
+		(end 1.76 50.06)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -186,8 +146,8 @@
 		(uuid "3be490e9-c4ce-4bb2-bbf8-17270b1e39d6")
 	)
 	(fp_line
-		(start 1.76 50)
-		(end -4.34 50)
+		(start 1.76 50.06)
+		(end -4.34 50.06)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -256,7 +216,7 @@
 			)
 		)
 	)
-	(pad "1" thru_hole rect
+	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 1.7 1.7)
 		(drill 1)

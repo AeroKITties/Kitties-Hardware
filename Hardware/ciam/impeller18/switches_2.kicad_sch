@@ -4555,6 +4555,16 @@
 		)
 		(uuid "13a0ba8f-ffd0-4385-906b-f7415af4c990")
 	)
+	(polyline
+		(pts
+			(xy 300.99 179.705) (xy 300.99 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14fee2f2-890d-46f3-8c22-54b6ebfeff85")
+	)
 	(wire
 		(pts
 			(xy 149.225 71.755) (xy 153.67 71.755)
@@ -8525,6 +8535,32 @@
 		)
 		(uuid "fe7f50bb-6525-4945-ba53-6fd7332b1dd8")
 	)
+	(arc
+		(start 299.085 181.61)
+		(mid 299.9698 180.5898)
+		(end 300.99 179.705)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 37a6e297-65a1-408f-9465-c542aaa00aee)
+	)
+	(arc
+		(start 300.99 179.705)
+		(mid 302.0102 180.5898)
+		(end 302.895 181.61)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 56f85ed0-af4f-4d5f-b240-0b79adc344d1)
+	)
 	(text "0.5 м\n"
 		(exclude_from_sim no)
 		(at 305.435 132.08 0)
@@ -8644,6 +8680,18 @@
 			)
 		)
 		(uuid "98b3911c-cb86-4b22-8c35-77605297b43e")
+	)
+	(text "зачем 24 вольт?"
+		(exclude_from_sim no)
+		(at 325.755 226.695 0)
+		(effects
+			(font
+				(size 12 12)
+				(thickness 2.4)
+				(bold yes)
+			)
+		)
+		(uuid "b167406d-3c66-4935-a068-4ff604cd213a")
 	)
 	(text " 14 м"
 		(exclude_from_sim no)
@@ -18738,7 +18786,7 @@
 				)
 			)
 		)
-		(property "Footprint" "user_lib:430454000"
+		(property "Footprint" "user_lib:430450400"
 			(at 271.145 172.72 0)
 			(effects
 				(font
