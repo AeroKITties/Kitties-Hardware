@@ -8984,18 +8984,6 @@
 		)
 		(uuid "07a5a1e2-3830-49a4-89b4-e4258db9712a")
 	)
-	(text "ДОБАВИТЬ ДЕТЕКТ ОТКЛЮЧЕНИЯ 24VIN"
-		(exclude_from_sim no)
-		(at 173.99 275.59 0)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-			)
-		)
-		(uuid "3b07d96f-d146-4344-a4b3-340d7cdb00ba")
-	)
 	(text "RESET"
 		(exclude_from_sim no)
 		(at 233.045 88.9 0)
@@ -12082,6 +12070,28 @@
 		(uuid "e2422391-1cf6-4ddb-a39b-9edf09112203")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 215.7706 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V0_SENS"
+		(shape input)
+		(at 160.655 259.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5f75423-a945-4fb8-862c-3dd50516e233")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.2234 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)

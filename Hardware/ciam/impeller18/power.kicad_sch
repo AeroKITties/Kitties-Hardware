@@ -5444,6 +5444,12 @@
 		(uuid "fa5a96c8-32e7-475b-b017-cf9890644fe0")
 	)
 	(junction
+		(at 85.725 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa5f4269-f782-4382-80df-c5af054d0ff7")
+	)
+	(junction
 		(at 37.465 18.415)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6801,6 +6807,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.725 250.825) (xy 85.725 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ce8903f-b6fd-4380-8166-a3b1a102e8d3")
+	)
+	(wire
+		(pts
 			(xy 91.44 52.07) (xy 91.44 48.26)
 		)
 		(stroke
@@ -7168,6 +7184,16 @@
 			(type default)
 		)
 		(uuid "648d55d7-9dd1-499d-acdc-e70e1a4e2652")
+	)
+	(wire
+		(pts
+			(xy 85.725 226.695) (xy 85.725 227.965)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650f5213-008f-4542-860a-d61679b8c24e")
 	)
 	(wire
 		(pts
@@ -7668,6 +7694,16 @@
 			(type default)
 		)
 		(uuid "7b8611f5-8052-47a2-b066-f882a0c6d7b7")
+	)
+	(wire
+		(pts
+			(xy 85.725 219.075) (xy 85.725 221.615)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bc8ccb8-94b0-4fcf-ac2f-de8f2e9aa1b1")
 	)
 	(wire
 		(pts
@@ -8741,6 +8777,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.725 233.045) (xy 85.725 234.315)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfd4573e-27c2-4c25-978a-1fa826106c17")
+	)
+	(wire
+		(pts
 			(xy 130.81 59.69) (xy 130.81 57.15)
 		)
 		(stroke
@@ -9331,6 +9377,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.725 243.84) (xy 85.725 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5700f4b-c8e6-4930-9e5e-cbcd466dffbb")
+	)
+	(wire
+		(pts
 			(xy 354.33 87.63) (xy 362.585 87.63)
 		)
 		(stroke
@@ -9418,6 +9474,16 @@
 			(type default)
 		)
 		(uuid "ea3b6d07-7f33-4a63-879c-b299492f360f")
+	)
+	(wire
+		(pts
+			(xy 85.725 241.3) (xy 85.725 239.395)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebc788e8-c96a-40c5-8bc7-f07a8dd786b9")
 	)
 	(wire
 		(pts
@@ -9768,6 +9834,16 @@
 			(type default)
 		)
 		(uuid "fa00d0a3-578c-4443-ad8e-460c9e9d4fbb")
+	)
+	(wire
+		(pts
+			(xy 85.725 241.3) (xy 92.075 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad24d81-af46-451f-95bd-b231f4613a3b")
 	)
 	(wire
 		(pts
@@ -14020,7 +14096,7 @@
 	)
 	(text "Проверить допуски питания у малины\n\nпрооверить ss54(падение напряжения)"
 		(exclude_from_sim no)
-		(at 145.415 231.14 0)
+		(at 148.59 257.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14081,7 +14157,7 @@
 	)
 	(text "размыкать питание 5v0 при выключении/отключать всю малину от питания"
 		(exclude_from_sim no)
-		(at 133.35 243.84 0)
+		(at 136.525 270.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14201,6 +14277,28 @@
 		(uuid "60b323c1-9a75-43b2-bdd4-cdc41e584b15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 267.5079 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V0_SENS"
+		(shape input)
+		(at 92.075 241.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a8c52e0e-9e95-4706-9a00-13a32bfd93e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.6434 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15442,6 +15540,111 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 85.725 230.505 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1da806c8-d19b-4a90-8c85-4aafce3e5671")
+		(property "Reference" "R340"
+			(at 84.455 231.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 84.455 229.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 85.725 230.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.725 230.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.725 230.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 85.725 230.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 85.725 230.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 85.725 230.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 85.725 230.505 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0d1e4e6-0d1b-4267-a540-164e77ad6623")
+		)
+		(pin "2"
+			(uuid "a6cdbd6b-b707-42e8-8c0a-b020b4d86274")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
+					(reference "R340")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+1V0")
 		(at 224.79 109.855 0)
 		(unit 1)
@@ -15853,6 +16056,111 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
 					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 85.725 246.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25c02f39-6621-4dc6-9deb-64991bb5da01")
+		(property "Reference" "R342"
+			(at 84.455 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 84.455 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 85.725 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.725 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.725 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 85.725 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 85.725 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 85.725 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 85.725 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3b37657-a47b-4e5d-adc5-317c889873a7")
+		)
+		(pin "2"
+			(uuid "d0d85693-ec84-4c2a-a216-90791cd2ced7")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
+					(reference "R342")
 					(unit 1)
 				)
 			)
@@ -16932,71 +17240,6 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
 					(reference "C63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 200.025 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3474b099-3a15-45df-a92f-c840ceb641ae")
-		(property "Reference" "#PWR067"
-			(at 200.025 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_12V"
-			(at 200.025 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.025 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.025 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.025 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b769a4a4-7f6f-4270-9882-f18c28b69b9a")
-		)
-		(instances
-			(project "impeller18"
-				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
-					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -18455,6 +18698,72 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 85.725 250.825 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ce02697-5b3c-4aa3-9c6c-f022bc889887")
+		(property "Reference" "#PWR0314"
+			(at 85.725 257.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.725 255.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.725 250.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.725 250.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 85.725 250.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8b7cf72-4e59-4a0f-9315-06dbaf1267c9")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
+					(reference "#PWR0314")
 					(unit 1)
 				)
 			)
@@ -20204,6 +20513,111 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
 					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 85.725 224.155 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6dc8bdda-26fd-430a-8f87-0b65e7c4718d")
+		(property "Reference" "R339"
+			(at 84.455 225.425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 84.455 222.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 85.725 224.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.725 224.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.725 224.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 85.725 224.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 85.725 224.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 85.725 224.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 85.725 224.155 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2079db9c-ad41-4935-b54e-a3c65bdb8da4")
+		)
+		(pin "2"
+			(uuid "3d0716e6-0926-4010-8337-9ce62a2d767f")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
+					(reference "R339")
 					(unit 1)
 				)
 			)
@@ -26202,6 +26616,111 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 85.725 236.855 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cec0c01b-547a-42fb-b3bf-9d0d6ebe73fc")
+		(property "Reference" "R341"
+			(at 84.455 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 84.455 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 85.725 236.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.725 236.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.725 236.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 85.725 236.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 85.725 236.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 85.725 236.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 85.725 236.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3bea94f9-d739-428b-916f-7c339993df84")
+		)
+		(pin "2"
+			(uuid "73d97b8c-58f1-4137-aaa6-aa7545282c2d")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
+					(reference "R341")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 208.915 243.84 0)
 		(mirror x)
 		(unit 1)
@@ -26760,6 +27279,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 200.025 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dcd4f108-0ca8-4514-8ac8-c68da831059d")
+		(property "Reference" "#PWR067"
+			(at 200.025 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.025 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.025 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.025 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.025 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64ad431b-e8d1-44b6-a5d6-30a128561a7c")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 258.445 75.565 0)
 		(unit 1)
@@ -27035,6 +27620,72 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
 					(reference "C49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 85.725 219.075 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e3ca13b9-b0b0-4f6a-9c71-5ce0d21a9890")
+		(property "Reference" "#PWR0296"
+			(at 85.725 222.885 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "12V0"
+			(at 85.725 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.725 219.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.725 219.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 85.725 219.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "180a1c8c-87fa-4400-9726-734ecb4fb9c1")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/1159e494-0aef-4f6c-ae01-1217066bb411"
+					(reference "#PWR0296")
 					(unit 1)
 				)
 			)
