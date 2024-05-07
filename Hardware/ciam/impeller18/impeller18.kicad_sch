@@ -10101,7 +10101,7 @@
 	)
 	(global_label "UARTX_STM32_RX"
 		(shape input)
-		(at 196.85 233.045 0)
+		(at 197.485 233.045 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10111,7 +10111,7 @@
 		)
 		(uuid "40dab1ef-6fd0-4bad-a870-c064ab41b0e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 216.1636 233.045 0)
+			(at 216.7986 233.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10299,7 +10299,7 @@
 	)
 	(global_label "GPIO_POWEROFF"
 		(shape input)
-		(at 197.485 264.16 0)
+		(at 197.485 268.605 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10309,7 +10309,7 @@
 		)
 		(uuid "4c6c07a4-cf8a-4d00-ab5f-e53e7620aa24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.8917 264.16 0)
+			(at 215.8917 268.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10717,7 +10717,7 @@
 	)
 	(global_label "UARTX_STM32_TX"
 		(shape input)
-		(at 196.85 230.505 0)
+		(at 197.485 230.505 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10727,7 +10727,7 @@
 		)
 		(uuid "77368843-c96d-47bc-8319-34fab126956a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.8612 230.505 0)
+			(at 216.4962 230.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10981,7 +10981,7 @@
 	)
 	(global_label "UART1_STM32_RX"
 		(shape input)
-		(at 196.215 240.665 0)
+		(at 197.485 240.665 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10991,7 +10991,7 @@
 		)
 		(uuid "90e9a015-97c0-41aa-a1e1-e5511ba59163")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.5286 240.665 0)
+			(at 216.7986 240.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11683,6 +11683,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_SHUTDOWN"
+		(shape input)
+		(at 197.485 266.065 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8e2e960-9016-4d9b-b767-1aa265f68d40")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.1336 266.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DEBUG_SWD_CLK"
 		(shape input)
 		(at 274.955 110.49 180)
@@ -12081,7 +12103,7 @@
 	)
 	(global_label "12V0_SENS"
 		(shape input)
-		(at 160.655 259.08 0)
+		(at 197.485 271.145 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12091,7 +12113,7 @@
 		)
 		(uuid "e5f75423-a945-4fb8-862c-3dd50516e233")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.2234 259.08 0)
+			(at 211.0534 271.145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12103,7 +12125,7 @@
 	)
 	(global_label "UART1_STM32_TX"
 		(shape input)
-		(at 196.215 238.125 0)
+		(at 197.485 238.125 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12113,7 +12135,7 @@
 		)
 		(uuid "e63de369-d2eb-4f31-8bf9-0786128c2c8f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 215.2262 238.125 0)
+			(at 216.4962 238.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12452,7 +12474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
+		(property "Footprint" "user_lib:MountingHole_M4"
 			(at 266.7 219.71 0)
 			(effects
 				(font
@@ -13002,7 +13024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
+		(property "Footprint" "user_lib:MountingHole_M4"
 			(at 266.7 214.63 0)
 			(effects
 				(font
@@ -15096,7 +15118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
+		(property "Footprint" "user_lib:MountingHole_M4"
 			(at 266.7 209.55 0)
 			(effects
 				(font
@@ -16772,7 +16794,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
+		(property "Footprint" "user_lib:MountingHole_M4"
 			(at 266.7 224.79 0)
 			(effects
 				(font
