@@ -808,6 +808,313 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016) hide)
@@ -1182,6 +1489,175 @@
 					(at 0 -2.54 90)
 					(length 2.032)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1965,6 +2441,128 @@
 				)
 			)
 		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "LED_RGBA_1"
 			(pin_names
 				(offset 0) hide)
@@ -2547,6 +3145,446 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_FET:BSS138"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BSS138"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+				(at 5.08 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "N-Channel MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BSS138_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "BSS138_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -2765,16 +3803,76 @@
 		)
 	)
 	(junction
+		(at 288.925 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11169e06-9531-4c1c-b778-4a2c807cec29")
+	)
+	(junction
+		(at 309.245 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1519e02e-6ae2-4933-bef5-07e25ab57e94")
+	)
+	(junction
+		(at 351.155 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28e6655e-1264-4ad8-908e-866cc3767192")
+	)
+	(junction
+		(at 318.135 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4de15cab-f2b1-415c-ba92-245349b70bee")
+	)
+	(junction
+		(at 327.66 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c9dd874-7a16-4478-a13c-35f851a96212")
+	)
+	(junction
+		(at 318.135 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76b93064-c1bc-4e81-bd2e-a658653ce4c8")
+	)
+	(junction
+		(at 351.155 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8120cd48-0c56-4897-8ce6-e09270dd3513")
+	)
+	(junction
 		(at 170.815 70.485)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "940abce6-9396-46b2-99c6-e8ca7b8ed6b2")
 	)
 	(junction
+		(at 301.625 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "983b9bdf-1446-4661-94c6-0cef3dd98e20")
+	)
+	(junction
 		(at 170.815 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6e3889f-3f87-4191-aed8-ac6028932470")
+	)
+	(junction
+		(at 327.66 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae78ae64-686a-4e4e-8825-2e26d9082ace")
+	)
+	(junction
+		(at 309.245 158.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bff8be11-154c-4436-8383-da7e295665a9")
 	)
 	(junction
 		(at 185.42 64.77)
@@ -2795,12 +3893,12 @@
 		(uuid "f8b1e6bf-88ed-408d-ad1a-7b6f85d23981")
 	)
 	(no_connect
-		(at 170.18 106.045)
-		(uuid "0f220956-3e44-4ec9-a02c-b458bbec5eed")
+		(at 284.48 184.15)
+		(uuid "007cbd29-34ee-4463-9c02-ff9f462ecb49")
 	)
 	(no_connect
-		(at 170.18 100.965)
-		(uuid "1024710c-531b-4ba4-b513-dbdfe3b572e3")
+		(at 170.18 106.045)
+		(uuid "0f220956-3e44-4ec9-a02c-b458bbec5eed")
 	)
 	(no_connect
 		(at 210.82 100.965)
@@ -2827,6 +3925,14 @@
 		(uuid "336b3d1e-2dca-4e62-a69f-0cf27377d8b0")
 	)
 	(no_connect
+		(at 170.18 100.965)
+		(uuid "44705cff-e13f-44ee-9f0a-e91e6e92c3f4")
+	)
+	(no_connect
+		(at 284.48 172.72)
+		(uuid "4b50b98f-6e1d-41f0-accd-973111cf0e1f")
+	)
+	(no_connect
 		(at 170.18 121.285)
 		(uuid "4de0b131-3c7f-4af5-b08b-a7c3148e2e88")
 	)
@@ -2843,6 +3949,10 @@
 		(uuid "826d583e-18c3-43c6-970f-a8b8ff3c8e6d")
 	)
 	(no_connect
+		(at 284.48 175.26)
+		(uuid "872e3be8-01b4-4892-a5dc-69f1341648e1")
+	)
+	(no_connect
 		(at 210.82 95.885)
 		(uuid "8983744d-1c6e-4122-8d98-25510a77aad2")
 	)
@@ -2851,16 +3961,16 @@
 		(uuid "9457ccb1-eed1-4989-b990-f99864a9b81c")
 	)
 	(no_connect
-		(at 210.82 103.505)
-		(uuid "ac80a4d1-056e-408d-b600-d989614409af")
-	)
-	(no_connect
 		(at 210.82 136.525)
 		(uuid "c19c12ce-6f1a-49e3-9e08-23e636e63477")
 	)
 	(no_connect
 		(at 210.82 108.585)
 		(uuid "d23df99d-3ffc-4bb0-934a-a1e8da565003")
+	)
+	(no_connect
+		(at 210.82 103.505)
+		(uuid "e8854b4a-49fa-4939-adb1-0fe245559be7")
 	)
 	(no_connect
 		(at 170.18 111.125)
@@ -2886,6 +3996,26 @@
 	)
 	(wire
 		(pts
+			(xy 351.155 154.94) (xy 351.155 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f537ac-6b96-4b01-8d36-66404a9f2dc3")
+	)
+	(wire
+		(pts
+			(xy 351.155 158.75) (xy 351.155 163.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ae7ceb9-8c07-4fdb-b9ff-d01e37df9f3d")
+	)
+	(wire
+		(pts
 			(xy 185.42 61.595) (xy 185.42 64.77)
 		)
 		(stroke
@@ -2893,6 +4023,26 @@
 			(type default)
 		)
 		(uuid "1fb32041-2694-4b57-aaff-e55737d382a4")
+	)
+	(wire
+		(pts
+			(xy 351.155 227.33) (xy 332.74 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21ac8320-e82f-4ead-80da-1766262590da")
+	)
+	(wire
+		(pts
+			(xy 301.625 227.33) (xy 304.165 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237b8095-2693-4e82-a215-db7dfa6fdfba")
 	)
 	(wire
 		(pts
@@ -2906,6 +4056,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.155 181.61) (xy 332.74 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28c25749-7699-4cdd-a05a-c301dc7b00b7")
+	)
+	(wire
+		(pts
 			(xy 288.925 121.285) (xy 294.005 121.285)
 		)
 		(stroke
@@ -2913,6 +4073,26 @@
 			(type default)
 		)
 		(uuid "28d217f0-4a76-4d2f-a057-f8c08944ccd7")
+	)
+	(wire
+		(pts
+			(xy 351.155 204.47) (xy 351.155 208.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28fa6e13-1625-48bd-bf77-e0768a48c753")
+	)
+	(wire
+		(pts
+			(xy 351.155 213.995) (xy 351.155 216.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea1fff9-91b0-4a90-984b-cf1cace9e65a")
 	)
 	(wire
 		(pts
@@ -2926,6 +4106,26 @@
 	)
 	(wire
 		(pts
+			(xy 318.135 227.33) (xy 318.135 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "330838f4-b443-4e6b-9c4c-ac91dd682d9c")
+	)
+	(wire
+		(pts
+			(xy 288.925 170.18) (xy 288.925 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "342a7a83-32f5-4d15-929b-c55189a51de8")
+	)
+	(wire
+		(pts
 			(xy 265.43 126.365) (xy 265.43 123.19)
 		)
 		(stroke
@@ -2933,6 +4133,46 @@
 			(type default)
 		)
 		(uuid "350e4f3f-3914-4d2e-b799-39cf9a622086")
+	)
+	(wire
+		(pts
+			(xy 309.245 158.75) (xy 309.245 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "378f1561-c9ee-41d2-979d-89dfaf7fca23")
+	)
+	(wire
+		(pts
+			(xy 309.245 204.47) (xy 327.66 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "406d01be-e185-4369-aafc-5f7e5bda3952")
+	)
+	(wire
+		(pts
+			(xy 318.135 181.61) (xy 314.325 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4262d91b-bdc5-49fd-bb39-e6794f9f2b9f")
+	)
+	(wire
+		(pts
+			(xy 351.155 200.66) (xy 351.155 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4352b2c3-3290-439d-b181-8e799004ffb9")
 	)
 	(wire
 		(pts
@@ -2946,6 +4186,36 @@
 	)
 	(wire
 		(pts
+			(xy 299.085 227.33) (xy 301.625 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ebdc71-ace7-401b-a4c1-cd5fbc117b2e")
+	)
+	(wire
+		(pts
+			(xy 327.66 158.75) (xy 327.66 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bfb7ddd-a632-4910-b65d-371abef56c34")
+	)
+	(wire
+		(pts
+			(xy 288.925 181.61) (xy 294.005 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cac3af9-ef88-466b-9f4a-03c4489110a9")
+	)
+	(wire
+		(pts
 			(xy 185.42 76.2) (xy 185.42 83.185)
 		)
 		(stroke
@@ -2956,6 +4226,56 @@
 	)
 	(wire
 		(pts
+			(xy 309.245 204.47) (xy 309.245 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "532dafa5-39de-48f2-a8c0-44ddbd79329b")
+	)
+	(wire
+		(pts
+			(xy 301.625 214.63) (xy 301.625 216.535)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54ada5b6-8d06-4bb1-a8c8-7b408f300ae0")
+	)
+	(wire
+		(pts
+			(xy 292.1 227.33) (xy 294.005 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e23075-366f-4f97-8d34-54dcbb0b93d6")
+	)
+	(wire
+		(pts
+			(xy 255.905 200.66) (xy 255.905 203.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58c00625-be3b-4914-b10c-231ea4b0058b")
+	)
+	(wire
+		(pts
+			(xy 318.135 227.33) (xy 314.325 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cf879db-dbe1-4644-81ad-df54f116261c")
+	)
+	(wire
+		(pts
 			(xy 288.925 104.14) (xy 294.005 104.14)
 		)
 		(stroke
@@ -2963,6 +4283,26 @@
 			(type default)
 		)
 		(uuid "5da8b2f0-a40a-4240-bc26-12ab8a358a3e")
+	)
+	(wire
+		(pts
+			(xy 255.905 190.5) (xy 255.905 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "630e98b9-d1f6-45a6-9ce5-d6b75290d77d")
+	)
+	(wire
+		(pts
+			(xy 318.135 227.33) (xy 322.58 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66fa4b74-9330-491d-9179-651983f1fd3a")
 	)
 	(wire
 		(pts
@@ -2986,6 +4326,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.085 204.47) (xy 309.245 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e5a5f55-417f-4f6b-8f2d-01957483e68a")
+	)
+	(wire
+		(pts
 			(xy 180.34 64.77) (xy 185.42 64.77)
 		)
 		(stroke
@@ -2993,6 +4343,16 @@
 			(type default)
 		)
 		(uuid "721b9f1e-2612-4620-af6d-0d04d1b192f1")
+	)
+	(wire
+		(pts
+			(xy 351.155 168.275) (xy 351.155 170.815)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76d62934-61fa-4f00-bc91-cb41cb257d51")
 	)
 	(wire
 		(pts
@@ -3033,6 +4393,26 @@
 			(type default)
 		)
 		(uuid "7fcde2b5-b094-40e8-9a7a-195ce5e6d22b")
+	)
+	(wire
+		(pts
+			(xy 327.66 204.47) (xy 327.66 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80611ad2-958b-486e-91e4-00f54c36241e")
+	)
+	(wire
+		(pts
+			(xy 309.245 158.75) (xy 327.66 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87446a53-3d46-4009-9cbb-a550572a1ef2")
 	)
 	(wire
 		(pts
@@ -3083,6 +4463,16 @@
 			(type default)
 		)
 		(uuid "a034ab37-87a9-40d1-98c5-836937e172c3")
+	)
+	(wire
+		(pts
+			(xy 318.135 181.61) (xy 318.135 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12334af-20a7-4b2b-a4ac-36a4ab487c0e")
 	)
 	(wire
 		(pts
@@ -3156,6 +4546,136 @@
 	)
 	(wire
 		(pts
+			(xy 318.135 181.61) (xy 322.58 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b911fd08-0440-40e4-a9dd-70344e90eb1b")
+	)
+	(wire
+		(pts
+			(xy 351.155 178.435) (xy 351.155 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be2b3571-3348-4f0a-815f-0df5bba56862")
+	)
+	(wire
+		(pts
+			(xy 254 180.975) (xy 255.905 180.975)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfcea4e2-0edf-4d81-a2cc-6516671416ea")
+	)
+	(wire
+		(pts
+			(xy 299.085 158.75) (xy 309.245 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7d8d709-17e4-4eb3-8e85-b03bc3d62b16")
+	)
+	(wire
+		(pts
+			(xy 344.17 204.47) (xy 351.155 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c91e46a1-eca9-4743-9398-38ca98597741")
+	)
+	(wire
+		(pts
+			(xy 327.66 204.47) (xy 334.01 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd2f5cb0-4a8f-420b-a928-92b2269611d0")
+	)
+	(wire
+		(pts
+			(xy 290.195 158.75) (xy 294.005 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d0b116-1a07-47c0-90ff-53931172cf2c")
+	)
+	(wire
+		(pts
+			(xy 299.085 181.61) (xy 304.165 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d514f75a-7930-4b94-bf6d-87221e110e3c")
+	)
+	(wire
+		(pts
+			(xy 327.66 158.75) (xy 334.01 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8841f43-0833-4b7d-a75e-9877f886c347")
+	)
+	(wire
+		(pts
+			(xy 288.925 170.18) (xy 284.48 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d93e0d78-939f-4c37-b095-456c489a6f2f")
+	)
+	(wire
+		(pts
+			(xy 284.48 181.61) (xy 288.925 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d98429ee-6d87-4f67-8f3b-90a2b183e1dc")
+	)
+	(wire
+		(pts
+			(xy 301.625 221.615) (xy 301.625 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "debf139e-d869-4397-952c-7bcb08c901ba")
+	)
+	(wire
+		(pts
+			(xy 255.905 180.975) (xy 255.905 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df545b64-f610-4c38-bd85-9dc76106dadb")
+	)
+	(wire
+		(pts
 			(xy 185.42 64.77) (xy 185.42 70.485)
 		)
 		(stroke
@@ -3166,6 +4686,16 @@
 	)
 	(wire
 		(pts
+			(xy 351.155 224.155) (xy 351.155 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e698533c-0df7-4d9d-8d18-205cc3558b60")
+	)
+	(wire
+		(pts
 			(xy 278.765 126.365) (xy 281.305 126.365)
 		)
 		(stroke
@@ -3173,6 +4703,16 @@
 			(type default)
 		)
 		(uuid "e7a25cbd-f38a-416b-a224-04a0ce6d88bc")
+	)
+	(wire
+		(pts
+			(xy 292.1 204.47) (xy 294.005 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e944216c-556d-4dd1-b85c-e0bce8e7d378")
 	)
 	(wire
 		(pts
@@ -3204,6 +4744,16 @@
 		)
 		(uuid "f8aba667-e1ff-4856-8969-242df513a9f1")
 	)
+	(wire
+		(pts
+			(xy 344.17 158.75) (xy 351.155 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdf05c60-f9d5-4773-9a4e-3cc495f2ad29")
+	)
 	(rectangle
 		(start 259.08 87.63)
 		(end 319.405 141.605)
@@ -3218,13 +4768,25 @@
 	)
 	(text "не трогать SPI\n"
 		(exclude_from_sim no)
-		(at 233.045 123.19 90)
+		(at 236.855 123.19 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "30b565ff-013a-4487-bbc3-249543a87360")
+	)
+	(text "проверить на разных пинах:\n\nGPIO-POWEROFF\nGPIO-SHUTDOWN"
+		(exclude_from_sim no)
+		(at 84.455 184.785 0)
+		(effects
+			(font
+				(size 5 5)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "3137e4e4-fb66-4acc-8440-5c52fae62b71")
 	)
 	(text "можно поменять на 02х03\n"
 		(exclude_from_sim no)
@@ -3236,25 +4798,26 @@
 		)
 		(uuid "397b21bb-fcde-4c4b-8f40-38eb17570bf1")
 	)
-	(text "ДОБАВИТЬ СИГНАЛ О ВОЗМОЖНОСТИ ВЫКЛЮЧЕНИИ ПИТАНИЯ(37 опционально)"
-		(exclude_from_sim no)
-		(at 105.41 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "57710103-89ff-4320-b987-c9ce848fa236")
-	)
 	(text "got it!"
 		(exclude_from_sim no)
-		(at 236.22 123.825 90)
+		(at 239.395 123.825 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "d680a707-af15-45ff-80d3-6c52bc8f29ae")
+	)
+	(label "EN"
+		(at 288.925 175.26 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ccba31a-41c2-420b-b0d3-10d249066757")
 	)
 	(global_label "LED1_RPI_RGB_RED"
 		(shape input)
@@ -3274,7 +4837,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3296,7 +4858,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3318,7 +4879,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3340,7 +4900,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3362,7 +4921,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3384,7 +4942,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3406,29 +4963,27 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
-	(global_label "GPIO_SHUTDOWN"
+	(global_label "GPIO-SHUTDOWN"
 		(shape input)
-		(at 121.92 161.925 0)
+		(at 165.1 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "31dd4639-a563-41a9-b1fa-237e89515173")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.5686 161.925 0)
+			(at 145.8466 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
+				(justify right)
 			)
 		)
 	)
@@ -3450,7 +5005,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3472,7 +5026,27 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
+			)
+		)
+	)
+	(global_label "RPi-RESET"
+		(shape input)
+		(at 290.195 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4122c95a-74a4-4e09-bfd1-6d5703035f67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.7475 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3494,7 +5068,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3516,7 +5089,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3538,7 +5110,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3560,7 +5131,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3582,7 +5152,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3604,7 +5173,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3626,7 +5194,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3648,7 +5215,27 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
+			)
+		)
+	)
+	(global_label "RPi-SHUTDOWN"
+		(shape input)
+		(at 292.1 204.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a15df613-f2e2-4220-9c35-77809c6e3bbb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.1771 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3670,7 +5257,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3692,7 +5278,27 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO-SHUTDOWN"
+		(shape output)
+		(at 292.1 227.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6a06e2f-8224-4bd6-8068-91cdcf0165fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 272.8466 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3714,7 +5320,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3736,7 +5341,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3758,7 +5362,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3780,7 +5383,27 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO-POWEROFF"
+		(shape passive)
+		(at 254 180.975 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c8012f91-882f-4102-bcd5-75a7cc4f0b1b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.0998 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -3802,7 +5425,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3824,7 +5446,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -3846,13 +5467,12 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
-	(global_label "GPIO_POWEROFF"
-		(shape input)
-		(at 139.7 128.905 180)
+	(global_label "GPIO-POWEROFF"
+		(shape output)
+		(at 164.465 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3862,13 +5482,12 @@
 		)
 		(uuid "eb194d4c-433a-4730-b3ee-43b8a384b5cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.2933 128.905 0)
+			(at 145.4535 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 	)
@@ -3890,7 +5509,431 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 255.905 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "086c0c6a-fc0a-4db8-959f-296dacad0fae")
+		(property "Reference" "R344"
+			(at 249.555 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 249.555 189.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 255.905 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.905 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 255.905 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 255.905 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46446/"
+			(at 255.905 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 255.905 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 220Ом"
+			(at 255.905 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbfcf779-03cc-4f4e-a9d2-a81d91972237")
+		)
+		(pin "2"
+			(uuid "91bf441b-88ff-4ac3-b3dd-f18b0fda2343")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "R344")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 279.4 172.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "099942dd-44d2-49ee-a560-6e72f3b597b1")
+		(property "Reference" "J36"
+			(at 277.495 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PBD-3"
+			(at 277.495 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
+			(at 279.4 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 279.4 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" ""
+			(at 279.4 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" ""
+			(at 279.4 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" ""
+			(at 279.4 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" ""
+			(at 279.4 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "b7301e42-8ad1-40d9-bd67-845210dd3aa1")
+		)
+		(pin "1"
+			(uuid "99b18614-4fd0-4580-b136-8ec6499e9e1f")
+		)
+		(pin "2"
+			(uuid "a08c6f5a-c10d-4f22-91d3-652a2fd6bc1c")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "J36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 351.155 165.735 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e149df5-b122-44ab-aadc-11960a11a265")
+		(property "Reference" "R345"
+			(at 344.805 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 344.805 167.0049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 351.155 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.155 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 351.155 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 351.155 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46446/"
+			(at 351.155 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 351.155 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 220Ом"
+			(at 351.155 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c08f08eb-33f1-4a4a-97fa-0d2726994fed")
+		)
+		(pin "2"
+			(uuid "214b8367-5767-40db-bc46-90db3a776402")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "R345")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 296.545 158.75 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f4d470a-9b34-4eb6-9885-8847d984b2b3")
+		(property "Reference" "R343"
+			(at 299.085 156.845 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 298.45 160.655 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 296.545 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 296.545 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 296.545 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 296.545 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 296.545 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 296.545 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 296.545 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6f89ed4-eb07-49fa-a796-541f332bba88")
+		)
+		(pin "2"
+			(uuid "c6e4980e-2097-4640-a89e-47ea64dedc20")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "R343")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3903,7 +5946,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11e26026-eb8f-4f75-9821-4444cf733a85")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0145"
 			(at 185.42 59.055 0)
 			(effects
 				(font
@@ -3953,7 +5996,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
-					(reference "#PWR0142")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -4032,7 +6075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20a5831c-f598-4623-8836-d7e8ebc49167")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0150"
 			(at 190.5 159.385 0)
 			(effects
 				(font
@@ -4082,7 +6125,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
-					(reference "#PWR0147")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -4147,6 +6190,243 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
 					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 318.135 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27551357-5488-4714-976f-8a7ebcd453d3")
+		(property "Reference" "#PWR0319"
+			(at 318.135 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 318.135 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.135 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.135 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 318.135 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40b99501-8759-41c4-844b-e8247e777587")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "#PWR0319")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 351.155 200.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35b45b86-b011-4363-b823-b1a3aa2e1120")
+		(property "Reference" "#PWR0318"
+			(at 351.155 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 351.155 196.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.155 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.155 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 351.155 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c703dff-a80a-44c2-98fb-0107fd6c651c")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "#PWR0318")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 301.625 219.075 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "425c295c-a7a1-4128-9bea-e885ef2c231f")
+		(property "Reference" "R354"
+			(at 295.275 217.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 296.545 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 301.625 219.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 301.625 219.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 301.625 219.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 301.625 219.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 301.625 219.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 301.625 219.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 301.625 219.075 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11c24701-e6ac-447f-912c-96814810b649")
+		)
+		(pin "2"
+			(uuid "f4562521-af05-47ce-9095-d3c9ff9bedad")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "R354")
 					(unit 1)
 				)
 			)
@@ -4367,6 +6647,219 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 327.66 224.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "61604684-6056-4cb2-bdd1-cd8e5da59f57")
+		(property "Reference" "Q66"
+			(at 327.66 233.045 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 327.66 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 325.755 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 323.85 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 327.66 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "38"
+			(at 327.66 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/303635/"
+			(at 327.66 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "14"
+			(at 327.66 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Транзистор полевой N-канальный"
+			(at 327.66 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "738fb022-f0a2-4497-8d05-6fc16228ebc9")
+		)
+		(pin "2"
+			(uuid "1be9f5c0-0ad4-400d-9029-9579b8d4dd43")
+		)
+		(pin "3"
+			(uuid "51f4d40b-6f14-4a74-8629-d5e1bf993402")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "Q66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 339.09 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c62c505-e738-4c91-af5e-cd92a762585a")
+		(property "Reference" "SW13"
+			(at 339.09 196.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B3F1060"
+			(at 339.09 198.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+			(at 339.09 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 339.09 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
+			(at 339.09 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/430220/"
+			(at 339.09 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "15"
+			(at 339.09 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Кнопка тактильная 6х6 h=7мм"
+			(at 339.09 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d50a9221-0a09-4c94-9366-696fc82af484")
+		)
+		(pin "2"
+			(uuid "b42cbd8c-63d2-4a2f-a0c6-f8d82cf9cd7f")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "SW13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 177.8 70.485 90)
 		(unit 1)
@@ -4470,6 +6963,175 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 339.09 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75b72be4-0aa4-4867-b38d-f5e4839d4ef1")
+		(property "Reference" "SW11"
+			(at 339.09 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B3F1060"
+			(at 339.09 153.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+			(at 339.09 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 339.09 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 339.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1"
+			(at 339.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/430220/"
+			(at 339.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "15"
+			(at 339.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Кнопка тактильная 6х6 h=7мм"
+			(at 339.09 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5b87821-536d-4e4e-a42d-a6a4b4d98dd4")
+		)
+		(pin "2"
+			(uuid "8de6688b-be2e-42c4-bc39-0cd92c31f186")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 318.135 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f7b4a50-3f00-4eb7-abe3-6046efd9c310")
+		(property "Reference" "#PWR0315"
+			(at 318.135 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 318.135 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.135 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.135 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 318.135 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a506f37-c373-41c8-9c54-198366047203")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "#PWR0315")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 118.745 120.015 0)
 		(unit 1)
@@ -4528,6 +7190,225 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
 					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 309.245 224.79 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84631c4a-4024-4dc5-99a6-0e2a2dc416cd")
+		(property "Reference" "Q64"
+			(at 309.245 233.045 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 309.245 231.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 311.15 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 313.055 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 309.245 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "38"
+			(at 309.245 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/303635/"
+			(at 309.245 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "14"
+			(at 309.245 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Транзистор полевой N-канальный"
+			(at 309.245 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3135b745-1845-44fb-847b-dddbe988f7f1")
+		)
+		(pin "2"
+			(uuid "6f1da66e-2fe5-488c-8ddf-bab560231ffe")
+		)
+		(pin "3"
+			(uuid "f5c0ee2c-37df-43b9-a66c-2b582a9459f8")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "Q64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 327.66 179.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "84d054a6-01f4-471b-9009-7f8536e9f286")
+		(property "Reference" "Q62"
+			(at 327.66 187.325 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 327.66 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 325.755 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 323.85 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 327.66 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "38"
+			(at 327.66 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/303635/"
+			(at 327.66 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "14"
+			(at 327.66 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Транзистор полевой N-канальный"
+			(at 327.66 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "253456c4-fd00-4f62-8c4d-2661eeefdcb6")
+		)
+		(pin "2"
+			(uuid "96d1ad7a-add5-4706-814a-e44e82f07911")
+		)
+		(pin "3"
+			(uuid "b65b5619-e4ef-444a-9d89-50160636e2c6")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "Q62")
 					(unit 1)
 				)
 			)
@@ -4639,6 +7520,352 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 301.625 214.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9032d684-8c81-45e2-b818-41b0fa2a7217")
+		(property "Reference" "#PWR0320"
+			(at 301.625 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 301.625 210.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 301.625 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 301.625 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 301.625 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da2ab876-21bb-402d-afd0-0250c3fe9fd3")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "#PWR0320")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 351.155 211.455 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "913ef884-0a31-44be-98c0-7edda8f5e1ce")
+		(property "Reference" "R350"
+			(at 344.805 210.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220"
+			(at 344.805 212.7249 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 351.155 211.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.155 211.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 351.155 211.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 351.155 211.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/46446/"
+			(at 351.155 211.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 351.155 211.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 220Ом"
+			(at 351.155 211.455 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e394bd1-aefc-4b4f-a24b-e2ca004c7406")
+		)
+		(pin "2"
+			(uuid "36367e26-8ce0-4eee-af29-3e9ef7794951")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "R350")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 296.545 227.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "971fe937-7f6b-47e5-918c-485dcea4a897")
+		(property "Reference" "R353"
+			(at 299.085 225.425 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 298.45 229.235 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 296.545 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 296.545 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 296.545 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 296.545 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/57782/"
+			(at 296.545 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 296.545 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 100Ом"
+			(at 296.545 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "612a065f-fbfc-44dc-921e-e045e5ffcd53")
+		)
+		(pin "2"
+			(uuid "aa001742-d0a9-49eb-bcd8-d458db3b0a90")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "R353")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 279.4 181.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9910a94d-05cb-46e0-b687-37c99e5e269b")
+		(property "Reference" "J35"
+			(at 277.495 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PBD-2"
+			(at 277.495 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 279.4 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 279.4 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 279.4 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "394a2fca-8293-4046-957e-d8f3d1558beb")
+		)
+		(pin "1"
+			(uuid "fd0508e7-b0ec-4d1b-b409-b892025d9bda")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "J35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Raspberry_Pi_2_3")
 		(at 190.5 116.205 0)
 		(unit 1)
@@ -4648,7 +7875,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a031903-89f1-423c-9850-f080ebcd36a1")
-		(property "Reference" "J14"
+		(property "Reference" "J17"
 			(at 192.6941 148.59 0)
 			(effects
 				(font
@@ -4852,7 +8079,217 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
-					(reference "J14")
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 296.545 181.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f418292-7455-409b-ab7f-945304dacecd")
+		(property "Reference" "R347"
+			(at 299.085 179.705 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 298.45 183.515 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 296.545 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 296.545 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 296.545 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "100"
+			(at 296.545 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/57782/"
+			(at 296.545 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 296.545 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 100Ом"
+			(at 296.545 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "178229e6-368e-47d6-a41e-b1d070f84d9a")
+		)
+		(pin "2"
+			(uuid "1a7646f6-ab86-43d9-9565-37421b0dd4c1")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "R347")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 351.155 220.345 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1b68131-367d-43b6-975f-d00ab3c17784")
+		(property "Reference" "D31"
+			(at 345.44 219.075 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FYLS-0603BUGC"
+			(at 333.375 221.615 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 351.155 220.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.155 220.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 351.155 220.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "3"
+			(at 351.155 220.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/324327/"
+			(at 351.155 220.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "5"
+			(at 351.155 220.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Светодиод smd 1,6х0,8мм/зеленый/568нм/65мкд/прозрачный/130°"
+			(at 351.155 220.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e2c4e412-296d-418d-b221-b132b245fa95")
+		)
+		(pin "1"
+			(uuid "83666ca4-283c-4a9c-a25c-24190c514459")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -4963,6 +8400,116 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
 					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:BSS138")
+		(at 309.245 179.07 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a66d5eee-3cd9-40b9-94c7-8c3104af52e1")
+		(property "Reference" "Q61"
+			(at 309.245 187.325 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BSS138"
+			(at 309.245 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 311.15 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
+			(at 313.055 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"
+			(at 309.245 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "38"
+			(at 309.245 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/303635/"
+			(at 309.245 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "14"
+			(at 309.245 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Транзистор полевой N-канальный"
+			(at 309.245 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "782a7663-c5f1-4924-ab8c-5c5e3e8872af")
+		)
+		(pin "2"
+			(uuid "dc10fec3-ce01-4f39-bda3-b4efc550a245")
+		)
+		(pin "3"
+			(uuid "99471aa8-f7ef-4633-858c-21cff5d3bb80")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "Q61")
 					(unit 1)
 				)
 			)
@@ -5184,7 +8731,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ad482cb6-d309-48ef-b330-a9b06e61ed40")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0146"
 			(at 282.575 83.82 0)
 			(effects
 				(font
@@ -5234,7 +8781,72 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
-					(reference "#PWR0143")
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 255.905 203.835 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af82f917-d69b-41b8-a357-6c270e73404a")
+		(property "Reference" "#PWR0312"
+			(at 255.905 210.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.905 207.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.905 203.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.905 203.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 255.905 203.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aa884f93-45f5-4824-ba3a-8da87a7d4baa")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -5250,7 +8862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf7f0f44-55e8-4503-8feb-3768eefd4c02")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0148"
 			(at 265.43 99.695 0)
 			(effects
 				(font
@@ -5300,7 +8912,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
-					(reference "#PWR0145")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -5513,6 +9125,283 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 296.545 204.47 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c72168b2-8355-4170-a655-b48f3242f0b8")
+		(property "Reference" "R349"
+			(at 299.085 202.565 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 298.45 206.375 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 296.545 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 296.545 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 296.545 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/344748/"
+			(at 296.545 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "1"
+			(at 296.545 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 10кОм"
+			(at 296.545 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "1000"
+			(at 296.545 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc9a779e-40bc-440b-afa2-38771595580a")
+		)
+		(pin "2"
+			(uuid "456eecae-378c-42bb-b357-3b7fdf2a25c2")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "R349")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 351.155 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9453db3-f9b9-43a4-8d88-df56c1d23eb0")
+		(property "Reference" "#PWR0311"
+			(at 351.155 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 351.155 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 351.155 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.155 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 351.155 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef43326f-ff02-42ad-b333-614f9947a8ac")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "#PWR0311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 255.905 196.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d04f12f9-f041-4c88-a555-76c32aa6d72a")
+		(property "Reference" "D30"
+			(at 250.19 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FYLS-0603BUGC"
+			(at 238.125 198.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 255.905 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.905 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 255.905 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "3"
+			(at 255.905 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/324327/"
+			(at 255.905 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "5"
+			(at 255.905 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Светодиод smd 1,6х0,8мм/зеленый/568нм/65мкд/прозрачный/130°"
+			(at 255.905 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "438b0275-7758-4848-b278-9455a2d91139")
+		)
+		(pin "1"
+			(uuid "bdab19c8-a0e2-45b7-8561-acaaeb6d2ce4")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 118.745 109.855 0)
 		(unit 1)
@@ -5586,7 +9475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfb806df-6e5b-4b0d-9838-34d2c90a665a")
-		(property "Reference" "J13"
+		(property "Reference" "J16"
 			(at 292.1 67.9449 0)
 			(effects
 				(font
@@ -5652,7 +9541,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
-					(reference "J13")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -5773,7 +9662,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea75832d-94af-46a4-81d4-2b32f2fa89b1")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR0149"
 			(at 265.43 127 0)
 			(effects
 				(font
@@ -5823,7 +9712,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
-					(reference "#PWR0146")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -5838,7 +9727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ecf2c35a-aab6-4b5e-97cb-2765bf823437")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0147"
 			(at 170.815 85.09 0)
 			(effects
 				(font
@@ -5888,7 +9777,7 @@
 		(instances
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
-					(reference "#PWR0144")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -6095,6 +9984,111 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
 					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 351.155 174.625 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe330e95-df8e-4eb1-92f2-0db264c0fb12")
+		(property "Reference" "D29"
+			(at 345.44 173.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FYLS-0603BUGC"
+			(at 333.375 175.895 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 351.155 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 351.155 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 351.155 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Мин. кол-во" "3"
+			(at 351.155 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ссылка" "https://www.promelec.ru/product/324327/"
+			(at 351.155 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Цена" "5"
+			(at 351.155 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Человекопонятное название" "Светодиод smd 1,6х0,8мм/зеленый/568нм/65мкд/прозрачный/130°"
+			(at 351.155 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "54ff2ae5-2165-4dd0-8a59-ad1654384ffc")
+		)
+		(pin "1"
+			(uuid "ccf52219-9623-423f-84eb-6c2aa2716986")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "D29")
 					(unit 1)
 				)
 			)
