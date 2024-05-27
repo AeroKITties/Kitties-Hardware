@@ -6935,16 +6935,6 @@
 		)
 		(uuid "8b91804b-6fff-4c63-bdac-e8f3d3df4557")
 	)
-	(text "in or out?"
-		(exclude_from_sim no)
-		(at 342.9 173.355 0)
-		(effects
-			(font
-				(size 5 5)
-			)
-		)
-		(uuid "9af281f9-7892-49b7-9973-2347e391c1d8")
-	)
 	(text "+gnd"
 		(exclude_from_sim no)
 		(at 264.795 204.47 0)
@@ -7264,7 +7254,7 @@
 		(uuid "f15cf381-4548-4cf2-9831-de2fdf7758e9")
 	)
 	(global_label "CAN1_RPI_INT"
-		(shape input)
+		(shape output)
 		(at 300.99 180.34 0)
 		(fields_autoplaced yes)
 		(effects
