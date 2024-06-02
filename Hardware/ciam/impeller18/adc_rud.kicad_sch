@@ -10729,7 +10729,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "user_lib:LED_0603_1608Metric"
 			(at 266.065 45.72 0)
 			(effects
 				(font

@@ -4243,7 +4243,7 @@
 	)
 	(wire
 		(pts
-			(xy 258.445 43.815) (xy 243.84 43.815)
+			(xy 264.795 41.275) (xy 250.19 41.275)
 		)
 		(stroke
 			(width 0)
@@ -4933,7 +4933,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 151.765) (xy 252.73 149.225)
+			(xy 243.84 153.035) (xy 243.84 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5393,7 +5393,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 149.225) (xy 255.905 149.225)
+			(xy 243.84 144.78) (xy 268.605 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5483,7 +5483,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.905 141.605) (xy 241.3 141.605)
+			(xy 268.605 142.24) (xy 254 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5553,7 +5553,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 51.435) (xy 258.445 51.435)
+			(xy 240.665 43.815) (xy 264.795 43.815)
 		)
 		(stroke
 			(width 0)
@@ -5673,7 +5673,7 @@
 	)
 	(wire
 		(pts
-			(xy 258.445 41.275) (xy 243.84 41.275)
+			(xy 264.795 38.735) (xy 250.19 38.735)
 		)
 		(stroke
 			(width 0)
@@ -5803,7 +5803,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.905 139.065) (xy 241.3 139.065)
+			(xy 268.605 139.7) (xy 254 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6303,7 +6303,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 53.34) (xy 255.27 51.435)
+			(xy 240.665 53.34) (xy 240.665 43.815)
 		)
 		(stroke
 			(width 0)
@@ -6957,7 +6957,7 @@
 		(uuid "03bad060-0d17-4e61-a2ab-917fc93eb27d")
 	)
 	(label "CAN0_RPi_RX"
-		(at 243.84 41.275 0)
+		(at 250.19 38.735 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7034,7 +7034,7 @@
 		(uuid "39cf1de9-51d2-4359-8328-99f54756c564")
 	)
 	(label "CAN0_RPi_TX"
-		(at 243.84 43.815 0)
+		(at 250.19 41.275 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7078,7 +7078,7 @@
 		(uuid "6d5e1220-b88f-42ec-b7c4-2ebf3ec45b2c")
 	)
 	(label "CAN1_RPi_RX"
-		(at 241.3 139.065 0)
+		(at 254 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7122,7 +7122,7 @@
 		(uuid "83dc5e02-b2f2-448e-a2ef-2b6c334aded0")
 	)
 	(label "CAN1_RPi_TX"
-		(at 241.3 141.605 0)
+		(at 254 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7276,7 +7276,7 @@
 	)
 	(global_label "CAN1_STM32_RX"
 		(shape input)
-		(at 255.905 144.145 180)
+		(at 268.605 147.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7286,7 +7286,7 @@
 		)
 		(uuid "3995e49d-0241-44d6-9878-ec3d7dcc9424")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.559 144.145 0)
+			(at 250.259 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7465,7 +7465,7 @@
 	)
 	(global_label "CAN0_STM32_TX"
 		(shape input)
-		(at 258.445 48.895 180)
+		(at 264.795 48.895 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7475,7 +7475,7 @@
 		)
 		(uuid "bd540b91-c1e4-40d4-b6ba-96b93e7c2cd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.4014 48.895 0)
+			(at 246.7514 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7485,7 +7485,7 @@
 		)
 	)
 	(global_label "CAN0_RPI_INT"
-		(shape input)
+		(shape output)
 		(at 300.99 80.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -7507,7 +7507,7 @@
 	)
 	(global_label "CAN1_STM32_TX"
 		(shape input)
-		(at 255.905 146.685 180)
+		(at 268.605 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7517,7 +7517,7 @@
 		)
 		(uuid "d189c6e0-2853-46a5-9301-e9d9be4ab54c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.8614 146.685 0)
+			(at 250.5614 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7570,7 +7570,7 @@
 	)
 	(global_label "CAN0_STM32_RX"
 		(shape input)
-		(at 258.445 46.355 180)
+		(at 264.795 46.355 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7580,7 +7580,7 @@
 		)
 		(uuid "f9166a4d-6d32-46e3-b93d-263df5c446b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.099 46.355 0)
+			(at 246.449 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8201,7 +8201,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "user_lib:LED_0603_1608Metric"
 			(at 80.01 99.695 0)
 			(effects
 				(font
@@ -12046,7 +12046,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 263.525 46.355 0)
+		(at 269.875 43.815 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12055,7 +12055,7 @@
 		(fields_autoplaced yes)
 		(uuid "3fa3ba79-1453-4253-a9a7-02deacc2b196")
 		(property "Reference" "J12"
-			(at 263.525 34.925 0)
+			(at 269.875 32.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12063,7 +12063,7 @@
 			)
 		)
 		(property "Value" "PLS-5"
-			(at 263.525 37.465 0)
+			(at 269.875 34.925 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12071,7 +12071,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 263.525 46.355 0)
+			(at 269.875 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12080,7 +12080,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 263.525 46.355 0)
+			(at 269.875 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12089,7 +12089,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 263.525 46.355 0)
+			(at 269.875 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12148,7 +12148,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "user_lib:LED_0603_1608Metric"
 			(at 80.01 201.295 0)
 			(effects
 				(font
@@ -12948,7 +12948,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 260.985 144.145 0)
+		(at 273.685 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12957,7 +12957,7 @@
 		(fields_autoplaced yes)
 		(uuid "64b2cb93-6a07-4744-a0a9-109fa0d64155")
 		(property "Reference" "J15"
-			(at 260.985 132.715 0)
+			(at 273.685 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12965,7 +12965,7 @@
 			)
 		)
 		(property "Value" "PLS-5"
-			(at 260.985 135.255 0)
+			(at 273.685 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12973,7 +12973,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 260.985 144.145 0)
+			(at 273.685 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12982,7 +12982,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 260.985 144.145 0)
+			(at 273.685 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12991,7 +12991,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 260.985 144.145 0)
+			(at 273.685 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13734,7 +13734,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 53.34 0)
+		(at 240.665 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13742,7 +13742,7 @@
 		(dnp no)
 		(uuid "76674565-2f9a-4388-bf66-e19f146cd3b6")
 		(property "Reference" "#PWR0116"
-			(at 255.27 59.69 0)
+			(at 240.665 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13751,7 +13751,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.27 57.15 0)
+			(at 240.665 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13759,7 +13759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 53.34 0)
+			(at 240.665 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13768,7 +13768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 53.34 0)
+			(at 240.665 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13777,7 +13777,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 255.27 53.34 0)
+			(at 240.665 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17267,7 +17267,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 151.765 0)
+		(at 243.84 153.035 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17276,7 +17276,7 @@
 		(dnp no)
 		(uuid "f84032c5-68fb-4a36-bcb7-54ec5427453d")
 		(property "Reference" "#PWR0141"
-			(at 252.73 158.115 0)
+			(at 243.84 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17285,7 +17285,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 155.575 0)
+			(at 243.84 156.845 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17293,7 +17293,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 151.765 0)
+			(at 243.84 153.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17302,7 +17302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 151.765 0)
+			(at 243.84 153.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17311,7 +17311,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 252.73 151.765 0)
+			(at 243.84 153.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)

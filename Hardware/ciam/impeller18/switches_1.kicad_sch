@@ -6994,16 +6994,6 @@
 	)
 	(wire
 		(pts
-			(xy 343.535 193.675) (xy 343.535 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c49b086-d8bc-43a0-a371-1bd45f4f4b9c")
-	)
-	(wire
-		(pts
 			(xy 98.425 38.735) (xy 98.425 40.64)
 		)
 		(stroke
@@ -7404,7 +7394,7 @@
 	)
 	(wire
 		(pts
-			(xy 159.385 184.15) (xy 159.385 186.69)
+			(xy 159.385 189.23) (xy 159.385 186.69)
 		)
 		(stroke
 			(width 0)
@@ -9654,16 +9644,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 193.04) (xy 185.42 197.485)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e485e541-3564-4064-ad8b-5c5babc5a85a")
-	)
-	(wire
-		(pts
 			(xy 233.68 123.19) (xy 233.68 125.73)
 		)
 		(stroke
@@ -9924,7 +9904,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 184.785) (xy 320.04 187.325)
+			(xy 320.04 187.325) (xy 320.04 189.865)
 		)
 		(stroke
 			(width 0)
@@ -12427,71 +12407,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 185.42 197.485 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "190b7018-85f3-4913-aec0-b010f28c2967")
-		(property "Reference" "#PWR0172"
-			(at 185.42 203.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_IN"
-			(at 185.42 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 197.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 197.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 185.42 197.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "41ad2d9c-8219-4be3-b478-2b965fe8a9b3")
-		)
-		(instances
-			(project "impeller18"
-				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/38f8abb7-c4e6-4767-9ce6-9486933154ee"
-					(reference "#PWR0172")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 262.89 130.175 0)
 		(unit 1)
@@ -13580,7 +13495,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 320.04 191.135 90)
+		(at 320.04 183.515 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13588,7 +13503,7 @@
 		(dnp no)
 		(uuid "279c9f53-17d7-493b-b22a-869078bfd7b7")
 		(property "Reference" "D15"
-			(at 323.215 189.865 90)
+			(at 323.215 182.245 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13597,7 +13512,7 @@
 			)
 		)
 		(property "Value" "FYLS-0603BUGC"
-			(at 323.215 192.405 90)
+			(at 323.215 184.785 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13605,8 +13520,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 320.04 191.135 0)
+		(property "Footprint" "user_lib:LED_0603_1608Metric"
+			(at 320.04 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13615,7 +13530,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 320.04 191.135 0)
+			(at 320.04 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13624,7 +13539,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 320.04 191.135 0)
+			(at 320.04 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13633,7 +13548,7 @@
 			)
 		)
 		(property "Мин. кол-во" "3"
-			(at 320.04 191.135 0)
+			(at 320.04 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13642,7 +13557,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/324327/"
-			(at 320.04 191.135 0)
+			(at 320.04 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13651,7 +13566,7 @@
 			)
 		)
 		(property "Цена" "5"
-			(at 320.04 191.135 0)
+			(at 320.04 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13660,7 +13575,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Светодиод smd 1,6х0,8мм/зеленый/568нм/65мкд/прозрачный/130°"
-			(at 320.04 191.135 0)
+			(at 320.04 183.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14008,7 +13923,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
 			(at 180.34 177.8 0)
 			(effects
 				(font
@@ -16603,7 +16518,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 159.385 190.5 90)
+		(at 159.385 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16611,7 +16526,7 @@
 		(dnp no)
 		(uuid "55dda039-70e5-4c27-bfb6-091a5739c483")
 		(property "Reference" "D14"
-			(at 162.56 189.23 90)
+			(at 162.56 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16620,7 +16535,7 @@
 			)
 		)
 		(property "Value" "FYLS-0603BUGC"
-			(at 162.56 191.77 90)
+			(at 162.56 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16628,8 +16543,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 159.385 190.5 0)
+		(property "Footprint" "user_lib:LED_0603_1608Metric"
+			(at 159.385 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16638,7 +16553,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 159.385 190.5 0)
+			(at 159.385 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16647,7 +16562,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 159.385 190.5 0)
+			(at 159.385 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16656,7 +16571,7 @@
 			)
 		)
 		(property "Мин. кол-во" "3"
-			(at 159.385 190.5 0)
+			(at 159.385 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16665,7 +16580,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/324327/"
-			(at 159.385 190.5 0)
+			(at 159.385 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16674,7 +16589,7 @@
 			)
 		)
 		(property "Цена" "5"
-			(at 159.385 190.5 0)
+			(at 159.385 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16683,7 +16598,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Светодиод smd 1,6х0,8мм/зеленый/568нм/65мкд/прозрачный/130°"
-			(at 159.385 190.5 0)
+			(at 159.385 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17839,7 +17754,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 320.04 182.245 180)
+		(at 320.04 192.405 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17847,7 +17762,7 @@
 		(dnp no)
 		(uuid "62e82ef5-08e3-40f4-add7-2137ca8488f4")
 		(property "Reference" "R144"
-			(at 323.85 180.975 0)
+			(at 323.85 191.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17855,7 +17770,7 @@
 			)
 		)
 		(property "Value" "360"
-			(at 323.215 183.515 0)
+			(at 323.215 193.675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17863,7 +17778,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 320.04 182.245 0)
+			(at 320.04 192.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17872,7 +17787,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 320.04 182.245 0)
+			(at 320.04 192.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17881,7 +17796,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 320.04 182.245 0)
+			(at 320.04 192.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17890,7 +17805,7 @@
 			)
 		)
 		(property "Мин. кол-во" "100"
-			(at 320.04 182.245 0)
+			(at 320.04 192.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17899,7 +17814,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/46471/"
-			(at 320.04 182.245 0)
+			(at 320.04 192.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17908,7 +17823,7 @@
 			)
 		)
 		(property "Цена" "1"
-			(at 320.04 182.245 0)
+			(at 320.04 192.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17917,7 +17832,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360Ом"
-			(at 320.04 182.245 0)
+			(at 320.04 192.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18463,7 +18378,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 159.385 181.61 180)
+		(at 159.385 191.77 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18471,7 +18386,7 @@
 		(dnp no)
 		(uuid "6e9cf8d6-f11c-4f2a-84fe-8c1ca8293d92")
 		(property "Reference" "R143"
-			(at 163.195 180.34 0)
+			(at 163.195 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18479,7 +18394,7 @@
 			)
 		)
 		(property "Value" "360"
-			(at 162.56 182.88 0)
+			(at 162.56 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18487,7 +18402,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 159.385 181.61 0)
+			(at 159.385 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18496,7 +18411,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 159.385 181.61 0)
+			(at 159.385 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18505,7 +18420,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 159.385 181.61 0)
+			(at 159.385 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18514,7 +18429,7 @@
 			)
 		)
 		(property "Мин. кол-во" "100"
-			(at 159.385 181.61 0)
+			(at 159.385 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18523,7 +18438,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/46471/"
-			(at 159.385 181.61 0)
+			(at 159.385 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18532,7 +18447,7 @@
 			)
 		)
 		(property "Цена" "1"
-			(at 159.385 181.61 0)
+			(at 159.385 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18541,7 +18456,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360Ом"
-			(at 159.385 181.61 0)
+			(at 159.385 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18813,137 +18728,6 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/38f8abb7-c4e6-4767-9ce6-9486933154ee"
 					(reference "J18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 185.42 193.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73a90a07-9bad-4e48-b961-b99334f084e5")
-		(property "Reference" "TP27"
-			(at 186.69 188.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 186.69 191.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 190.5 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 185.42 193.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2257c2f-e37f-4d93-8050-64d4e2005f16")
-		)
-		(instances
-			(project "impeller18"
-				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/38f8abb7-c4e6-4767-9ce6-9486933154ee"
-					(reference "TP27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 343.535 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "74cc7098-1dc0-498e-b493-8a626c291302")
-		(property "Reference" "#PWR0174"
-			(at 343.535 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_IN"
-			(at 343.535 202.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 343.535 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 343.535 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 343.535 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec544a0a-e0d0-4f29-912c-1e289122070a")
-		)
-		(instances
-			(project "impeller18"
-				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/38f8abb7-c4e6-4767-9ce6-9486933154ee"
-					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
@@ -23240,72 +23024,6 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/38f8abb7-c4e6-4767-9ce6-9486933154ee"
 					(reference "R55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 343.535 193.675 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9fb66d63-562a-4922-8866-aee0392e8953")
-		(property "Reference" "TP28"
-			(at 344.805 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 344.805 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 348.615 193.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 348.615 193.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 343.535 193.675 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb50a4cb-8c7d-4da1-8870-b22e938e5528")
-		)
-		(instances
-			(project "impeller18"
-				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/38f8abb7-c4e6-4767-9ce6-9486933154ee"
-					(reference "TP28")
 					(unit 1)
 				)
 			)

@@ -107,7 +107,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
+		(symbol "Connector_Generic:Conn_02x02_Counter_Clockwise"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -121,7 +121,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x02_Odd_Even"
+			(property "Value" "Conn_02x02_Counter_Clockwise"
 				(at 1.27 -5.08 0)
 				(effects
 					(font
@@ -147,7 +147,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -174,7 +174,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x02_Odd_Even_1_1"
+			(symbol "Conn_02x02_Counter_Clockwise_1_1"
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
@@ -249,7 +249,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -267,7 +267,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -285,7 +285,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -2112,12 +2112,6 @@
 		(uuid "3c26194a-30fd-4c85-b7c6-7d7d951d6303")
 	)
 	(junction
-		(at 64.135 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "43656b70-d0db-4e9f-bdb6-00b59ad4a005")
-	)
-	(junction
 		(at 95.885 95.885)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2146,12 +2140,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97188c65-6f11-4368-b4b7-81d707af0eef")
-	)
-	(junction
-		(at 64.135 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "980e710a-1869-4e64-9218-0abe99167a35")
 	)
 	(junction
 		(at 29.21 86.36)
@@ -2203,7 +2191,7 @@
 	)
 	(no_connect
 		(at 143.51 54.61)
-		(uuid "83427471-0895-4b74-982d-27a9e3b50d2c")
+		(uuid "fcd20c17-cdd4-4f95-b31b-6272fa02d8e3")
 	)
 	(wire
 		(pts
@@ -2247,7 +2235,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 86.36) (xy 64.135 86.36)
+			(xy 60.325 86.36) (xy 73.66 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2317,7 +2305,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 86.36) (xy 199.39 88.9)
+			(xy 199.39 88.9) (xy 199.39 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2334,16 +2322,6 @@
 			(type default)
 		)
 		(uuid "2740ff99-e08c-4ae4-9deb-b14b82bff142")
-	)
-	(wire
-		(pts
-			(xy 64.135 92.075) (xy 64.135 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29778bbb-e10b-4060-a3b2-f18c6bcc27ba")
 	)
 	(wire
 		(pts
@@ -2367,7 +2345,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 92.71) (xy 64.135 92.71)
+			(xy 60.325 92.71) (xy 73.66 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2577,7 +2555,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.895 86.36) (xy 175.895 88.9)
+			(xy 175.895 88.9) (xy 175.895 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2594,26 +2572,6 @@
 			(type default)
 		)
 		(uuid "81d9128f-d1d8-446b-a786-22b756817ebb")
-	)
-	(wire
-		(pts
-			(xy 243.205 95.885) (xy 243.205 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "870b3012-9827-4f41-be7a-2b20ec0a17b6")
-	)
-	(wire
-		(pts
-			(xy 60.325 92.71) (xy 64.135 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "925e0380-297c-4c68-9ee8-e6ca02d13c14")
 	)
 	(wire
 		(pts
@@ -2674,16 +2632,6 @@
 			(type default)
 		)
 		(uuid "a74b23ee-9611-4659-9e95-2ba8a79ffbc4")
-	)
-	(wire
-		(pts
-			(xy 60.325 86.36) (xy 64.135 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a79aaf20-a54d-439a-8dbc-1cebef194bee")
 	)
 	(wire
 		(pts
@@ -2887,16 +2835,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.135 86.36) (xy 64.135 86.995)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec7a02cd-b2f8-461b-b2fb-4f43e9d390c4")
-	)
-	(wire
-		(pts
 			(xy 29.21 86.36) (xy 38.735 86.36)
 		)
 		(stroke
@@ -3082,72 +3020,6 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
 					(reference "#PWR0289")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 243.205 95.885 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0836b040-cbc0-4fd6-88ab-eddb7695dd8a")
-		(property "Reference" "TP40"
-			(at 244.475 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 244.475 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 248.285 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 248.285 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 243.205 95.885 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f22485a7-270d-44f1-98ce-5b31042030a2")
-		)
-		(instances
-			(project "impeller18"
-				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "TP40")
 					(unit 1)
 				)
 			)
@@ -3552,111 +3424,6 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
 					(reference "#PWR0306")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 64.135 89.535 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "29482744-6205-45e8-9986-94de0ef33fd5")
-		(property "Reference" "C127"
-			(at 66.04 88.265 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 66.04 90.805 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 64.135 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.135 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 64.135 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Мин. кол-во" "300"
-			(at 64.135 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ссылка" "https://www.promelec.ru/product/323633/"
-			(at 64.135 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Цена" "2"
-			(at 64.135 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Человекопонятное название" "Керамический ЧИП-конденсатор 0603 X7R 0.1мкФ"
-			(at 64.135 89.535 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5b889b8a-aaea-4f8c-a98b-675d9312859b")
-		)
-		(pin "1"
-			(uuid "f3201dde-b4eb-4021-9088-f7abbccd26f8")
-		)
-		(instances
-			(project "impeller18"
-				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "C127")
 					(unit 1)
 				)
 			)
@@ -4203,71 +3970,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 243.205 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "615e3539-982c-4d5b-af68-ae99df983ca0")
-		(property "Reference" "#PWR0308"
-			(at 243.205 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_FAN"
-			(at 243.205 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.205 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.205 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 243.205 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64b442aa-3d0e-48f0-b74a-db53d49fe872")
-		)
-		(instances
-			(project "impeller18"
-				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/c3c0fd22-6514-4a88-b2de-2515415ad3c7"
-					(reference "#PWR0308")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 133.35 45.72 180)
 		(unit 1)
@@ -4440,7 +4142,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 175.895 83.82 180)
+		(at 175.895 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4448,7 +4150,7 @@
 		(dnp no)
 		(uuid "72df1cc8-d84d-4b0a-9157-9d84389efecd")
 		(property "Reference" "R338"
-			(at 179.705 82.55 0)
+			(at 179.705 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,7 +4158,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 179.07 85.09 0)
+			(at 179.07 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4464,7 +4166,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 175.895 83.82 0)
+			(at 175.895 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4473,7 +4175,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.895 83.82 0)
+			(at 175.895 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4482,7 +4184,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 175.895 83.82 0)
+			(at 175.895 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,7 +4193,7 @@
 			)
 		)
 		(property "Мин. кол-во" "100"
-			(at 175.895 83.82 0)
+			(at 175.895 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4500,7 +4202,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/109567/"
-			(at 175.895 83.82 0)
+			(at 175.895 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4509,7 +4211,7 @@
 			)
 		)
 		(property "Цена" "1"
-			(at 175.895 83.82 0)
+			(at 175.895 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,7 +4220,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 470Ом"
-			(at 175.895 83.82 0)
+			(at 175.895 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4608,7 +4310,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 199.39 92.71 90)
+		(at 199.39 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4616,7 +4318,7 @@
 		(dnp no)
 		(uuid "747dabc3-edaa-4b4b-ac9a-5989c0acaf33")
 		(property "Reference" "D25"
-			(at 202.565 91.44 90)
+			(at 202.565 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +4327,7 @@
 			)
 		)
 		(property "Value" "FYLS-0603BUGC"
-			(at 202.565 93.98 90)
+			(at 202.565 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4633,8 +4335,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 199.39 92.71 0)
+		(property "Footprint" "user_lib:LED_0603_1608Metric"
+			(at 199.39 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4643,7 +4345,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 92.71 0)
+			(at 199.39 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,7 +4354,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 199.39 92.71 0)
+			(at 199.39 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4661,7 +4363,7 @@
 			)
 		)
 		(property "Мин. кол-во" "3"
-			(at 199.39 92.71 0)
+			(at 199.39 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4670,7 +4372,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/324327/"
-			(at 199.39 92.71 0)
+			(at 199.39 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4679,7 +4381,7 @@
 			)
 		)
 		(property "Цена" "5"
-			(at 199.39 92.71 0)
+			(at 199.39 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,7 +4390,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Светодиод smd 1,6х0,8мм/зеленый/568нм/65мкд/прозрачный/130°"
-			(at 199.39 92.71 0)
+			(at 199.39 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6012,7 +5714,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 175.895 92.71 90)
+		(at 175.895 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6020,7 +5722,7 @@
 		(dnp no)
 		(uuid "dde687eb-c5df-48ad-8549-fc9b055ccddb")
 		(property "Reference" "D24"
-			(at 179.07 91.44 90)
+			(at 179.07 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6029,7 +5731,7 @@
 			)
 		)
 		(property "Value" "FYLS-0603BUGC"
-			(at 179.07 93.98 90)
+			(at 179.07 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,8 +5739,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 175.895 92.71 0)
+		(property "Footprint" "user_lib:LED_0603_1608Metric"
+			(at 175.895 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,7 +5749,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.895 92.71 0)
+			(at 175.895 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +5758,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 175.895 92.71 0)
+			(at 175.895 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6065,7 +5767,7 @@
 			)
 		)
 		(property "Мин. кол-во" "3"
-			(at 175.895 92.71 0)
+			(at 175.895 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6074,7 +5776,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/324327/"
-			(at 175.895 92.71 0)
+			(at 175.895 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6083,7 +5785,7 @@
 			)
 		)
 		(property "Цена" "5"
-			(at 175.895 92.71 0)
+			(at 175.895 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6092,7 +5794,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Светодиод smd 1,6х0,8мм/зеленый/568нм/65мкд/прозрачный/130°"
-			(at 175.895 92.71 0)
+			(at 175.895 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6285,17 +5987,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
-		(at 148.59 52.07 0)
+		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
+		(at 148.59 54.61 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "eea4a384-a6f3-438b-8e41-664532009054")
 		(property "Reference" "J34"
-			(at 149.86 45.72 0)
+			(at 149.86 48.895 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6303,7 +6005,7 @@
 			)
 		)
 		(property "Value" "430450415"
-			(at 149.86 48.26 0)
+			(at 149.86 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6311,7 +6013,7 @@
 			)
 		)
 		(property "Footprint" "user_lib:430450415"
-			(at 148.59 52.07 0)
+			(at 148.59 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6320,7 +6022,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 52.07 0)
+			(at 148.59 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6328,8 +6030,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 148.59 52.07 0)
+		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 148.59 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6338,7 +6040,7 @@
 			)
 		)
 		(property "Мин. кол-во" "6"
-			(at 148.59 52.07 0)
+			(at 148.59 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6347,7 +6049,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/474679/"
-			(at 148.59 52.07 0)
+			(at 148.59 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6356,7 +6058,7 @@
 			)
 		)
 		(property "Цена" "87"
-			(at 148.59 52.07 0)
+			(at 148.59 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6365,7 +6067,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Разъем типа провод-плата, 3 мм, 4 контакт(-ов)"
-			(at 148.59 52.07 0)
+			(at 148.59 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,7 +6164,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 199.39 83.82 180)
+		(at 199.39 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6470,7 +6172,7 @@
 		(dnp no)
 		(uuid "f4093f37-244f-45c2-ac73-4b9738fe1d8c")
 		(property "Reference" "R339"
-			(at 203.2 82.55 0)
+			(at 203.2 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6478,7 +6180,7 @@
 			)
 		)
 		(property "Value" "360"
-			(at 202.565 85.09 0)
+			(at 202.565 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6486,7 +6188,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 199.39 83.82 0)
+			(at 199.39 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6495,7 +6197,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 199.39 83.82 0)
+			(at 199.39 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6504,7 +6206,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 199.39 83.82 0)
+			(at 199.39 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6513,7 +6215,7 @@
 			)
 		)
 		(property "Мин. кол-во" "100"
-			(at 199.39 83.82 0)
+			(at 199.39 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6522,7 +6224,7 @@
 			)
 		)
 		(property "Ссылка" "https://www.promelec.ru/product/46471/"
-			(at 199.39 83.82 0)
+			(at 199.39 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6531,7 +6233,7 @@
 			)
 		)
 		(property "Цена" "1"
-			(at 199.39 83.82 0)
+			(at 199.39 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6540,7 +6242,7 @@
 			)
 		)
 		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 360Ом"
-			(at 199.39 83.82 0)
+			(at 199.39 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)

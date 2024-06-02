@@ -4463,16 +4463,6 @@
 	)
 	(wire
 		(pts
-			(xy 354.965 107.95) (xy 354.965 112.395)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1218f3bb-6ad6-47b6-b9f4-eb19e0a06ce3")
-	)
-	(wire
-		(pts
 			(xy 141.605 249.555) (xy 153.67 249.555)
 		)
 		(stroke
@@ -12249,72 +12239,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 354.965 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3135e245-38c5-44ce-8657-1e4d7332e2e3")
-		(property "Reference" "TP30"
-			(at 356.235 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 356.235 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
-			(at 360.045 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 360.045 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 354.965 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca9541a4-418c-4283-842c-0442ac585029")
-		)
-		(instances
-			(project "impeller18"
-				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "TP30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 287.655 101.6 0)
 		(unit 1)
@@ -15681,7 +15605,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "user_lib:LED_0603_1608Metric"
 			(at 327.025 104.775 0)
 			(effects
 				(font
@@ -16497,71 +16421,6 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
 					(reference "Q32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 354.965 112.395 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "869c7ea1-f537-4700-92e8-110da9de962f")
-		(property "Reference" "#PWR0188"
-			(at 354.965 118.745 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_IN"
-			(at 354.965 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 354.965 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 354.965 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 354.965 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f5d10bd-66fc-403a-a410-865c45aa7726")
-		)
-		(instances
-			(project "impeller18"
-				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/f8c6dd6a-e404-4019-a2ea-749009c88df2"
-					(reference "#PWR0188")
 					(unit 1)
 				)
 			)
