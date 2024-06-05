@@ -3533,16 +3533,6 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 66.04) (xy 317.5 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04789676-559e-44ff-804b-4a62b773c6c8")
-	)
-	(wire
-		(pts
 			(xy 80.645 43.815) (xy 95.25 43.815)
 		)
 		(stroke
@@ -3763,16 +3753,6 @@
 	)
 	(wire
 		(pts
-			(xy 288.925 60.96) (xy 292.1 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d142f1e-56ee-4e30-8f47-654d6337ab23")
-	)
-	(wire
-		(pts
 			(xy 253.365 66.04) (xy 258.445 66.04)
 		)
 		(stroke
@@ -3810,16 +3790,6 @@
 			(type default)
 		)
 		(uuid "4ab81221-3d1f-4b0b-a7d6-be94638c8da2")
-	)
-	(wire
-		(pts
-			(xy 312.42 55.88) (xy 317.5 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d4aeb31-cbe6-4bd8-b391-c2a393aceecb")
 	)
 	(wire
 		(pts
@@ -3933,16 +3903,6 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 55.88) (xy 304.8 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a66155b-93f8-4244-9ad2-8bcda5861163")
-	)
-	(wire
-		(pts
 			(xy 47.625 114.3) (xy 58.42 114.3)
 		)
 		(stroke
@@ -3970,16 +3930,6 @@
 			(type default)
 		)
 		(uuid "73a60f7d-32ab-4335-a2c8-6cc3f9606859")
-	)
-	(wire
-		(pts
-			(xy 312.42 60.96) (xy 317.5 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73c6bf37-5c20-4776-93b2-94d757268d6d")
 	)
 	(wire
 		(pts
@@ -4210,16 +4160,6 @@
 			(type default)
 		)
 		(uuid "a9d66d91-be66-40ff-8327-5898da5b600e")
-	)
-	(wire
-		(pts
-			(xy 288.925 60.96) (xy 288.925 57.785)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acd30fc1-b704-451a-ab5b-4d4131f4c6fc")
 	)
 	(wire
 		(pts
@@ -4563,16 +4503,6 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 66.04) (xy 304.8 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef4c5599-2fac-414f-a03a-ecbf74f32886")
-	)
-	(wire
-		(pts
 			(xy 134.62 101.6) (xy 134.62 106.68)
 		)
 		(stroke
@@ -4590,16 +4520,6 @@
 			(type default)
 		)
 		(uuid "f13b41e2-cb13-47c2-8294-fde11f45f8c7")
-	)
-	(wire
-		(pts
-			(xy 302.26 60.96) (xy 304.8 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f13bae40-edff-459e-b9b8-7242ce9ec02c")
 	)
 	(wire
 		(pts
@@ -4929,27 +4849,6 @@
 			)
 		)
 	)
-	(global_label "LED4_RGB_RED"
-		(shape input)
-		(at 317.5 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "49e337d0-ed5b-499a-a333-88d3fceb0eaa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 334.576 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "LED3_RGB_BLUE"
 		(shape input)
 		(at 317.5 38.735 0)
@@ -5026,27 +4925,6 @@
 		(uuid "7a8db653-1a86-4ae6-872b-c1449589b8cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 151.0914 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "LED4_RGB_GREEN"
-		(shape input)
-		(at 317.5 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "82d97273-b175-4574-9a95-dcb0a8e79199")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 337.0555 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5241,27 +5119,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(global_label "LED4_RGB_BLUE"
-		(shape input)
-		(at 317.5 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c93c2ba7-946c-4368-bd5c-a70472524a13")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 335.6646 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 	)
@@ -6141,109 +5998,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 308.61 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1cded50c-dc5d-46b6-8130-a7b49dda68eb")
-		(property "Reference" "R330"
-			(at 306.07 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 311.785 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 308.61 62.738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 308.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 308.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Мин. кол-во" "100"
-			(at 308.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ссылка" "https://www.promelec.ru/product/46446/"
-			(at 308.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Цена" "1"
-			(at 308.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 220Ом"
-			(at 308.61 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "92e3b7a4-ab66-4fb1-9ed5-4b149038c1b8")
-		)
-		(pin "1"
-			(uuid "5c1ed290-0e23-484d-9f22-f919789f2e57")
-		)
-		(instances
-			(project "impeller18"
-				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/d5004b66-19d0-4c06-b8a0-e12f1989cbec"
-					(reference "R330")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Memory_Flash:W25Q32JVSS")
 		(at 189.23 49.53 0)
 		(unit 1)
@@ -6493,109 +6247,6 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/d5004b66-19d0-4c06-b8a0-e12f1989cbec"
 					(reference "#PWR0284")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 308.61 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "38458c72-f329-4d08-9043-2cde291243d4")
-		(property "Reference" "R328"
-			(at 306.07 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 311.785 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 308.61 57.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 308.61 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 308.61 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Мин. кол-во" "100"
-			(at 308.61 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ссылка" "https://www.promelec.ru/product/46446/"
-			(at 308.61 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Цена" "1"
-			(at 308.61 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 220Ом"
-			(at 308.61 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "91da70b1-87c0-4194-83ca-273718a8e13e")
-		)
-		(pin "1"
-			(uuid "2fae12e3-f909-4a45-93f3-627bed7a2dcb")
-		)
-		(instances
-			(project "impeller18"
-				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/d5004b66-19d0-4c06-b8a0-e12f1989cbec"
-					(reference "R328")
 					(unit 1)
 				)
 			)
@@ -6976,72 +6627,6 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/d5004b66-19d0-4c06-b8a0-e12f1989cbec"
 					(reference "R334")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 288.925 57.785 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5ed752be-f865-49f5-a518-cf1eeaa35a8f")
-		(property "Reference" "#PWR0285"
-			(at 288.925 61.595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3V3"
-			(at 288.925 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 288.925 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 288.925 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 288.925 57.785 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e405f4e5-8c06-4079-9fbf-c73f6d004204")
-		)
-		(instances
-			(project "impeller18"
-				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/d5004b66-19d0-4c06-b8a0-e12f1989cbec"
-					(reference "#PWR0285")
 					(unit 1)
 				)
 			)
@@ -8395,117 +7980,6 @@
 		)
 	)
 	(symbol
-		(lib_name "LED_RGBA_1")
-		(lib_id "Device:LED_RGBA")
-		(at 297.18 60.96 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d62625dd-6506-4510-b17e-d634cef4bd9f")
-		(property "Reference" "D23"
-			(at 297.18 71.755 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FYLS-3528RGBC"
-			(at 297.18 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "user_lib:LED_RGB_promelec"
-			(at 297.18 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 297.18 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED, red/green/blue/anode"
-			(at 297.18 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Мин. кол-во" "2"
-			(at 297.18 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ссылка" "https://www.promelec.ru/product/337147/"
-			(at 297.18 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Цена" "8"
-			(at 297.18 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Человекопонятное название" "Светодиод smd 3,5х2,8мм/красный/625нм/200мкд - зеленый/520нм/800мкд - синий/470нм/250мкд/прозрачный/120°"
-			(at 297.18 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "883d9469-0476-4e8b-acc1-98b4fa7a6e64")
-		)
-		(pin "1"
-			(uuid "7eb941fc-0d3c-4a5e-8e60-a8774d9853cb")
-		)
-		(pin "2"
-			(uuid "8b0cede3-d7e6-49e2-b40b-90d3bd2e3c79")
-		)
-		(pin "4"
-			(uuid "b9ff2e0a-dc14-4b82-beb1-d2b7bb0d4bad")
-		)
-		(instances
-			(project "impeller18"
-				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/d5004b66-19d0-4c06-b8a0-e12f1989cbec"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 308.61 33.655 90)
 		(unit 1)
@@ -8772,109 +8246,6 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/d5004b66-19d0-4c06-b8a0-e12f1989cbec"
 					(reference "R316")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 308.61 66.04 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e69da0bf-faf5-4897-a105-75d79d399ee8")
-		(property "Reference" "R332"
-			(at 306.07 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 311.785 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 308.61 67.818 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 308.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 308.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Мин. кол-во" "100"
-			(at 308.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ссылка" "https://www.promelec.ru/product/46446/"
-			(at 308.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Цена" "1"
-			(at 308.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Человекопонятное название" "Толстопленочный ЧИП-резистор 0603 220Ом"
-			(at 308.61 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cade9dcf-3272-43ac-abe1-5131fb42a1d9")
-		)
-		(pin "1"
-			(uuid "0d866517-eee2-406d-bb0f-2faf63aa81af")
-		)
-		(instances
-			(project "impeller18"
-				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/d5004b66-19d0-4c06-b8a0-e12f1989cbec"
-					(reference "R332")
 					(unit 1)
 				)
 			)

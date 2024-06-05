@@ -5389,7 +5389,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 194.31) (xy 373.126 194.31)
+			(xy 368.3 194.31) (xy 373.38 194.31)
 		)
 		(stroke
 			(width 0)
@@ -5658,16 +5658,6 @@
 		)
 		(uuid "0e92f038-8df4-447c-9e69-5fff9988c971")
 	)
-	(text "перeкинуть резистор????"
-		(exclude_from_sim no)
-		(at 277.495 187.96 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "70535212-4700-4342-842a-4744a79022e0")
-	)
 	(text "VDDA"
 		(exclude_from_sim no)
 		(at 131.953 157.607 0)
@@ -5689,16 +5679,6 @@
 			(justify right bottom)
 		)
 		(uuid "d02c21d5-f435-4e06-b714-cf564235c760")
-	)
-	(text "вопросы к работе этой части"
-		(exclude_from_sim no)
-		(at 320.04 93.345 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f19d0ddb-276d-4b4b-976d-381dc4bca8df")
 	)
 	(label "SPI_ADC_RUD_MISO"
 		(at 284.48 191.77 0)
@@ -5733,16 +5713,16 @@
 		)
 		(uuid "18b096e1-8c6d-480e-87d1-51c1289868bf")
 	)
-	(label "ADC_RUD_INT"
-		(at 284.48 186.69 0)
+	(label "ADC_RUD_INT_"
+		(at 208.915 191.135 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "3a8e4a2e-0085-4677-9337-2db0ffa74f9a")
+		(uuid "3c1457bc-bf38-4206-bac8-206d8c4a6cf1")
 	)
 	(label "ADC_RUD_5V_1"
 		(at 112.395 105.41 0)
@@ -5765,6 +5745,17 @@
 			(justify left bottom)
 		)
 		(uuid "5a529131-35a1-4561-9538-7c731615625d")
+	)
+	(label "ADC_RUD_INT_"
+		(at 284.48 186.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5e28e6e2-f731-46f8-8bf4-d508d5bbaa0a")
 	)
 	(label "ADC_RUD_5V_2"
 		(at 167.005 105.41 180)
@@ -5809,17 +5800,6 @@
 			(justify right bottom)
 		)
 		(uuid "9c639c0c-cf2e-4362-ba76-54fb6f7dc30d")
-	)
-	(label "ADC_RUD_INT"
-		(at 208.915 191.135 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a31f63cb-4c17-4691-a8e1-5729041d90e3")
 	)
 	(label "SPI_ADC_RUD_CLK"
 		(at 292.1 140.97 0)
@@ -5876,28 +5856,7 @@
 		)
 		(uuid "f42f261b-9f26-4f88-abac-5e2b19d95443")
 	)
-	(global_label "ADC_RUD_INT"
-		(shape input)
-		(at 373.126 194.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a4cfe6e9-b98f-4996-a69d-b80b656448df")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 388.4484 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "SPI1_STM32_ADC8_CS"
+	(global_label "SPI1_STM32_ADC_RUD_CS"
 		(shape input)
 		(at 349.885 138.43 0)
 		(fields_autoplaced yes)
@@ -5907,9 +5866,30 @@
 			)
 			(justify left)
 		)
-		(uuid "a9f8ae17-91a1-4fce-9e01-d5122e569d7e")
+		(uuid "30e6af0d-b9ad-487b-925d-1de17abd44a5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 373.4319 138.43 0)
+			(at 377.0605 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ADC_RUD_INT"
+		(shape input)
+		(at 373.38 194.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56cf6b8f-4ca0-46f4-b5ce-cbc023d9f61c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 388.7024 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)

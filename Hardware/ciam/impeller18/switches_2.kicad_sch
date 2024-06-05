@@ -8491,42 +8491,6 @@
 		)
 		(uuid "fe7f50bb-6525-4945-ba53-6fd7332b1dd8")
 	)
-	(arc
-		(start 299.085 181.61)
-		(mid 299.9698 180.5898)
-		(end 300.99 179.705)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 37a6e297-65a1-408f-9465-c542aaa00aee)
-	)
-	(arc
-		(start 300.99 179.705)
-		(mid 302.0102 180.5898)
-		(end 302.895 181.61)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 56f85ed0-af4f-4d5f-b240-0b79adc344d1)
-	)
-	(text "0.5 м\n"
-		(exclude_from_sim no)
-		(at 285.115 128.905 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0fcd49a6-dae4-41b6-bdab-e6ff75f93033")
-	)
 	(text "большая красная кнопка"
 		(exclude_from_sim no)
 		(at 316.865 174.625 0)
@@ -8557,36 +8521,6 @@
 		)
 		(uuid "18235ba0-ce09-481f-b40d-6f046b5363fb")
 	)
-	(text "8 м"
-		(exclude_from_sim no)
-		(at 232.41 159.385 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "396e3935-7cdd-4786-a244-1d673bd81f70")
-	)
-	(text "4 м"
-		(exclude_from_sim no)
-		(at 379.095 147.955 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6276ebbf-85c2-4df5-84f4-13895365352e")
-	)
-	(text "0.5 м\n"
-		(exclude_from_sim no)
-		(at 246.38 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "6ba8778e-81d2-4d0b-a6e5-4c4da756a95c")
-	)
 	(text "АКБ1\nАКБ2\nАКБ3\nАКБ4\nОбщ-"
 		(exclude_from_sim no)
 		(at 307.34 137.795 0)
@@ -8596,46 +8530,6 @@
 			)
 		)
 		(uuid "6fcb2c9b-dea3-423e-bf48-47f936638d84")
-	)
-	(text "0.9 м"
-		(exclude_from_sim no)
-		(at 247.015 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "72968823-916a-40c8-81c8-2fbd46cc974c")
-	)
-	(text "0.5 м\n"
-		(exclude_from_sim no)
-		(at 296.545 155.575 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8e1cb674-2d36-4747-8b94-3c7718980889")
-	)
-	(text "0.5 м\n"
-		(exclude_from_sim no)
-		(at 234.95 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "98b3911c-cb86-4b22-8c35-77605297b43e")
-	)
-	(text "0.9 м"
-		(exclude_from_sim no)
-		(at 297.815 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f283740b-78c3-4d6e-9421-08e707b51158")
 	)
 	(label "SWITCH_3.8_EXT"
 		(at 302.895 159.385 180)

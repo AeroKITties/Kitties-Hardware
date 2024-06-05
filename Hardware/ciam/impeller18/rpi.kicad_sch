@@ -1115,22 +1115,22 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x06"
+		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x06"
-				(at 0 -10.16 0)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1155,7 +1155,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1182,18 +1182,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x06_1_1"
-				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Conn_01x04_1_1"
 				(rectangle
 					(start -1.27 -4.953)
 					(end 0 -5.207)
@@ -1239,19 +1228,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 6.35)
-					(end 1.27 -8.89)
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1261,7 +1239,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -1279,7 +1257,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1297,7 +1275,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1315,7 +1293,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -1325,42 +1303,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3897,28 +3839,12 @@
 		(uuid "007cbd29-34ee-4463-9c02-ff9f462ecb49")
 	)
 	(no_connect
-		(at 170.18 106.045)
-		(uuid "0f220956-3e44-4ec9-a02c-b458bbec5eed")
-	)
-	(no_connect
-		(at 210.82 100.965)
-		(uuid "1828a280-7c4d-4054-b196-aa8cb3a7e1a4")
-	)
-	(no_connect
-		(at 170.18 133.985)
-		(uuid "23d8ed3d-ed0a-4828-927c-a48bb9dda61e")
-	)
-	(no_connect
 		(at 170.18 126.365)
 		(uuid "2646aac8-e26a-4e9c-9afc-9877a457b7f9")
 	)
 	(no_connect
 		(at 195.58 83.185)
 		(uuid "29199aa2-3e72-4fe2-96e1-a76d9c3f129c")
-	)
-	(no_connect
-		(at 170.18 103.505)
-		(uuid "2d8ebcc9-198c-4766-b889-47964a1077c6")
 	)
 	(no_connect
 		(at 210.82 111.125)
@@ -3933,20 +3859,12 @@
 		(uuid "4b50b98f-6e1d-41f0-accd-973111cf0e1f")
 	)
 	(no_connect
-		(at 170.18 121.285)
-		(uuid "4de0b131-3c7f-4af5-b08b-a7c3148e2e88")
-	)
-	(no_connect
 		(at 210.82 133.985)
 		(uuid "7a695784-bfd1-4a5a-849b-8f5ff08cbc02")
 	)
 	(no_connect
 		(at 170.18 131.445)
 		(uuid "7c6fd782-4d35-4658-80de-c0c5f73bdb4e")
-	)
-	(no_connect
-		(at 170.18 116.205)
-		(uuid "826d583e-18c3-43c6-970f-a8b8ff3c8e6d")
 	)
 	(no_connect
 		(at 284.48 175.26)
@@ -3965,24 +3883,12 @@
 		(uuid "c19c12ce-6f1a-49e3-9e08-23e636e63477")
 	)
 	(no_connect
-		(at 210.82 108.585)
-		(uuid "d23df99d-3ffc-4bb0-934a-a1e8da565003")
-	)
-	(no_connect
-		(at 210.82 103.505)
-		(uuid "e8854b4a-49fa-4939-adb1-0fe245559be7")
-	)
-	(no_connect
 		(at 170.18 111.125)
 		(uuid "f922edde-5952-46e7-b07e-03fdd95d61a1")
 	)
 	(no_connect
 		(at 210.82 93.345)
 		(uuid "fdcc3f3d-591b-46be-8550-4988c0125fb6")
-	)
-	(no_connect
-		(at 170.18 113.665)
-		(uuid "fde829b0-8f68-4686-952a-2ad6f0e7ea0d")
 	)
 	(wire
 		(pts
@@ -4526,7 +4432,7 @@
 	)
 	(wire
 		(pts
-			(xy 282.575 77.47) (xy 282.575 75.565)
+			(xy 288.29 72.39) (xy 288.29 70.485)
 		)
 		(stroke
 			(width 0)
@@ -4736,7 +4642,7 @@
 	)
 	(wire
 		(pts
-			(xy 282.575 75.565) (xy 284.48 75.565)
+			(xy 288.29 70.485) (xy 290.195 70.485)
 		)
 		(stroke
 			(width 0)
@@ -4766,57 +4672,15 @@
 		)
 		(uuid cbf2411a-bc59-4f2c-81f8-3d1be3c48865)
 	)
-	(text "не трогать SPI\n"
-		(exclude_from_sim no)
-		(at 236.855 123.19 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "30b565ff-013a-4487-bbc3-249543a87360")
-	)
-	(text "проверить на разных пинах:\n\nGPIO-POWEROFF\nGPIO-SHUTDOWN"
-		(exclude_from_sim no)
-		(at 84.455 184.785 0)
-		(effects
-			(font
-				(size 5 5)
-				(thickness 1)
-				(bold yes)
-			)
-		)
-		(uuid "3137e4e4-fb66-4acc-8440-5c52fae62b71")
-	)
-	(text "можно поменять на 02х03\n"
-		(exclude_from_sim no)
-		(at 300.99 69.85 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "397b21bb-fcde-4c4b-8f40-38eb17570bf1")
-	)
 	(text "https://www.chipdip.ru/product/mxl7704-aqb-r-universal-pmic-40-to-125deg-c\n\nчип питания RPi"
 		(exclude_from_sim no)
-		(at 381 192.405 90)
+		(at 190.5 163.195 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "9e4f477c-2058-4bcb-8396-0735ffacd836")
-	)
-	(text "got it!"
-		(exclude_from_sim no)
-		(at 239.395 123.825 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d680a707-af15-45ff-80d3-6c52bc8f29ae")
+		(uuid "58fa2085-6dda-452f-ae7a-7d66c4485c6b")
 	)
 	(label "EN"
 		(at 288.925 175.26 270)
@@ -4831,7 +4695,7 @@
 	)
 	(global_label "LED1_RPI_RGB_RED"
 		(shape input)
-		(at 121.92 140.335 0)
+		(at 210.82 108.585 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4841,7 +4705,7 @@
 		)
 		(uuid "005cda62-11f9-49ea-935e-31ce3070f4d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.1084 140.335 0)
+			(at 232.0084 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4873,7 +4737,7 @@
 	)
 	(global_label "LED1_RPI_RGB_GREEN"
 		(shape input)
-		(at 121.92 142.875 0)
+		(at 210.82 103.505 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4883,7 +4747,7 @@
 		)
 		(uuid "0c37fb4c-7f98-4172-8607-cc0cd19de993")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.5879 142.875 0)
+			(at 234.4879 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,7 +4777,7 @@
 			)
 		)
 	)
-	(global_label "UARTX_STM32_TX"
+	(global_label "UART2_STM32_TX"
 		(shape input)
 		(at 170.18 95.885 180)
 		(fields_autoplaced yes)
@@ -4957,28 +4821,28 @@
 	)
 	(global_label "LED2_RPI_RGB_BLUE"
 		(shape input)
-		(at 121.92 154.94 0)
+		(at 170.18 121.285 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "2666c037-1971-4f3e-a95b-14729291dded")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.197 154.94 0)
+			(at 147.903 121.285 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
 	(global_label "GPIO-SHUTDOWN"
 		(shape input)
-		(at 164.465 175.26 180)
+		(at 170.18 113.665 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4988,7 +4852,7 @@
 		)
 		(uuid "31dd4639-a563-41a9-b1fa-237e89515173")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.2116 175.26 0)
+			(at 150.9266 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +4884,7 @@
 	)
 	(global_label "LED1_RPI_RGB_BLUE"
 		(shape input)
-		(at 121.92 145.415 0)
+		(at 210.82 100.965 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5030,7 +4894,7 @@
 		)
 		(uuid "3a0d8065-290e-4e3d-8a8c-4c1a66eda9b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.197 145.415 0)
+			(at 233.097 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5062,7 +4926,7 @@
 	)
 	(global_label "SPI1_RPi_MOSI"
 		(shape input)
-		(at 284.48 65.405 180)
+		(at 290.195 67.945 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5072,7 +4936,7 @@
 		)
 		(uuid "49fec594-df09-49a4-9688-c784d8350ed7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.5248 65.405 0)
+			(at 273.2398 67.945 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5083,7 +4947,7 @@
 	)
 	(global_label "SPI1_RPi_CAN0_CS"
 		(shape input)
-		(at 284.48 70.485 180)
+		(at 290.195 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5093,7 +4957,7 @@
 		)
 		(uuid "54dcad66-b48f-44cc-9cdf-9b9d0b50d085")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.7753 70.485 0)
+			(at 269.4903 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,7 +5031,7 @@
 	)
 	(global_label "SPI1_RPi_CAN1_CS"
 		(shape input)
-		(at 284.48 73.025 180)
+		(at 290.195 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5177,7 +5041,7 @@
 		)
 		(uuid "9410a9c1-89a6-4303-a51f-b456bb701456")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 263.7753 73.025 0)
+			(at 269.4903 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5209,22 +5073,22 @@
 	)
 	(global_label "LED2_RPI_RGB_GREEN"
 		(shape input)
-		(at 121.92 152.4 0)
+		(at 170.18 106.045 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "9fd1b3f8-57a8-4243-84db-9643ea22aa1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.5879 152.4 0)
+			(at 146.5121 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -5333,7 +5197,7 @@
 			)
 		)
 	)
-	(global_label "UARTX_STM32_RX"
+	(global_label "UART2_STM32_RX"
 		(shape input)
 		(at 170.18 93.345 180)
 		(fields_autoplaced yes)
@@ -5419,49 +5283,49 @@
 	)
 	(global_label "12V0_SENS"
 		(shape input)
-		(at 121.92 159.385 0)
+		(at 170.18 103.505 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "cd51c5a8-8d73-4cfc-8e4b-cff8ae25f851")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.4884 159.385 0)
+			(at 156.6116 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
 	(global_label "LED2_RPI_RGB_RED"
 		(shape input)
-		(at 121.92 149.86 0)
+		(at 170.18 133.985 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d18d14da-a93a-4840-bb90-53fd616c2388")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.1084 149.86 0)
+			(at 148.9916 133.985 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
 	(global_label "SPI1_RPi_MISO"
 		(shape input)
-		(at 284.48 67.945 180)
+		(at 290.195 62.865 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5471,7 +5335,7 @@
 		)
 		(uuid "d42b580f-487c-463a-90bf-499dcd9073bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.5248 67.945 0)
+			(at 273.2398 62.865 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,7 +5346,7 @@
 	)
 	(global_label "GPIO-POWEROFF"
 		(shape output)
-		(at 164.465 172.72 180)
+		(at 170.18 116.205 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5492,7 +5356,7 @@
 		)
 		(uuid "eb194d4c-433a-4730-b3ee-43b8a384b5cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.4535 172.72 0)
+			(at 151.1685 116.205 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,7 +5367,7 @@
 	)
 	(global_label "SPI1_RPi_SCK"
 		(shape input)
-		(at 284.48 62.865 180)
+		(at 290.195 65.405 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5513,7 +5377,7 @@
 		)
 		(uuid "f36cbd0b-d1ae-4af4-8dd1-a9da128d2a3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.3715 62.865 0)
+			(at 274.0865 65.405 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6973,6 +6837,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 295.275 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73e64633-40a9-4017-917d-b04ff36c4c54")
+		(property "Reference" "J37"
+			(at 297.18 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PLS-2"
+			(at 297.18 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 295.275 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 295.275 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 295.275 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f19a6c7b-8aae-4b87-a0da-a3a13ece2d6d")
+		)
+		(pin "1"
+			(uuid "af1cfbab-673a-4ae2-9e02-da0c0f2a70b3")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "J37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 339.09 158.75 0)
 		(unit 1)
@@ -7071,6 +7004,81 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
 					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 295.275 65.405 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7e205b83-0e88-4c7c-ab23-0432823e3c53")
+		(property "Reference" "J38"
+			(at 297.815 65.4049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PLS-4"
+			(at 297.815 67.9449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
+			(at 295.275 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 295.275 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 295.275 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76085cca-aeb4-48b1-89b9-61a4f953eb37")
+		)
+		(pin "2"
+			(uuid "38bfa62e-fa9d-4abd-8ecc-bf580bd71116")
+		)
+		(pin "3"
+			(uuid "9d347f20-dd35-4c51-a87e-112bfa0374e2")
+		)
+		(pin "4"
+			(uuid "f81e6190-af47-4820-b829-b439bf6ae664")
+		)
+		(instances
+			(project "impeller18"
+				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
+					(reference "J38")
 					(unit 1)
 				)
 			)
@@ -8734,7 +8742,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 282.575 77.47 0)
+		(at 288.29 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8742,7 +8750,7 @@
 		(dnp no)
 		(uuid "ad482cb6-d309-48ef-b330-a9b06e61ed40")
 		(property "Reference" "#PWR0146"
-			(at 282.575 83.82 0)
+			(at 288.29 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8751,7 +8759,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 282.575 81.28 0)
+			(at 288.29 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8759,7 +8767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 282.575 77.47 0)
+			(at 288.29 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8768,7 +8776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 282.575 77.47 0)
+			(at 288.29 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8777,7 +8785,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 282.575 77.47 0)
+			(at 288.29 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9470,88 +9478,6 @@
 			(project "impeller18"
 				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
 					(reference "H6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 289.56 67.945 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfb806df-6e5b-4b0d-9838-34d2c90a665a")
-		(property "Reference" "J16"
-			(at 292.1 67.9449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PLS-6"
-			(at 292.1 70.4849 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
-			(at 289.56 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 289.56 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 289.56 67.945 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "72d7c07a-149d-428f-abf5-3b8aba56b0be")
-		)
-		(pin "6"
-			(uuid "7198b727-6e68-4007-bac2-20d86ae0fa12")
-		)
-		(pin "4"
-			(uuid "befffc03-0c37-4f48-9854-c1feff67dfab")
-		)
-		(pin "5"
-			(uuid "09e58ebf-d6eb-4521-8fd5-1264292fc327")
-		)
-		(pin "1"
-			(uuid "f8cf0f83-82c1-4580-86cf-62d30d3a4a3f")
-		)
-		(pin "2"
-			(uuid "de8a3b8d-cd50-4bd6-a8c4-06c3ad79725b")
-		)
-		(instances
-			(project "impeller18"
-				(path "/4ccab03b-4b1c-4c61-9fa8-19853ef32b4d/36ec6b10-e9ff-4e61-94d3-a2b8a8777c75"
-					(reference "J16")
 					(unit 1)
 				)
 			)
