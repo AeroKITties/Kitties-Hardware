@@ -6116,7 +6116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Current-Sense-Resistors-Shunt-Resistors_RALEC-LR2725-24R0002F1_C304390.html"
 			(at 22.225 41.275 0)
 			(effects
 				(font
